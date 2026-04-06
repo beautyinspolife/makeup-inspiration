@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Beauty Inspo</title>
+  <style>
+    :root {
+      --bg: #e4e2dd;
+      --bg-soft: #faf8f5;
+      --card: #ffffff;
+      --text: #1f1a17;
+      --muted: #6f655d;
+      --line: rgba(31, 26, 23, 0.12);
+      --shadow: 0 12px 30px rgba(0, 0, 0, 0.06);
+      --radius-xl: 30px;
+      --radius-lg: 22px;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    img { display: block; width: 100%; }
+    a { color: inherit; text-decoration: none; }
+    button { font: inherit; }
+
+    .page {
+      min-height: 100vh;
+      width: 100%;
+    }
+
+    .container {
+      width: min(1120px, calc(100% - 28px));
+      margin: 0 auto;
+      padding: 22px 0 40px;
+    }
+  
+    
+    .logo-wrap {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 0;
+      background: transparent;
+      padding: 0;
+    }
+   
+    .logo {
+      max-width: 760px;
+      width: 100%;
+      height: auto;
+     object-fit: contain;
+      background: #dcd8d2;
+    }
+
+
+    .section-line {
+      border-top: 1.5px solid var(--line);
+      margin-top: 28px;
+      padding-top: 26px;
+    }
+    
+    
+    .title {
+      text-align: center;
+      font-size: clamp(2rem, 6vw, 4rem);
+      font-weight: 500;
+      letter-spacing: -0.03em;
+      margin: 30px 0 0;
+    }
+    
+
+    .tabs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .tab {
+      border: 0;
+      background: rgba(31, 26, 23, 0.08);
+      color: var(--text);
+      border-radius: 999px;
+      padding: 11px 18px;
+      font-size: 0.95rem;
+      cursor: pointer;
+      transition: 0.2s ease;
+    }
+
+    .tab.active {
+      background: var(--text);
+      color: white;
+    }
+
+    /* HOME */
+    .grid {
+      column-count: 2;
+      column-gap: 14px;
+      margin-top: 28px;
+    }
+
+    .home-card {
+      display: inline-block;
+      width: 100%;
+      margin: 0 0 14px;
+      break-inside: avoid;
+      transition: transform 0.22s ease;
+    }
+
+    .home-card:hover { transform: translateY(-4px); }
+
+    .home-card img {
+      width: 100%;
+      object-fit: cover;
+      border-radius: var(--radius-xl);
+      box-shadow: var(--shadow);
+      background: #ddd3c7;
+    }
+
+    .home-card:nth-child(3n) { transform: translateY(8px); }
+    .home-card:nth-child(4n) { transform: translateY(-6px); }
+    .home-card:nth-child(5n) { transform: translateY(4px); }
+
+    .footer-note {
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 0.24em;
+      font-size: 0.72rem;
+      color: var(--muted);
+      border-top: 1px solid var(--line);
+      margin-top: 34px;
+      padding-top: 20px;
+    }
+
+    /* LOOK PAGE */
+    .products-wrap {
+      width: min(1120px, calc(100% - 28px));
+      margin: 0 auto;
+    }
+
+    .back-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.75);
+      backdrop-filter: blur(8px);
+      padding: 10px 15px;
+      font-size: 0.92rem;
+      margin: 16px 0 0;
+      position: relative;
+      z-index: 5;
+      box-shadow: 0 8px 18px rgba(0,0,0,0.04);
+    }
+    
+    .hero-card {
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      height: 100vh;
+      min-height: 100vh;
+      background: #d4cec2;
+      }
+      
+    .hero-card img {
+      width: 100%;
+      height: 100vh;
+      object-fit: cover;
+      object-position: center top;
+      display: block;
+    }
+    
+    .hero-overlay {
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(
+          180deg,
+          rgba(212, 206, 194, 0) 0%,
+          rgba(212, 206, 194, 0.08) 18%,
+          rgba(212, 206, 194, 0.18) 30%,
+          rgba(212, 206, 194, 0.35) 42%,
+          rgba(212, 206, 194, 0.58) 54%,
+          rgba(212, 206, 194, 0.8) 66%,
+          rgba(212, 206, 194, 0.94) 78%,
+          rgba(212, 206, 194, 1) 88%,
+          rgba(212, 206, 194, 1) 100%
+        );
+      z-index: 1;
+      pointer-events: none;
+    }
+    
+    .hero-title-box {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      padding: 30px 22px 34px;
+      text-align: center;
+      z-index: 10;
+    }
+
+    .hero-title {
+      margin: 0 auto;
+      max-width: 960px;
+      font-size: clamp(1.9rem, 5vw, 3.2rem);
+      line-height: 1.12;
+      font-weight: 500;
+      color: #171311;
+    }
+    
+    .hero-intro {
+      position: absolute;
+      top: 77%;
+      left: 50%;
+      transform: translateX(-50%);
+      width: min(90%, 1000px);
+      text-align: center;
+      color: #ffffff;
+      z-index: 10;
+    }
+
+    .hero-kicker,
+    .hero-divider,
+    .hero-subtitle,
+    .hero-caption {
+      position: relative;
+      z-index: 11;
+    }
+    
+    .products-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 14px;
+      margin-top: -40px;
+      position: relative;
+      z-index: 3;
+    }
+
+    .product-card {
+      background: #ffffff;
+      border-radius: 28px;
+      padding: 14px;
+      box-shadow: 0 10px 26px rgba(0, 0, 0, 0.05);
+      transition: transform 0.22s ease;
+      height: 100%;
+      border: none;
+    }
+
+    .product-card:hover { transform: translateY(-4px); }
+
+    .product-image-box {
+      background: #ffffff;
+      border-radius: 22px;
+      min-height: 190px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 12px;
+      overflow: hidden;
+      border: none;
+    }
+
+    .product-image-box img {
+      max-height: 210px;
+      width: auto;
+      max-width: 100%;
+      object-fit: contain;
+    }
+
+    .product-name {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 0.92rem;
+      line-height: 1.45;
+      text-align: center;
+      margin: 14px 4px 4px;
+      color: #2e2925;
+    }
+
+    .empty-box {
+      background: #ffffff;
+      border-radius: 28px;
+      padding: 28px 20px;
+      text-align: center;
+      box-shadow: 0 10px 26px rgba(0, 0, 0, 0.05);
+      margin-top: 28px;
+    }
+
+    .empty-box p:first-child {
+      font-size: 1.5rem;
+      margin: 0 0 10px;
+    }
+
+    .empty-box p:last-child {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+    
+    .hero-kicker {
+      margin: 0;
+      font-size: 4.1rem;
+      letter-spacing: 0.08em;
+      font-weight: 500;
+      text-transform: uppercase;
+    }
+    
+    .hero-divider {
+      width: 100%;
+      height: 1.5px;
+      background: rgba(255, 255, 255, 0.88);
+      margin: 14px 0;
+    }
+    
+    .hero-subtitle {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: clamp(1rem, 2.7vw, 1.5rem);
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: none;
+    }
+    
+    .hero-caption {
+      margin: 14px 0 0;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: clamp(0.68rem, 1.9vw, 0.9rem);
+      letter-spacing: 0.18em;
+      line-height: 1.6;
+      color: rgba(255, 255, 255, 0.92);
+    }
+    
+    .hero-title-box {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      padding: 30px 22px 34px;
+      text-align: center;
+      z-index: 5;
+    }
+    
+    .hero-title {
+      margin: 0 auto;
+      max-width: 760px;
+      font-size: clamp(1.9rem, 5vw, 3.2rem);
+      line-height: 1.12;
+      font-weight: 500;
+      color: #171311;
+    }
+    
+    @media (max-width: 759px) {
+      .hero-intro {
+        top: 16%;
+        width: min(88%, 460px);
+      }
+    }
+    
+    @media (min-width: 760px) {
+      .container { width: min(1180px, calc(100% - 56px)); }
+      .grid { column-count: 3; column-gap: 18px; }
+      .home-card { margin-bottom: 18px; }
+      .products-grid { grid-template-columns: repeat(3, 1fr); gap: 18px; }
+      .logo { max-width: 420px; }
+      .products-wrap { width: min(1180px, calc(100% - 56px)); }
+    }
+
+    @media (max-width: 759px) {
+      .hero-card,
+      .hero-card img {
+        min-height: 64vh;
+        height: 64vh;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="app"></div>
+
+  <script>
+    const LOOKS = [
+      {
+        id: 1,
+        slug: "natural-makeup-look-that-feels-simple-but-looks-stunning",
+        title: "Natural Makeup Look That Feels Simple but Looks Stunning",
+        category: "natural",
+        homeImage: "images/home/file_000000009320720ab56dfc40246aadec~2.png",
+        heroImage: "images/home/file_000000009320720ab56dfc40246aadec~2.png",
+        products: [
+          { name: "FENTY BEAUTY Grip Trip - Mattifying and Blurring Primer", image: "images/products/Natural Makeup Look That Feels Simple but Looks Stunning/369965-media_swatch-0.jpg", link: "https://www.sephora.fr/p/grip-trip---base-de-teint-matifiante-et-floutante-P10062742.html" },
+          { name: "RARE BEAUTY True to Myself - Long-Lasting Natural Matte Foundation", image: "images/products/Natural Makeup Look That Feels Simple but Looks Stunning/276460-media_swatch-1.jpg", link: "https://www.sephora.fr/p/true-to-myself---fond-de-teint-mat-naturel-longue-tenue-P10064073.html" },
+          { name: "HUDA BEAUTY Luminous Matte Liquid Concealer", image: "images/products/Natural Makeup Look That Feels Simple but Looks Stunning/268492-media_swatch.jpg", link: "https://www.sephora.fr/p/-fauxfilter-luminous-matte-liquid-concealer-P10026486.html" },
+          { name: "RARE BEAUTY Warm Wishes Effortless Bronzer Stick", image: "images/products/Natural Makeup Look That Feels Simple but Looks Stunning/327905-media_swatch.jpg", link: "https://www.sephora.fr/p/warm-wishes-effortless-bronzer---poudre-bronzante-P10023966.html" },
+          { name: "RARE BEAUTY Mini Soft Pinch - Liquid Blush", image: "images/products/Natural Makeup Look That Feels Simple but Looks Stunning/307505-media_swatch.jpg", link: "https://www.sephora.fr/p/soft-pinch---liquid-blush-P10017094.html" },
+          { name: "RARE BEAUTY Positive Light Silky Touch Highlighter - Illuminating Powder", image: "images/products/Natural Makeup Look That Feels Simple but Looks Stunning/115243-media_4-0.jpg", link: "https://www.sephora.fr/p/positive-light-silky-touch-highlighter---enlumineur-P10045917.html" },
+          { name: "BENEFIT COSMETICS Goof Proof Brow Pencil", image: "images/products/Natural Makeup Look That Feels Simple but Looks Stunning/360699-media_swatch.jpg", link: "https://www.sephora.fr/p/mini-precisely-my-brow-pencil---crayon-sourcils-ultra-precis-P3228018.html" },
+          { name: "FENTY BEAUTY Black Duo - Hella Thicc Volumizing Mascara and Fine Linez", image: "images/products/Natural Makeup Look That Feels Simple but Looks Stunning/duo_fenty_black.jpeg", link: "https://www.sephora.fr/p-duo_fenty_mascara_eyeliner_black.html" },
+          { name: "SOL DE JANEIRO Glowmotions Glow Oil - Shimmering & Nourishing Body Oil", image: "images/products/Natural Makeup Look That Feels Simple but Looks Stunning/369882-media_swatch.jpg", link: "https://www.sephora.fr/p/glowmotions-glow-oil---huile-pour-le-corps-scintillante-et-nourissante-P1000205603.html" },
+          { name: "YSL Loveshine - Glossy and Nourishing Lipstick", image: "images/products/Natural Makeup Look That Feels Simple but Looks Stunning/341699-media_swatch.jpg", link: "https://www.sephora.fr/p/loveshine---rouge-a-levres-brillant-et-soin-P10057416.html" },
+          { name: "RARE BEAUTY Brow Harmony Flexible Lifting Gel - Clear Brow Gel", image: "images/products/Natural Makeup Look That Feels Simple but Looks Stunning/268492-media_swatch.jpg", link: "https://www.sephora.fr/p/brow-harmony-flexible-lifting-gel---gel-sourcils-P1000202677.html" },
+          { name: "CHARLOTTE TILBURY Airbrush Flawless Finish Setting Spray", image: "images/products/Natural Makeup Look That Feels Simple but Looks Stunning/115243-media_4-0.jpg", link: "https://www.sephora.fr/p/airbrush-flawless-finish-setting-spray---spray-fixateur-maquillage-P1000211613.html" }
+        ]
+      },
+      {
+        id: 2,
+        slug: "bronzed-summer-makeup-inspiration-for-golden-skin",
+        title: "Bronzed Summer Makeup Inspiration for Golden Skin",
+        category: "glam",
+        homeImage: "images/home/file_000000006cd07246a54f8b4967d3bb9b~2.png",
+        heroImage: "images/home/file_000000006cd07246a54f8b4967d3bb9b~2.png",
+        products: [
+          { name: "NARS Powermatte High-Intensity Lip Pencil", image: "images/products/Bronzed Summer Makeup Inspiration for Golden Skin/342428-media_swatch.jpg", link: "https://www.sephora.fr/p/powermatte-high-intensity-lip-pencil---crayon-a-levres-P1000202815.html" },
+          { name: "NARS Climax Mascara Extreme", image: "images/products/Bronzed Summer Makeup Inspiration for Golden Skin/225173-media_swatch.jpg", link: "https://www.sephora.fr/p/climax-mascara-extreme---mascara-P10011394.html" },
+          { name: "MILK MAKEUP Hydro Grip Primer - Foundation Base", image: "images/products/Bronzed Summer Makeup Inspiration for Golden Skin/274592-media_swatch-1.jpeg", link: "https://www.sephora.fr/p/hydro-grip-primer---base-teint-hydratante-P3818087.html" },
+          { name: "NARS Natural Radiant Longwear Foundation", image: "images/products/Bronzed Summer Makeup Inspiration for Golden Skin/400709-media_swatch-0.jpg", link: "https://www.sephora.fr/p/natural-radiant-longwear-foundation---fond-de-teint-P3250032.html" },
+          { name: "GIVENCHY Rose Perfecto Shine Serum Lipstick", image: "images/products/Bronzed Summer Makeup Inspiration for Golden Skin/365482-media_swatch.jpg", link: "https://www.sephora.fr/p/rose-perfecto-shine-serum-lipstick---rouge-a-levres-brillant-et-soin-P1000205701.html" },
+          { name: "PIE Go With the Faux Freckle Stamp", image: "images/products/Bronzed Summer Makeup Inspiration for Golden Skin/375894-media_swatch.jpg", link: "https://www.sephora.fr/p/go-with-the-faux-freckle-stamp---tampon-a-fausses-taches-de-rousseur-774882.html" },
+          { name: "PIE Shape Tape Contour Concealer", image: "images/products/Bronzed Summer Makeup Inspiration for Golden Skin/112636-media_swatch-1.jpg", link: "https://www.sephora.fr/p/shape-tape-contour-concealer---anticernes-matte-451697.html" },
+          { name: "BENEFIT COSMETICS 24h Brow Setter - Clear Brow Fixing Gel", image: "images/products/Bronzed Summer Makeup Inspiration for Golden Skin/59201-media_swatch.jpg", link: "https://www.sephora.fr/p/24h-brow-setter---gel-fixateur-sourcils-transparent-P2578009.html" },
+          { name: "TOM FORD Soleil Blanc - Shimmering Body Oil", image: "images/products/Bronzed Summer Makeup Inspiration for Golden Skin/70897-media_swatch.jpg", link: "https://www.sephora.fr/p/soleil-blanc---huile-scintillante-pour-le-corps-P3267004.html" },
+          { name: "MAKEUP BY MARIO SoftSculpt® Tanning & Sculpting Serum", image: "images/products/Bronzed Summer Makeup Inspiration for Golden Skin/349853-media_swatch.jpg", link: "https://www.sephora.fr/p/softsculpt%C2%AE---serum-bronzant-et-sculptant-P10059412.html" },
+          { name: "MAKEUP BY MARIO Ethereal Eyes Eyeshadow Palette", image: "images/products/Bronzed Summer Makeup Inspiration for Golden Skin/343946-media_swatch.jpg", link: "https://www.sephora.fr/p/ethereal-eyes-eyeshadow-palette---palette-yeux-P10056571.html" },
+          { name: "GIVENCHY Perfecto Serum Lip Oil", image: "images/products/Bronzed Summer Makeup Inspiration for Golden Skin/399978-media_swatch-0.jpg", link: "https://www.sephora.fr/p/perfecto-serum-lip-oil---huile-a-levres-nourrissante-et-brillante-longue-tenue-P1000212272.html" },
+          { name: "CHARLOTTE TILBURY Airbrush Flawless Setting Spray Matte", image: "images/products/Bronzed Summer Makeup Inspiration for Golden Skin/380065-media_swatch.jpg", link: "https://www.sephora.fr/p/airbrush-flawless-setting-spray-matte---spray-fixateur-mat-P1000209496.html" }
+        ]
+      },
+      {
+        id: 3,
+        slug: "clean-girl-makeup-glow-up",
+        title: "Clean Girl Makeup Glow Up",
+        category: "glam",
+        homeImage: "images/home/file_0000000040507243af48b20c5c53436c~2.png",
+        heroImage: "images/home/file_0000000040507243af48b20c5c53436c~2.png",
+        products: [
+          { name: "HUDA BEAUTY Easy Bake Loose Baking & Setting Powder", image: "images/products/Clean girl makeup glow up/product-0.png", link: "https://www.sephora.fr/p/easy-bake-loose-powder---poudre-libre-P3410032.html" },
+          { name: "HUDA BEAUTY Easy Bake Setting Spray – Makeup Setting Spray with 16-Hour Hold", image: "images/products/Clean girl makeup glow up/product-1.png", link: "https://www.sephora.fr/p/easy-bake-setting-spray-%E2%80%93-spray-fixateur-maquillage-tenue-16-h-760778.html" },
+          { name: "HUDA BEAUTY Easy Blur Natural Airbrush Foundation", image: "images/products/Clean girl makeup glow up/product-2.png", link: "https://www.sephora.fr/p/easy-blur-natural-airbrush-foundation---fond-de-teint-734848.html" },
+          { name: "RARE BEAUTY Brow Harmony Precision Pencil - Eyebrow Pencil", image: "images/products/Clean girl makeup glow up/product-3.png", link: "https://www.sephora.fr/p/brow-harmony-precision-pencil---crayon-a-sourcils-670731.html" },
+          { name: "NUXE Huile Prodigieuse Or - Dry Oil for Face, Body and Hair", image: "images/products/Clean girl makeup glow up/product-4.png", link: "https://www.sephora.fr/p/huile-prodigieuse-or---huile-seche-multi-fonctions-visage--corps-P3288012.html" },
+          { name: "HOURGLASS Voyeur Waterproof Liquid Liner - Liquid Eyeliner", image: "images/products/Clean girl makeup glow up/product-5.png", link: "https://www.sephora.fr/p/voyeur-waterproof-liquid-liner---eyeliner-liquide-369772.html" },
+          { name: "CHARLOTTE TILBURY Hollywood Blush & Glow Glide Palette - Blush & Highlighter Palette", image: "images/products/Clean girl makeup glow up/product-6.png", link: "https://www.sephora.fr/p/hollywood-blush-et-glow-glide-palette-703082.html" },
+          { name: "ANASTASIA BEVERLY HILLS Mini Sultry Palette – Eyeshadow Palette", image: "images/products/Clean girl makeup glow up/product-7.png", link: "https://www.sephora.fr/p/mini-sultry-palette-%E2%80%93-palette-de-fards-a-paupiere-P1000202502.html" },
+          { name: "BOBBI BROWN Natural Brow Shaper - Gel Mascara for Eyebrows", image: "images/products/Clean girl makeup glow up/product-8.png", link: "https://www.sephora.fr/p/natural-brow-shaper---mascara-gel-pour-les-sourcils-622230.html" },
+          { name: "WESTMAN WORKSHOP Lip Shape Lip Pencil", image: "images/products/Clean girl makeup glow up/product-9.png", link: "https://www.sephora.fr/p/crayon-a-levres-lip-shape---crayon-a-levres-772709.html" },
+          { name: "GIVENCHY Perfecto Serum Lip Oil - Long-Lasting Nourishing and Shiny", image: "images/products/Clean girl makeup glow up/product-10.png", link: "https://www.sephora.fr/p/perfecto-serum-lip-oil---huile-a-levres-nourrissante-et-brillante-longue-tenue-800818.html" },
+          { name: "FENTY BEAUTY Grip Trip - Hydrating and Plumping Primer", image: "images/products/Clean girl makeup glow up/product-11.png", link: "https://www.sephora.fr/p/grip-trip---base-de-teint-hydratante-et-repulpante-P10062743.html" },
+          { name: "FENTY BEAUTY Hella Thicc Extra Primer - Volumizing Mascara Base", image: "images/products/Clean girl makeup glow up/product-12.png", link: "https://www.sephora.fr/p/hella-extra-760348.html" },
+          { name: "LANCÔME Lash Idôle Curl Goddess - Instant Curl & Volume Mascara", image: "images/products/Clean girl makeup glow up/product-13.png", link: "https://www.sephora.fr/p/lash-idole-curl-goddess---mascara-courbe-et-volume-instantanes-805275.html" }
+        ]
+      },
+      { id: 4, slug: "dewy-makeup-inspiration-that-makes-skin-look-so-smooth", title: "Dewy Makeup Inspiration That Makes Skin Look So Smooth", category: "glam", homeImage: "images/home/file_000000008bd8724393479e6986690946~2.png" },
+      { id: 5, slug: "fresh-glowy-makeup-for-the-prettiest-everyday-finish", title: "Fresh Glowy Makeup for the Prettiest Everyday Finish", category: "glam", homeImage: "images/home/file_0000000011e87243b86ac2410c807c7b~2.png" },
+      { id: 6, slug: "neutral-glam-makeup-that-instantly-elevates-your-features", title: "Neutral Glam Makeup That Instantly Elevates Your Features", category: "glam", homeImage: "images/home/file_000000008934720abb1de08cdabb8573~2.png" },
+      { id: 8, slug: "perfect-lip-combo-for-girls-who-wants-long-lasting-makeup", title: "Perfect Lip Combo for Girls Who Wants Long-Lasting Makeup", category: "glam", homeImage: "images/home/file_000000003af8720a8100cabf80076160~2.png" },
+      { id: 9, slug: "soft-glam-makeup-look-that-never-fails-on-pinterest", title: "Soft Glam Makeup Look That Never Fails on Pinterest", category: "glam", homeImage: "images/home/file_000000003fbc71f49db18d3a394aac2e~2.png" },
+      { id: 10, slug: "pretty-natural-makeup-look-that-instantly-elevates-your-face", title: "Pretty Natural Makeup Look That Instantly Elevates Your Face", category: "natural", homeImage: "images/home/file_00000000f28471f48add86e2807ab42f~2.png" },
+      { id: 11, slug: "high-end-makeup-look-that-gives-luxury-model-vibes", title: "High End Makeup Look That Gives Luxury Model Vibes", category: "natural", homeImage: "images/home/file_000000002eac724684ea35e5bc8b4698~2.png" },
+      { id: 12, slug: "golden-glow-makeup-that-looks-amazing-in-every-light", title: "Golden Glow Makeup That Looks Amazing in Every Light", category: "glam", homeImage: "images/home/file_00000000e8a07243a881b8da7ad269c9~2.png" },
+      { id: 13, slug: "pretty-makeup-look-for-girls-who-love-soft-glam-energy", title: "Pretty Makeup Look for Girls Who Love Soft Glam Energy", category: "natural", homeImage: "images/home/file_00000000b7907246aa2fcab289b98d0a~2.png" },
+      { id: 14, slug: "face-card-makeup-routine-for-a-flawless-glowy-finish", title: "Face Card Makeup Routine for a Flawless Glowy Finish", category: "natural", homeImage: "images/home/file_000000008c707243a1c886de8ba850ed.png" },
+      { id: 15, slug: "this-clean-makeup-look-is-giving-rich-girl-beauty", title: "This Clean Makeup Look Is Giving Rich Girl Beauty", category: "glam", homeImage: "images/home/file_000000007be87243b96cc3015495cd6a~2.png" },
+      { id: 16, slug: "soft-glam-full-face-makeup-that-looks-expensive", title: "Soft Glam Full Face Makeup That Looks Expensive", category: "glam", homeImage: "images/home/file_0000000022a871f4977fc6c20f3b021d~2.png" },
+      { id: 17, slug: "face-enhancing-makeup-that-makes-everything-look-better", title: "Face Enhancing Makeup That Makes Everything Look Better", category: "glam", homeImage: "images/home/file_00000000c440724692779783117fa245~2.png" },
+      { id: 18, slug: "soft-girl-makeup-natural-glow-that-attracts", title: "Soft Girl Makeup Natural Glow That Attracts", category: "glam", homeImage: "images/home/file_00000000d2bc72439f46b45472ac8b30~2.png" },
+      { id: 19, slug: "the-makeup-look-that-gives-an-effortlessly-polished-face", title: "The Makeup Look That Gives an Effortlessly Polished Face", category: "glam", homeImage: "images/home/file_0000000001f47246aa1273777a4c36f8~2.png" },
+      { id: 20, slug: "bronzed-summer-natural-glowy-makeup-inspo", title: "Bronzed Summer Natural Glowy Makeup Inspo", category: "natural", homeImage: "images/home/file_0000000029107246b834053eedd7c6f1~3.png" },
+      { id: 21, slug: "a-soft-glam-look-that-looks-even-better-up-close", title: "A Soft Glam Look That Looks Even Better Up Close", category: "glam", homeImage: "images/home/file_0000000014a471f48762fd29dd6c4c01.png" }
+    ];
+
+    const state = {
+      category: "natural"
+    };
+
+    function shuffleArray(array) {
+      const cloned = [...array];
+      for (let i = cloned.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [cloned[i], cloned[j]] = [cloned[j], cloned[i]];
+      }
+      return cloned;
+    }
+
+    function getSlugFromHash() {
+      return location.hash.replace(/^#\/?/, "").trim();
+    }
+
+    function setCategory(category) {
+      state.category = category;
+      render();
+    }
+
+    function renderHome() {
+      const filtered = LOOKS.filter(look => look.category === state.category);
+      const randomOrder = shuffleArray(filtered);
+
+      return `
+        <div class="page">
+          <main class="container">
+            <div class="logo-wrap">
+              <img class="logo" src="images/beauty-inspo-logo.png" alt="Beauty Inspo logo">
+            </div>
+                
+          
+          <section class="section-line">
+            <div class="tabs">
+              <button class="tab ${state.category === "natural" ? "active" : ""}" onclick="setCategory('natural')">Natural Makeup Inspo</button>
+              <button class="tab ${state.category === "glam" ? "active" : ""}" onclick="setCategory('glam')">Glam Makeup Looks</button>
+            </div>
+            <h1 class="title">Makeup Inspiration</h1>
+          </section>
+
+            <section class="grid">
+              ${randomOrder.map((look) => `
+                <a class="home-card" href="#/${look.slug}" aria-label="${look.title}">
+                  <img src="${look.homeImage}" alt="${look.title}">
+                </a>
+              `).join("")}
+            </section>
+
+            <div class="footer-note">Minimal beauty inspiration</div>
+          </main>
+        </div>
+      `;
+    }
+
+    function renderLook(look) {
+      const hasProducts = Array.isArray(look.products) && look.products.length > 0;
+
+      return `
+        <div class="page">
+          <div class="products-wrap">
+            <a class="back-btn" href="#/">← Back to Home</a>
+          </div>
+          
+            <section class="hero-card">
+              <img src="${look.heroImage || look.homeImage}" alt="${look.title}">
+              <div class="hero-overlay"></div>
+              <div class="hero-intro">
+                <p class="hero-kicker">Beauty Inspiration</p>
+                <div class="hero-divider"></div>
+                <p class="hero-subtitle">Shop My Beauty Finds</p>
+                <p class="hero-caption">Tap a product below to view it on the official website</p>
+                <div class="hero-divider"></div>
+              </div>
+            </section>
+          
+          <main class="products-wrap">
+            ${hasProducts ? `
+              <section class="products-grid">
+                ${look.products.map(product => `
+                  <a href="${product.link}" target="_blank" rel="noreferrer">
+                    <div class="product-card">
+                      <div class="product-image-box">
+                        <img src="${product.image}" alt="${product.name}">
+                      </div>
+                      <p class="product-name">${product.name}</p>
+                    </div>
+                  </a>
+                `).join("")}
+              </section>
+            ` : `
+              <div class="empty-box">
+                <p>Products coming soon</p>
+                <p>This look page is ready. Add the product list and product images to complete it.</p>
+              </div>
+            `}
+          </main>
+        </div>
+      `;
+    }
+
+    function render() {
+      const slug = getSlugFromHash();
+      const look = LOOKS.find(item => item.slug === slug);
+      const app = document.getElementById("app");
+      app.innerHTML = look ? renderLook(look) : renderHome();
+    }
+
+    window.addEventListener("hashchange", render);
+    render();
+  </script>
+</body>
+</html>
