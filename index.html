@@ -156,7 +156,8 @@
       background: rgba(255, 255, 255, 0.75);
       backdrop-filter: blur(8px);
       padding: 10px 15px;
-      font-size: 0.92rem;
+      font-size: clamp(18px,4vw,32px)
+      line-height: 1.2;
       margin: 16px 0 0;
       position: relative;
       z-index: 5;
@@ -232,9 +233,6 @@
   z-index: 10;
 }
 
-
-
-    
 
     .hero-kicker,
     .hero-divider,
