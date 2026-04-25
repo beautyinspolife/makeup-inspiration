@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Beauty Inspo</title>
+  <style>
+    :root {
+      --bg: #e4e2dd;
+      --bg-soft: #faf8f5;
+      --card: #ffffff;
+      --text: #1f1a17;
+      --muted: #6f655d;
+      --line: rgba(31, 26, 23, 0.12);
+      --shadow: 0 12px 30px rgba(0, 0, 0, 0.06);
+      --radius-xl: 30px;
+      --radius-lg: 22px;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    img { display: block; width: 100%; }
+    a { color: inherit; text-decoration: none; }
+    button { font: inherit; }
+
+    .page {
+      min-height: 100vh;
+      width: 100%;
+    }
+
+    .container {
+      width: min(1120px, calc(100% - 28px));
+      margin: 0 auto;
+      padding: 22px 0 40px;
+    }
+  
+    
+    .logo-wrap {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 100px;
+      background: transparent;
+      padding: 0;
+    }
+   
+    .logo {
+      max-width: 760px;
+      width: 100%;
+      height: auto;
+     object-fit: contain;
+      background: #dcd8d2;
+    }
+    
+
+
+    .section-line {
+      border-top: 1.5px solid var(--line);
+      margin-top: 28px;
+      padding-top: 26px;
+    }
+    
+    
+    .title {
+      text-align: center;
+      font-size: clamp(2rem, 6vw, 4rem);
+      font-weight: 500;
+      letter-spacing: -0.03em;
+      margin: 30px 0 0;
+    }
+    
+
+    .tabs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .tab {
+      border: 0;
+      background: rgba(31, 26, 23, 0.08);
+      color: var(--text);
+      border-radius: 999px;
+      padding: 11px 18px;
+      font-size: 0.95rem;
+      cursor: pointer;
+      transition: 0.2s ease;
+    }
+
+    .tab.active {
+      background: var(--text);
+      color: white;
+    }
+
+    /* HOME */
+    .grid {
+      column-count: 2;
+      column-gap: 14px;
+      margin-top: 28px;
+    }
+
+    .home-card {
+      display: inline-block;
+      width: 100%;
+      margin: 0 0 14px;
+      break-inside: avoid;
+      transition: transform 0.22s ease;
+    }
+
+    .home-card:hover { transform: translateY(-4px); }
+
+    .home-card img {
+      width: 100%;
+      object-fit: cover;
+      border-radius: var(--radius-xl);
+      box-shadow: var(--shadow);
+      background: #ddd3c7;
+    }
+
+    .home-card:nth-child(3n) { transform: translateY(8px); }
+    .home-card:nth-child(4n) { transform: translateY(-6px); }
+    .home-card:nth-child(5n) { transform: translateY(4px); }
+
+    .footer-note {
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 0.24em;
+      font-size: 0.72rem;
+      color: var(--muted);
+      border-top: 1px solid var(--line);
+      margin-top: 34px;
+      padding-top: 20px;
+    }
+
+    /* LOOK PAGE */
+    .products-wrap {
+      width: min(1120px, calc(100% - 28px));
+      margin: 0 auto;
+    }
+
+    .back-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.75);
+      backdrop-filter: blur(8px);
+      padding: 10px 15px;
+      font-size: clamp(18px,4vw,32px)
+      line-height: 1.2;
+      margin: 16px 0 0;
+      position: relative;
+      z-index: 5;
+      box-shadow: 0 8px 18px rgba(0,0,0,0.04);
+    }
+    
+    
+    .hero-card {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 115vh;
+  min-height: 115vh;
+  background: #d4cec2;
+}
+    
+      
+    .hero-card img {
+      width: 100%;
+      height: 100vh;
+      object-fit: cover;
+      object-position: center top;
+      display: block;
+    }
+    
+    .hero-overlay {
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(
+          180deg,
+          rgba(212, 206, 194, 0) 0%,
+          rgba(212, 206, 194, 0.08) 18%,
+          rgba(212, 206, 194, 0.18) 30%,
+          rgba(212, 206, 194, 0.35) 42%,
+          rgba(212, 206, 194, 0.58) 54%,
+          rgba(212, 206, 194, 0.8) 66%,
+          rgba(212, 206, 194, 0.94) 78%,
+          rgba(212, 206, 194, 1) 88%,
+          rgba(212, 206, 194, 1) 100%
+        );
+      z-index: 1;
+      pointer-events: none;
+    }
+    
+    .hero-title-box {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      padding: 30px 22px 34px;
+      text-align: center;
+      z-index: 10;
+    }
+    
+.hero-title {
+  margin: 0 auto;
+  max-width: 960px;
+  font-size: clamp(38px, 8vw, 72px);
+  line-height: 1.1;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.hero-intro {
+  position: absolute;
+  left: 50%;
+  bottom: 6%;
+  transform: translateX(-50%);
+  width: min(90%, 1000px);
+  text-align: center;
+  color: #ffffff;
+  z-index: 10;
+}
+
+
+    .hero-kicker,
+    .hero-divider,
+    .hero-subtitle,
+    .hero-caption {
+      position: relative;
+      z-index: 11;
+    }
+    
+    .top-bar {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pinterest-link {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #111;
+  background: #f3f0eb;
+  padding: 8px 14px;
+  border-radius: 999px;
+  border: 1px solid #ddd;
+}
+
+    .products-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 14px;
+      margin-top: -40px;
+      position: relative;
+      z-index: 3;
+    }
+
+    .product-card {
+      background: #ffffff;
+      border-radius: 28px;
+      padding: 14px;
+      box-shadow: 0 10px 26px rgba(0, 0, 0, 0.05);
+      transition: transform 0.22s ease;
+      height: 100%;
+      border: none;
+    }
+
+    .product-card:hover { transform: translateY(-4px); }
+    .product-card-link {
+  cursor: pointer;
+}
+
+    .product-image-box {
+      background: #ffffff;
+      border-radius: 22px;
+      min-height: 190px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 12px;
+      overflow: hidden;
+      border: none;
+    }
+
+    .product-image-box img {
+      max-height: 210px;
+      width: auto;
+      max-width: 100%;
+      object-fit: contain;
+    }
+
+    .product-name {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 0.92rem;
+      line-height: 1.45;
+      text-align: center;
+      margin: 14px 4px 4px;
+      color: #2e2925;
+    }
+
+    .empty-box {
+      background: #ffffff;
+      border-radius: 28px;
+      padding: 28px 20px;
+      text-align: center;
+      box-shadow: 0 10px 26px rgba(0, 0, 0, 0.05);
+      margin-top: 28px;
+    }
+
+    .empty-box p:first-child {
+      font-size: 1.5rem;
+      margin: 0 0 10px;
+    }
+
+    .empty-box p:last-child {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+    
+    .hero-kicker {
+      margin: 0;
+      font-size: clamp(2rem, 5vw, 4.1rem);
+      letter-spacing: 0.08em;
+      font-weight: 500;
+      text-transform: uppercase;
+    }
+    
+    .hero-divider {
+      width: 100%;
+      height: 1.5px;
+      background: rgba(255, 255, 255, 0.88);
+      margin: 14px 0;
+    }
+    
+    .hero-subtitle {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: clamp(1rem, 2.7vw, 1.5rem);
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: none;
+    }
+    
+    .hero-caption {
+      margin: 14px 0 0;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: clamp(0.68rem, 1.9vw, 0.9rem);
+      letter-spacing: 0.18em;
+      line-height: 1.6;
+      color: rgba(255, 255, 255, 0.92);
+    }
+    
+    .hero-title-box {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      padding: 30px 22px 34px;
+      text-align: center;
+      z-index: 5;
+    }
+    
+    .hero-title {
+      margin: 0 auto;
+      max-width: 760px;
+      font-size: clamp(24px, 6vw, 48px);
+      line-height: 1.1;
+      font-weight: 500;
+      color: #171311;
+    }
+    
+    .bottom-home-btn-wrap {
+      display: flex;
+      justify-content: center;
+      margin: 56px 0 80px;
+    }
+    
+    .bottom-home-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background: #ffffff;
+      color: #1f1a17;
+      padding: 18px 34px;
+      border-radius: 999px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1.18rem;
+      font-weight: 700;
+      letter-spacing: 0.03em;
+      box-shadow: 0 14px 32px rgba(0, 0, 0, 0.12);
+      width: 100%;
+      min-width: 320px;
+    }
+    
+    .top-home-banner-wrap {
+      width: min(1120px, calc(100% - 28px));
+      margin: 18px auto 18px;
+      position: relative;
+      z-index: 20;
+    }
+    
+    .top-home-banner {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      min-height: 62px;
+      background: #ffffff;
+      color: #1f1a17;
+      border-radius: 999px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1.12rem;
+      font-weight: 700;
+      letter-spacing: 0.03em;
+      padding: 16px 24px;
+      box-shadow: 0 14px 32px rgba(0, 0, 0, 0.10);
+    }
+    
+    .see-more-container {
+      display: flex; 
+      justify-content: center;
+      align-items: center;
+    }
+    .see-more-btn{
+      text-align: center;
+      margin: 0 auto;
+    }
+  
+
+    }
+    @media (max-width: 760px) {
+      .hero-title {
+        font-size: 28px;
+        line-height: 1.1;
+        padding : 0 10px;
+      }
+    
+      .hero-kicker {
+        font-size: clamp(1.6rem, 7vw, 3rem);
+        letter-spacing: 0.04em;
+        line-height: 1.05;
+      }
+    
+      .hero-subtitle {
+        font-size: clamp(1rem, 4.8vw, 1.35rem);
+        letter-spacing: 0.08em;
+      }
+    
+      .hero-caption {
+        font-size: clamp(0.72rem, 2.8vw, 0.9rem);
+        letter-spacing: 0.1em;
+      }
+    }
+    
+    @media (min-width: 760px) {
+      .container { width: min(1180px, calc(100% - 56px)); }
+      .grid { column-count: 3; column-gap: 18px; }
+      .home-card { margin-bottom: 18px; }
+      .products-grid { grid-template-columns: repeat(3, 1fr); gap: 18px; }
+      .logo { max-width: 420px; }
+      .products-wrap { width: min(1180px, calc(100% - 56px)); }
+    }
+    
+@media (max-width: 759px) {
+  .hero-card,
+  .hero-card img {
+    min-height: 82vh;
+    height: 82vh;
+  }
+}
+
+    }
+    /* téléphone */
+@media (max-width: 768px) {
+  .hero-intro {
+    bottom: -4%;
+    width: 92%;
+  }
+
+  .hero-title {
+    font-size: clamp(30px, 10vw, 52px);
+    line-height: 1.08;
+  }
+
+  .hero-subtitle {
+    font-size: clamp(16px, 5vw, 24px);
+    line-height: 1.2;
+  }
+
+  .hero-caption {
+    font-size: clamp(12px, 3.6vw, 15px);
+    line-height: 1.3;
+  }
+}
+
+/* tablette */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .hero-intro {
+    bottom: 8%;
+    width: 88%;
+  }
+
+  .hero-title {
+    font-size: clamp(42px, 6vw, 64px);
+    line-height: 1.1;
+  }
+
+  .hero-subtitle {
+    font-size: clamp(20px, 3vw, 30px);
+    line-height: 1.2;
+  }
+
+  .hero-caption {
+    font-size: clamp(13px, 1.8vw, 18px);
+    line-height: 1.3;
+  }
+}
+
+/* ordinateur */
+@media (min-width: 1025px) {
+  .hero-intro {
+    bottom: 6%;
+    width: min(80%, 1000px);
+  }
+
+  .hero-title {
+    font-size: clamp(48px, 4vw, 76px);
+    line-height: 1.1;
+  }
+
+  .hero-subtitle {
+    font-size: clamp(22px, 1.8vw, 32px);
+  }
+
+  .hero-caption {
+    font-size: clamp(14px, 1vw, 18px);
+    line-height: 1.35;
+  }
+}
+
+
+  </style>
+</head>
+<body>
+  <div id="app"></div>
+  <script src="data.js"></script>  
+  <script>
+
+    const state = {
+      category: "natural"
+    };
+
+    function shuffleArray(array) {
+      const cloned = [...array];
+      for (let i = cloned.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [cloned[i], cloned[j]] = [cloned[j], cloned[i]];
+      }
+      return cloned;
+    }
+
+    function getSlugFromHash() {
+      return location.hash.replace(/^#\/?/, "").trim();
+    }
+
+    function setCategory(category) {
+      state.category = category;
+      render();
+    }
+
+    function renderHome() {
+      const filtered = LOOKS.filter(look => look.category === state.category);
+      const randomOrder = shuffleArray(filtered);
+
+      return `
+        <div class="page">
+        <div class="top-bar">
+  <div class="logo-wrap">
+    <img class="logo" src="images/beauty-inspo-logo.png" alt="Beauty Inspo logo">
+  </div>
+
+  <a class="pinterest-link" href="https://fr.pinterest.com/trendybeautyinspo/" target="_blank" rel="noopener noreferrer">
+    Pinterest
+  </a>
+</div>
+          <main class="container">
+
+          <section class="section-line">
+            <div class="tabs">
+              <button class="tab ${state.category === "natural" ? "active" : ""}" onclick="setCategory('natural')">Natural Makeup Inspo</button>
+              <button class="tab ${state.category === "glam" ? "active" : ""}" onclick="setCategory('glam')">Glam Makeup Looks</button>
+            </div>
+            <h1 class="title">Makeup Inspiration</h1>
+          </section>
+
+            <section class="grid">
+              ${randomOrder.map((look) => `
+                <a class="home-card" href="#/${look.slug}" aria-label="${look.title}">
+                  <img src="${look.homeImage}" alt="${look.title}">
+                </a>
+              `).join("")}
+            </section>
+
+            <div class="footer-note">Minimal beauty inspiration</div>
+          </main>
+        </div>
+      `;
+    }
+    function renderLook(look) {
+  const hasProducts = Array.isArray(look.products) && look.products.length > 0;
+
+  return `
+    <div class="page">
+      <section class="hero-card">
+        <div class="top-home-banner-wrap">
+          <a class="top-home-banner" href="#/home">See More Makeup Inspiration</a>
+        </div>
+
+        <img src="${look.heroImage || look.homeImage}" alt="${look.title}">
+        <div class="hero-overlay"></div>
+
+        <div class="hero-intro">
+          <p class="hero-kicker">Beauty Inspiration</p>
+          <div class="hero-divider"></div>
+          <p class="hero-subtitle">Shop My Beauty Finds</p>
+          <p class="hero-caption">Tap a product below to view it on the official website</p>
+          <div class="hero-divider"></div>
+        </div>
+      </section>
+
+      <main class="products-wrap">
+        ${hasProducts ? `
+          <section class="products-grid">
+            ${look.products.map(product => `
+              <a class="product-card-link"
+                 href="#"
+                 onclick="openProductLink('${String(product.link).replace(/'/g, "\\'")}'); return false;">
+                <div class="product-card">
+                  <div class="product-image-box">
+                    <img src="${product.image}" alt="${product.name}">
+                  </div>
+                  <p class="product-name">${product.name}</p>
+                </div>
+              </a>
+            `).join("")}
+          </section>
+        ` : `
+          <div class="empty-box">
+            <p>Shop this look soon</p>
+            <p>The full beauty selection for this makeup inspiration is coming soon.</p>
+          </div>
+        `}
+
+        <div class="bottom-home-btn-wrap">
+          <a class="bottom-home-btn" href="#/home">See More Makeup Inspiration</a>
+        </div>
+      </main>
+    </div>
+  `;
+}
+    function openProductLink(url) {
+  const cleaned = String(url || "").trim();
+  if (!cleaned) return;
+
+  const finalUrl = cleaned.startsWith("https://")
+    ? cleaned
+    : `https://${cleaned.replace(/^https?:\/\//, "")}`;
+
+  window.location.assign(finalUrl);
+}
+        function render() {
+        const slug = getSlugFromHash();
+        const look = LOOKS.find(item => item.slug === slug);
+        const app = document.getElementById("app");
+      
+        if (slug === "" || slug === "/" || slug === "home") {
+          app.innerHTML = renderHome();
+          return;
+        }
+      
+        app.innerHTML = look ? renderLook(look) : renderHome();
+        }
+      
+      
+    
+    window.addEventListener("hashchange", render);
+    render();
+  </script>
+</body>
+</html>
