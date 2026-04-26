@@ -921,5 +921,334 @@ const LOOKS = [
       { name: "ARMANI BEAUTY - Luminous Silk Hydrating & Glow-Extending Primer", image: "images/products/Modern Soft Makeup With the Prettiest Glowy Skin/393683-media_swatch-0.jpg", link: "https://www.sephora.com/product/luminous-silk-hydrating-glow-extending-primer-P520126" },
       { name: "Maison Margiela - REPLICA Beach Walk Eau de Toilette with Coconut Milk & Musk", image: "images/products/Modern Soft Makeup With the Prettiest Glowy Skin/245301-media_swatch.jpg", link: "https://www.sephora.com/product/replica-beach-walk-P385358" }
     ]
+  },
+  {
+    id: 64,
+    slug: "pretty-everyday-makeup-with-a-soft-glossy-finish",
+    title: "Pretty Everyday Makeup With a Soft Glossy Finish",
+    category: "natural",
+    homeImage: "images/home/file_000000006f4472439b7fde27551a9da3~3.png",
+    heroImage: "images/home/file_000000006f4472439b7fde27551a9da3~3.png",
+    products: []
+  },
+
+  {
+    id: 65,
+    slug: "the-fresh-glam-makeup-look-everyone-will-want-to-copy",
+    title: "The Fresh glam makeup look everyone will want to copy",
+    category: "natural",
+    homeImage: "images/home/file_0000000085a4720aadad982bfa08624b~2.png",
+    heroImage: "images/home/file_0000000085a4720aadad982bfa08624b~2.png",
+    products: []
+  },
+
+  {
+    id: 66,
+    slug: "this-makeup-inspiration-is-perfect-for-a-luxe-beauty-board",
+    title: "This Makeup inspiration is perfect for a luxe beauty board",
+    category: "glam",
+    homeImage: "images/home/file_00000000c2f072469bcf7123c88fad34~2.png",
+    heroImage: "images/home/file_00000000c2f072469bcf7123c88fad34~2.png",
+    products: []
+  },
+
+  {
+    id: 63,
+    slug: "minimal-glam-makeup-with-maximum-pretty-effet",
+    title: "Minimal glam Makeup with Maximum Pretty Effet",
+    category: "natural",
+    homeImage: "images/home/file_00000000b674720abf4fa532659130c5~2.png",
+    heroImage: "images/home/file_00000000b674720abf4fa532659130c5~2.png",
+    products: []
+  },
+
+  {
+    id: 67,
+    slug: "soft-luxe-makeup-for-girls-who-love-a-polished-look",
+    title: "soft luxe makeup for girls who love a polished look",
+    category: "glam",
+    homeImage: "images/home/file_000000005d70720aa7eb0b265a09413f~2.png",
+    heroImage: "images/home/file_000000005d70720aa7eb0b265a09413f~2.png",
+    products: []
+  },
+
+  {
+    id: 68,
+    slug: "luminous-makeup-look-for-a-soft-expensive-finish",
+    title: "luminous makeup look for a Soft expensive finish",
+    category: "glam",
+    homeImage: "images/home/file_000000005978720a9a53a2c7223a79b4~2.png",
+    heroImage: "images/home/file_000000005978720a9a53a2c7223a79b4~2.png",
+    products: []
+  },
+
+  {
+    id: 69,
+    slug: "this-makeup-look-makes-the-face-look-so-fresh-and-lifted-",
+    title: "This makeup look makes the face look so fresh and lifted",
+    category: "glam",
+    homeImage: "images/home/file_0000000040f8724388d3027182045f61~2.png",
+    heroImage: "images/home/file_0000000040f8724388d3027182045f61~2.png",
+    products: []
+  },
+
+  {
+    id: 70,
+    slug: "natural-bronzed-beauty-for-a-glowy-feminine-look-",
+    title: "natural bronzed beauty for a glowy feminine look",
+    category: "natural",
+    homeImage: "images/home/file_00000000d638724381fb8a5b6c5b3a6f~2.png",
+    heroImage: "images/home/file_00000000d638724381fb8a5b6c5b3a6f~2.png",
+    products: []
+  },
+
+  {
+    id: 71,
+    slug: "light-glam-makeup-that-feels-chic-and-never-too-much",
+    title: "light glam makeup that feels chic and never too much",
+    category: "natural",
+    homeImage: "images/home/file_0000000004947246b5daf80d8f455718~2.png",
+    heroImage: "images/home/file_0000000004947246b5daf80d8f455718~2.png",
+    products: []
+  },
+
+  {
+    id: 72,
+    slug: "full-glam-face-makeup-with-a-flawless-finish-",
+    title: "Full glam face makeup with a flawless finish",
+    category: "glam",
+    homeImage: "images/home/file_000000004250720a8bcc25f778972b9d~2.png",
+    heroImage: "images/home/file_000000004250720a8bcc25f778972b9d~2.png",
+    products: []
+  },
+
+  {
+    id: 73,
+    slug: "fresh-glowy-makeup-for-a-healthy-skin-effect",
+    title: "fresh glowy makeup for a healthy skin effect",
+    category: "natural",
+    homeImage: "images/home/file_0000000028bc72469e4ae034f73a326a~2.png",
+    heroImage: "images/home/file_0000000028bc72469e4ae034f73a326a~2.png",
+    products: []
+  },
+
+  {
+    id: 74,
+    slug: "full-face-makeup-that-looks-smooth-and-expensive-",
+    title: "Full face makeup that looks smooth and expensive",
+    category: "glam",
+    homeImage: "images/home/file_0000000028bc72469e4ae034f73a326a~2.png",
+    heroImage: "images/home/file_0000000028bc72469e4ae034f73a326a~2.png",
+    products: []
+  },
+
+  {
+    id: 75,
+    slug: "clean-pretty-makeup-for-everyday-perfection",
+    title: "Clean pretty makeup for everyday perfection",
+    category: "natural",
+    homeImage: "images/home/file_0000000023bc7246b8b5dda3cb681c88~2.png",
+    heroImage: "images/home/file_0000000023bc7246b8b5dda3cb681c88~2.png",
+    products: []
+  },
+
+  {
+    id: 76,
+    slug: "warm-bronzed-beauty-with-a-soft-glam-finish-",
+    title: "Warm bronzed beauty with a soft glam finish",
+    category: "glam",
+    homeImage: "images/home/file_00000000987c7246bbb4cba0ad7c8b57~2.png",
+    heroImage: "images/home/file_00000000987c7246bbb4cba0ad7c8b57~2.png",
+    products: []
+  },
+
+  {
+    id: 77,
+    slug: "sun-kiss-makeup-that-makes-you-look-radiant-",
+    title: "Sun kiss makeup that makes you look radiant",
+    category: "glam",
+    homeImage: "images/home/file_00000000ab40720aa5744110979fa0c3~2.png",
+    heroImage: "images/home/file_00000000ab40720aa5744110979fa0c3~2.png",
+    products: []
+  },
+
+  {
+    id: 78,
+    slug: "luminous-makeup-for-a-naturally-pretty-face-",
+    title: "Luminous makeup for a Naturally pretty face",
+    category: "glam",
+    homeImage: "images/home/file_0000000006dc71f48c6ee2df1a996afb~2.png",
+    heroImage: "images/home/file_0000000006dc71f48c6ee2df1a996afb~2.png",
+    products: []
+  },
+
+  {
+    id: 79,
+    slug: "luminous-makeup-for-a-natural-pretty-face-",
+    title: "Luminous makeup for a Natural pretty face",
+    category: "natural",
+    homeImage: "images/home/file_000000007918720abb53408fe5551ee7~2.png",
+    heroImage: "images/home/file_000000007918720abb53408fe5551ee7~2.png",
+    products: []
+  },
+
+  {
+    id: 80,
+    slug: "full-face-makeup-routine-for-a-perfect-glam-look",
+    title: "Full face makeup routine for a perfect glam look",
+    category: "glam",
+    homeImage: "images/home/file_000000002890720a90be095a63a7dec2~2.png",
+    heroImage: "images/home/file_000000002890720a90be095a63a7dec2~2.png",
+    products: []
+  },
+
+  {
+    id: 81,
+    slug: "sculpted-full-face-makeup-with-a-clean-finish-",
+    title: "Sculpted full face makeup with a clean finish",
+    category: "glam",
+    homeImage: "images/home/file_0000000062107246a5d4edc5dde14e02~2.png",
+    heroImage: "images/home/file_0000000062107246a5d4edc5dde14e02~2.png",
+    products: []
+  },
+
+  {
+    id: 82,
+    slug: "expensive-looking-makeup-for-a-rich-girl-vibe-",
+    title: "Expensive looking makeup for a rich girl vibe",
+    category: "glam",
+    homeImage: "images/home/file_0000000062107246a5d4edc5dde14e02~2.png",
+    heroImage: "images/home/file_0000000011147243b3986303f7dfa6df~2.png",
+    products: []
+  },
+
+  {
+    id: 83,
+    slug: "natural-makeup-that-looks-good-in-every-light-",
+    title: "Natural makeup that looks good in every light",
+    category: "natural",
+    homeImage: "images/home/file_000000006b34720981d70fb6980a4db1~2.png",
+    heroImage: "images/home/file_000000006b34720981d70fb6980a4db1~2.png",
+    products: []
+  },
+
+  {
+    id: 84,
+    slug: "minimal-natural-makeup-that-enhances-everything-",
+    title: "Minimal natural makeup that enhances everything",
+    category: "natural",
+    homeImage: "images/home/file_00000000e8707246be886a0102231063~2.png",
+    heroImage: "images/home/file_00000000e8707246be886a0102231063~2.png",
+    products: []
+  },
+
+  {
+    id: 85,
+    slug: "effortless-natural-makeup-for-a-clean-feminine-look",
+    title: "Effortless Natural makeup for a clean feminine look",
+    category: "natural",
+    homeImage: "images/home/file_0000000040fc720985f08f879a262607.png",
+    heroImage: "images/home/file_0000000040fc720985f08f879a262607.png",
+    products: []
+  },
+
+  {
+    id: 86,
+    slug: "fresh-natural-makeup-that-still-looks-polished",
+    title: "Fresh natural makeup that still looks polished",
+    category: "natural",
+    homeImage: "images/home/file_000000000270720a9f99235bb31497f1~2.png",
+    heroImage: "images/home/file_000000000270720a9f99235bb31497f1~2.png",
+    products: []
+  },
+
+  {
+    id: 87,
+    slug: "natural-glam-makeup-with-a-smooth-skin-finish-",
+    title: "Natural glam makeup with a smooth skin finish",
+    category: "natural",
+    homeImage: "images/home/file_000000000d8472468f61aa64f63ec39c~2.png",
+    heroImage: "images/home/file_000000000d8472468f61aa64f63ec39c~2.png",
+    products: []
+  },
+
+  {
+    id: 88,
+    slug: "full-face-beauty-look-that-turns-heads-",
+    title: "Full face beauty look that turns heads",
+    category: "glam",
+    homeImage: "images/home/file_0000000057c4720abbecc3a5828b0e09~2.png",
+    heroImage: "images/home/file_0000000057c4720abbecc3a5828b0e09~2.png",
+    products: []
+  },
+
+  {
+    id: 89,
+    slug: "soft-glam-look-with-the-perfect-balance-of-glow-",
+    title: "Soft Glam look with the perfect balance of glow",
+    category: "glam",
+    homeImage: "images/home/file_00000000d178720a94b57839fa5a76f2~2.png",
+    heroImage: "images/home/file_00000000d178720a94b57839fa5a76f2~2.png",
+    products: []
+  },
+
+  {
+    id: 90,
+    slug: "full-face-makeup-inspiration-for-a-face-card-look-",
+    title: "Full face makeup inspiration for a face card look",
+    category: "glam",
+    homeImage: "images/home/file_0000000084c07243b9fbbe536ddcc88f~2.png",
+    heroImage: "images/home/file_0000000084c07243b9fbbe536ddcc88f~2.png",
+    products: []
+  },
+
+  {
+    id: 91,
+    slug: "luxury-soft-glam-for-an-expensive-looking-finish",
+    title: "luxury soft glam for an expensive looking finish",
+    category: "glam",
+    homeImage: "images/home/file_0000000084c07243b9fbbe536ddcc88f~2.png",
+    heroImage: "images/home/file_0000000084c07243b9fbbe536ddcc88f~2.png",
+    products: []
+  },
+
+  {
+    id: 92,
+    slug: "rich-girl-makeup-with-a-clean-polished-glow-",
+    title: "Rich girl makeup with a clean polished glow",
+    category: "natural",
+    homeImage: "images/home/file_000000001720720a89a3dbaeba4f49b5.png",
+    heroImage: "images/home/file_000000001720720a89a3dbaeba4f49b5.png",
+    products: []
+  },
+
+  {
+    id: 93,
+    slug: "soft-minimal-makeup-with-a-beautiful-skin-finish-",
+    title: "Soft minimal makeup with a beautiful skin finish",
+    category: "natural",
+    homeImage: "images/home/file_0000000045b87243a656266dbba954a9~2.png",
+    heroImage: "images/home/file_0000000045b87243a656266dbba954a9~2.png",
+    products: []
+  },
+
+  {
+    id: 94,
+    slug: "luxe-makeup-inspiration-for-a-smooth-elegant-face-",
+    title: "Luxe makeup inspiration for a smooth elegant face",
+    category: "glam",
+    homeImage: "images/home/file_000000006f5c7246979d2cebf93b7333.png",
+    heroImage: "images/home/file_000000006f5c7246979d2cebf93b7333.png",
+    products: []
+  },
+
+  {
+    id: 95,
+    slug: "date-night-glam-with-the-prettiest-skin-finish-",
+    title: "Date night glam with the prettiest skin finish",
+    category: "glam",
+    homeImage: "images/home/file_000000009f1c720a874e5400250cbe40.png",
+    heroImage: "images/home/file_000000009f1c720a874e5400250cbe40.png",
+    products: []
   }
 ];
