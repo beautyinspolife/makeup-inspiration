@@ -432,7 +432,7 @@ const LOOKS = [
     id: 22,
     slug: "the-makeup-look-that-gives-effortless-model",
     title: "The Makeup Look That Gives Effortless Model Energy",
-    category: "glam",
+    category: "smokey",
     homeImage: "images/home/file_000000001ec4724692960dff46d77ea3~2.png",
     heroImage: "images/home/file_000000001ec4724692960dff46d77ea3~2.png",
     products: [
@@ -1250,5 +1250,236 @@ const LOOKS = [
     homeImage: "images/home/file_000000009f1c720a874e5400250cbe40.png",
     heroImage: "images/home/file_000000009f1c720a874e5400250cbe40.png",
     products: []
+  },
+  
+  {
+    id: 96,
+    slug: "sun-glow-makeup-with-a-bronzed-feminine-vibe",
+    title: "Sun Glow Makeup with a Bronzed Feminine Vibe",
+    category: "smokey",
+    homeImage: "images/home/file_0000000096947246b474db9de4c21d39.png",
+    heroImage: "images/home/file_0000000096947246b474db9de4c21d39.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 97,
+    slug: "dark-feminine-makeup-that-looks-powerful-and-chic",
+    title: "Dark Feminine Makeup That Looks Powerful and Chic",
+    category: "smokey",
+    homeImage: "images/home/file_0000000096f47246b75b7cd1f6ed3ac4~2.png",
+    heroImage: "images/home/file_0000000096f47246b75b7cd1f6ed3ac4~2.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 98,
+    slug: "brown-smokey-glam-for-a-warm-pretty-look",
+    title: "Brown Smokey Glam for a Warm Pretty Look",
+    category: "smokey",
+    homeImage: "images/home/file_000000003ef87246a388240431ad11f8.png",
+    heroImage: "images/home/file_000000003ef87246a388240431ad11f8.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 99,
+    slug: "classic-smokey-eye-with-a-glamorous-touch",
+    title: "Classic Smokey Eye with a Glamorous Touch",
+    category: "smokey",
+    homeImage: "images/home/file_00000000e174720a9c3acaedafb379e4.png",
+    heroImage: "images/home/file_00000000e174720a9c3acaedafb379e4.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 100,
+    slug: "classic-smokey-eye-with-a-glamorous-touch",
+    title: "Classic Smokey Eye with a Glamorous Touch",
+    category: "smokey",
+    homeImage: "images/home/file_00000000a9ec722f9fb9e3d61ba65a89~2.png",
+    heroImage: "images/home/file_00000000a9ec722f9fb9e3d61ba65a89~2.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 101,
+    slug: "soft-smokey-eye-makeup-with-a-glam-skin-finish",
+    title: "Soft Smokey Eye Makeup with a Glam Skin Finish",
+    category: "smokey",
+    homeImage: "images/home/file_00000000b02471f4abf1d53289f3d0b1.png",
+    heroImage: "images/home/file_00000000b02471f4abf1d53289f3d0b1.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 102,
+    slug: "night-out-makeup-tutorial-with-smokey-eyes",
+    title: "Night Out Makeup Tutorial with Smokey Eyes",
+    category: "smokey",
+    homeImage: "images/home/file_00000000da80724683e280c39ae2da65.png",
+    heroImage: "images/home/file_00000000da80724683e280c39ae2da65.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 103,
+    slug: "dark-feminine-makeup-tutorial-",
+    title: "Dark Feminine Makeup Tutorial",
+    category: "smokey",
+    homeImage: "images/home/file_00000000b7547243a69ae19e0988f56c.png",
+    heroImage: "images/home/file_00000000b7547243a69ae19e0988f56c.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 104,
+    slug: "frosted-makeup-look-with-cool-blue-eyeshadow",
+    title: "Frosted Makeup Look with Cool Blue Eyeshadow",
+    category: "smokey",
+    homeImage: "images/home/file_00000000de44720aaee149c62d23b846.png",
+    heroImage: "images/home/file_00000000de44720aaee149c62d23b846.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 105,
+    slug: "radiant-makeup-look-for-a-fresh-luminous-face",
+    title: "Radiant Makeup Look for a Fresh Luminous Face",
+    category: "natural",
+    homeImage: "images/home/file_00000000055c7243994e7e7143093f7a.png",
+    heroImage: "images/home/file_00000000055c7243994e7e7143093f7a.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 106,
+    slug: "party-glam-makeup-that-feels-feminine-and-chic",
+    title: "Party Glam Makeup That Feels Feminine and Chic",
+    category: "glam",
+    homeImage: "images/home/file_000000008ac8720aa6a520245bac3d90.png",
+    heroImage: "images/home/file_000000008ac8720aa6a520245bac3d90.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 107,
+    slug: "timeless-soft-glam-makeup-you-will-want-to-copy",
+    title: "Timeless Soft Glam Makeup You Will Want to Copy",
+    category: "glam",
+    homeImage: "images/home/file_00000000bff0724695f265c24f418c08.png",
+    heroImage: "images/home/file_00000000bff0724695f265c24f418c08.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 108,
+    slug: "luminous-soft-makeup-that-makes-skin-look-so-good",
+    title: "Luminous Soft Makeup That Makes Skin Look So Good",
+    category: "natural",
+    homeImage: "images/home/file_00000000bf0c7243bce500fb6553cb26.png",
+    heroImage: "images/home/file_00000000bf0c7243bce500fb6553cb26.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 109,
+    slug: "everyday-makeup-routine-for-a-fresh-face",
+    title: "Everyday Makeup Routine for a Fresh Face",
+    category: "natural",
+    homeImage: "images/home/file_00000000fe38724696c9529ca99bbd08.png",
+    heroImage: "images/home/file_00000000fe38724696c9529ca99bbd08.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 110,
+    slug: "natural-makeup-tutorial-for-beginners",
+    title: "Natural Makeup Tutorial for Beginners",
+    category: "natural",
+    homeImage: "images/home/file_000000009ccc7243ac684117ca226e3d.png",
+    heroImage: "images/home/file_000000009ccc7243ac684117ca226e3d.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 111,
+    slug: "soft-glam-makeup-tutorial-step-by-step",
+    title: "Soft Glam Makeup Tutorial Step by Step",
+    category: "glam",
+    homeImage: "images/home/file_0000000051d071f48389314579b353c3.png",
+    heroImage: "images/home/file_0000000051d071f48389314579b353c3.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 112,
+    slug: "makeup-for-brown-eyes-with-neutral-eyeshadow",
+    title: "Makeup for Brown Eyes with Neutral Eyeshadow",
+    category: "glam",
+    homeImage: "images/home/file_0000000011f472469c7b0bfecb2c1dff.png",
+    heroImage: "images/home/file_0000000011f472469c7b0bfecb2c1dff.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 113,
+    slug: "makeup-for-blue-eyes-with-warm-tones",
+    title: "Makeup for Blue Eyes with Warm Tones",
+    category: "glam",
+    homeImage: "images/home/file_000000003f547246849c4e733670d962.png",
+    heroImage: "images/home/file_000000003f547246849c4e733670d962.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 114,
+    slug: "full-face-makeup-routine-for-flawless-skin",
+    title: "Full Face Makeup Routine for Flawless Skin",
+    category: "glam",
+    homeImage: "images/home/file_000000006fc47246b7231089d80fbbd4~2.png",
+    heroImage: "images/home/file_000000006fc47246b7231089d80fbbd4~2.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 115,
+    slug: "simple-makeup-look-for-school-or-work",
+    title: "Simple Makeup Look for School or Work",
+    category: "natural",
+    homeImage: "images/home/file_0000000034f4720aa3af6316c478dd0e.png",
+    heroImage: "images/home/file_0000000034f4720aa3af6316c478dd0e.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 116,
+    slug: "makeup-for-green-eyes-with-soft-brown-eyeshadow",
+    title: "Makeup for Green Eyes with Soft Brown Eyeshadow",
+    category: "natural",
+    homeImage: "images/home/Screenshot_20260429-191516.png",
+    heroImage: "images/home/Screenshot_20260429-191516.png",
+    products: [
+    ]
   }
 ];
