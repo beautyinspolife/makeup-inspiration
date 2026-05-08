@@ -193,8 +193,8 @@ const LOOKS = [
     homeImage: "images/home/file_000000003af8720a8100cabf80076160~2.png",
     heroImage: "images/home/file_000000003af8720a8100cabf80076160~2.png",
     products: [
-      { name: "HUDA BEAUTY - Lip Contour Lip Stain - Lip Liner", image: "images/products/Perfect lip combo for girls who wants long-lasting makeup/364252-media_swatch.jpg", link: "https://www.sephora.com/search?keyword=huda%20beauty%20lip%20contour%20lip%20stain" },
-      { name: "TARTE - Maracuja Juicy Lip Vinyl - Ultra-Shiny Lip Gloss", image: "images/products/Perfect lip combo for girls who wants long-lasting makeup/344315-media_swatch.jpg", link: "https://www.sephora.com/search?keyword=tarte%20maracuja%20juicy%20lip%20vinyl" }
+      { name: "HUDA BEAUTY - Lip Contour Lip Stain - Lip Liner", image: "images/products/Perfect lip combo for girls who wants long-lasting makeup/364252-media_swatch.jpg", link: "https://www.sephora.com/ca/fr/product/huda-beauty-lip-contour-stain-P516661" },
+      { name: "TARTE - Maracuja Juicy Lip Vinyl - Ultra-Shiny Lip Gloss", image: "images/products/Perfect lip combo for girls who wants long-lasting makeup/344315-media_swatch.jpg", link: "https://www.sephora.com/ca/fr/product/tarte-maracuja-juicy-lip-vinyl-P509396" }
     ]
   },
   {
