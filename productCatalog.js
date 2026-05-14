@@ -1609,6 +1609,223 @@ const facePrimers = {
     }
   }),
 
+  kosasRevealerFoundationSpf25: productData({
+    category: "Foundation",
+    brand: "Kosas",
+    name: "Revealer Skin-Improving Foundation SPF 25 with Hyaluronic Acid and Niacinamide",
+    type: "Skin-improving foundation / SPF 25",
+    sizes: ["standard"],
+    image: "https://www.sephora.com/productimages/sku/s2512291-main-zoom.jpg?imwidth=315",
+    images: {
+      US: "https://www.sephora.com/productimages/sku/s2512291-main-zoom.jpg?imwidth=315",
+      CA: "https://www.sephora.com/productimages/sku/s2512291-main-zoom.jpg?imwidth=315",
+      UK: "https://www.sephora.com/productimages/sku/s2512291-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      US: "https://www.sephora.com/product/kosas-revealer-skin-improving-foundation-spf25-with-hyaluronic-acid-niacinamide-P481396",
+      CA: "https://www.sephora.com/ca/en/product/revealer-skin-improving-foundation-spf25-with-hyaluronic-acid-niacinamide-P502143",
+      UK: "https://www.sephora.co.uk/p/kosas-revealer-skin-improving-foundation-spf25-30ml"
+    }),
+    alternatives: {
+      FR: "iliaSuperSerumSkinTintSpf40",
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  westmanAtelierVitalSkinFoundationStick: productData({
+    category: "Foundation",
+    brand: "Westman Atelier",
+    name: "Vital Skin Medium Coverage Multi-Use Foundation Stick",
+    type: "Foundation and concealer stick",
+    sizes: ["standard"],
+    image: "https://www.sephora.com/productimages/sku/s2503092-main-zoom.jpg?imwidth=315",
+    images: {
+      US: "https://www.sephora.com/productimages/sku/s2503092-main-zoom.jpg?imwidth=315",
+      CA: "https://www.sephora.com/productimages/sku/s2503092-main-zoom.jpg?imwidth=315",
+      FR: "https://www.sephora.com/productimages/sku/s2503092-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      US: "https://www.sephora.com/product/westman-atelier-vital-skin-foundation-stick-P468429",
+      CA: "https://www.sephora.com/ca/en/product/westman-atelier-vital-skin-foundation-stick-P468429",
+      FR: "https://www.sephora.fr/p/vital-skin---fond-de-teint-et-anticernes-en-stick-P10058428.html"
+    }),
+    alternatives: {
+      UK: "charlotteTilburyUnrealSkinStick",
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  lancomeTeintIdoleUltraWearFoundation: productData({
+    category: "Foundation",
+    brand: "Lancôme",
+    name: "Teint Idole Ultra Wear 24H Long Wear Matte Foundation with Hyaluronic Acid & Vitamin E",
+    type: "Matte / longwear foundation",
+    sizes: ["standard"],
+    image: "https://media.sephora.eu/content/dam/digital/pim/published/L/LANCO/660059/313102-media_swatch.jpg?scaleHeight=750&scaleMode=fit&scaleWidth=750",
+    images: {
+      US: "https://www.sephora.com/productimages/sku/s2690378-main-zoom.jpg?imwidth=315",
+      CA: "https://www.sephora.com/productimages/sku/s2690378-main-zoom.jpg?imwidth=315",
+      FR: "https://media.sephora.eu/content/dam/digital/pim/published/L/LANCO/660059/313102-media_swatch.jpg?scaleHeight=750&scaleMode=fit&scaleWidth=750",
+      UK: "https://media.sephora.eu/content/dam/digital/pim/published/L/LANCO/660059/313102-media_swatch.jpg?scaleHeight=750&scaleMode=fit&scaleWidth=750"
+    },
+    links: countryLinks({
+      US: "https://www.sephora.com/product/teint-idole-ultra-24h-long-wear-foundation-P308201",
+      CA: "https://www.sephora.com/ca/en/product/teint-idole-ultra-24h-long-wear-foundation-P308201",
+      FR: "https://www.sephora.fr/p/lancome-teint-idole-ultra-wear-fond%C3%B6ten-P10048543.html",
+      UK: "https://www.sephora.co.uk/p/lancome-teint-idole-ultra-wear-foundation-30ml"
+    }),
+    alternatives: {
+      AU: "esteeLauderDoubleWearLightweightMatteFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  lancomeTeintIdoleCareGlowFoundation: productData({
+    category: "Foundation",
+    brand: "Lancôme",
+    name: "Teint Idole Ultra Wear Care & Glow Foundation with Hyaluronic Acid",
+    type: "Glow / hydrating foundation",
+    sizes: ["standard"],
+    image: "https://www.sephora.com/productimages/sku/s2589265-main-zoom.jpg?imwidth=315",
+    images: {
+      US: "https://www.sephora.com/productimages/sku/s2589265-main-zoom.jpg?imwidth=315",
+      CA: "https://www.sephora.com/productimages/sku/s2589265-main-zoom.jpg?imwidth=315",
+      FR: "https://www.sephora.com/productimages/sku/s2589265-main-zoom.jpg?imwidth=315",
+      UK: "https://www.sephora.com/productimages/sku/s2589265-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      US: "https://www.sephora.com/product/teint-idole-ultra-wear-care-glow-foundation-P500706",
+      CA: "https://www.sephora.com/ca/en/product/teint-idole-ultra-wear-care-glow-foundation-P500706",
+      FR: "https://www.sephora.fr/p/teint-idole-ultra-wear-care-et-glow---fond-de-teint-soin-24h-fini-lumineux-spf25-P10042898.html",
+      UK: "https://www.sephora.co.uk/p/lancome-teint-idole-ultra-wear-care-glow-24h-healthy-foundation"
+    }),
+    alternatives: {
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  kvdGoodAppleSerumFoundation: productData({
+    category: "Foundation",
+    brand: "KVD Beauty",
+    name: "Good Apple Non-Comedogenic Full-Coverage Serum Foundation",
+    type: "Full coverage / serum foundation",
+    sizes: ["standard"],
+    image: "https://www.sephora.com/productimages/sku/s2646180-main-zoom.jpg?imwidth=315",
+    images: {
+      US: "https://www.sephora.com/productimages/sku/s2646180-main-zoom.jpg?imwidth=315",
+      CA: "https://www.sephora.com/productimages/sku/s2646180-main-zoom.jpg?imwidth=315",
+      FR: "https://www.sephora.com/productimages/sku/s2646180-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      US: "https://www.sephora.com/product/kvd-vegan-beauty-good-apple-full-coverage-transfer-proof-vegan-serum-foundation-P504366",
+      CA: "https://www.sephora.com/ca/en/product/kvd-vegan-beauty-good-apple-full-coverage-transfer-proof-vegan-serum-foundation-P504366",
+      FR: "https://www.sephora.fr/p/good-apple---fond-de-teint-serum-couvrance-totale-P10048319.html"
+    }),
+    alternatives: {
+      UK: "hudaEasyBlurFoundation",
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  kvdGoodAppleCreamFoundationBalm: productData({
+    category: "Foundation",
+    brand: "KVD Beauty",
+    name: "Good Apple Lightweight Full-Coverage Cream Foundation Balm",
+    type: "Cream foundation balm / full coverage",
+    sizes: ["standard"],
+    image: "https://www.sephora.com/productimages/sku/s2420040-main-zoom.jpg?imwidth=315",
+    images: {
+      US: "https://www.sephora.com/productimages/sku/s2420040-main-zoom.jpg?imwidth=315",
+      CA: "https://www.sephora.com/productimages/sku/s2420040-main-zoom.jpg?imwidth=315",
+      FR: "https://www.sephora.com/productimages/sku/s2420040-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      US: "https://www.sephora.com/product/kvd-vegan-beauty-good-apple-skin-perfecting-foundation-balm-P469488",
+      CA: "https://www.sephora.com/ca/en/product/kvd-vegan-beauty-good-apple-skin-perfecting-foundation-balm-P469488",
+      FR: "https://www.sephora.fr/p/good-apple-skin-perfecting---foundation-balm-P10015018.html"
+    }),
+    alternatives: {
+      UK: "hudaEasyBlurFoundation",
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  diorForeverSkinPerfectStickFoundation: productData({
+    category: "Foundation",
+    brand: "DIOR",
+    name: "Forever Skin Perfect 24H Multi-Use Foundation Stick",
+    type: "Foundation stick / 24H wear",
+    sizes: ["standard"],
+    image: "https://www.sephora.com/productimages/sku/s2882546-main-zoom.jpg?imwidth=315",
+    images: {
+      US: "https://www.sephora.com/productimages/sku/s2882546-main-zoom.jpg?imwidth=315",
+      CA: "https://www.sephora.com/productimages/sku/s2882546-main-zoom.jpg?imwidth=315",
+      FR: "https://www.sephora.com/productimages/sku/s2882546-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      US: "https://www.sephora.com/product/dior-forever-skin-perfect-24h-multi-use-foundation-P512480",
+      CA: "https://www.sephora.com/ca/en/product/dior-forever-skin-perfect-24h-multi-use-foundation-P512480",
+      FR: ""
+    }),
+    alternatives: {
+      FR: "westmanAtelierVitalSkinFoundationStick",
+      UK: "charlotteTilburyUnrealSkinStick",
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  diorForeverSkinGlowFoundation: productData({
+    category: "Foundation",
+    brand: "DIOR",
+    name: "Forever Skin Glow Liquid Foundation 24HR Wear",
+    type: "Glow / longwear foundation",
+    sizes: ["standard"],
+    image: "https://www.sephora.com/productimages/sku/s2934149-main-zoom.jpg?imwidth=315",
+    images: {
+      US: "https://www.sephora.com/productimages/sku/s2934149-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      US: "https://www.sephora.com/product/forever-skin-glow-liquid-foundation-24-hour-wear-P520267",
+      FR: ""
+    }),
+    alternatives: {
+      CA: "fentySoftLitLuminousFoundation",
+      FR: "fentySoftLitLuminousFoundation",
+      UK: "fentySoftLitLuminousFoundation",
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  diorForeverNaturalVelvetCompactFoundation: productData({
+    category: "Foundation",
+    brand: "DIOR",
+    name: "Forever Natural Velvet Matte Compact Foundation",
+    type: "Compact powder foundation / matte finish",
+    sizes: ["standard"],
+    image: "https://www.sephora.com/productimages/sku/s2572253-main-zoom.jpg?imwidth=315",
+    images: {
+      US: "https://www.sephora.com/productimages/sku/s2572253-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      US: "https://www.sephora.com/product/diorskin-forever-perfect-matte-powder-foundation-P297404",
+      FR: ""
+    }),
+    alternatives: {
+      CA: "fentyProFiltrSoftMattePowderFoundation",
+      FR: "fentyProFiltrSoftMattePowderFoundation",
+      UK: "fentyProFiltrSoftMattePowderFoundation",
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
   // -------------------------
   // BRUSHES / TOOLS
   // -------------------------
