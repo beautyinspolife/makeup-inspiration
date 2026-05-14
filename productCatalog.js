@@ -735,6 +735,7 @@ const PRODUCT_CATALOG = {
 
   makeupByMarioEyePencil: productData({
     category: "Eye Pencil",
+    image: "https://www.sephora.com/productimages/sku/s2867729-main-zoom.jpg",
     brand: "MAKEUP BY MARIO",
     name: "Master Pigment Pro Eyeliner Pencil",
     links: {
@@ -769,6 +770,7 @@ const PRODUCT_CATALOG = {
     category: "Lip Liner",
     brand: "Charlotte Tilbury",
     name: "Lip Cheat Lip Liner",
+    image: "https://www.sephora.com/productimages/sku/s2765618-main-zoom.jpg",
     links: {
       US: "https://www.sephora.com/product/lip-cheat-lip-liner-P433516",
       CA: "https://www.sephora.com/ca/en/product/lip-cheat-lip-liner-P433516"
@@ -809,6 +811,7 @@ const PRODUCT_CATALOG = {
     category: "Gloss",
     brand: "Fenty Beauty by Rihanna",
     name: "Gloss Bomb Universal Lip Gloss Luminizer",
+    image: "https://www.sephora.com/productimages/sku/s1925965-main-zoom.jpg",
     links: {
       US: "https://www.sephora.com/product/gloss-bomb-universal-lip-luminizer-P67988453",
       CA: "https://www.sephora.com/ca/en/product/gloss-bomb-universal-lip-luminizer-P67988453"
