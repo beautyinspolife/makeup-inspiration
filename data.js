@@ -1728,6 +1728,5 @@ const LOOKS = [
     makeProduct("summerFridaysLipButterBalm"),
     makeProduct("charlotteSettingSpray")
     ]
-  },
-                
+  }                
 ];
