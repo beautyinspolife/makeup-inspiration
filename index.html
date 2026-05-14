@@ -556,14 +556,77 @@
   }
 }
 
-
   </style>
 </head>
 <body>
   <div id="app"></div>
   <script src="data.js"></script>  
   <script>
+    let USER_MARKET = "US";
 
+const COUNTRY_TO_MARKET = {
+  US: "US",
+  CA: "CA",
+  FR: "FR",
+  GB: "UK",
+  UK: "UK",
+  AU: "AU",
+  BR: "BR"
+};
+
+async function detectUserMarket() {
+  const urlParams = new URLSearchParams(window.location.search);
+  const forcedCountry = urlParams.get("country");
+
+  if (forcedCountry) {
+    const forced = forcedCountry.toUpperCase();
+    return COUNTRY_TO_MARKET[forced] || forced;
+  }
+
+  try {
+    const cached = localStorage.getItem("userMarket");
+
+    if (cached) {
+      return cached;
+    }
+
+    const response = await fetch("https://ipapi.co/json/");
+    const data = await response.json();
+
+    const countryCode = data.country_code?.toUpperCase();
+    const market = COUNTRY_TO_MARKET[countryCode] || "US";
+
+    localStorage.setItem("userMarket", market);
+
+    return market;
+  } catch (error) {
+    const language = navigator.language || "";
+
+    if (language.includes("fr")) return "FR";
+    if (language.includes("en-GB")) return "UK";
+    if (language.includes("en-CA")) return "CA";
+    if (language.includes("pt-BR")) return "BR";
+    if (language.includes("en-AU")) return "AU";
+
+    return "US";
+  }
+}
+
+function getProductLink(product) {
+  if (!product.links) {
+    return product.link || "#";
+  }
+
+  return (
+    product.links[USER_MARKET] ||
+    product.links.US ||
+    product.links.CA ||
+    product.links.FR ||
+    product.link ||
+    "#"
+  );
+    }
+    
     const state = {
       category: "natural"
     };
@@ -653,7 +716,7 @@
             ${look.products.map(product => `
               <a class="product-card-link"
                  href="#"
-                 onclick="openProductLink('${String(product.link).replace(/'/g, "\\'")}'); return false;">
+                 onclick="openProductLink('${String(getProductLink(product)).replace(/'/g, "\\'")}'); return false;">
                 <div class="product-card">
                   <div class="product-image-box">
                     <img src="${product.image}" alt="${product.name}">
@@ -703,7 +766,11 @@
       
     
     window.addEventListener("hashchange", render);
-    render();
+
+detectUserMarket().then(market => {
+  USER_MARKET = market;
+  render();
+});
   </script>
 </body>
 </html>
