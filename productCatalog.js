@@ -248,6 +248,7 @@ const PRODUCT_CATALOG = {
     category: "Concealer Brush",
     brand: "Rare Beauty by Selena Gomez",
     name: "Liquid Touch Concealer Brush",
+    image: "https://www.sephora.com/productimages/sku/s2362424-main-zoom.jpg",
     links: {
       US: "https://www.sephora.com/product/rare-beauty-by-selena-gomez-liquid-touch-concealer-brush-P17484987",
       CA: "https://www.sephora.com/ca/en/product/rare-beauty-by-selena-gomez-liquid-touch-concealer-brush-P17484987"
@@ -608,6 +609,7 @@ const PRODUCT_CATALOG = {
   abhBrowWiz: productData({
     category: "Eyebrow Pencil",
     brand: "Anastasia Beverly Hills",
+    image: "https://www.sephora.com/productimages/sku/s1488337-main-zoom.jpg",
     name: "Brow Wiz Ultra-Slim Precision Eyebrow Defining Pencil",
     links: {
       US: "https://www.sephora.com/product/brow-wiz-P202633",
@@ -629,6 +631,7 @@ const PRODUCT_CATALOG = {
     category: "Eyebrow Gel",
     brand: "Benefit Cosmetics",
     name: "24-HR Brow Setter Clear Brow Gel",
+    image: "https://www.sephora.com/productimages/sku/s1935774-main-zoom.jpg",
     links: {
       US: "https://www.sephora.com/product/24-hr-brow-setter-P409242",
       CA: "https://www.sephora.com/ca/en/product/24-hr-brow-setter-P409242"
@@ -672,6 +675,7 @@ const PRODUCT_CATALOG = {
   hudaCreamyObsessionsPalette: productData({
     category: "Eyeshadow",
     brand: "HUDA BEAUTY",
+    image: "https://www.sephora.com/productimages/sku/s2739423-main-zoom.jpg",
     name: "Creamy Obsessions Eyeshadow Palette",
     links: {
       US: "https://www.sephora.com/product/huda-beauty-creamy-obsessions-eye-palette-P509445",
