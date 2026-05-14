@@ -1,4 +1,421 @@
+const marketData = (usUrl = "", usImage = "") => ({
+  image: usImage,
+  images: {
+    US: usImage,
+    CA: usImage,
+    FR: "",
+    UK: "",
+    AU: "",
+    BR: ""
+  },
+  links: {
+    US: usUrl,
+    CA: usUrl ? usUrl.replace("https://www.sephora.com/product/", "https://www.sephora.com/ca/en/product/") : "",
+    FR: "",
+    UK: "",
+    AU: "",
+    BR: ""
+  }
+});
+
+const PRODUCT_CATALOG = {
+  milkHydroGripPrimer: {
+    category: "Primer",
+    brand: "MILK MAKEUP",
+    name: "Hydro Grip Hydrating Makeup Primer with Hyaluronic Acid + Niacinamide",
+    ...marketData(
+      "https://www.sephora.com/product/hydro-grip-primer-P441813",
+      "https://www.sephora.com/productimages/sku/s2850402-main-zoom.jpg?imwidth=315"
+    )
+  },
+
+  hourglassVeilPrimer: {
+    category: "Primer",
+    brand: "Hourglass",
+    name: "Veil Mineral Primer",
+    ...marketData(
+      "https://www.sephora.com/product/veil-mineral-primer-P210575",
+      "https://www.sephora.com/productimages/sku/s1074442-main-zoom.jpg?imwidth=315"
+    )
+  },
+
+  rareBeautyPorePrimer: {
+    category: "Primer",
+    brand: "Rare Beauty by Selena Gomez",
+    name: "Always An Optimist Pore Diffusing Primer",
+    ...marketData(
+      "https://www.sephora.com/product/rare-beauty-by-selena-gomez-always-an-optimist-pore-diffusing-primer-P471075",
+      ""
+    )
+  },
+
+  narsLightReflectingFoundation: {
+    category: "Foundation",
+    brand: "NARS",
+    name: "Light Reflecting Skin Improving Medium Coverage Foundation",
+    ...marketData(
+      "https://www.sephora.com/product/nars-light-reflecting-advance-skincare-foundation-P479338",
+      "https://www.sephora.com/productimages/sku/s2514644-main-zoom.jpg?imwidth=315"
+    )
+  },
+
+  hausLabsTricloneFoundation: {
+    category: "Foundation",
+    brand: "HAUS LABS BY LADY GAGA",
+    name: "Triclone Skin Tech Medium Coverage Foundation with Fermented Arnica",
+    ...marketData(
+      "https://www.sephora.com/product/triclone-skin-tech-medium-coverage-foundation-with-fermented-arnica-P502185",
+      "https://www.sephora.com/productimages/sku/s2597276-main-zoom.jpg?imwidth=315"
+    )
+  },
+
+  makeupByMarioSurrealSkinFoundation: {
+    category: "Foundation",
+    brand: "MAKEUP BY MARIO",
+    name: "SurrealSkin Luminous Hydrating Foundation",
+    ...marketData(
+      "https://www.sephora.com/product/makeup-by-mario-surreal-foundation-P503679",
+      "https://www.sephora.com/productimages/sku/s2835213-main-zoom.jpg?imwidth=315"
+    )
+  },
+
+  tooFacedBornThisWayFoundation: {
+    category: "Foundation",
+    brand: "Too Faced",
+    name: "Born This Way Undetectable Medium-To-Full Coverage Foundation",
+    ...marketData(
+      "https://www.sephora.com/product/too-faced-born-this-way-natural-finish-foundation-P517843",
+      "https://www.sephora.com/productimages/sku/s2885853-main-zoom.jpg?imwidth=315"
+    )
+  },
+
+  armaniLuminousSilkFoundation: {
+    category: "Foundation",
+    brand: "Armani Beauty",
+    name: "Luminous Silk Natural Glow Blurring Liquid Foundation with 24 Hour Wear",
+    ...marketData(
+      "https://www.sephora.com/product/luminous-silk-natural-glow-blurring-liquid-foundation-with-24-hour-wear-P519887",
+      "https://www.sephora.com/productimages/sku/s2926731-main-zoom.jpg?imwidth=315"
+    )
+  },
+
+  sephoraFoundationBrush47: {
+    category: "Foundation Brush",
+    brand: "SEPHORA COLLECTION",
+    name: "PRO Foundation Brush #47",
+    ...marketData(
+      "https://www.sephora.com/product/pro-foundation-47-P404041",
+      "https://www.sephora.com/productimages/sku/s2596476-main-zoom.jpg?imwidth=315"
+    )
+  },
+
+  kosasRevealerConcealer: {
+    category: "Concealer",
+    brand: "Kosas",
+    name: "Revealer Super Creamy + Brightening Concealer with Caffeine and Hyaluronic Acid",
+    ...marketData(
+      "https://www.sephora.com/product/kosas-revealer-concealer-P456151",
+      "https://www.sephora.com/productimages/sku/s2737351-main-zoom.jpg?imwidth=315"
+    )
+  },
+
+  hudaFauxFilterConcealer: {
+    category: "Concealer",
+    brand: "HUDA BEAUTY",
+    name: "#FauxFilter Matte Buildable Coverage Waterproof Concealer",
+    ...marketData(
+      "https://www.sephora.com/product/fauxfilter-luminous-matte-buildable-coverage-crease-proof-concealer-P500309",
+      "https://www.sephora.com/productimages/sku/s2577781-main-zoom.jpg?imwidth=315"
+    )
+  },
+
+  tooFacedSuperCoverageConcealer: {
+    category: "Concealer",
+    brand: "Too Faced",
+    name: "Born This Way Super Coverage Multi-Use Concealer with Hyaluronic Acid",
+    ...marketData(
+      "https://www.sephora.com/product/born-this-way-super-coverage-multi-use-concealer-with-hyaluronic-acid-P432298",
+      "https://www.sephora.com/productimages/sku/s2084408-main-zoom.jpg?imwidth=315"
+    )
+  },
+
+  beautyblenderOriginal: {
+    category: "Concealer Tool",
+    brand: "beautyblender",
+    name: "ORIGINAL BEAUTYBLENDER Makeup Sponge",
+    ...marketData(
+      "https://www.sephora.com/product/beautyblender-P228913",
+      ""
+    )
+  },
+
+  rareBeautyConcealerBrush: {
+    category: "Concealer Brush",
+    brand: "Rare Beauty by Selena Gomez",
+    name: "Liquid Touch Concealer Brush",
+    ...marketData(
+      "https://www.sephora.com/product/rare-beauty-by-selena-gomez-liquid-touch-concealer-brush-P17484987",
+      ""
+    )
+  },
+
+  rareBeautySoftPinchBlush: {
+    category: "Blush",
+    brand: "Rare Beauty by Selena Gomez",
+    name: "Soft Pinch Liquid Blush",
+    ...marketData(
+      "https://www.sephora.com/product/rare-beauty-by-selena-gomez-soft-pinch-liquid-blush-P97989778",
+      "https://www.sephora.com/productimages/sku/s2911741-main-zoom.jpg?imwidth=315"
+    )
+  },
+
+  patrickTaBlushDuo: {
+    category: "Blush",
+    brand: "PATRICK TA",
+    name: "Major Headlines Double-Take Crème & Powder Blush Duo",
+    ...marketData(
+      "https://www.sephora.com/product/patrick-ta-major-headlines-cream-powder-blush-duo-P458747",
+      "https://www.sephora.com/productimages/sku/s2849768-main-zoom.jpg?imwidth=315"
+    )
+  },
+
+  saieDewBlush: {
+    category: "Blush",
+    brand: "Saie",
+    name: "Dew Blush Liquid Cream Blush",
+    ...marketData(
+      "https://www.sephora.com/product/saie-dew-blush-liquid-cheek-blush-P469825",
+      ""
+    )
+  },
+
+  tower28BeachPleaseBlush: {
+    category: "Blush",
+    brand: "Tower 28 Beauty",
+    name: "BeachPlease Lip + Cheek Dewy Cream Blush",
+    ...marketData(
+      "https://www.sephora.com/product/beachplease-tinted-balm-blush-P449342",
+      ""
+    )
+  },
+
+  narsAfterglowLiquidBlush: {
+    category: "Blush",
+    brand: "NARS",
+    name: "Afterglow Liquid Blush",
+    ...marketData(
+      "https://www.sephora.com/product/afterglow-liquid-blush-P506024",
+      ""
+    )
+  },
+
+  charlotteBeautyHighlighterWand: {
+    category: "Highlighter",
+    brand: "Charlotte Tilbury",
+    name: "Beauty Highlighter Wand",
+    ...marketData(
+      "https://www.sephora.com/product/glowgasm-beauty-highlighter-wand-P444154",
+      "https://www.sephora.com/productimages/sku/s2366524-main-zoom.jpg?imwidth=315"
+    )
+  },
+
+  rareBeautyPositiveLightHighlighter: {
+    category: "Highlighter",
+    brand: "Rare Beauty by Selena Gomez",
+    name: "Positive Light Silky Touch Highlighter",
+    ...marketData(
+      "https://www.sephora.com/product/rare-beauty-by-selena-gomez-positive-light-silky-touch-highlighter-P503711",
+      ""
+    )
+  },
+
+  fentyKillawattHighlighter: {
+    category: "Highlighter",
+    brand: "Fenty Beauty by Rihanna",
+    name: "Killawatt Freestyle Highlighter",
+    ...marketData(
+      "https://www.sephora.com/product/killawatt-freestyle-highlighter-P64879845",
+      "https://www.sephora.com/productimages/sku/s1925916-main-zoom.jpg?imwidth=315"
+    )
+  },
+
+  makeupByMarioSoftSculptStick: {
+    category: "Bronzer / Contour",
+    brand: "MAKEUP BY MARIO",
+    name: "SoftSculpt Cream Contour & Bronzer Shaping Stick",
+    ...marketData(
+      "https://www.sephora.com/product/softsculpt-cream-contour-bronzer-stick-P516546",
+      "https://www.sephora.com/productimages/sku/s2867505-main-zoom.jpg?imwidth=315"
+    )
+  },
+
+  narsLagunaBronzingCream: {
+    category: "Bronzer / Contour",
+    brand: "NARS",
+    name: "Laguna Bronzing Cream",
+    ...marketData(
+      "https://www.sephora.com/product/nars-laguna-bronzing-cream-P471270",
+      "https://www.sephora.com/productimages/sku/s2568798-main-zoom.jpg?imwidth=315"
+    )
+  },
+
+  tooFacedBetterThanSexMascara: {
+    category: "Mascara",
+    brand: "Too Faced",
+    name: "Better Than Sex Volumizing & Lengthening Mascara",
+    ...marketData(
+      "https://www.sephora.com/product/better-than-sex-mascara-P381000",
+      "https://www.sephora.com/productimages/sku/s1533439-main-zoom.jpg?imwidth=315"
+    )
+  },
+
+  lancomeCilsBooster: {
+    category: "Mascara Primer",
+    brand: "Lancôme",
+    name: "Cils Booster XL Super-Enhancing Mascara Primer",
+    ...marketData(
+      "https://www.sephora.com/product/cils-booster-xl-super-enhancing-mascara-base-P128706",
+      "https://www.sephora.com/productimages/sku/s2109965-main-zoom.jpg?imwidth=315"
+    )
+  },
+
+  abhBrowWiz: {
+    category: "Eyebrow Pencil",
+    brand: "Anastasia Beverly Hills",
+    name: "Brow Wiz Ultra-Slim Precision Eyebrow Defining Pencil",
+    ...marketData(
+      "https://www.sephora.com/product/brow-wiz-P202633",
+      ""
+    )
+  },
+
+  benefitBrowSetter: {
+    category: "Eyebrow Gel",
+    brand: "Benefit Cosmetics",
+    name: "24-HR Brow Setter Clear Brow Gel",
+    ...marketData(
+      "https://www.sephora.com/product/24-hr-brow-setter-P409242",
+      ""
+    )
+  },
+
+  natashaINeedANudePalette: {
+    category: "Eyeshadow",
+    brand: "NATASHA DENONA",
+    name: "I Need a Nude Eyeshadow Palette",
+    ...marketData(
+      "https://www.sephora.com/product/i-need-a-nude-eyeshadow-palette-P507807",
+      ""
+    )
+  },
+
+  hudaCreamyObsessionsPalette: {
+    category: "Eyeshadow",
+    brand: "HUDA BEAUTY",
+    name: "Creamy Obsessions Eyeshadow Palette",
+    ...marketData(
+      "https://www.sephora.com/product/huda-beauty-creamy-obsessions-eye-palette-P509445",
+      ""
+    )
+  },
+
+  rareBeautyLiquidLiner: {
+    category: "Eyeliner",
+    brand: "Rare Beauty by Selena Gomez",
+    name: "Perfect Strokes Matte Liquid Liner",
+    ...marketData(
+      "https://www.sephora.com/product/rare-beauty-by-selena-gomez-perfect-strokes-matte-liquid-liner-P87946516",
+      ""
+    )
+  },
+
+  makeupByMarioEyePencil: {
+    category: "Eye Pencil",
+    brand: "MAKEUP BY MARIO",
+    name: "Master Pigment Pro Eyeliner Pencil",
+    ...marketData(
+      "https://www.sephora.com/product/master-pigment-pro-tm-eyeliner-pencil-P39890573",
+      ""
+    )
+  },
+
+  charlotteLipCheat: {
+    category: "Lip Liner",
+    brand: "Charlotte Tilbury",
+    name: "Lip Cheat Long-Lasting Waterproof Lip Liner",
+    ...marketData(
+      "https://www.sephora.com/product/lip-cheat-lip-liner-P433516",
+      ""
+    )
+  },
+
+  makeupByMarioLipPencil: {
+    category: "Lip Liner",
+    brand: "MAKEUP BY MARIO",
+    name: "Ultra Suede Sculpting Lip Pencil",
+    ...marketData(
+      "https://www.sephora.com/product/makeup-by-mario-ultra-suede-sculpting-lip-pencil-P477838",
+      ""
+    )
+  },
+
+  fentyGlossBomb: {
+    category: "Gloss",
+    brand: "Fenty Beauty by Rihanna",
+    name: "Gloss Bomb Universal Lip Gloss Luminizer",
+    ...marketData(
+      "https://www.sephora.com/product/gloss-bomb-universal-lip-luminizer-P67988453",
+      ""
+    )
+  },
+
+  summerFridaysLipButterBalm: {
+    category: "Lip Balm / Gloss",
+    brand: "Summer Fridays",
+    name: "Lip Butter Balm",
+    ...marketData(
+      "https://www.sephora.com/product/summer-fridays-lip-butter-balm-P455936",
+      ""
+    )
+  },
+
+  charlotteSettingSpray: {
+    category: "Setting Spray",
+    brand: "Charlotte Tilbury",
+    name: "Airbrush Flawless Hydrating & Waterproof Setting Spray",
+    ...marketData(
+      "https://www.sephora.com/product/charlotte-tilbury-airbrush-flawless-setting-spray-P461147",
+      ""
+    )
+  },
+
+  maisonMargielaBeachWalk: {
+    category: "Mist / Perfume",
+    brand: "Maison Margiela",
+    name: "REPLICA Beach Walk Eau de Toilette",
+    ...marketData(
+      "https://www.sephora.com/product/replica-beach-walk-P385350",
+      ""
+    )
+  }
+};
+
+function makeProduct(productKey, categoryOverride = null) {
+  const product = PRODUCT_CATALOG[productKey];
+
+  return {
+    category: categoryOverride || product.category,
+    brand: product.brand,
+    name: product.name,
+    image: product.image,
+    images: product.images,
+    link: product.links.US,
+    links: product.links
+  };
+}
+
 const LOOKS = [
+
   {
     id: 1,
     slug: "natural-makeup-look-that-feels-simple-but-looks-stunning",
@@ -1479,7 +1896,23 @@ const LOOKS = [
     category: "natural",
     homeImage: "images/home/Screenshot_20260429-191516.png",
     heroImage: "images/home/Screenshot_20260429-191516.png",
-    products: [
+    products: [makeProduct("milkHydroGripPrimer"),
+      makeProduct("armaniLuminousSilkFoundation"),
+      makeProduct("sephoraFoundationBrush47"),
+      makeProduct("kosasRevealerConcealer"),
+      makeProduct("beautyblenderOriginal"),
+      makeProduct("rareBeautySoftPinchBlush"),
+      makeProduct("charlotteBeautyHighlighterWand"),
+      makeProduct("makeupByMarioSoftSculptStick"),
+      makeProduct("lancomeCilsBooster"),
+      makeProduct("tooFacedBetterThanSexMascara"),
+      makeProduct("abhBrowWiz"),
+      makeProduct("benefitBrowSetter"),
+      makeProduct("natashaINeedANudePalette"),
+      makeProduct("makeupByMarioEyePencil"),
+      makeProduct("charlotteLipCheat"),
+      makeProduct("summerFridaysLipButterBalm"),
+      makeProduct("maisonMargielaBeachWalk")
     ]
   }
 ];
