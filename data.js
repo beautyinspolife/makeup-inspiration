@@ -1715,8 +1715,8 @@ const LOOKS = [
 
   {
     id: 100,
-    slug: "classic-smokey-eye-with-a-glamorous-touch",
-    title: "Classic Smokey Eye with a Glamorous Touch",
+    slug: "femme-fatale-makeup-look-with-defined-eyes",
+    title: "Femme Fatale Makeup Look with Defined Eyes",
     category: "smokey",
     homeImage: "images/home/file_00000000a9ec722f9fb9e3d61ba65a89~2.png",
     heroImage: "images/home/file_00000000a9ec722f9fb9e3d61ba65a89~2.png",
@@ -1846,7 +1846,21 @@ const LOOKS = [
     category: "natural",
     homeImage: "images/home/file_000000009ccc7243ac684117ca226e3d.png",
     heroImage: "images/home/file_000000009ccc7243ac684117ca226e3d.png",
-    products: [
+    products: [makeProduct("rareBeautyPorePrimer"),
+    makeProduct("narsLightReflectingFoundation"),
+    makeProduct("sephoraFoundationBrush47"),
+    makeProduct("kosasRevealerConcealer"),
+    makeProduct("beautyblenderOriginal"),
+    makeProduct("saieDewBlush"),
+    makeProduct("rareBeautyPositiveLightHighlighter"),
+    makeProduct("narsLagunaBronzingCream"),
+    makeProduct("tooFacedBetterThanSexMascara"),
+    makeProduct("abhBrowWiz"),
+    makeProduct("benefitBrowSetter"),
+    makeProduct("natashaINeedANudePalette"),
+    makeProduct("makeupByMarioLipPencil"),
+    makeProduct("fentyGlossBomb"),
+    makeProduct("maisonMargielaBeachWalk")
     ]
   },
 
@@ -1921,7 +1935,23 @@ const LOOKS = [
     category: "glam",
     homeImage: "images/home/file_000000006fc47246b7231089d80fbbd4~2.png",
     heroImage: "images/home/file_000000006fc47246b7231089d80fbbd4~2.png",
-    products: [
+    products: [makeProduct("hourglassVeilPrimer"),
+    makeProduct("armaniLuminousSilkFoundation"),
+    makeProduct("sephoraFoundationBrush47"),
+    makeProduct("hudaFauxFilterConcealer"),
+    makeProduct("rareBeautyConcealerBrush"),
+    makeProduct("patrickTaBlushDuo"),
+    makeProduct("charlotteBeautyHighlighterWand"),
+    makeProduct("makeupByMarioSoftSculptStick"),
+    makeProduct("lancomeCilsBooster"),
+    makeProduct("tooFacedBetterThanSexMascara"),
+    makeProduct("abhBrowWiz"),
+    makeProduct("benefitBrowSetter"),
+    makeProduct("hudaCreamyObsessionsPalette"),
+    makeProduct("makeupByMarioEyePencil"),
+    makeProduct("charlotteLipCheat"),
+    makeProduct("fentyGlossBomb"),
+    makeProduct("charlotteSettingSpray")
     ]
   },
 
