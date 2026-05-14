@@ -954,9 +954,10 @@ const PRODUCT_CATALOG = {
     category: "Fragrance",
     brand: "Maison Margiela",
     name: "REPLICA Beach Walk Eau de Toilette",
+    image: "https://www.sephora.com/productimages/sku/s1593144-main-zoom.jpg"
     links: {
-      US: "https://www.sephora.com/product/replica-beach-walk-P385350",
-      CA: "https://www.sephora.com/ca/en/product/replica-beach-walk-P385350"
+      US: "https://www.sephora.com/ca/fr/product/replica-beach-walk-P385358",
+      CA: "https://www.sephora.com/ca/en/product/replica-beach-walk-P385358"
     }
   }),
 
