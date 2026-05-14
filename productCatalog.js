@@ -381,39 +381,277 @@ const facePrimers = {
     brand: "Too Faced",
     name: "Born This Way Natural Finish Foundation",
     image: skuImage("s2885853"),
-    links: {
-      US: "https://www.sephora.com/product/too-faced-born-this-way-natural-finish-foundation-P517843",
-      CA: "https://www.sephora.com/ca/en/product/too-faced-born-this-way-natural-finish-foundation-P517843"
-    }
+// -------------------------
+  // FOUNDATIONS / FONDS DE TEINT 
+  // -------------------------
+
+  fentySoftLitLuminousFoundation: productData({
+    category: "Foundation",
+    brand: "Fenty Beauty by Rihanna",
+    name: "Soft’Lit Naturally Luminous Hydrating Longwear Foundation",
+    type: "Luminous / hydrating longwear foundation",
+    sizes: ["standard"],
+    image: "https://www.sephora.com/productimages/sku/s2746543-main-zoom.jpg?imwidth=315",
+    images: {
+      US: "https://www.sephora.com/productimages/sku/s2746543-main-zoom.jpg?imwidth=315",
+      CA: "https://www.sephora.com/productimages/sku/s2746543-main-zoom.jpg?imwidth=315",
+      FR: "https://www.sephora.com/productimages/sku/s2746543-main-zoom.jpg?imwidth=315",
+      UK: "https://www.sephora.com/productimages/sku/s2746543-main-zoom.jpg?imwidth=315",
+      AU: "https://www.sephora.com/productimages/sku/s2746543-main-zoom.jpg?imwidth=315",
+      BR: "https://www.sephora.com/productimages/sku/s2746543-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      US: "https://www.sephora.com/product/fenty-beauty-rihanna-soft-lit-naturally-luminous-hydrating-longwear-foundation-P511130",
+      CA: "https://www.sephora.com/ca/en/product/fenty-beauty-rihanna-soft-lit-naturally-luminous-hydrating-longwear-foundation-P511130",
+      FR: "https://www.sephora.fr/p/soft--lit-naturally-luminous-foundation---fond-de-teint-P10057913.html",
+      UK: "https://www.sephora.co.uk/p/fenty-beauty-soft-lit-naturally-luminous-longwear-foundation-32ml",
+      AU: "https://www.sephora.com.au/products/fenty-beauty-softlit-luminous-foundation",
+      BR: "https://www.sephora.com.br/base-fenty-soft-lit-luminous-88991910-88991910.html"
+    }),
+    alternatives: {}
   }),
 
-  hudaFauxFilterFoundation: productData({
+  hudaEasyBlurFoundation: productData({
     category: "Foundation",
     brand: "HUDA BEAUTY",
-    name: "#FauxFilter Luminous Matte Foundation",
-    links: {
-      US: "https://www.sephora.com/product/fauxfilter-luminous-matte-foundation-P468208",
-      CA: "https://www.sephora.com/ca/en/product/fauxfilter-luminous-matte-foundation-P468208"
+    name: "Easy Blur Natural Airbrush Foundation with Niacinamide",
+    type: "Blurring / natural airbrush foundation",
+    sizes: ["standard"],
+    image: "https://www.sephora.com/productimages/sku/s2888873-main-zoom.jpg?imwidth=315",
+    images: {
+      US: "https://www.sephora.com/productimages/sku/s2888873-main-zoom.jpg?imwidth=315",
+      CA: "https://www.sephora.com/productimages/sku/s2888873-main-zoom.jpg?imwidth=315",
+      FR: "https://www.sephora.com/productimages/sku/s2888873-main-zoom.jpg?imwidth=315",
+      UK: "https://www.sephora.com/productimages/sku/s2888873-main-zoom.jpg?imwidth=315",
+      AU: "https://www.sephora.com/productimages/sku/s2888873-main-zoom.jpg?imwidth=315",
+      BR: "https://www.sephora.com/productimages/sku/s2746543-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      US: "https://www.sephora.com/product/huda-beauty-easy-blur-smoothing-foundation-P512640",
+      CA: "https://www.sephora.com/ca/en/product/huda-beauty-easy-blur-smoothing-foundation-P512640",
+      FR: "https://www.sephora.fr/p/easy-blur-natural-airbrush-foundation---fond-de-teint-P10060171.html",
+      UK: "https://www.sephora.co.uk/p/huda-beauty-easy-blur-natural-airbrush-foundation-30ml",
+      AU: "https://www.sephora.com.au/products/huda-beauty-easy-blur-natural-airbrush-foundation"
+    }),
+    alternatives: {
+      BR: "fentySoftLitLuminousFoundation"
     }
   }),
 
-  mufeHdSkinFoundation: productData({
+  hausLabsTricloneFoundation: productData({
     category: "Foundation",
-    brand: "MAKE UP FOR EVER",
-    name: "HD Skin Undetectable Longwear Foundation",
-    links: {
-      US: "https://www.sephora.com/product/hd-skin-foundation-P479712",
-      CA: "https://www.sephora.com/ca/en/product/hd-skin-foundation-P479712"
+    brand: "HAUS LABS BY LADY GAGA",
+    name: "Triclone Skin Tech Medium Coverage Foundation with Fermented Arnica",
+    type: "Medium coverage / natural finish foundation",
+    sizes: ["standard"],
+    image: "https://www.sephora.com/productimages/sku/s2597276-main-zoom.jpg?imwidth=315",
+    images: {
+      US: "https://www.sephora.com/productimages/sku/s2597276-main-zoom.jpg?imwidth=315",
+      CA: "https://www.sephora.com/productimages/sku/s2597276-main-zoom.jpg?imwidth=315",
+      FR: "https://www.sephora.com/productimages/sku/s2597276-main-zoom.jpg?imwidth=315",
+      UK: "https://www.sephora.com/productimages/sku/s2597276-main-zoom.jpg?imwidth=315",
+      AU: "https://www.sephora.com/productimages/sku/s2597276-main-zoom.jpg?imwidth=315",
+      BR: "https://www.sephora.com/productimages/sku/s2746543-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      US: "https://www.sephora.com/product/triclone-skin-tech-medium-coverage-foundation-with-fermented-arnica-P502185",
+      CA: "https://www.sephora.com/ca/en/product/triclone-skin-tech-medium-coverage-foundation-with-fermented-arnica-P502185",
+      FR: "https://www.sephora.fr/p/triclone-skin-tech-foundation---couvrance-moyenne-a-l-arnica-fermentee-P10050998.html",
+      UK: "https://www.sephora.co.uk/p/haus-labs-by-lady-gaga-triclone-skin-tech-medium-coverage-foundation-with-fermented-arnica-30ml",
+      AU: "https://www.sephora.com.au/products/haus-labs-by-lady-gaga-triclone-skin-tech-foundation"
+    }),
+    alternatives: {
+      BR: "fentySoftLitLuminousFoundation"
     }
   }),
 
-  fentyEazeDropSkinTint: productData({
-    category: "Skin Tint",
-    brand: "Fenty Beauty by Rihanna",
-    name: "Eaze Drop Blurring Skin Tint",
-    links: {
-      US: "https://www.sephora.com/product/fenty-beauty-rihanna-eaze-drop-blurring-skin-tint-P470025",
-      CA: "https://www.sephora.com/ca/en/product/fenty-beauty-rihanna-eaze-drop-blurring-skin-tint-P470025"
+  armaniLuminousSilkFoundation: productData({
+    category: "Foundation",
+    brand: "Armani Beauty",
+    name: "Luminous Silk Natural Glow Blurring Liquid Foundation with 24 Hour Wear",
+    type: "Natural glow / liquid foundation",
+    sizes: ["mini", "standard"],
+    image: "https://www.sephora.com/productimages/sku/s2926731-main-zoom.jpg?imwidth=315",
+    images: {
+      US: "https://www.sephora.com/productimages/sku/s2926731-main-zoom.jpg?imwidth=315",
+      CA: "https://www.sephora.com/productimages/sku/s2926731-main-zoom.jpg?imwidth=315",
+      FR: "https://www.sephora.com/productimages/sku/s2926731-main-zoom.jpg?imwidth=315",
+      UK: "https://www.sephora.com/productimages/sku/s2926731-main-zoom.jpg?imwidth=315",
+      AU: "https://www.sephora.com/productimages/sku/s2746543-main-zoom.jpg?imwidth=315",
+      BR: "https://www.sephora.com/productimages/sku/s2746543-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      US: "https://www.sephora.com/product/luminous-silk-natural-glow-blurring-liquid-foundation-with-24-hour-wear-P519887",
+      CA: "https://www.sephora.com/ca/en/product/luminous-silk-natural-glow-blurring-liquid-foundation-with-24-hour-wear-P519887",
+      FR: "https://www.sephora.fr/p/luminous-silk-foundation---fond-de-teint-eclat-naturel-parfait-P1000211579.html",
+      UK: "https://www.sephora.co.uk/p/armani-luminous-silk-foundation"
+    }),
+    alternatives: {
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  diorBackstageFaceBodyFoundation: productData({
+    category: "Foundation",
+    brand: "DIOR",
+    name: "Backstage Face & Body Foundation",
+    type: "Face and body / buildable foundation",
+    sizes: ["standard"],
+    image: "https://www.sephora.com/productimages/sku/s2669539-main-zoom.jpg?imwidth=315",
+    images: {
+      US: "https://www.sephora.com/productimages/sku/s2669539-main-zoom.jpg?imwidth=315",
+      CA: "https://www.sephora.com/productimages/sku/s2669539-main-zoom.jpg?imwidth=315",
+      FR: "https://www.sephora.com/productimages/sku/s2746543-main-zoom.jpg?imwidth=315",
+      UK: "https://www.sephora.com/productimages/sku/s2669539-main-zoom.jpg?imwidth=315",
+      AU: "https://www.sephora.com/productimages/sku/s2746543-main-zoom.jpg?imwidth=315",
+      BR: "https://www.sephora.com/productimages/sku/s2746543-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      US: "https://www.sephora.com/product/backstage-face-body-foundation-P432500",
+      CA: "https://www.sephora.com/ca/en/product/backstage-face-body-foundation-P432500",
+      FR: "",
+      UK: "https://www.sephora.co.uk/p/dior-face-body-foundation"
+    }),
+    alternatives: {
+      FR: "fentySoftLitLuminousFoundation",
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  saieGlowySuperSkinFoundation: productData({
+    category: "Foundation",
+    brand: "Saie",
+    name: "Glowy Super Skin Tint Foundation with Hyaluronic Acid",
+    type: "Glowy / serum foundation",
+    sizes: ["standard"],
+    image: "https://www.sephora.com/productimages/sku/s2637387-main-zoom.jpg?imwidth=315",
+    images: {
+      US: "https://www.sephora.com/productimages/sku/s2637387-main-zoom.jpg?imwidth=315",
+      CA: "https://www.sephora.com/productimages/sku/s2637387-main-zoom.jpg?imwidth=315",
+      FR: "https://www.sephora.com/productimages/sku/s2746543-main-zoom.jpg?imwidth=315",
+      UK: "https://www.sephora.com/productimages/sku/s2746543-main-zoom.jpg?imwidth=315",
+      AU: "https://www.sephora.com/productimages/sku/s2746543-main-zoom.jpg?imwidth=315",
+      BR: "https://www.sephora.com/productimages/sku/s2746543-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      US: "https://www.sephora.com/product/saie-glowy-super-skin-lightweight-hydrobounce-serum-foundation-P504907",
+      CA: "https://www.sephora.com/ca/en/product/saie-glowy-super-skin-lightweight-hydrobounce-serum-foundation-P504907"
+    }),
+    alternatives: {
+      FR: "fentySoftLitLuminousFoundation",
+      UK: "fentySoftLitLuminousFoundation",
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  danessaMyricksYummySkinBlurringBalmPowder: productData({
+    category: "Foundation",
+    brand: "Danessa Myricks Beauty",
+    name: "Yummy Skin Blurring Balm Powder - Tinted Primer & Foundation",
+    type: "Blurring balm / powder foundation",
+    sizes: ["standard"],
+    image: "https://www.sephora.com/productimages/sku/s2836716-main-zoom.jpg?imwidth=315",
+    images: {
+      US: "https://www.sephora.com/productimages/sku/s2836716-main-zoom.jpg?imwidth=315",
+      CA: "https://www.sephora.com/productimages/sku/s2836716-main-zoom.jpg?imwidth=315",
+      FR: "https://www.sephora.com/productimages/sku/s2888873-main-zoom.jpg?imwidth=315",
+      UK: "https://www.sephora.com/productimages/sku/s2836716-main-zoom.jpg?imwidth=315",
+      AU: "https://www.sephora.com/productimages/sku/s2746543-main-zoom.jpg?imwidth=315",
+      BR: "https://www.sephora.com/productimages/sku/s2746543-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      US: "https://www.sephora.com/product/danessa-myricks-beauty-yummy-skin-blurring-balm-powder-P484039",
+      CA: "https://www.sephora.com/ca/en/product/danessa-myricks-beauty-yummy-skin-blurring-balm-powder-P484039",
+      UK: "https://www.sephora.co.uk/p/danessa-myricks-yummy-skin-blurring-balm-powder-tinted-primer-foundation-18g"
+    }),
+    alternatives: {
+      FR: "hudaEasyBlurFoundation",
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  meritMinimalistComplexionStick: productData({
+    category: "Foundation",
+    brand: "MERIT",
+    name: "The Minimalist Perfecting Complexion Foundation and Concealer Stick",
+    type: "Foundation and concealer stick",
+    sizes: ["standard"],
+    image: "https://www.sephora.com/productimages/sku/s2791861-main-zoom.jpg?imwidth=315",
+    images: {
+      US: "https://www.sephora.com/productimages/sku/s2791861-main-zoom.jpg?imwidth=315",
+      CA: "https://www.sephora.com/productimages/sku/s2791861-main-zoom.jpg?imwidth=315",
+      FR: "https://www.sephora.com/productimages/sku/s2597276-main-zoom.jpg?imwidth=315",
+      UK: "https://www.sephora.com/productimages/sku/s2746543-main-zoom.jpg?imwidth=315",
+      AU: "https://www.sephora.com/productimages/sku/s2597276-main-zoom.jpg?imwidth=315",
+      BR: "https://www.sephora.com/productimages/sku/s2746543-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      US: "https://www.sephora.com/product/merit-the-minimalist-perfecting-complexion-foundation-concealer-stick-P468694",
+      CA: "https://www.sephora.com/ca/en/product/merit-the-minimalist-perfecting-complexion-foundation-concealer-stick-P468694"
+    }),
+    alternatives: {
+      FR: "hausLabsTricloneFoundation",
+      UK: "fentySoftLitLuminousFoundation",
+      AU: "hausLabsTricloneFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  itCosmeticsCcCreamSpf50: productData({
+    category: "Foundation",
+    brand: "IT Cosmetics",
+    name: "CC+ Cream Full Coverage Color Correcting Foundation with SPF 50+",
+    type: "CC cream / full coverage foundation",
+    sizes: ["mini", "standard"],
+    image: "https://www.sephora.com/productimages/sku/s2840676-main-zoom.jpg?imwidth=315",
+    images: {
+      US: "https://www.sephora.com/productimages/sku/s2840676-main-zoom.jpg?imwidth=315",
+      CA: "https://www.sephora.com/productimages/sku/s2840676-main-zoom.jpg?imwidth=315",
+      FR: "https://www.sephora.com/productimages/sku/s2888873-main-zoom.jpg?imwidth=315",
+      UK: "https://www.sephora.com/productimages/sku/s2840676-main-zoom.jpg?imwidth=315",
+      AU: "https://www.sephora.com/productimages/sku/s2840676-main-zoom.jpg?imwidth=315",
+      BR: "https://www.sephora.com/productimages/sku/s2746543-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      US: "https://www.sephora.com/product/your-skin-but-better-cc-cream-spf-50-P411885",
+      CA: "https://www.sephora.com/ca/en/product/your-skin-but-better-cc-cream-spf-50-P411885",
+      UK: "https://www.sephora.co.uk/p/it-cosmetics-your-skin-but-better-cc-cream-with-spf-50",
+      AU: "https://www.sephora.com.au/products/it-cosmetics-your-skin-but-better-cc-plus-cream-spf-50"
+    }),
+    alternatives: {
+      FR: "hudaEasyBlurFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  yslAllHoursFoundation: productData({
+    category: "Foundation",
+    brand: "Yves Saint Laurent",
+    name: "All Hours Luminous Natural Matte Foundation 24H Longwear SPF 30 with Hyaluronic Acid",
+    type: "Luminous matte / 24h foundation",
+    sizes: ["standard"],
+    image: "https://www.sephora.com/productimages/sku/s2598118-main-zoom.jpg?imwidth=315",
+    images: {
+      US: "https://www.sephora.com/productimages/sku/s2598118-main-zoom.jpg?imwidth=315",
+      CA: "https://www.sephora.com/productimages/sku/s2598118-main-zoom.jpg?imwidth=315",
+      FR: "https://www.sephora.com/productimages/sku/s2598118-main-zoom.jpg?imwidth=315",
+      UK: "https://www.sephora.com/productimages/sku/s2598118-main-zoom.jpg?imwidth=315",
+      AU: "https://www.sephora.com/productimages/sku/s2746543-main-zoom.jpg?imwidth=315",
+      BR: "https://www.sephora.com/productimages/sku/s2746543-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      US: "https://www.sephora.com/product/all-hours-full-coverage-matte-foundation-P421456",
+      CA: "https://www.sephora.com/ca/en/product/yves-saint-laurent-all-hours-foundation-P503910",
+      FR: "https://www.sephora.fr/p/yves-saint-laurent-all-hours-fond-de-teint-P10034263.html",
+      UK: "https://www.sephora.co.uk/p/yves-saint-laurent-all-hours-foundation-24-hour-matte-foundation-with-high-coverage"
+    }),
+    alternatives: {
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
     }
   }),
 
