@@ -3,27 +3,66 @@
 // Important: links/images are filled only when a reliable official Sephora URL is available.
 // Empty country fields mean: not verified yet. Do not replace them with fake links.
 
-const DEFAULT_PRODUCT_IMAGE = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='600' viewBox='0 0 600 600'%3E%3Crect width='600' height='600' fill='%23f7f7f7'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-size='24' fill='%23999'%3EProduct image%3C/text%3E%3C/svg%3E";
+// =============================
+// PRODUCT CATALOG
+// =============================
+
+const DEFAULT_PRODUCT_IMAGE =
+  "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='500' viewBox='0 0 400 500'%3E%3Crect width='400' height='500' fill='%23f5f5f5'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-size='18' fill='%23999'%3ENo image%3C/text%3E%3C/svg%3E";
 
 function skuImage(sku) {
-  return sku ? `https://www.sephora.com/productimages/sku/${sku}-main-zoom.jpg?imwidth=315` : "";
+  return sku
+    ? `https://www.sephora.com/productimages/sku/${sku}-main-zoom.jpg?imwidth=315`
+    : "";
 }
 
-function productData({ category, brand, name, image = "", images = {}, links = {} }) {
-  const finalImage = image || images.US || images.CA || images.FR || images.UK || images.AU || images.BR || DEFAULT_PRODUCT_IMAGE;
+function countryLinks(links = {}) {
+  return {
+    US: "",
+    CA: "",
+    FR: "",
+    UK: "",
+    AU: "",
+    BR: "",
+    ...links
+  };
+}
+
+function productData({
+  category,
+  brand,
+  name,
+  type = "",
+  sizes = [],
+  image = "",
+  images = {},
+  links = {},
+  alternatives = {}
+}) {
+  const finalImage =
+    image ||
+    images.US ||
+    images.CA ||
+    images.FR ||
+    images.UK ||
+    images.AU ||
+    images.BR ||
+    DEFAULT_PRODUCT_IMAGE;
 
   return {
     category,
     brand,
     name,
+    type,
+    sizes,
     image: finalImage,
     images: {
       US: images.US || image || "",
-      CA: images.CA || "",
-      FR: images.FR || "",
-      UK: images.UK || "",
-      AU: images.AU || "",
-      BR: images.BR || ""
+      CA: images.CA || image || "",
+      FR: images.FR || image || "",
+      UK: images.UK || image || "",
+      AU: images.AU || image || "",
+      BR: images.BR || image || ""
     },
     links: {
       US: links.US || "",
@@ -32,11 +71,13 @@ function productData({ category, brand, name, image = "", images = {}, links = {
       UK: links.UK || "",
       AU: links.AU || "",
       BR: links.BR || ""
-    }
+    },
+    alternatives
   };
 }
 
 const PRODUCT_CATALOG = {
+  
   // -------------------------
   // PRIMERS / BASES
   // -------------------------
