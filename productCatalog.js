@@ -81,6 +81,25 @@ const PRODUCT_CATALOG = {
   // -------------------------
   // PRIMERS / BASES
   // -------------------------
+  milkHydroGripPrimer: productData({
+    category: "Primer",
+    brand: "MILK MAKEUP",
+    name: "Hydro Grip Hydrating Makeup Primer with Hyaluronic Acid + Niacinamide",
+    type: "Hydrating / gripping primer",
+    sizes: ["mini", "standard", "jumbo"],
+    image: "https://www.sephora.com/productimages/sku/s2169423-main-zoom.jpg?imwidth=315",
+    links: countryLinks({
+      US: "https://www.sephora.com/product/hydro-grip-primer-P441813",
+      CA: "https://www.sephora.com/ca/en/product/hydro-grip-primer-P441813",
+      FR: "https://www.sephora.fr/p/hydro-grip-primer---base-teint-hydratante-P3818087.html",
+      UK: "https://www.sephora.co.uk/p/milk-makeup-hydro-grip-primer-makeup-primer",
+      AU: "https://www.sephora.com.au/products/milk-makeup-hydro-grip-primer"
+    }),
+    alternatives: {
+      BR: "fentyGripTripHydratingPrimer"
+    }
+  }),
+  
   fentyGripTripHydratingPrimer: productData({
     category: "Primer",
     brand: "Fenty Beauty by Rihanna",
