@@ -960,6 +960,304 @@ const facePrimers = {
       BR: "fentySoftLitLuminousFoundation"
     }
   }),
+    
+  tarteFaceTapeFoundation: productData({
+    category: "Foundation",
+    brand: "tarte",
+    name: "Face Tape Foundation",
+    type: "Full coverage / natural matte foundation",
+    sizes: ["standard"],
+    image: "https://www.sephora.com/productimages/sku/s2924801-main-zoom.jpg?imwidth=315",
+    images: {
+      US: "https://www.sephora.com/productimages/sku/s2924801-main-zoom.jpg?imwidth=315",
+      CA: "https://www.sephora.com/productimages/sku/s2924801-main-zoom.jpg?imwidth=315",
+      FR: "https://www.sephora.com/productimages/sku/s2924801-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      US: "https://www.sephora.com/product/face-tape-foundation-P522249",
+      CA: "https://www.sephora.com/ca/en/product/face-tape-foundation-P522249",
+      FR: "https://www.sephora.fr/p/face-tape---fond-de-teint-longue-duree-P3959118.html"
+    }),
+    alternatives: {
+      UK: "hudaEasyBlurFoundation",
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  urbanDecayFaceBondFoundation: productData({
+    category: "Foundation",
+    brand: "Urban Decay",
+    name: "Face Bond Self Setting Waterproof Foundation",
+    type: "Waterproof / self-setting foundation",
+    sizes: ["standard"],
+    image: "https://www.sephora.com/productimages/sku/s2741692-main-zoom.jpg?imwidth=315",
+    images: {
+      US: "https://www.sephora.com/productimages/sku/s2741692-main-zoom.jpg?imwidth=315",
+      CA: "https://www.sephora.com/productimages/sku/s2741692-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      US: "https://www.sephora.com/product/urban-decay-face-bond-self-setting-waterproof-foundation-P509419",
+      CA: "https://www.sephora.com/ca/en/product/urban-decay-face-bond-self-setting-waterproof-foundation-P509419"
+    }),
+    alternatives: {
+      FR: "hudaEasyBlurFoundation",
+      UK: "fentySoftLitLuminousFoundation",
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  tooFacedBornThisWayUndetectableFoundation: productData({
+    category: "Foundation",
+    brand: "Too Faced",
+    name: "Born This Way Undetectable Medium-To-Full Coverage Foundation",
+    type: "Medium-to-full coverage / natural finish foundation",
+    sizes: ["standard"],
+    image: "https://www.sephora.com/productimages/sku/s2885648-main-zoom.jpg?imwidth=315",
+    images: {
+      US: "https://www.sephora.com/productimages/sku/s2885648-main-zoom.jpg?imwidth=315",
+      CA: "https://www.sephora.com/productimages/sku/s2885648-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      US: "https://www.sephora.com/product/too-faced-born-this-way-natural-finish-foundation-P517843",
+      CA: "https://www.sephora.com/ca/en/product/too-faced-born-this-way-natural-finish-foundation-P517843"
+    }),
+    alternatives: {
+      FR: "tarteFaceTapeFoundation",
+      UK: "charlotteTilburyAirbrushFlawlessFoundation",
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  bobbiBrownWeightlessSkinFoundation: productData({
+    category: "Foundation",
+    brand: "Bobbi Brown",
+    name: "Weightless Skin Oil-Controlling Foundation SPF 15 with Hyaluronic Acid",
+    type: "Oil-controlling / natural matte foundation",
+    sizes: ["mini", "standard"],
+    image: "https://www.sephora.com/productimages/sku/s2798858-main-zoom.jpg?imwidth=315",
+    images: {
+      US: "https://www.sephora.com/productimages/sku/s2798858-main-zoom.jpg?imwidth=315",
+      CA: "https://www.sephora.com/productimages/sku/s2798858-main-zoom.jpg?imwidth=315",
+      FR: "https://www.sephora.com/productimages/sku/s2798858-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      US: "https://www.sephora.com/product/weightless-skin-oil-controlling-foundation-spf-15-with-hyaluronic-acid-P512885",
+      CA: "https://www.sephora.com/ca/en/product/weightless-skin-oil-controlling-foundation-spf-15-with-hyaluronic-acid-P512885",
+      FR: "https://www.sephora.fr/p/weightless-skin-foundation---fond-de-teint-tenue-24-heures-sfp15-P1000203380.html"
+    }),
+    alternatives: {
+      UK: "charlotteTilburyAirbrushFlawlessFoundation",
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  charlotteTilburyAirbrushFlawlessFoundation: productData({
+    category: "Foundation",
+    brand: "Charlotte Tilbury",
+    name: "Airbrush Flawless Blurring & Matte Full Coverage Foundation",
+    type: "Full coverage / matte blurring foundation",
+    sizes: ["standard"],
+    image: "https://www.sephora.com/productimages/sku/s2891240-main-zoom.jpg?imwidth=315",
+    images: {
+      US: "https://www.sephora.com/productimages/sku/s2891240-main-zoom.jpg?imwidth=315",
+      CA: "https://www.sephora.com/productimages/sku/s2891240-main-zoom.jpg?imwidth=315",
+      FR: "https://www.sephora.com/productimages/sku/s2891240-main-zoom.jpg?imwidth=315",
+      UK: "https://www.sephora.com/productimages/sku/s2891240-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      US: "https://www.sephora.com/product/airbrush-flawless-blurring-matte-full-coverage-foundation-P516897",
+      CA: "https://www.sephora.com/ca/en/product/airbrush-flawless-blurring-matte-full-coverage-foundation-P516897",
+      FR: "https://www.sephora.fr/p/airbrush-flawless-foundation---fond-de-teint-P1000209495.html",
+      UK: "https://www.sephora.co.uk/p/charlotte-tilbury-airbrush-flawless-foundation-30ml"
+    }),
+    alternatives: {
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  cliniqueSuperbalancedFoundation: productData({
+    category: "Foundation",
+    brand: "CLINIQUE",
+    name: "Superbalanced Makeup Foundation",
+    type: "Natural finish / balancing foundation",
+    sizes: ["standard"],
+    image: "https://www.sephora.com/productimages/sku/s126441-main-zoom.jpg?imwidth=315",
+    images: {
+      CA: "https://www.sephora.com/productimages/sku/s126441-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      CA: "https://www.sephora.com/ca/en/product/superbalanced-makeup-P122740"
+    }),
+    alternatives: {
+      US: "cliniqueBeyondPerfectingFoundationConcealer",
+      FR: "bobbiBrownWeightlessSkinFoundation",
+      UK: "charlotteTilburyAirbrushFlawlessFoundation",
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  cliniqueBeyondPerfectingFoundationConcealer: productData({
+    category: "Foundation",
+    brand: "CLINIQUE",
+    name: "Beyond Perfecting Foundation + Concealer",
+    type: "Foundation and concealer / natural finish",
+    sizes: ["standard"],
+    image: "https://www.sephora.com/productimages/sku/s1674679-main-zoom.jpg?imwidth=315",
+    images: {
+      US: "https://www.sephora.com/productimages/sku/s1674679-main-zoom.jpg?imwidth=315",
+      CA: "https://www.sephora.com/productimages/sku/s1674679-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      US: "https://www.sephora.com/product/beyond-perfecting-foundation-concealer-P393325",
+      CA: "https://www.sephora.com/ca/en/product/beyond-perfecting-foundation-concealer-P393325"
+    }),
+    alternatives: {
+      FR: "bobbiBrownWeightlessSkinFoundation",
+      UK: "charlotteTilburyAirbrushFlawlessFoundation",
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  esteeLauderDoubleWearLightweightMatteFoundation: productData({
+    category: "Foundation",
+    brand: "Estée Lauder",
+    name: "Double Wear Stay-in-Place Lightweight Matte Foundation with 36H Wear",
+    type: "Lightweight matte / longwear foundation",
+    sizes: ["standard"],
+    image: "https://www.sephora.com/productimages/sku/s2937324-main-zoom.jpg?imwidth=315",
+    images: {
+      US: "https://www.sephora.com/productimages/sku/s2937324-main-zoom.jpg?imwidth=315",
+      CA: "https://www.sephora.com/productimages/sku/s2937324-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      US: "https://www.sephora.com/product/double-wear-stay-in-place-lightweight-matte-foundation-with-36-hour-wear-P520286",
+      CA: "https://www.sephora.com/ca/en/product/double-wear-stay-in-place-lightweight-matte-foundation-with-36-hour-wear-P520286"
+    }),
+    alternatives: {
+      FR: "bobbiBrownWeightlessSkinFoundation",
+      UK: "charlotteTilburyAirbrushFlawlessFoundation",
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  fashionFairSkinFlexStickFoundation: productData({
+    category: "Foundation",
+    brand: "Fashion Fair",
+    name: "SkinFlex Stick Foundation",
+    type: "Stick foundation / natural semi-matte finish",
+    sizes: ["standard"],
+    image: "https://www.sephora.com/productimages/sku/s2509198-main-zoom.jpg?imwidth=315",
+    images: {
+      US: "https://www.sephora.com/productimages/sku/s2509198-main-zoom.jpg?imwidth=315",
+      CA: "https://www.sephora.com/productimages/sku/s2509198-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      US: "https://www.sephora.com/product/fashion-fair-skinflex-stick-foundation-P476556",
+      CA: "https://www.sephora.com/ca/en/product/fashion-fair-skinflex-stick-foundation-P476556"
+    }),
+    alternatives: {
+      FR: "charlotteTilburyAirbrushFlawlessFoundation",
+      UK: "charlotteTilburyAirbrushFlawlessFoundation",
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  morpheLightformExtendedHydrationFoundation: productData({
+    category: "Foundation",
+    brand: "Morphe",
+    name: "Lightform Extended Hydration Foundation",
+    type: "Hydrating / medium coverage foundation",
+    sizes: ["standard"],
+    image: "https://www.sephora.com/productimages/sku/s2755353-main-zoom.jpg?imwidth=315",
+    images: {
+      CA: "https://www.sephora.com/productimages/sku/s2755353-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      CA: "https://www.sephora.com/ca/en/product/morphe-lightform-extended-hydration-foundation-P510145"
+    }),
+    alternatives: {
+      US: "fentySoftLitLuminousFoundation",
+      FR: "fentySoftLitLuminousFoundation",
+      UK: "fentySoftLitLuminousFoundation",
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  liseWatierTeintVeloursFoundation: productData({
+    category: "Foundation",
+    brand: "Lise Watier",
+    name: "Teint Velours Foundation",
+    type: "Velvet matte / oil-free foundation",
+    sizes: ["standard"],
+    image: "https://www.sephora.com/productimages/sku/s2133346-main-zoom.jpg?imwidth=315",
+    images: {
+      CA: "https://www.sephora.com/productimages/sku/s2133346-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      CA: "https://www.sephora.com/ca/en/product/velvet-matte-foundation-P435759"
+    }),
+    alternatives: {
+      US: "esteeLauderDoubleWearLightweightMatteFoundation",
+      FR: "bobbiBrownWeightlessSkinFoundation",
+      UK: "charlotteTilburyAirbrushFlawlessFoundation",
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  makeUpForEverHdSkinPerfectingFoundation: productData({
+    category: "Foundation",
+    brand: "MAKE UP FOR EVER",
+    name: "Balancing & Perfecting Natural Finish Longwear Foundation",
+    type: "Natural finish / longwear foundation",
+    sizes: ["standard"],
+    image: "https://www.sephora.com/productimages/sku/s2963460-main-zoom.jpg?imwidth=315",
+    images: {
+      CA: "https://www.sephora.com/productimages/sku/s2963460-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      CA: "https://www.sephora.com/ca/en/product/hd-skin-perfecting-foundation-P522269"
+    }),
+    alternatives: {
+      US: "makeUpForEverHdSkinFoundation",
+      FR: "makeUpForEverHdSkinFoundation",
+      UK: "makeUpForEverHdSkinFoundation",
+      AU: "makeUpForEverHdSkinFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  tarteAmazonianClayFoundationMini: productData({
+    category: "Foundation",
+    brand: "tarte",
+    name: "Mini Amazonian Clay 16-Hour Full Coverage Soft Matte Foundation",
+    type: "Mini / full coverage soft matte foundation",
+    sizes: ["mini"],
+    image: "https://www.sephora.com/productimages/sku/s2476174-main-zoom.jpg?imwidth=315",
+    images: {
+      US: "https://www.sephora.com/productimages/sku/s2476174-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      US: "https://www.sephora.com/product/tarte-mini-amazonian-clay-16-hour-full-coverage-foundation-P473843"
+    }),
+    alternatives: {
+      CA: "tarteFaceTapeFoundation",
+      FR: "tarteFaceTapeFoundation",
+      UK: "hudaEasyBlurFoundation",
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
 
   // -------------------------
   // BRUSHES / TOOLS
