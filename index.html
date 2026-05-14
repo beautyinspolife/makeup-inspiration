@@ -768,7 +768,7 @@ function getProductLink(product) {
     
     window.addEventListener("hashchange", render);
 
-detectUserMarket().then(market => {
+detectUserMarket().then((market) => {
   USER_MARKET = market;
   render();
 });
