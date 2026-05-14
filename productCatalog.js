@@ -1258,6 +1258,356 @@ const facePrimers = {
       BR: "fentySoftLitLuminousFoundation"
     }
   }),
+    
+  macStudioFixFluidFoundation: productData({
+    category: "Foundation",
+    brand: "MAC Cosmetics",
+    name: "Studio Fix Fluid SPF 15 24HR Buildable Soft-Matte Foundation",
+    type: "Soft matte / buildable liquid foundation",
+    sizes: ["standard"],
+    image: "https://www.sephora.com/productimages/sku/s2651255-main-zoom.jpg?imwidth=315",
+    images: {
+      US: "https://www.sephora.com/productimages/sku/s2651255-main-zoom.jpg?imwidth=315",
+      CA: "https://www.sephora.com/productimages/sku/s2651255-main-zoom.jpg?imwidth=315",
+      FR: "https://www.sephora.com/productimages/sku/s2651255-main-zoom.jpg?imwidth=315",
+      UK: "https://www.sephora.com/productimages/sku/s2651255-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      US: "https://www.sephora.com/product/mac-cosmetics-studio-fix-fluid-spf-15-P511153",
+      CA: "https://www.sephora.com/ca/en/product/mac-cosmetics-studio-fix-fluid-spf-15-P511153",
+      FR: "https://www.sephora.fr/p/studio-fix-fluid-spf15---fond-de-teint-P10058079.html",
+      UK: "https://www.sephora.co.uk/p/m-a-c-studio-fix-fluid-spf-15-foundation"
+    }),
+    alternatives: {
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  patMcGrathSublimePerfectionFoundation: productData({
+    category: "Foundation",
+    brand: "PAT McGRATH LABS",
+    name: "Skin Fetish: Sublime Perfection Weightless Foundation",
+    type: "Weightless / buildable foundation",
+    sizes: ["standard"],
+    image: "https://www.sephora.com/productimages/sku/s2256899-main-zoom.jpg?imwidth=315",
+    images: {
+      US: "https://www.sephora.com/productimages/sku/s2256899-main-zoom.jpg?imwidth=315",
+      CA: "https://www.sephora.com/productimages/sku/s2256899-main-zoom.jpg?imwidth=315",
+      FR: "https://www.sephora.com/productimages/sku/s2256899-main-zoom.jpg?imwidth=315",
+      UK: "https://www.sephora.com/productimages/sku/s2256899-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      US: "https://www.sephora.com/product/skin-fetish-sublime-perfection-foundation-P447519",
+      CA: "https://www.sephora.com/ca/en/product/skin-fetish-sublime-perfection-foundation-P447519",
+      FR: "https://www.sephora.fr/p/skin-fetish-sublime-perfection---fond-de-teint-P3865106.html",
+      UK: "https://www.sephora.co.uk/p/pat-mcgrath-labs-skin-fetish-sublime-perfection-foundation"
+    }),
+    alternatives: {
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  tomFordArchitectureSoftMatteFoundation: productData({
+    category: "Foundation",
+    brand: "TOM FORD",
+    name: "Architecture Soft Matte Blurring Foundation",
+    type: "Soft matte / blurring foundation",
+    sizes: ["standard"],
+    image: "https://www.sephora.com/productimages/sku/s2972057-main-zoom.jpg?imwidth=315",
+    images: {
+      CA: "https://www.sephora.com/productimages/sku/s2972057-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      CA: "https://www.sephora.com/ca/en/product/tom-ford-architecture-soft-matte-blurring-foundation-P521686"
+    }),
+    alternatives: {
+      US: "charlotteTilburyAirbrushFlawlessFoundation",
+      FR: "charlotteTilburyAirbrushFlawlessFoundation",
+      UK: "charlotteTilburyAirbrushFlawlessFoundation",
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  fentyProFiltrSoftMattePowderFoundation: productData({
+    category: "Foundation",
+    brand: "Fenty Beauty by Rihanna",
+    name: "Pro Filt’r Soft Matte Powder Foundation",
+    type: "Powder foundation / soft matte finish",
+    sizes: ["standard"],
+    image: "https://www.sephora.com/productimages/sku/s2413680-main-zoom.jpg?imwidth=315",
+    images: {
+      US: "https://www.sephora.com/productimages/sku/s2413680-main-zoom.jpg?imwidth=315",
+      CA: "https://www.sephora.com/productimages/sku/s2413680-main-zoom.jpg?imwidth=315",
+      FR: "https://www.sephora.com/productimages/sku/s2413680-main-zoom.jpg?imwidth=315",
+      UK: "https://www.sephora.com/productimages/sku/s2413680-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      US: "https://www.sephora.com/product/fenty-beauty-rihanna-pro-filt-r-soft-matte-powder-foundation-P466829",
+      CA: "https://www.sephora.com/ca/en/product/fenty-beauty-rihanna-pro-filt-r-soft-matte-powder-foundation-P466829",
+      FR: "https://www.sephora.fr/p/pro-filt-r---fond-de-teint-poudre-mat-P10013140.html",
+      UK: "https://www.sephora.co.uk/p/fenty-beauty-pro-filt-r-soft-matte-powder-foundation"
+    }),
+    alternatives: {
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  itCosmeticsCcAirbrushPerfectingPowder: productData({
+    category: "Foundation",
+    brand: "IT Cosmetics",
+    name: "CC+ Airbrush Perfecting Powder Foundation",
+    type: "Powder foundation / airbrush finish",
+    sizes: ["standard"],
+    image: "https://www.sephora.com/productimages/sku/s2413680-main-zoom.jpg?imwidth=315",
+    images: {
+      US: "https://www.sephora.com/productimages/sku/s2413680-main-zoom.jpg?imwidth=315",
+      CA: "https://www.sephora.com/productimages/sku/s2413680-main-zoom.jpg?imwidth=315",
+      FR: "https://www.sephora.com/productimages/sku/s2413680-main-zoom.jpg?imwidth=315",
+      UK: "https://www.sephora.com/productimages/sku/s2413680-main-zoom.jpg?imwidth=315",
+      AU: "https://www.sephora.com/productimages/sku/s2746543-main-zoom.jpg?imwidth=315",
+      BR: "https://www.sephora.com/productimages/sku/s2746543-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({}),
+    alternatives: {
+      US: "fentyProFiltrSoftMattePowderFoundation",
+      CA: "fentyProFiltrSoftMattePowderFoundation",
+      FR: "fentyProFiltrSoftMattePowderFoundation",
+      UK: "fentyProFiltrSoftMattePowderFoundation",
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  chantecailleFutureSkinFoundation: productData({
+    category: "Foundation",
+    brand: "CHANTECAILLE",
+    name: "Future Skin Lightweight Natural Finish Foundation",
+    type: "Lightweight gel foundation / natural finish",
+    sizes: ["standard"],
+    image: "https://www.sephora.com/productimages/sku/s2964393-main-zoom.jpg?imwidth=315",
+    images: {
+      CA: "https://www.sephora.com/productimages/sku/s2964393-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      CA: "https://www.sephora.com/ca/en/product/future-skin-lightweight-natural-finish-foundation-P521947"
+    }),
+    alternatives: {
+      US: "hourglassVeilHydratingSkinTint",
+      FR: "hourglassVeilHydratingSkinTint",
+      UK: "fentySoftLitLuminousFoundation",
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  iliaSkinRewindComplexionStick: productData({
+    category: "Foundation",
+    brand: "ILIA",
+    name: "Skin Rewind Blurring Foundation and Concealer Complexion Stick",
+    type: "Foundation and concealer stick",
+    sizes: ["standard"],
+    image: "https://www.sephora.com/productimages/sku/s2739803-main-zoom.jpg?imwidth=315",
+    images: {
+      US: "https://www.sephora.com/productimages/sku/s2739803-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      US: "https://www.sephora.com/product/ilia-skin-rewind-complexion-stick-P509720"
+    }),
+    alternatives: {
+      CA: "lysBeautyTripleFixFoundationStick",
+      FR: "charlotteTilburyUnrealSkinStick",
+      UK: "fentySoftLitLuminousFoundation",
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  fashionFairCremeToPowderFoundation: productData({
+    category: "Foundation",
+    brand: "Fashion Fair",
+    name: "Crème to Powder Skin Foundation",
+    type: "Cream-to-powder foundation",
+    sizes: ["standard"],
+    image: "https://www.sephora.com/productimages/sku/s2509230-main-zoom.jpg?imwidth=315",
+    images: {
+      US: "https://www.sephora.com/productimages/sku/s2509230-main-zoom.jpg?imwidth=315",
+      CA: "https://www.sephora.com/productimages/sku/s2509230-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      US: "https://www.sephora.com/product/fashion-fair-creme-to-powder-skin-foundation-P476444",
+      CA: "https://www.sephora.com/ca/en/product/fashion-fair-creme-to-powder-skin-foundation-P476444"
+    }),
+    alternatives: {
+      FR: "fentyProFiltrSoftMattePowderFoundation",
+      UK: "fentyProFiltrSoftMattePowderFoundation",
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  lysBeautyTripleFixFoundationStick: productData({
+    category: "Foundation",
+    brand: "LYS Beauty",
+    name: "Triple Fix Blurring and Hydrating Skin Tint Foundation Stick",
+    type: "Hydrating / blurring foundation stick",
+    sizes: ["standard"],
+    image: "https://www.sephora.com/productimages/sku/s2823011-main-zoom.jpg?imwidth=315",
+    images: {
+      US: "https://www.sephora.com/productimages/sku/s2823011-main-zoom.jpg?imwidth=315",
+      CA: "https://www.sephora.com/productimages/sku/s2823011-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      US: "https://www.sephora.com/product/lys-beauty-triple-fix-blurring-hydrating-skin-tint-foundation-stick-P513483",
+      CA: "https://www.sephora.com/ca/en/product/lys-beauty-triple-fix-blurring-hydrating-skin-tint-foundation-stick-P513483"
+    }),
+    alternatives: {
+      FR: "charlotteTilburyUnrealSkinStick",
+      UK: "fentySoftLitLuminousFoundation",
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  macStudioFixPowderFoundation: productData({
+    category: "Foundation",
+    brand: "MAC Cosmetics",
+    name: "Studio Fix Powder Plus Foundation with 24HR Oil Control + Blur-Matte Finish",
+    type: "Powder foundation / matte finish",
+    sizes: ["standard"],
+    image: "https://www.sephora.com/productimages/sku/s2892636-main-zoom.jpg?imwidth=315",
+    images: {
+      US: "https://www.sephora.com/productimages/sku/s2892636-main-zoom.jpg?imwidth=315",
+      FR: "https://www.sephora.com/productimages/sku/s2892636-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      US: "https://www.sephora.com/product/studio-fix-powder-plus-foundation-24hr-oil-control-blur-matte-finish-12hr-buildable-coverage-P516457",
+      FR: "https://www.sephora.fr/p/studio-fix-powder-plus-foundation---fond-de-teint-poudre-P1000206951.html"
+    }),
+    alternatives: {
+      CA: "fentyProFiltrSoftMattePowderFoundation",
+      UK: "fentyProFiltrSoftMattePowderFoundation",
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  makeUpForEverHdSkinHydraGlowFoundation: productData({
+    category: "Foundation",
+    brand: "MAKE UP FOR EVER",
+    name: "HD Skin Hydra Glow Hydrating Foundation with Hyaluronic Acid",
+    type: "Hydrating / luminous foundation",
+    sizes: ["mini", "standard"],
+    image: "https://www.sephora.com/productimages/sku/s2738474-main-zoom.jpg?imwidth=315",
+    images: {
+      US: "https://www.sephora.com/productimages/sku/s2738474-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      US: "https://www.sephora.com/product/make-up-for-ever-hd-skin-hydra-glow-skincare-foundation-with-hyaluronic-acid-P510064"
+    }),
+    alternatives: {
+      CA: "makeUpForEverHdSkinFoundation",
+      FR: "makeUpForEverHdSkinFoundation",
+      UK: "makeUpForEverHdSkinFoundation",
+      AU: "makeUpForEverHdSkinFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  givenchyPrismeLibreGlowSerumFoundation: productData({
+    category: "Foundation",
+    brand: "Givenchy",
+    name: "Prisme Libre Glow Serum Blurring Foundation with Natural Finish",
+    type: "Glow serum foundation / natural finish",
+    sizes: ["standard"],
+    image: "https://www.sephora.com/productimages/sku/s2849628-main-zoom.jpg?imwidth=315",
+    images: {
+      US: "https://www.sephora.com/productimages/sku/s2849628-main-zoom.jpg?imwidth=315",
+      FR: "https://www.sephora.com/productimages/sku/s2849628-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      US: "https://www.sephora.com/product/givenchy-prisme-libre-glow-serum-blurring-foundation-with-natural-finish-P514905",
+      FR: "https://www.sephora.fr/p/prisme-libre-glow-serum---fond-de-teint-soin-perfecteur-P1000205463.html"
+    }),
+    alternatives: {
+      CA: "fentySoftLitLuminousFoundation",
+      UK: "fentySoftLitLuminousFoundation",
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  gucciEterniteDeBeauteFoundation: productData({
+    category: "Foundation",
+    brand: "Gucci",
+    name: "24 Hour Full Coverage Luminous Matte Finish Foundation",
+    type: "Full coverage / luminous matte foundation",
+    sizes: ["standard"],
+    image: "https://www.sephora.com/productimages/sku/s2405355-main-zoom.jpg?imwidth=315",
+    images: {
+      US: "https://www.sephora.com/productimages/sku/s2405355-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      US: "https://www.sephora.com/product/gucci-fluide-de-beaute-fini-naturel-natural-finish-fluid-foundation-P467622"
+    }),
+    alternatives: {
+      CA: "charlotteTilburyAirbrushFlawlessFoundation",
+      FR: "charlotteTilburyAirbrushFlawlessFoundation",
+      UK: "charlotteTilburyAirbrushFlawlessFoundation",
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  cliniqueEvenBetterClinicalSerumFoundation: productData({
+    category: "Foundation",
+    brand: "CLINIQUE",
+    name: "Even Better Clinical Serum Foundation Broad Spectrum SPF 25",
+    type: "Serum foundation / SPF 25",
+    sizes: ["standard"],
+    image: "https://www.sephora.com/productimages/sku/s2422822-main-zoom.jpg?imwidth=315",
+    images: {
+      US: "https://www.sephora.com/productimages/sku/s2422822-main-zoom.jpg?imwidth=315",
+      CA: "https://www.sephora.com/productimages/sku/s2422822-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      US: "https://www.sephora.com/product/clinique-even-better-clinical-serum-foundation-broad-spectrum-spf-25-P468639",
+      CA: "https://www.sephora.com/ca/en/product/clinique-even-better-clinical-serum-foundation-broad-spectrum-spf-25-P468639"
+    }),
+    alternatives: {
+      FR: "cliniqueEvenBetterFoundationSpf15",
+      UK: "charlotteTilburyAirbrushFlawlessFoundation",
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  lauraMercierRealFlawlessFoundation: productData({
+    category: "Foundation",
+    brand: "Laura Mercier",
+    name: "Real Flawless Weightless Perfecting Waterproof Foundation",
+    type: "Weightless / waterproof foundation",
+    sizes: ["standard"],
+    image: "https://www.sephora.com/productimages/sku/s2642759-main-zoom.jpg?imwidth=315",
+    images: {
+      US: "https://www.sephora.com/productimages/sku/s2642759-main-zoom.jpg?imwidth=315",
+      FR: "https://www.sephora.com/productimages/sku/s2642759-main-zoom.jpg?imwidth=315",
+      UK: "https://www.sephora.com/productimages/sku/s2642759-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      US: "https://www.sephora.com/product/laura-mercier-real-flawless-weightless-perfecting-foundation-P504012",
+      FR: "https://www.sephora.fr/p/real-flawless-foundation---fond-de-teint-P10049151.html",
+      UK: "https://www.sephora.co.uk/p/laura-mercier-real-flawless-foundation-30ml"
+    }),
+    alternatives: {
+      CA: "fentySoftLitLuminousFoundation",
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
 
   // -------------------------
   // BRUSHES / TOOLS
