@@ -654,6 +654,312 @@ const facePrimers = {
       BR: "fentySoftLitLuminousFoundation"
     }
   }),
+  natashaDenonaHyGlamFoundation: productData({
+    category: "Foundation",
+    brand: "NATASHA DENONA",
+    name: "Hy-Glam Foundation Hydrating & Blurring Luminous Longwear Serum Foundation",
+    type: "Hydrating / blurring luminous serum foundation",
+    sizes: ["standard"],
+    image: "https://www.sephora.com/productimages/sku/s2890325-main-zoom.jpg?imwidth=315",
+    images: {
+      US: "https://www.sephora.com/productimages/sku/s2890325-main-zoom.jpg?imwidth=315",
+      CA: "https://www.sephora.com/productimages/sku/s2890325-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      US: "https://www.sephora.com/product/natasha-denona-hy-glam-foundation-hydrating-blurring-luminous-longwear-serum-foundation-P517849",
+      CA: "https://www.sephora.com/ca/en/product/natasha-denona-hy-glam-foundation-hydrating-blurring-luminous-longwear-serum-foundation-P517849"
+    }),
+    alternatives: {
+      FR: "fentySoftLitLuminousFoundation",
+      UK: "fentySoftLitLuminousFoundation",
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  hourglassVeilHydratingSkinTint: productData({
+    category: "Foundation",
+    brand: "Hourglass",
+    name: "Veil™ Hydrating Skin Tint Foundation",
+    type: "Hydrating skin tint / sheer foundation",
+    sizes: ["standard"],
+    image: "https://www.sephora.com/productimages/sku/s2690857-main-zoom.jpg?imwidth=315",
+    images: {
+      US: "https://www.sephora.com/productimages/sku/s2690857-main-zoom.jpg?imwidth=315",
+      CA: "https://www.sephora.com/productimages/sku/s2690915-main-zoom.jpg?imwidth=315",
+      FR: "https://www.sephora.com/productimages/sku/s2690857-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      US: "https://www.sephora.com/product/veil-hydrating-skin-tint-P506573",
+      CA: "https://www.sephora.com/ca/en/product/veil-hydrating-skin-tint-P506573",
+      FR: "https://www.sephora.fr/p/veil-hydrating-skin-tint---fond-de-teint-P10051185.html"
+    }),
+    alternatives: {
+      UK: "fentySoftLitLuminousFoundation",
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  narsLightReflectingFoundation: productData({
+    category: "Foundation",
+    brand: "NARS",
+    name: "Light Reflecting Skin Improving Medium Coverage Foundation with Cacao Peptides",
+    type: "Medium coverage / natural luminous foundation",
+    sizes: ["standard"],
+    image: "https://www.sephora.com/productimages/sku/s2514586-main-zoom.jpg?imwidth=315",
+    images: {
+      US: "https://www.sephora.com/productimages/sku/s2514586-main-zoom.jpg?imwidth=315",
+      CA: "https://www.sephora.com/productimages/sku/s2514586-main-zoom.jpg?imwidth=315",
+      FR: "https://www.sephora.com/productimages/sku/s2514586-main-zoom.jpg?imwidth=315",
+      UK: "https://www.sephora.com/productimages/sku/s2514586-main-zoom.jpg?imwidth=315",
+      BR: "https://www.sephora.com/productimages/sku/s2514586-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      US: "https://www.sephora.com/product/nars-light-reflecting-advance-skincare-foundation-P479338",
+      CA: "https://www.sephora.com/ca/en/product/nars-light-reflecting-advance-skincare-foundation-P479338",
+      FR: "https://www.sephora.fr/p/light-reflecting-foundation-P10024551.html",
+      UK: "https://www.sephora.co.uk/p/nars-light-reflecting-foundation",
+      BR: "https://www.sephora.com.br/Base-Nars-Light-Reflecting-9090586473-9090586473.html"
+    }),
+    alternatives: {
+      AU: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  makeUpForEverHdSkinFoundation: productData({
+    category: "Foundation",
+    brand: "MAKE UP FOR EVER",
+    name: "HD Skin Long-Lasting Waterproof Natural Matte Foundation",
+    type: "Natural matte / waterproof foundation",
+    sizes: ["standard"],
+    image: "https://www.sephora.com/productimages/sku/s2514214-main-zoom.jpg?imwidth=315",
+    images: {
+      US: "https://www.sephora.com/productimages/sku/s2514214-main-zoom.jpg?imwidth=315",
+      CA: "https://www.sephora.com/productimages/sku/s2514214-main-zoom.jpg?imwidth=315",
+      FR: "https://www.sephora.com/productimages/sku/s2514214-main-zoom.jpg?imwidth=315",
+      UK: "https://www.sephora.com/productimages/sku/s2514214-main-zoom.jpg?imwidth=315",
+      AU: "https://www.sephora.com/productimages/sku/s2514214-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      US: "https://www.sephora.com/product/make-up-for-ever-hd-skin-foundation-P479712",
+      CA: "https://www.sephora.com/ca/en/product/make-up-for-ever-hd-skin-foundation-P479712",
+      FR: "https://www.sephora.fr/p/hd-skin-foundation-22-30ml-P10023453.html",
+      UK: "https://www.sephora.co.uk/p/make-up-for-ever-hd-skin-undetectable-stay-true-foundation",
+      AU: "https://www.sephora.com.au/products/make-up-for-ever-hd-skin-foundation"
+    }),
+    alternatives: {
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  fentyProFiltrSoftMatteFoundation: productData({
+    category: "Foundation",
+    brand: "Fenty Beauty by Rihanna",
+    name: "Pro Filt’r Soft Matte Longwear Liquid Foundation",
+    type: "Soft matte / longwear foundation",
+    sizes: ["mini", "standard"],
+    image: "https://www.sephora.com/productimages/sku/s1925395-main-zoom.jpg?imwidth=315",
+    images: {
+      US: "https://www.sephora.com/productimages/sku/s1925395-main-zoom.jpg?imwidth=315",
+      CA: "https://www.sephora.com/productimages/sku/s1925395-main-zoom.jpg?imwidth=315",
+      FR: "https://www.sephora.com/productimages/sku/s1925395-main-zoom.jpg?imwidth=315",
+      UK: "https://www.sephora.com/productimages/sku/s1925395-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      US: "https://www.sephora.com/product/pro-filtr-soft-matte-longwear-foundation-P87985432",
+      CA: "https://www.sephora.com/ca/en/product/pro-filtr-soft-matte-longwear-foundation-P87985432",
+      FR: "https://www.sephora.fr/p/pro-filt-r-soft-matte-longwear-foundation---fond-de-teint-longue-tenue-P3079040.html",
+      UK: "https://www.sephora.co.uk/p/fenty-beauty-pro-filt-r-soft-matte-longwear-foundation"
+    }),
+    alternatives: {
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  fentyProFiltrHydratingFoundation: productData({
+    category: "Foundation",
+    brand: "Fenty Beauty by Rihanna",
+    name: "Pro Filt’r Hydrating Longwear Foundation",
+    type: "Hydrating / longwear foundation",
+    sizes: ["standard"],
+    image: "https://www.sephora.com/productimages/sku/s2157683-main-zoom.jpg?imwidth=315",
+    images: {
+      US: "https://www.sephora.com/productimages/sku/s2157683-main-zoom.jpg?imwidth=315",
+      FR: "https://www.sephora.com/productimages/sku/s2157683-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      US: "https://www.sephora.com/product/pro-filt-r-hydrating-longwear-foundation-P448702",
+      FR: "https://www.sephora.fr/p/pro-filt-r-hydrating-longwear-foundation---fond-de-teint-hydratant-P3809035.html"
+    }),
+    alternatives: {
+      CA: "fentySoftLitLuminousFoundation",
+      UK: "fentySoftLitLuminousFoundation",
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  oneSizeFullBeatLiquidFoundation: productData({
+    category: "Foundation",
+    brand: "ONE/SIZE by Patrick Starrr",
+    name: "Turn Up the Base Full Beat Waterproof Liquid Foundation",
+    type: "Waterproof / matte liquid foundation",
+    sizes: ["standard"],
+    image: "https://www.sephora.com/productimages/sku/s2801199-main-zoom.jpg?imwidth=315",
+    images: {
+      US: "https://www.sephora.com/productimages/sku/s2801199-main-zoom.jpg?imwidth=315",
+      CA: "https://www.sephora.com/productimages/sku/s2801199-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      US: "https://www.sephora.com/product/one-size-by-patrick-starrr-turn-up-base-full-beat-liquid-foundation-P513724",
+      CA: "https://www.sephora.com/ca/en/product/one-size-by-patrick-starrr-turn-up-base-full-beat-liquid-foundation-P513724"
+    }),
+    alternatives: {
+      FR: "hudaEasyBlurFoundation",
+      UK: "fentySoftLitLuminousFoundation",
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  rareBeautyTrueToMyselfFoundation: productData({
+    category: "Foundation",
+    brand: "Rare Beauty by Selena Gomez",
+    name: "True to Myself Natural Matte Longwear Foundation",
+    type: "Natural matte / longwear foundation",
+    sizes: ["standard"],
+    image: "https://www.sephora.com/productimages/sku/s2959849-main-zoom.jpg?imwidth=315",
+    images: {
+      US: "https://www.sephora.com/productimages/sku/s2959849-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      US: "https://www.sephora.com/product/true-to-myself-natural-matte-longwear-foundation-P521996"
+    }),
+    alternatives: {
+      CA: "fentySoftLitLuminousFoundation",
+      FR: "fentySoftLitLuminousFoundation",
+      UK: "fentySoftLitLuminousFoundation",
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  itCosmeticsCcNaturalMatteSpf40: productData({
+    category: "Foundation",
+    brand: "IT Cosmetics",
+    name: "CC+ Cream Natural Matte Foundation with SPF 40",
+    type: "Natural matte CC cream / SPF 40",
+    sizes: ["standard"],
+    image: "https://www.sephora.com/productimages/sku/s2840676-main-zoom.jpg?imwidth=315",
+    images: {
+      US: "https://www.sephora.com/productimages/sku/s2840676-main-zoom.jpg?imwidth=315",
+      CA: "https://www.sephora.com/productimages/sku/s2840676-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      US: "https://www.sephora.com/product/it-cosmetics-cc-cream-natural-matte-foundation-with-spf-40-P510447",
+      CA: "https://www.sephora.com/ca/en/product/it-cosmetics-cc-cream-natural-matte-foundation-with-spf-40-P510447"
+    }),
+    alternatives: {
+      FR: "hudaEasyBlurFoundation",
+      UK: "fentySoftLitLuminousFoundation",
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  charlotteTilburyUnrealSkinStick: productData({
+    category: "Foundation",
+    brand: "Charlotte Tilbury",
+    name: "Unreal Skin Sheer Glow Tint Hydrating Foundation Stick",
+    type: "Hydrating glow foundation stick",
+    sizes: ["standard"],
+    image: "https://www.sephora.com/productimages/sku/s2765824-main-zoom.jpg?imwidth=315",
+    images: {
+      US: "https://www.sephora.com/productimages/sku/s2765824-main-zoom.jpg?imwidth=315",
+      FR: "https://www.sephora.com/productimages/sku/s2765824-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      US: "https://www.sephora.com/product/charlotte-tilbury-unreal-skin-sheer-glow-tint-hydrating-foundation-stick-P511699",
+      FR: "https://www.sephora.fr/p/unreal-skin-sheer-glow-tint---stick-fond-de-teint-hydratant-P10059185.html"
+    }),
+    alternatives: {
+      CA: "fentySoftLitLuminousFoundation",
+      UK: "fentySoftLitLuminousFoundation",
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  narsNaturalMatteLongwearFoundation: productData({
+    category: "Foundation",
+    brand: "NARS",
+    name: "Natural Matte Longwear Pore Blurring Medium-to-Full Coverage Foundation",
+    type: "Matte / pore-blurring foundation",
+    sizes: ["standard"],
+    image: "https://www.sephora.com/productimages/sku/s2893311-main-zoom.jpg?imwidth=315",
+    images: {
+      US: "https://www.sephora.com/productimages/sku/s2893311-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      US: "https://www.sephora.com/product/natural-matte-longwear-foundation-P520608"
+    }),
+    alternatives: {
+      CA: "narsLightReflectingFoundation",
+      FR: "hudaEasyBlurFoundation",
+      UK: "narsLightReflectingFoundation",
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "narsLightReflectingFoundation"
+    }
+  }),
+
+  narsNaturalRadiantLongwearFoundation: productData({
+    category: "Foundation",
+    brand: "NARS",
+    name: "Natural Radiant Longwear Full Coverage Foundation",
+    type: "Radiant / longwear foundation",
+    sizes: ["standard"],
+    image: "https://www.sephora.com/productimages/sku/s2031086-main-zoom.jpg?imwidth=315",
+    images: {
+      US: "https://www.sephora.com/productimages/sku/s2031086-main-zoom.jpg?imwidth=315",
+      CA: "https://www.sephora.com/productimages/sku/s2031086-main-zoom.jpg?imwidth=315",
+      UK: "https://www.sephora.com/productimages/sku/s2031086-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      US: "https://www.sephora.com/product/natural-radiant-longwear-foundation-P427301",
+      CA: "https://www.sephora.com/ca/en/product/natural-radiant-longwear-foundation-P427301",
+      UK: "https://www.sephora.co.uk/p/nars-natural-radiant-longwear-foundation"
+    }),
+    alternatives: {
+      FR: "narsLightReflectingFoundation",
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "narsLightReflectingFoundation"
+    }
+  }),
+
+  iliaSuperSerumSkinTintSpf40: productData({
+    category: "Foundation",
+    brand: "ILIA",
+    name: "Super Serum Skin Tint SPF 40 - Hydrating Foundation",
+    type: "Skin tint / serum foundation / SPF",
+    sizes: ["standard"],
+    image: "https://www.sephora.com/productimages/sku/s2333607-main-zoom.jpg?imwidth=315",
+    images: {
+      US: "https://www.sephora.com/productimages/sku/s2333607-main-zoom.jpg?imwidth=315",
+      FR: "https://www.sephora.com/productimages/sku/s2333607-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      US: "https://www.sephora.com/product/ilia-super-serum-skin-tint-spf-40-P455418",
+      FR: "https://www.sephora.fr/p/super-serum-skin-tint-spf-30---creme-serum-teintee-P4136096.html"
+    }),
+    alternatives: {
+      CA: "fentySoftLitLuminousFoundation",
+      UK: "fentySoftLitLuminousFoundation",
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
 
   // -------------------------
   // BRUSHES / TOOLS
