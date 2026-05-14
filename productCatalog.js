@@ -40,77 +40,243 @@ const PRODUCT_CATALOG = {
   // -------------------------
   // PRIMERS / BASES
   // -------------------------
-  milkHydroGripPrimer: productData({
+  const countryLinks = (links = {}) => ({
+  US: "",
+  CA: "",
+  FR: "",
+  UK: "",
+  AU: "",
+  BR: "",
+  ...links
+});
+
+const facePrimers = {
+  fentyGripTripHydratingPrimer: productData({
     category: "Primer",
-    brand: "MILK MAKEUP",
-    name: "Hydro Grip Hydrating Makeup Primer with Hyaluronic Acid + Niacinamide",
-    image: skuImage("s2850402"),
-    links: {
-      US: "https://www.sephora.com/product/hydro-grip-primer-P441813",
-      CA: "https://www.sephora.com/ca/en/product/hydro-grip-primer-P441813"
+    brand: "Fenty Beauty by Rihanna",
+    name: "Grip Trip Hydrating Primer",
+    type: "Hydrating / gripping primer",
+    sizes: ["mini", "standard"],
+    image: "https://www.sephora.com/productimages/sku/s2865285-main-zoom.jpg?imwidth=315",
+    links: countryLinks({
+      US: "https://www.sephora.com/product/fenty-beauty-rihanna-grip-trip-hydrating-primer-P517850",
+      CA: "https://www.sephora.com/ca/en/product/fenty-beauty-rihanna-grip-trip-hydrating-primer-P517850",
+      FR: "https://www.sephora.fr/p/grip-trip---base-de-teint-hydratante-et-repulpante-P10062743.html",
+      AU: "https://www.sephora.com.au/products/fenty-beauty-grip-trip-hydrating-primer",
+      BR: "https://www.sephora.com.br/primer-fenty-beauty-grip-trip-hydrating-88994299-88994299.html"
+    }),
+    alternatives: {
+      UK: "bobbiBrownVitaminEnrichedFaceBase"
     }
   }),
 
-  hourglassVeilPrimer: productData({
+  hudaEasyBlurPrimer: productData({
     category: "Primer",
-    brand: "Hourglass",
-    name: "Veil Mineral Primer",
-    image: skuImage("s1074442"),
-    links: {
-      US: "https://www.sephora.com/product/veil-mineral-primer-P210575",
-      CA: "https://www.sephora.com/ca/en/product/veil-mineral-primer-P210575"
+    brand: "HUDA BEAUTY",
+    name: "Easy Blur Silicone-Free Smoothing & Pore-Minimizing Primer",
+    type: "Blurring / pore-minimizing primer",
+    sizes: ["mini", "standard"],
+    image: "https://www.sephora.com/productimages/sku/s2888931-main-zoom.jpg?imwidth=315",
+    links: countryLinks({
+      US: "https://www.sephora.com/product/huda-beauty-easy-blur-silicone-free-smoothing-primer-P512639",
+      CA: "https://www.sephora.com/ca/en/product/P512639",
+      FR: "https://www.sephora.fr/p/easy-blur-base-de-teint-lissante-sans-silicone-P10060172.html",
+      UK: "https://www.sephora.co.uk/p/huda-beauty-easy-blur-silicone-free-smoothing-primer",
+      AU: "https://www.sephora.com.au/products/huda-beauty-easy-blur-silicon-free-smoothing-primer"
+    }),
+    alternatives: {
+      BR: "rareBeautyPoreDiffusingPrimer"
     }
   }),
 
-  rareBeautyPorePrimer: productData({
+  rareBeautyPoreDiffusingPrimer: productData({
     category: "Primer",
     brand: "Rare Beauty by Selena Gomez",
     name: "Always An Optimist Pore Diffusing Primer",
-    links: {
+    type: "Pore-blurring / hydrating primer",
+    sizes: ["mini", "standard"],
+    image: "https://www.sephora.com/productimages/sku/s2448124-main-zoom.jpg?imwidth=315",
+    links: countryLinks({
       US: "https://www.sephora.com/product/rare-beauty-by-selena-gomez-always-an-optimist-pore-diffusing-primer-P471075",
-      CA: "https://www.sephora.com/ca/en/product/rare-beauty-by-selena-gomez-always-an-optimist-pore-diffusing-primer-P471075"
+      CA: "https://www.sephora.com/ca/en/product/rare-beauty-by-selena-gomez-mini-always-an-optimist-pore-diffusing-primer-P471075",
+      FR: "https://www.sephora.fr/p/always-an-optimist-pore-diffusing---base-de-teint-P10018046.html",
+      UK: "https://www.sephora.co.uk/p/rare-beauty-always-an-optimist-pore-diffusing-primer",
+      AU: "https://www.sephora.com.au/products/rare-beauty-always-an-optimist-pore-diffusing-primer",
+      BR: "https://www.sephora.com.br/Primer-Pore-Rare-Beauty-Always-an-Optimist-Pore-Diffusing-Primer-44990361-44990361.html"
+    })
+  }),
+
+  sephoraCollectionSmoothBlurPrimer: productData({
+    category: "Primer",
+    brand: "SEPHORA COLLECTION",
+    name: "Smooth + Blur Primer",
+    type: "Smoothing / blurring primer",
+    sizes: ["standard"],
+    image: "https://www.sephora.com/productimages/sku/s2413318-main-zoom.jpg?imwidth=315",
+    links: countryLinks({
+      US: "https://www.sephora.com/product/sephora-collection-smooth-blur-primer-P474102",
+      CA: "https://www.sephora.com/ca/en/product/sephora-collection-smooth-blur-primer-P474102",
+      FR: "https://www.sephora.fr/p/base-de-teint-P10049212.html"
+    }),
+    alternatives: {
+      UK: "milkPoreEclipsePrimer",
+      AU: "milkPoreEclipsePrimer",
+      BR: "rareBeautyPoreDiffusingPrimer"
     }
   }),
 
-  smashboxPhotoFinishPrimer: productData({
+  makeUpForEverStep1HydraBoosterPrimer: productData({
+    category: "Primer",
+    brand: "MAKE UP FOR EVER",
+    name: "Step 1 Primer Hydra Booster",
+    type: "Hydrating / radiant primer",
+    sizes: ["mini", "standard"],
+    image: "https://www.sephora.com/productimages/sku/s2424695-main-zoom.jpg?imwidth=315",
+    links: countryLinks({
+      US: "https://www.sephora.com/product/make-up-for-ever-step-1-primer-hydra-booster-P468184",
+      CA: "https://www.sephora.com/ca/en/product/make-up-for-ever-step-1-primer-hydra-booster-P468184"
+    }),
+    alternatives: {
+      FR: "fentyGripTripHydratingPrimer",
+      UK: "bobbiBrownVitaminEnrichedFaceBase",
+      AU: "fentyGripTripHydratingPrimer",
+      BR: "fentyGripTripHydratingPrimer"
+    }
+  }),
+
+  tarteBaseTapeHydratingPrimer: productData({
+    category: "Primer",
+    brand: "tarte",
+    name: "base tape™ Hydrating & Smoothing Serum Face Primer",
+    type: "Hydrating / smoothing primer",
+    sizes: ["mini", "standard"],
+    image: "",
+    links: countryLinks({
+      CA: "https://www.sephora.com/ca/en/product/tarte-base-tape-hydrating-primer-P471805",
+      FR: "https://www.sephora.fr/p/base-tape-hydrating-primer---base-teint-hydratante-P3643141.html"
+    }),
+    alternatives: {
+      US: "fentyGripTripHydratingPrimer",
+      UK: "bobbiBrownVitaminEnrichedFaceBase",
+      AU: "fentyGripTripHydratingPrimer",
+      BR: "fentyGripTripHydratingPrimer"
+    }
+  }),
+
+  smashboxPrimerizerHydratingPrimer: productData({
     category: "Primer",
     brand: "Smashbox",
-    name: "The Original Photo Finish Smooth & Blur Oil-Free Primer",
-    links: {
+    name: "Photo Finish Primerizer+ Hydrating Primer",
+    type: "Hydrating primer",
+    sizes: ["mini", "standard"],
+    image: "",
+    links: countryLinks({
+      CA: "https://www.sephora.com/ca/en/product/smashbox-photo-finish-primerizer-hydrating-primer-P464327"
+    }),
+    alternatives: {
+      US: "fentyGripTripHydratingPrimer",
+      FR: "fentyGripTripHydratingPrimer",
+      UK: "bobbiBrownVitaminEnrichedFaceBase",
+      AU: "fentyGripTripHydratingPrimer",
+      BR: "fentyGripTripHydratingPrimer"
+    }
+  }),
+
+  beautyblenderBoostPrimer: productData({
+    category: "Primer",
+    brand: "Beautyblender",
+    name: "BOOST™ 18-Hour Firming & Smoothing Peptide + Ceramide Primer",
+    type: "Firming / smoothing / hydrating primer",
+    sizes: ["standard"],
+    image: "https://www.sephora.com/productimages/sku/s2665024-main-zoom.jpg?imwidth=315",
+    links: countryLinks({
+      CA: "https://www.sephora.com/ca/en/product/beautyblender-boost-hydrating-smoothing-primer-P505670"
+    }),
+    alternatives: {
+      US: "lawlessForgetTheFillerPrimer",
+      FR: "fentyGripTripHydratingPrimer",
+      UK: "bobbiBrownVitaminEnrichedFaceBase",
+      AU: "fentyGripTripHydratingPrimer",
+      BR: "fentyGripTripHydratingPrimer"
+    }
+  }),
+
+  lawlessForgetTheFillerPrimer: productData({
+    category: "Primer",
+    brand: "LAWLESS",
+    name: "Forget The Filler Skin-Plumping Line-Smoothing Moisturizer + Makeup Primer",
+    type: "Plumping / moisturizing primer",
+    sizes: ["mini", "standard"],
+    image: "",
+    links: countryLinks({
+      US: "https://www.sephora.com/product/forget-filler-skin-plumping-line-smoothing-moisturizer-makeup-primer-P507153",
+      CA: "https://www.sephora.com/ca/en/product/forget-filler-skin-plumping-line-smoothing-moisturizer-makeup-primer-P507153"
+    }),
+    alternatives: {
+      FR: "bobbiBrownVitaminEnrichedFaceBase",
+      UK: "bobbiBrownVitaminEnrichedFaceBase",
+      AU: "fentyGripTripHydratingPrimer",
+      BR: "fentyGripTripHydratingPrimer"
+    }
+  }),
+
+  smashboxPhotoFinishSmoothBlurPrimer: productData({
+    category: "Primer",
+    brand: "Smashbox",
+    name: "Photo Finish Smooth & Blur Oil-Free Foundation Primer",
+    type: "Smoothing / blurring primer",
+    sizes: ["mini", "standard", "value"],
+    image: "",
+    links: countryLinks({
       US: "https://www.sephora.com/product/photo-finish-foundation-primer-P9889",
       CA: "https://www.sephora.com/ca/en/product/photo-finish-foundation-primer-P9889"
+    }),
+    alternatives: {
+      FR: "sephoraCollectionSmoothBlurPrimer",
+      UK: "milkPoreEclipsePrimer",
+      AU: "milkPoreEclipsePrimer",
+      BR: "rareBeautyPoreDiffusingPrimer"
     }
   }),
 
-  tatchaLiquidSilkCanvas: productData({
+  milkPoreEclipsePrimer: productData({
     category: "Primer",
-    brand: "Tatcha",
-    name: "The Liquid Silk Canvas Protective Makeup Primer",
-    links: {
-      US: "https://www.sephora.com/product/the-liquid-silk-canvas-featherweight-protective-primer-P453127",
-      CA: "https://www.sephora.com/ca/en/product/the-liquid-silk-canvas-featherweight-protective-primer-P453127"
+    brand: "MILK MAKEUP",
+    name: "Pore Eclipse Mattifying + Blurring Makeup Primer with Niacinamide",
+    type: "Mattifying / blurring primer",
+    sizes: ["mini", "standard"],
+    image: "https://www.sephora.com/productimages/sku/s2572857-main-zoom.jpg?imwidth=315",
+    links: countryLinks({
+      US: "https://www.sephora.com/product/milk-makeup-pore-eclipse-liquid-primer-P483674",
+      CA: "https://www.sephora.com/ca/en/product/milk-makeup-pore-eclipse-liquid-primer-P483674",
+      FR: "https://www.sephora.fr/p/pore-eclipse-mattifying-blurring-makeup-primer-P10033920.html",
+      UK: "https://www.sephora.co.uk/p/milk-makeup-pore-eclipse-mattyfing-primer",
+      AU: "https://www.sephora.com.au/products/milk-makeup-pore-eclipse-mattifying-primer"
+    }),
+    alternatives: {
+      BR: "rareBeautyPoreDiffusingPrimer"
     }
   }),
 
-  danessaMyricksYummySkinUniversalPrimer: productData({
+  bobbiBrownVitaminEnrichedFaceBase: productData({
     category: "Primer",
-    brand: "Danessa Myricks Beauty",
-    name: "Yummy Skin Blurring Balm Powder - Universal Primer",
-    links: {
-      US: "https://www.sephora.com/product/danessa-myricks-beauty-yummy-skin-blurring-balm-powder-universal-P514793",
-      CA: "https://www.sephora.com/ca/en/product/danessa-myricks-beauty-yummy-skin-blurring-balm-powder-universal-P514793"
+    brand: "Bobbi Brown",
+    name: "Vitamin Enriched Face Base Moisturizer & Primer with Vitamin C + Hyaluronic Acid",
+    type: "Moisturizing / priming base",
+    sizes: ["mini", "standard"],
+    image: "",
+    links: countryLinks({
+      US: "https://www.sephora.com/product/vitamin-enriched-face-base-P270594",
+      CA: "https://www.sephora.com/ca/en/product/vitamin-enriched-face-base-P270594",
+      FR: "https://www.sephora.fr/p/vitamin-enriched-face-base---base-de-maquillage-vitaminee-P47312.html",
+      UK: "https://www.sephora.co.uk/brands/bobbi-brown/vitamin-enriched-face-base"
+    }),
+    alternatives: {
+      AU: "fentyGripTripHydratingPrimer",
+      BR: "fentyGripTripHydratingPrimer"
     }
-  }),
-
-  narsLightReflectingPrimer: productData({
-    category: "Primer",
-    brand: "NARS",
-    name: "Light Reflecting Hydrating Primer with Hyaluronic Acid",
-    links: {
-      US: "https://www.sephora.com/product/nars-light-reflecting-hydrating-primer-P511955",
-      CA: "https://www.sephora.com/ca/en/product/nars-light-reflecting-hydrating-primer-P511955"
-    }
-  }),
+  })
+};
 
   // -------------------------
   // FOUNDATIONS / SKIN TINTS
@@ -1091,6 +1257,63 @@ const PRODUCT_CATALOG = {
     }
   })
 };
+function getProductForCountry(productKey, country) {
+  const originalProduct = PRODUCT_CATALOG[productKey];
+
+  if (!originalProduct) return null;
+
+  // 1. Si le produit existe dans le pays choisi
+  if (originalProduct.links?.[country]) {
+    return {
+      product: originalProduct,
+      link: originalProduct.links[country],
+      image: originalProduct.images?.[country] || originalProduct.image || DEFAULT_PRODUCT_IMAGE,
+      isAlternative: false
+    };
+  }
+
+  // 2. Si le produit n'existe pas ou est interdit, on prend l'alternative du pays
+  const alternativeKey = originalProduct.alternatives?.[country];
+  const alternativeProduct = PRODUCT_CATALOG[alternativeKey];
+
+  if (alternativeProduct?.links?.[country]) {
+    return {
+      product: alternativeProduct,
+      link: alternativeProduct.links[country],
+      image: alternativeProduct.images?.[country] || alternativeProduct.image || DEFAULT_PRODUCT_IMAGE,
+      isAlternative: true,
+      originalProduct: originalProduct
+    };
+  }
+
+  // 3. Si l'alternative n'a pas de lien dans ce pays, on prend son premier lien disponible
+  if (alternativeProduct) {
+    const alternativeFallbackCountry = ["US", "CA", "FR", "UK", "AU", "BR"].find(
+      (code) => alternativeProduct.links?.[code]
+    );
+
+    return {
+      product: alternativeProduct,
+      link: alternativeProduct.links?.[alternativeFallbackCountry] || "#",
+      image: alternativeProduct.images?.[alternativeFallbackCountry] || alternativeProduct.image || DEFAULT_PRODUCT_IMAGE,
+      isAlternative: true,
+      originalProduct: originalProduct
+    };
+  }
+
+  // 4. Dernier secours : on prend le produit original avec son premier lien disponible
+  const fallbackCountry = ["US", "CA", "FR", "UK", "AU", "BR"].find(
+    (code) => originalProduct.links?.[code]
+  );
+
+  return {
+    product: originalProduct,
+    link: originalProduct.links?.[fallbackCountry] || "#",
+    image: originalProduct.images?.[fallbackCountry] || originalProduct.image || DEFAULT_PRODUCT_IMAGE,
+    isAlternative: false
+  };
+}
+
 function getProductLink(product) {
   const market = typeof USER_MARKET !== "undefined" ? USER_MARKET : "US";
 
