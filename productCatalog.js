@@ -278,12 +278,458 @@ const facePrimers = {
       AU: "fentyGripTripHydratingPrimer",
       BR: "fentyGripTripHydratingPrimer"
     }
-  })
-};
+  }),
 
 // -------------------------
   // FOUNDATIONS / FONDS DE TEINT 
   // -------------------------
+
+  makeUpForEverRebootFoundation: productData({
+    category: "Foundation",
+    brand: "MAKE UP FOR EVER",
+    name: "Reboot Active Care Revitalizing Foundation",
+    type: "Revitalizing / natural finish foundation",
+    sizes: ["standard"],
+    image: "",
+    links: countryLinks({}),
+    alternatives: {
+      US: "makeUpForEverHdSkinFoundation",
+      CA: "makeUpForEverHdSkinFoundation",
+      FR: "makeUpForEverHdSkinFoundation",
+      UK: "makeUpForEverHdSkinFoundation",
+      AU: "makeUpForEverHdSkinFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  danessaMyricksYummySkinSerumFoundation: productData({
+    category: "Foundation",
+    brand: "Danessa Myricks Beauty",
+    name: "Yummy Skin Serum Foundation",
+    type: "Serum foundation / skin-like finish",
+    sizes: ["standard"],
+    image: "https://www.sephora.com/productimages/sku/s2574879-main-zoom.jpg?imwidth=315",
+    images: {
+      US: "https://www.sephora.com/productimages/sku/s2574879-main-zoom.jpg?imwidth=315",
+      CA: "https://www.sephora.com/productimages/sku/s2574879-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      US: "https://www.sephora.com/product/danessa-myricks-beauty-yummy-skin-serum-foundation-P481694",
+      CA: "https://www.sephora.com/ca/en/product/danessa-myricks-beauty-yummy-skin-serum-foundation-P481694"
+    }),
+    alternatives: {
+      FR: "hausLabsTricloneFoundation",
+      UK: "hudaEasyBlurFoundation",
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  urbanDecayHydromaniacTintedHydrator: productData({
+    category: "Foundation",
+    brand: "Urban Decay",
+    name: "Hydromaniac Glowy Tinted Hydrator Foundation",
+    type: "Glowy tinted hydrator / medium coverage",
+    sizes: ["standard"],
+    image: "https://www.sephora.com/productimages/sku/s2670966-main-zoom.jpg?imwidth=315",
+    images: {
+      US: "https://www.sephora.com/productimages/sku/s2670966-main-zoom.jpg?imwidth=315",
+      CA: "https://www.sephora.com/productimages/sku/s2670966-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      US: "https://www.sephora.com/product/urban-decay-hydromaniac-glowy-tinted-hydrator-foundation-P467658",
+      CA: "https://www.sephora.com/ca/en/product/urban-decay-hydromaniac-glowy-tinted-hydrator-foundation-P467658"
+    }),
+    alternatives: {
+      FR: "fentySoftLitLuminousFoundation",
+      UK: "fentySoftLitLuminousFoundation",
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  givenchyPrismeLibreSkinCaringFoundation: productData({
+    category: "Foundation",
+    brand: "Givenchy",
+    name: "Prisme Libre Skin-Caring 24H Hydrating Foundation",
+    type: "Hydrating / skin-caring foundation",
+    sizes: ["standard"],
+    image: "",
+    links: countryLinks({}),
+    alternatives: {
+      US: "givenchyPrismeLibreGlowSerumFoundation",
+      CA: "fentySoftLitLuminousFoundation",
+      FR: "givenchyPrismeLibreGlowSerumFoundation",
+      UK: "fentySoftLitLuminousFoundation",
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  lixrBeautyMultiUseFoundationStick: productData({
+    category: "Foundation",
+    brand: "LIXR Beauty",
+    name: "Multi-Use Cream-to-Powder Concealer & Foundation Stick",
+    type: "Cream-to-powder foundation and concealer stick",
+    sizes: ["standard"],
+    image: "https://www.sephora.com/productimages/sku/s2955284-main-zoom.jpg?imwidth=315",
+    images: {
+      US: "https://www.sephora.com/productimages/sku/s2955284-main-zoom.jpg?imwidth=315",
+      CA: "https://www.sephora.com/productimages/sku/s2955284-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      US: "https://www.sephora.com/product/lixr-complexion-stick-P521062",
+      CA: "https://www.sephora.com/ca/en/product/lixr-complexion-stick-P521062"
+    }),
+    alternatives: {
+      FR: "westmanAtelierVitalSkinFoundationStick",
+      UK: "charlotteTilburyUnrealSkinStick",
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  kvdLockItPowderFoundation: productData({
+    category: "Foundation",
+    brand: "KVD Beauty",
+    name: "Lock-It Powder Foundation",
+    type: "Powder foundation / full coverage",
+    sizes: ["standard"],
+    image: "",
+    links: countryLinks({}),
+    alternatives: {
+      US: "bareMineralsBareProPowderFoundation",
+      CA: "bareMineralsBareProPowderFoundation",
+      FR: "fentyProFiltrSoftMattePowderFoundation",
+      UK: "fentyProFiltrSoftMattePowderFoundation",
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  lancomeDualFinishPowderFoundation: productData({
+    category: "Foundation",
+    brand: "Lancôme",
+    name: "DUAL FINISH Multi-Tasking Longwear Powder Foundation",
+    type: "Powder foundation / longwear finish",
+    sizes: ["standard"],
+    image: "https://www.sephora.com/productimages/sku/s135558-main-zoom.jpg?imwidth=315",
+    images: {
+      US: "https://www.sephora.com/productimages/sku/s135558-main-zoom.jpg?imwidth=315",
+      CA: "https://www.sephora.com/productimages/sku/s135558-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      US: "https://www.sephora.com/product/dual-finish-multi-tasking-longwear-powder-foundation-P54419",
+      CA: "https://www.sephora.com/ca/en/product/dual-finish-multi-tasking-longwear-powder-foundation-P54419"
+    }),
+    alternatives: {
+      FR: "fentyProFiltrSoftMattePowderFoundation",
+      UK: "fentyProFiltrSoftMattePowderFoundation",
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  natashaDenonaHyGlamPowderFoundation: productData({
+    category: "Foundation",
+    brand: "NATASHA DENONA",
+    name: "Hy-Glam Powder Foundation",
+    type: "Powder foundation / smoothing finish",
+    sizes: ["standard"],
+    image: "",
+    links: countryLinks({}),
+    alternatives: {
+      US: "bareMineralsBareProPowderFoundation",
+      CA: "bareMineralsBareProPowderFoundation",
+      FR: "fentyProFiltrSoftMattePowderFoundation",
+      UK: "fentyProFiltrSoftMattePowderFoundation",
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  danessaMyricksVisionCreamCover: productData({
+    category: "Foundation",
+    brand: "Danessa Myricks Beauty",
+    name: "Vision Cream Cover Adjustable Foundation & Concealer",
+    type: "Foundation and concealer cream",
+    sizes: ["standard"],
+    image: "",
+    links: countryLinks({}),
+    alternatives: {
+      US: "danessaMyricksYummySkinSerumFoundation",
+      CA: "danessaMyricksYummySkinSerumFoundation",
+      FR: "hausLabsTricloneFoundation",
+      UK: "hudaEasyBlurFoundation",
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  tarteAmazonianClayPowderFoundation: productData({
+    category: "Foundation",
+    brand: "tarte",
+    name: "Amazonian Clay Blurring Powder Foundation",
+    type: "Powder foundation / blurring finish",
+    sizes: ["standard"],
+    image: "",
+    links: countryLinks({}),
+    alternatives: {
+      US: "bareMineralsBareProPowderFoundation",
+      CA: "bareMineralsBareProPowderFoundation",
+      FR: "fentyProFiltrSoftMattePowderFoundation",
+      UK: "fentyProFiltrSoftMattePowderFoundation",
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  guerlainTerracottaJoliTeintFoundation: productData({
+    category: "Foundation",
+    brand: "GUERLAIN",
+    name: "Terracotta Joli Teint Foundation",
+    type: "Lightweight glow foundation",
+    sizes: ["standard"],
+    image: "",
+    links: countryLinks({
+      FR: ""
+    }),
+    alternatives: {
+      US: "esteeLauderFuturistHydraRescueFoundation",
+      CA: "guerlainTerracottaLeTeintFoundation",
+      FR: "fentySoftLitLuminousFoundation",
+      UK: "charlotteTilburyBeautifulSkinFoundation",
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  lancomeTeintIdoleFoundationStick: productData({
+    category: "Foundation",
+    brand: "Lancôme",
+    name: "Teint Idole Ultra Wear Foundation Stick",
+    type: "Multi-use foundation stick",
+    sizes: ["standard"],
+    image: "",
+    links: countryLinks({}),
+    alternatives: {
+      US: "westmanAtelierVitalSkinFoundationStick",
+      CA: "westmanAtelierVitalSkinFoundationStick",
+      FR: "westmanAtelierVitalSkinFoundationStick",
+      UK: "charlotteTilburyUnrealSkinStick",
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  esteeLauderFuturistHydraRescueFoundation: productData({
+    category: "Foundation",
+    brand: "Estée Lauder",
+    name: "Futurist Hydra Rescue Moisturizing Foundation SPF 45 with Vitamin E",
+    type: "Hydrating / radiant foundation / SPF 45",
+    sizes: ["standard"],
+    image: "https://www.sephora.com/productimages/sku/s2324481-main-zoom.jpg?imwidth=315",
+    images: {
+      US: "https://www.sephora.com/productimages/sku/s2324481-main-zoom.jpg?imwidth=315",
+      CA: "https://www.sephora.com/productimages/sku/s2324481-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      US: "https://www.sephora.com/product/estee-lauder-futurist-hydrating-rescue-moisturizing-foundation-spf-45-P454063",
+      CA: "https://www.sephora.com/ca/en/product/estee-lauder-futurist-hydrating-rescue-moisturizing-foundation-spf-45-P454063"
+    }),
+    alternatives: {
+      FR: "fentySoftLitLuminousFoundation",
+      UK: "charlotteTilburyBeautifulSkinFoundation",
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  esteeLauderDoubleWearPowderFoundation: productData({
+    category: "Foundation",
+    brand: "Estée Lauder",
+    name: "Double Wear Stay-in-Place Matte Powder Foundation",
+    type: "Matte powder foundation",
+    sizes: ["standard"],
+    image: "",
+    links: countryLinks({}),
+    alternatives: {
+      US: "lancomeDualFinishPowderFoundation",
+      CA: "lancomeDualFinishPowderFoundation",
+      FR: "fentyProFiltrSoftMattePowderFoundation",
+      UK: "fentyProFiltrSoftMattePowderFoundation",
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  macStudioRadianceSerumFoundation: productData({
+    category: "Foundation",
+    brand: "MAC Cosmetics",
+    name: "Studio Radiance Serum-Powered Foundation",
+    type: "Serum foundation / radiant finish",
+    sizes: ["standard"],
+    image: "",
+    links: countryLinks({}),
+    alternatives: {
+      US: "macStudioFixFluidFoundation",
+      CA: "macStudioFixFluidFoundation",
+      FR: "fentySoftLitLuminousFoundation",
+      UK: "fentySoftLitLuminousFoundation",
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  cliniqueBeyondPerfectingPowderFoundation: productData({
+    category: "Foundation",
+    brand: "CLINIQUE",
+    name: "Beyond Perfecting Powder Foundation + Concealer",
+    type: "Powder foundation and concealer",
+    sizes: ["standard"],
+    image: "",
+    links: countryLinks({}),
+    alternatives: {
+      US: "cliniqueBeyondPerfectingFoundationConcealer",
+      CA: "cliniqueBeyondPerfectingFoundationConcealer",
+      FR: "fentyProFiltrSoftMattePowderFoundation",
+      UK: "charlotteTilburyAirbrushFlawlessFoundation",
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  diorForeverSkinMatteFoundation: productData({
+    category: "Foundation",
+    brand: "DIOR",
+    name: "Forever Skin Wear Blurring Natural Matte Foundation - 24HR Ultra Wear",
+    type: "Natural matte / blurring longwear foundation",
+    sizes: ["standard"],
+    image: "https://www.sephora.com/productimages/sku/s2933901-main-zoom.jpg?imwidth=315",
+    images: {
+      US: "https://www.sephora.com/productimages/sku/s2933901-main-zoom.jpg?imwidth=315",
+      CA: "https://www.sephora.com/productimages/sku/s2933901-main-zoom.jpg?imwidth=315",
+      FR: "https://www.sephora.com/productimages/sku/s2933901-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      US: "https://www.sephora.com/product/dior-forever-skin-wear-blurring-natural-matte-foundation-24-hour-ultra-wear-P520603",
+      CA: "https://www.sephora.com/ca/en/product/dior-forever-skin-wear-blurring-natural-matte-foundation-24-hour-ultra-wear-P520603",
+      FR: ""
+    }),
+    alternatives: {
+      FR: "hudaEasyBlurFoundation",
+      UK: "charlotteTilburyAirbrushFlawlessFoundation",
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  milkFlexFoundationStick: productData({
+    category: "Foundation",
+    brand: "MILK MAKEUP",
+    name: "Flex Foundation Stick",
+    type: "Foundation stick / natural finish",
+    sizes: ["standard"],
+    image: "https://www.sephora.com/productimages/sku/s2242261-main-zoom.jpg?imwidth=315",
+    images: {
+      US: "https://www.sephora.com/productimages/sku/s2242261-main-zoom.jpg?imwidth=315",
+      CA: "https://www.sephora.com/productimages/sku/s2242261-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      US: "https://www.sephora.com/product/flex-foundation-stick-P448151",
+      CA: "https://www.sephora.com/ca/en/product/flex-foundation-stick-P448151"
+    }),
+    alternatives: {
+      FR: "westmanAtelierVitalSkinFoundationStick",
+      UK: "charlotteTilburyUnrealSkinStick",
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  iliaTrueSkinSerumFoundation: productData({
+    category: "Foundation",
+    brand: "ILIA",
+    name: "True Skin Medium Coverage Serum Foundation with Niacinamide",
+    type: "Medium coverage / serum foundation",
+    sizes: ["standard"],
+    image: "https://www.sephora.com/productimages/sku/s2527729-main-zoom.jpg?imwidth=315",
+    images: {
+      US: "https://www.sephora.com/productimages/sku/s2527729-main-zoom.jpg?imwidth=315",
+      CA: "https://www.sephora.com/productimages/sku/s2527729-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      US: "https://www.sephora.com/product/true-skin-serum-foundation-P429548",
+      CA: "https://www.sephora.com/ca/en/product/true-skin-serum-foundation-P429548"
+    }),
+    alternatives: {
+      FR: "iliaSuperSerumSkinTintSpf40",
+      UK: "fentySoftLitLuminousFoundation",
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  lawlessConcealTheDealFoundation: productData({
+    category: "Foundation",
+    brand: "LAWLESS",
+    name: "Conceal The Deal Long-Wear Full-Coverage Foundation",
+    type: "Full coverage / longwear foundation",
+    sizes: ["standard"],
+    image: "",
+    links: countryLinks({}),
+    alternatives: {
+      US: "charlotteTilburyAirbrushFlawlessFoundation",
+      CA: "charlotteTilburyAirbrushFlawlessFoundation",
+      FR: "charlotteTilburyAirbrushFlawlessFoundation",
+      UK: "charlotteTilburyAirbrushFlawlessFoundation",
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  hourglassAmbientSoftGlowFoundation: productData({
+    category: "Foundation",
+    brand: "Hourglass",
+    name: "Ambient Soft Glow Foundation",
+    type: "Soft glow / medium coverage foundation",
+    sizes: ["standard"],
+    image: "https://www.sephora.com/productimages/sku/s2586741-main-zoom.jpg?imwidth=315",
+    images: {
+      US: "https://www.sephora.com/productimages/sku/s2586741-main-zoom.jpg?imwidth=315",
+      CA: "https://www.sephora.com/productimages/sku/s2586741-main-zoom.jpg?imwidth=315"
+    },
+    links: countryLinks({
+      US: "https://www.sephora.com/product/ambient-soft-glow-foundation-P501154",
+      CA: "https://www.sephora.com/ca/en/product/ambient-soft-glow-foundation-P501154"
+    }),
+    alternatives: {
+      FR: "hourglassVeilHydratingSkinTint",
+      UK: "fentySoftLitLuminousFoundation",
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
+
+  guerlainTerracottaLeTeintGlowFoundation: productData({
+    category: "Foundation",
+    brand: "GUERLAIN",
+    name: "Terracotta Le Teint Glow Foundation",
+    type: "Healthy glow foundation",
+    sizes: ["standard"],
+    image: "",
+    links: countryLinks({
+      FR: ""
+    }),
+    alternatives: {
+      US: "esteeLauderFuturistHydraRescueFoundation",
+      CA: "guerlainTerracottaLeTeintFoundation",
+      FR: "fentySoftLitLuminousFoundation",
+      UK: "charlotteTilburyBeautifulSkinFoundation",
+      AU: "fentySoftLitLuminousFoundation",
+      BR: "fentySoftLitLuminousFoundation"
+    }
+  }),
 
   patrickTaMajorSkinCremeFoundationDuo: productData({
     category: "Foundation",
