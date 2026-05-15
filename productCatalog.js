@@ -2992,6 +2992,157 @@ const PRODUCT_CATALOG = {
   // BLUSH
   // -------------------------
 
+anastasiaBeverlyHillsBlurringSerumLiquidBlush: productData({
+  category: "Blush",
+  brand: "Anastasia Beverly Hills",
+  name: "Blurring Serum Liquid Blush",
+  type: "Blurring serum liquid blush",
+  sizes: ["standard"],
+  image: "https://www.sephora.com/productimages/sku/s2771996-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    US: "https://www.sephora.com/product/anastasia-beverly-hills-blurring-serum-liquid-blush-P512208",
+    CA: "https://www.sephora.com/ca/en/product/anastasia-beverly-hills-blurring-serum-liquid-blush-P512208",
+    FR: "https://www.sephora.fr/p/blurring-serum-blush---blush-liquide-P10059709.html"
+  }),
+  alternatives: {
+    UK: "glossierCloudPaintGelCreamBlush",
+    AU: "rareBeautySoftPinchLiquidBlush",
+    BR: "rareBeautySoftPinchLuminousPowderBlush"
+  }
+}),
+
+hungVanngoVeryBeautifulMatteVelvetBlush: productData({
+  category: "Blush",
+  brand: "HUNG VANNGO BEAUTY",
+  name: "Very Beautiful Matte Velvet Blush",
+  type: "Matte velvet powder blush",
+  sizes: ["standard"],
+  image: "https://www.sephora.com/productimages/sku/s2903821-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    US: "https://www.sephora.com/product/very-beautiful-matte-velvet-blush-P518972",
+    CA: "https://www.sephora.com/ca/en/product/very-beautiful-matte-velvet-blush-P518972"
+  }),
+  alternatives: {
+    FR: "charlotteTilburyCheekToChicBlush",
+    UK: "narsTalcFreePowderBlush",
+    AU: "rareBeautySoftPinchLuminousPowderBlush",
+    BR: "cliniqueCheekPopBlush"
+  }
+}),
+
+tarteAmazonianClaySkintuitiveBlush: productData({
+  category: "Blush",
+  brand: "tarte",
+  name: "Amazonian Clay Skintuitive™ 12-Hour Powder Blush",
+  type: "Color-adjusting powder blush",
+  sizes: ["standard"],
+  image: "https://www.sephora.com/productimages/sku/s2741411-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/amazonian-clay-skintuitive-tm-12-hour-blush-P506561"
+  }),
+  alternatives: {
+    US: "tarteAmazonianClay12HourBlush",
+    FR: "tarteAmazonianClay12HourBlush",
+    UK: "charlotteTilburyCheekToChicBlush",
+    AU: "rareBeautySoftPinchLuminousPowderBlush",
+    BR: "cliniqueCheekPopBlush"
+  }
+}),
+
+urbanDecayFaceBondPowderBlushSuede: productData({
+  category: "Blush",
+  brand: "Urban Decay",
+  name: "Face Bond Long-Lasting Powder Blush Suede",
+  type: "Longwear waterproof powder blush",
+  sizes: ["standard"],
+  image: "https://www.sephora.com/productimages/sku/s2845378-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    US: "https://www.sephora.com/product/urban-decay-face-bond-long-lasting-blush-suede-P515194",
+    CA: "https://www.sephora.com/ca/en/product/urban-decay-face-bond-long-lasting-blush-suede-P515194"
+  }),
+  alternatives: {
+    FR: "rareBeautySoftPinchLuminousPowderBlush",
+    UK: "narsTalcFreePowderBlush",
+    AU: "rareBeautySoftPinchLuminousPowderBlush",
+    BR: "rareBeautySoftPinchLiquidBlush"
+  }
+}),
+
+chantecailleCheekShadePowderBlush: productData({
+  category: "Blush",
+  brand: "CHANTECAILLE",
+  name: "Cheek Shade Silky Blendable Powder Blush",
+  type: "Silky powder blush",
+  sizes: ["standard"],
+  image: "https://www.sephora.com/productimages/sku/s2964468-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/cheek-shade-silky-blendable-powder-blush-P521967"
+  }),
+  alternatives: {
+    US: "gucciLuminousMattePowderBlush",
+    FR: "charlotteTilburyCheekToChicBlush",
+    UK: "narsTalcFreePowderBlush",
+    AU: "rareBeautySoftPinchLuminousPowderBlush",
+    BR: "cliniqueCheekPopBlush"
+  }
+}),
+
+benefitDandelionBabyPinkBlush: productData({
+  category: "Blush",
+  brand: "Benefit Cosmetics",
+  name: "Dandelion Baby-Pink Brightening Blush",
+  type: "Baby-pink powder blush",
+  sizes: ["mini", "standard"],
+  image: "https://www.sephora.com/productimages/sku/s2520195-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    US: "https://www.sephora.com/product/dandelion-box-o-powder-blush-P38347",
+    CA: "https://www.sephora.com/ca/en/product/dandelion-box-o-powder-blush-P38347"
+  }),
+  alternatives: {
+    FR: "cliniqueCheekPopBlush",
+    UK: "narsTalcFreePowderBlush",
+    AU: "rareBeautySoftPinchLuminousPowderBlush",
+    BR: "rareBeautySoftPinchLiquidBlush"
+  }
+}),
+
+kulfiMehndiMomentCreamBlush: productData({
+  category: "Blush",
+  brand: "Kulfi",
+  name: "Mehndi Moment Long-Lasting Radiant Cream Blush",
+  type: "Long-lasting radiant cream blush",
+  sizes: ["standard"],
+  image: "https://www.sephora.com/productimages/sku/s2609402-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/kulfi-mehndi-moment-blush-P504604"
+  }),
+  alternatives: {
+    US: "milkLipCheekCreamBlushStick",
+    FR: "makeupByMarioSoftPopCreamBlushStick",
+    UK: "tower28BeachpleaseCreamBlush",
+    AU: "rareBeautySoftPinchLiquidBlush",
+    BR: "glossierCloudPaintGelCreamBlush"
+  }
+}),
+
+macMineralizeBlush: productData({
+  category: "Blush",
+  brand: "MAC Cosmetics",
+  name: "Mineralize Blush with Radiant Baked Mineral Luminous Colour + Lightweight Coverage",
+  type: "Radiant baked powder blush",
+  sizes: ["standard"],
+  image: "https://www.sephora.com/productimages/sku/s2093995-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/mineralize-blush-P17122237",
+    FR: "https://www.sephora.fr/p/mineralize-blush---fard-a-joues-P10023885.html"
+  }),
+  alternatives: {
+    US: "macGlowPlayCushionyBlush",
+    UK: "narsTalcFreePowderBlush",
+    AU: "rareBeautySoftPinchLuminousPowderBlush",
+    BR: "cliniqueCheekPopBlush"
+  }
+}),
 
 hourglassUnrealLiquidBlush: productData({
   category: "Blush",
