@@ -2938,6 +2938,310 @@ const PRODUCT_CATALOG = {
 // CONCEALERS MANQUANTS
 // -------------------------
 
+pradaMicroCorrectingBlurringConcealer: productData({
+  category: "Concealer",
+  brand: "Prada",
+  name: "Micro-Correcting Blurring Concealer with Peptides",
+  type: "Blurring medium-buildable concealer",
+  sizes: ["standard"],
+  image: "https://www.sephora.com/productimages/sku/s2928661-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    US: "https://www.sephora.com/product/micro-correcting-blurring-concealer-with-peptides-P520649",
+    CA: "https://www.sephora.com/ca/en/product/micro-correcting-blurring-concealer-with-peptides-P520649"
+  }),
+  alternatives: {
+    FR: "sephoraBestSkinEverMultiUseConcealer",
+    UK: "hourglassVanishAirbrushConcealer",
+    AU: "tarteShapeTapeCreamyConcealer",
+    BR: "diorForeverSkinCorrectConcealer"
+  }
+}),
+
+sephoraBestSkinEverGlowConcealer: productData({
+  category: "Concealer",
+  brand: "SEPHORA COLLECTION",
+  name: "Best Skin Ever Multi-Use Hydrating Glow Concealer",
+  type: "Hydrating glow multi-use concealer",
+  sizes: ["standard"],
+  image: "https://www.sephora.com/productimages/sku/s2710432-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    US: "https://www.sephora.com/product/best-skin-ever-glow-concealer-P509539",
+    CA: "https://www.sephora.com/ca/en/product/best-skin-ever-glow-concealer-P509539"
+  }),
+  alternatives: {
+    FR: "sephoraBestSkinEverMultiUseConcealer",
+    UK: "hourglassVanishAirbrushConcealer",
+    AU: "tarteShapeTapeCreamyConcealer",
+    BR: "diorForeverSkinCorrectConcealer"
+  }
+}),
+
+anastasiaMagicTouchConcealer: productData({
+  category: "Concealer",
+  brand: "Anastasia Beverly Hills",
+  name: "Magic Touch Medium to Full Coverage Concealer",
+  type: "Medium-to-full coverage concealer",
+  sizes: ["standard"],
+  image: "https://www.sephora.com/productimages/sku/s2480481-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    US: "https://www.sephora.com/product/anastasia-beverly-hills-magic-touch-concealer-P475045",
+    CA: "https://www.sephora.com/ca/en/product/anastasia-beverly-hills-magic-touch-concealer-P475045"
+  }),
+  alternatives: {
+    FR: "sephoraBestSkinEverMultiUseConcealer",
+    UK: "hourglassVanishAirbrushConcealer",
+    AU: "tarteShapeTapeCreamyConcealer",
+    BR: "diorForeverSkinCorrectConcealer"
+  }
+}),
+
+tarteShapeTapeMatteConcealer: productData({
+  category: "Concealer",
+  brand: "tarte",
+  name: "shape tape™ full coverage matte concealer",
+  type: "Full-coverage matte concealer",
+  sizes: ["mini", "standard"],
+  image: "https://www.sephora.com/productimages/sku/s2452316-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    US: "https://www.sephora.com/product/tarte-shape-tape-concealer-P471799",
+    CA: "https://www.sephora.com/ca/en/product/tarte-shape-tape-concealer-P471799"
+  }),
+  alternatives: {
+    FR: "tarteShapeTapeCreamyConcealer",
+    UK: "hourglassVanishAirbrushConcealer",
+    AU: "tarteShapeTapeCreamyConcealer",
+    BR: "diorForeverSkinCorrectConcealer"
+  }
+}),
+
+westmanAtelierVitalSkincareConcealer: productData({
+  category: "Concealer",
+  brand: "Westman Atelier",
+  name: "Vital Skincare Brightening Concealer With Hyaluronic Acid",
+  type: "Brightening skincare concealer",
+  sizes: ["standard"],
+  image: "https://www.sephora.com/productimages/sku/s2797728-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    US: "https://www.sephora.com/product/westman-atelier-vital-skincare-brightening-concealer-with-hyaluronic-acid-P513533",
+    CA: "https://www.sephora.com/ca/en/product/westman-atelier-vital-skincare-brightening-concealer-with-hyaluronic-acid-P513533"
+  }),
+  alternatives: {
+    FR: "sephoraBestSkinEverMultiUseConcealer",
+    UK: "hourglassVanishAirbrushConcealer",
+    AU: "tarteShapeTapeCreamyConcealer",
+    BR: "diorForeverSkinCorrectConcealer"
+  }
+}),
+
+rareBeautyPositiveLightUnderEyeBrightener: productData({
+  category: "Concealer",
+  brand: "Rare Beauty by Selena Gomez",
+  name: "Positive Light Under Eye Brightener",
+  type: "Brightening under-eye concealer",
+  sizes: ["standard"],
+  image: "https://www.sephora.com/productimages/sku/s2629418-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    US: "https://www.sephora.com/product/rare-beauty-by-selena-gomez-under-eye-brightener-P503714",
+    CA: "https://www.sephora.com/ca/en/product/rare-beauty-by-selena-gomez-under-eye-brightener-P503714"
+  }),
+  alternatives: {
+    FR: "sephoraBestSkinEverMultiUseConcealer",
+    UK: "hourglassVanishAirbrushConcealer",
+    AU: "tarteShapeTapeCreamyConcealer",
+    BR: "diorForeverSkinCorrectConcealer"
+  }
+}),
+
+fentyWereEvenHydratingConcealer: productData({
+  category: "Concealer",
+  brand: "Fenty Beauty by Rihanna",
+  name: "We're Even Hydrating Longwear Waterproof Concealer",
+  type: "Hydrating longwear waterproof concealer",
+  sizes: ["standard"],
+  image: "https://www.sephora.com/productimages/sku/s2746493-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    US: "https://www.sephora.com/product/fenty-beauty-rihanna-we-re-even-hydrating-longwear-concealer-P509852",
+    CA: "https://www.sephora.com/ca/en/product/fenty-beauty-rihanna-we-re-even-hydrating-longwear-concealer-P509852"
+  }),
+  alternatives: {
+    FR: "sephoraBestSkinEverMultiUseConcealer",
+    UK: "hourglassVanishAirbrushConcealer",
+    AU: "tarteShapeTapeCreamyConcealer",
+    BR: "diorForeverSkinCorrectConcealer"
+  }
+}),
+
+saieSlipTintRadiantConcealer: productData({
+  category: "Concealer",
+  brand: "Saie",
+  name: "Slip Tint Radiant All-Over Concealer with Niacinamide",
+  type: "Radiant all-over concealer",
+  sizes: ["standard"],
+  image: "https://www.sephora.com/productimages/sku/s2752111-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    US: "https://www.sephora.com/product/saie-slip-tint-radiant-all-over-concealer-with-niacinamide-P510438",
+    CA: "https://www.sephora.com/ca/en/product/saie-slip-tint-radiant-all-over-concealer-with-niacinamide-P510438"
+  }),
+  alternatives: {
+    FR: "sephoraBestSkinEverMultiUseConcealer",
+    UK: "hourglassVanishAirbrushConcealer",
+    AU: "tarteShapeTapeCreamyConcealer",
+    BR: "diorForeverSkinCorrectConcealer"
+  }
+}),
+  
+narsSoftMatteCompleteConcealer: productData({
+  category: "Concealer",
+  brand: "NARS",
+  name: "Soft Matte Complete Full Coverage Longwear Concealer with Hyaluronic Acid",
+  type: "Full-coverage soft matte concealer",
+  sizes: ["standard"],
+  image: "https://www.sephora.com/productimages/sku/s2371425-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    US: "https://www.sephora.com/product/soft-matte-complete-concealer-P416200",
+    CA: "https://www.sephora.com/ca/en/product/soft-matte-complete-concealer-P416200",
+    FR: "https://www.sephora.fr/p/soft-matte-complete-concealer---anti-cernes-P2865006.html"
+  }),
+  alternatives: {
+    UK: "hourglassVanishAirbrushConcealer",
+    AU: "tarteShapeTapeCreamyConcealer",
+    BR: "diorForeverSkinCorrectConcealer"
+  }
+}),
+
+natashaDenonaHyGlamSerumConcealer: productData({
+  category: "Concealer",
+  brand: "NATASHA DENONA",
+  name: "Hy-Glam Brightening & Hydrating Medium to Full Coverage Crease Proof Serum Concealer",
+  type: "Brightening hydrating serum concealer",
+  sizes: ["standard"],
+  image: "https://www.sephora.com/productimages/sku/s2671618-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    US: "https://www.sephora.com/product/natasha-denona-hy-glam-concealer-P505800",
+    CA: "https://www.sephora.com/ca/en/product/natasha-denona-hy-glam-concealer-P505800",
+    FR: "https://www.sephora.fr/p/hy-glam-concealer---anticernes-P10050439.html"
+  }),
+  alternatives: {
+    UK: "hourglassVanishAirbrushConcealer",
+    AU: "tarteShapeTapeCreamyConcealer",
+    BR: "diorForeverSkinCorrectConcealer"
+  }
+}),
+
+armaniLuminousSilkConcealer: productData({
+  category: "Concealer",
+  brand: "Armani Beauty",
+  name: "Luminous Silk Hydrating Face and Under-Eye Concealer",
+  type: "Hydrating brightening face and under-eye concealer",
+  sizes: ["standard"],
+  image: "https://www.sephora.com/productimages/sku/s2340982-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    US: "https://www.sephora.com/product/giorgio-armani-beauty-luminous-silk-concealer-P456158",
+    CA: "https://www.sephora.com/ca/en/product/giorgio-armani-beauty-luminous-silk-concealer-P456158",
+    FR: "https://www.sephora.fr/p/luminous-silk-multi-purpose-glow-concealer-P4010109.html"
+  }),
+  alternatives: {
+    UK: "charlotteTilburyAirbrushFlawlessBlurConcealer",
+    AU: "tarteShapeTapeCreamyConcealer",
+    BR: "diorForeverSkinCorrectConcealer"
+  }
+}),
+
+iliaSkinBlurSerumConcealer: productData({
+  category: "Concealer",
+  brand: "ILIA",
+  name: "Skin Blur Serum Concealer with 12-Hour Wear",
+  type: "Blurring serum concealer",
+  sizes: ["standard"],
+  image: "https://www.sephora.com/productimages/sku/s2893097-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    US: "https://www.sephora.com/product/skin-blur-hydrating-serum-concealer-P520377",
+    CA: "https://www.sephora.com/ca/en/product/skin-blur-hydrating-serum-concealer-P520377",
+    FR: "https://www.sephora.fr/p/correcteur-serum-skin-blur-d-une-tenue-de-12-heures-P1000213621.html"
+  }),
+  alternatives: {
+    UK: "hourglassVanishAirbrushConcealer",
+    AU: "tarteShapeTapeCreamyConcealer",
+    BR: "diorForeverSkinCorrectConcealer"
+  }
+}),
+
+milkHydroGripGelStickConcealer: productData({
+  category: "Concealer",
+  brand: "MILK MAKEUP",
+  name: "Hydro Grip 12HR Hydrating Gel Stick Concealer",
+  type: "Hydrating gel stick concealer",
+  sizes: ["standard"],
+  image: "https://www.sephora.com/productimages/sku/s2938694-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    US: "https://www.sephora.com/product/milk-hydro-grip-gel-concealer-P520574",
+    CA: "https://www.sephora.com/ca/en/product/milk-hydro-grip-gel-concealer-P520574"
+  }),
+  alternatives: {
+    FR: "sephoraBestSkinEverMultiUseConcealer",
+    UK: "hourglassVanishAirbrushConcealer",
+    AU: "tarteShapeTapeCreamyConcealer",
+    BR: "diorForeverSkinCorrectConcealer"
+  }
+}),
+
+fentyBrightFixEyeBrightenerConcealer: productData({
+  category: "Concealer",
+  brand: "Fenty Beauty by Rihanna",
+  name: "Bright Fix Eye Brightener Concealer",
+  type: "Brightening under-eye concealer",
+  sizes: ["standard"],
+  image: "https://www.sephora.com/productimages/sku/s2465987-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    US: "https://www.sephora.com/product/fenty-beauty-rihanna-bright-fix-eye-brightener-concealer-P472161",
+    CA: "https://www.sephora.com/ca/en/product/fenty-beauty-rihanna-bright-fix-eye-brightener-concealer-P472161"
+  }),
+  alternatives: {
+    FR: "sephoraBestSkinEverMultiUseConcealer",
+    UK: "hourglassVanishAirbrushConcealer",
+    AU: "tarteShapeTapeCreamyConcealer",
+    BR: "diorForeverSkinCorrectConcealer"
+  }
+}),
+
+lysBeautyTripleFixBrighteningConcealer: productData({
+  category: "Concealer",
+  brand: "LYS Beauty",
+  name: "Triple Fix Brightening Concealer",
+  type: "Brightening creamy concealer",
+  sizes: ["standard"],
+  image: "https://www.sephora.com/productimages/sku/s2549442-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/lys-beauty-triple-fix-brightening-concealer-P480618",
+    AU: "https://www.sephora.com.au/products/lys-beauty-triple-fix-brightening-concealer"
+  }),
+  alternatives: {
+    US: "sephoraBestSkinEverMultiUseConcealer",
+    FR: "sephoraBestSkinEverMultiUseConcealer",
+    UK: "hourglassVanishAirbrushConcealer",
+    BR: "diorForeverSkinCorrectConcealer"
+  }
+}),
+
+diorBackstageFlashPerfectorConcealer: productData({
+  category: "Concealer",
+  brand: "DIOR BACKSTAGE",
+  name: "Backstage Flash Perfector Concealer",
+  type: "Waterproof high-coverage concealer",
+  sizes: ["standard"],
+  image: "https://www.sephora.com/productimages/sku/s2509651-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    US: "https://www.sephora.com/product/dior-backstage-concealer-P482262",
+    CA: "https://www.sephora.com/ca/en/product/dior-backstage-concealer-P482262"
+  }),
+  alternatives: {
+    FR: "hourglassVanishAirbrushConcealer",
+    UK: "hourglassVanishAirbrushConcealer",
+    AU: "tarteShapeTapeCreamyConcealer",
+    BR: "hourglassVanishAirbrushConcealer"
+  }
+}),
+  
 morpheWakeupArtistCorrectingConcealer: productData({
   category: "Concealer",
   brand: "Morphe",
@@ -3080,13 +3384,13 @@ diorForeverSkinCorrectConcealer: productData({
   image: "https://www.sephora.com/productimages/sku/s2639318-main-zoom.jpg?imwidth=315",
   links: countryLinks({
     US: "https://www.sephora.com/product/dior-dior-forever-skin-correct-concealer-P454348",
-    CA: "https://www.sephora.com/ca/en/product/dior-dior-forever-skin-correct-concealer-P454348",
-    FR: "https://www.sephora.fr/p/dior-forever-skin-correct---correcteur-anticerne-haute-couvrance-tenue-24-h-P10048279.html"
+    CA: "https://www.sephora.com/ca/en/product/dior-dior-forever-skin-correct-concealer-P454348"
   }),
   alternatives: {
+    FR: "hourglassVanishAirbrushConcealer",
     UK: "hourglassVanishAirbrushConcealer",
     AU: "tarteShapeTapeCreamyConcealer",
-    BR: "sephoraBestSkinEverMultiUseConcealer"
+    BR: "hourglassVanishAirbrushConcealer"
   }
 }),
   
