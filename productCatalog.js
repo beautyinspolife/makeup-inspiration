@@ -12809,6 +12809,314 @@ saieCitySetSettingSpray: productData({
   }),
 
   // -------------------------
+// EYE PRIMERS / BASES POUR LES YEUX
+// -------------------------
+
+urbanDecaySubversionLashPrimer: productData({
+  category: "Mascara Primer",
+  brand: "Urban Decay",
+  name: "Subversion Lash Primer",
+  type: "Whipped lash primer / mascara base",
+  sizes: ["standard"],
+  image: skuImage("s1635788"),
+  links: countryLinks({
+    US: "https://www.sephora.com/product/subversion-lash-primer-P387594",
+    CA: "https://www.sephora.com/ca/en/product/subversion-lash-primer-P387594"
+  }),
+  alternatives: {
+    FR: "lancomeCilsBooster",
+    UK: "tarteOpeningActLashPrimer",
+    AU: "tarteOpeningActLashPrimer",
+    BR: "lancomeCilsBooster"
+  }
+}),
+
+urbanDecayEyeshadowPrimerPotionOriginal: productData({
+  category: "Eye Primer",
+  brand: "Urban Decay",
+  name: "Eyeshadow Primer Potion - Original",
+  type: "Long-wear eyeshadow primer / crease-proof base",
+  sizes: ["mini", "standard"],
+  image: skuImage("s1704402"),
+  links: countryLinks({
+    US: "https://www.sephora.com/product/eyeshadow-primer-potion-tube-original-P284716",
+    CA: "https://www.sephora.com/ca/en/product/eyeshadow-primer-potion-tube-original-P284716"
+  }),
+  alternatives: {
+    FR: "narsProPrimeSmudgeProofEyeshadowBase",
+    UK: "tooFacedShadowInsurancePrimer",
+    AU: "narsProPrimeSmudgeProofEyeshadowBase",
+    BR: "narsProPrimeSmudgeProofEyeshadowBase"
+  }
+}),
+
+cliniqueLashBuildingPrimer: productData({
+  category: "Mascara Primer",
+  brand: "CLINIQUE",
+  name: "Lash Building Primer",
+  type: "Lash-conditioning mascara primer",
+  sizes: ["standard"],
+  image: skuImage("s741967"),
+  links: countryLinks({
+    US: "https://www.sephora.com/product/lash-building-primer-P122866",
+    CA: "https://www.sephora.com/ca/en/product/lash-building-primer-P122866"
+  }),
+  alternatives: {
+    FR: "lancomeCilsBooster",
+    UK: "tarteOpeningActLashPrimer",
+    AU: "tarteOpeningActLashPrimer",
+    BR: "lancomeCilsBooster"
+  }
+}),
+
+patMcGrathIntensifeyesArtistryWand: productData({
+  category: "Eye Primer",
+  brand: "PAT McGRATH LABS",
+  name: "IntensifEYES Artistry Wand",
+  type: "Eyeshadow intensifying wand / glitter and pigment base",
+  sizes: ["standard"],
+  image: skuImage("s2488807"),
+  links: countryLinks({
+    US: "https://www.sephora.com/product/pat-mcgrath-labs-intensifeyes-artistry-wand-P475597",
+    CA: "https://www.sephora.com/ca/en/product/pat-mcgrath-labs-intensifeyes-artistry-wand-P475597"
+  }),
+  alternatives: {
+    FR: "sephoraCollectionBoostLockEyePrimer",
+    UK: "patMcGrathIntensifeyesLongwearPrimer",
+    AU: "narsProPrimeSmudgeProofEyeshadowBase",
+    BR: "tooFacedShadowInsurancePrimer"
+  }
+}),
+
+narsProPrimeSmudgeProofEyeshadowBase: productData({
+  category: "Eye Primer",
+  brand: "NARS",
+  name: "Pro-Prime™ Smudge Proof Eyeshadow Base",
+  type: "Smudge-proof eyeshadow primer / long-wear base",
+  sizes: ["standard"],
+  image: skuImage("s1236843"),
+  links: countryLinks({
+    US: "https://www.sephora.com/product/pro-prime-smudge-proof-eyeshadow-base-P261211",
+    CA: "https://www.sephora.com/ca/en/product/pro-prime-smudge-proof-eyeshadow-base-P261211",
+    FR: "https://www.sephora.fr/p/smudgeproof-eyeshadow-base---base-a-paupieres-tenue-parfaite-P109207.html"
+  }),
+  alternatives: {
+    UK: "tooFacedShadowInsurancePrimer",
+    AU: "sephoraCollectionBoostLockEyePrimer",
+    BR: "tooFacedShadowInsurancePrimer"
+  }
+}),
+
+tarteOpeningActLashPrimer: productData({
+  category: "Mascara Primer",
+  brand: "tarte",
+  name: "opening act™ lash primer",
+  type: "Lash treatment primer / volumizing mascara base",
+  sizes: ["standard"],
+  image: skuImage("s1707835"),
+  links: countryLinks({
+    US: "https://www.sephora.com/product/opening-act-lash-primer-P397383",
+    CA: "https://www.sephora.com/ca/en/product/opening-act-lash-primer-P397383"
+  }),
+  alternatives: {
+    FR: "lancomeCilsBooster",
+    UK: "lancomeCilsBooster",
+    AU: "lancomeCilsBooster",
+    BR: "lancomeCilsBooster"
+  }
+}),
+
+macPrepPrime24HourExtendEyeBase: productData({
+  category: "Eye Primer",
+  brand: "MAC Cosmetics",
+  name: "Prep + Prime 24-Hour Extend Eye Base",
+  type: "24-hour eyeshadow primer / crease-resistant base",
+  sizes: ["standard"],
+  image: skuImage("s2097681"),
+  links: countryLinks({
+    US: "https://www.sephora.com/product/prep-prime-24-hour-extend-eye-base-P34575546",
+    CA: "https://www.sephora.com/ca/en/product/prep-prime-24-hour-extend-eye-base-P34575546",
+    FR: "https://www.sephora.fr/p/prep-prime-24-hour-extend-eye-base---base-pour-les-yeux-24-heures-P10023548.html"
+  }),
+  alternatives: {
+    UK: "narsProPrimeSmudgeProofEyeshadowBase",
+    AU: "tooFacedShadowInsurancePrimer",
+    BR: "sephoraCollectionBoostLockEyePrimer"
+  }
+}),
+
+urbanDecayEyeshadowPrimerPotionAntiAging: productData({
+  category: "Eye Primer",
+  brand: "Urban Decay",
+  name: "Eyeshadow Primer Potion - Anti-Aging",
+  type: "Anti-aging eyeshadow primer / 24-hour wear",
+  sizes: ["mini", "standard"],
+  image: skuImage("s1704410"),
+  links: countryLinks({
+    US: "https://www.sephora.com/product/eyeshadow-primer-potion-anti-aging-P381306",
+    CA: "https://www.sephora.com/ca/en/product/eyeshadow-primer-potion-anti-aging-P381306"
+  }),
+  alternatives: {
+    FR: "narsProPrimeSmudgeProofEyeshadowBase",
+    UK: "tooFacedShadowInsurancePrimer",
+    AU: "sephoraCollectionBoostLockEyePrimer",
+    BR: "narsProPrimeSmudgeProofEyeshadowBase"
+  }
+}),
+
+sephoraCollectionBoostLockEyePrimer: productData({
+  category: "Eye Primer",
+  brand: "SEPHORA COLLECTION",
+  name: "Boost + Lock 12HR Eyeshadow Primer",
+  type: "12-hour eyeshadow primer / color-boosting base",
+  sizes: ["standard"],
+  image: skuImage("s2730802"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/boost-lock-eye-primer-P510843",
+    FR: "https://www.sephora.fr/p/base-a-paupieres---booste-fixe-P10058381.html"
+  }),
+  alternatives: {
+    US: "narsProPrimeSmudgeProofEyeshadowBase",
+    UK: "tooFacedShadowInsurancePrimer",
+    AU: "narsProPrimeSmudgeProofEyeshadowBase",
+    BR: "tooFacedShadowInsurancePrimer"
+  }
+}),
+
+anastasiaBeverlyHillsMiniWaterResistantEyePrimer: productData({
+  category: "Eye Primer",
+  brand: "Anastasia Beverly Hills",
+  name: "Mini Water-Resistant Eye Primer",
+  type: "Mini water-resistant eyeshadow primer / light-colored base",
+  sizes: ["mini"],
+  image: skuImage("s2226280"),
+  links: countryLinks({
+    US: "https://www.sephora.com/product/mini-eye-primer-P446027",
+    CA: "https://www.sephora.com/ca/en/product/mini-eye-primer-P446027"
+  }),
+  alternatives: {
+    FR: "sephoraCollectionBoostLockEyePrimer",
+    UK: "narsProPrimeSmudgeProofEyeshadowBase",
+    AU: "tooFacedShadowInsurancePrimer",
+    BR: "narsProPrimeSmudgeProofEyeshadowBase"
+  }
+}),
+
+makeUpForEverAquaSeal: productData({
+  category: "Eye Primer",
+  brand: "MAKE UP FOR EVER",
+  name: "Aqua Seal",
+  type: "Waterproof liquid converter / sealer for eye makeup",
+  sizes: ["standard"],
+  image: skuImage("s969352"),
+  links: countryLinks({
+    US: "https://www.sephora.com/product/eye-seal-P169812",
+    CA: "https://www.sephora.com/ca/en/product/eye-seal-P169812"
+  }),
+  alternatives: {
+    FR: "macPrepPrime24HourExtendEyeBase",
+    UK: "patMcGrathIntensifeyesLongwearPrimer",
+    AU: "narsProPrimeSmudgeProofEyeshadowBase",
+    BR: "sephoraCollectionBoostLockEyePrimer"
+  }
+}),
+
+bobbiBrownVitaminEnrichedEyeBase: productData({
+  category: "Eye Primer",
+  brand: "Bobbi Brown",
+  name: "Vitamin Enriched Eye Base Primer & Moisturizer with Hyaluronic Acid",
+  type: "Hydrating eye primer / moisturizer base",
+  sizes: ["standard"],
+  image: skuImage("s2367845"),
+  links: countryLinks({
+    US: "https://www.sephora.com/product/bobbi-brown-vitamin-enriched-eye-base-P462339",
+    CA: "https://www.sephora.com/ca/en/product/bobbi-brown-vitamin-enriched-eye-base-P462339",
+    FR: "https://www.sephora.fr/p/vitamin-enriched-eye-base---base-vitaminee-pour-les-yeux-P10013433.html"
+  }),
+  alternatives: {
+    UK: "macPrepPrime24HourExtendEyeBase",
+    AU: "narsProPrimeSmudgeProofEyeshadowBase",
+    BR: "sephoraCollectionBoostLockEyePrimer"
+  }
+}),
+
+patMcGrathIntensifeyesLongwearPrimer: productData({
+  category: "Eye Primer",
+  brand: "PAT McGRATH LABS",
+  name: "IntensifEYES™ Longwear Eyeshadow Primer",
+  type: "Longwear eyeshadow primer / prep-and-set base",
+  sizes: ["standard"],
+  image: skuImage("s2699429"),
+  links: countryLinks({
+    US: "https://www.sephora.com/product/intensifeyes-long-wear-eyeshadow-primer-P507491",
+    CA: "https://www.sephora.com/ca/en/product/intensifeyes-long-wear-eyeshadow-primer-P507491"
+  }),
+  alternatives: {
+    FR: "sephoraCollectionBoostLockEyePrimer",
+    UK: "narsProPrimeSmudgeProofEyeshadowBase",
+    AU: "tooFacedShadowInsurancePrimer",
+    BR: "narsProPrimeSmudgeProofEyeshadowBase"
+  }
+}),
+
+tooFacedShadowInsurancePrimer: productData({
+  category: "Eye Primer",
+  brand: "Too Faced",
+  name: "Shadow Insurance 24-Hour Eyeshadow Primer",
+  type: "24-hour eyeshadow primer / color-intensifying base",
+  sizes: ["standard"],
+  image: skuImage("s2652279"),
+  links: countryLinks({
+    US: "https://www.sephora.com/product/too-faced-shadow-insurance-24-hour-eyeshadow-primer-P503816",
+    CA: "https://www.sephora.com/ca/en/product/too-faced-shadow-insurance-24-hour-eyeshadow-primer-P503816",
+    FR: "https://www.sephora.fr/p/shadow-insurance--environmental-defense----base-de-fards-a-paupieres-P10023913.html"
+  }),
+  alternatives: {
+    UK: "narsProPrimeSmudgeProofEyeshadowBase",
+    AU: "sephoraCollectionBoostLockEyePrimer",
+    BR: "narsProPrimeSmudgeProofEyeshadowBase"
+  }
+}),
+
+grandeCosmeticsGrandeLashPeptideSerum: productData({
+  category: "Lash Serum",
+  brand: "Grande Cosmetics",
+  name: "GrandeLASH Peptide Lash Enhancing Serum",
+  type: "Peptide lash enhancing serum",
+  sizes: ["standard"],
+  image: skuImage("s2965648"),
+  links: countryLinks({
+    US: "https://www.sephora.com/product/grandelash-peptide-lash-enhancing-serum-P522522",
+    CA: "https://www.sephora.com/ca/en/product/grandelash-peptide-lash-enhancing-serum-P522522"
+  }),
+  alternatives: {
+    FR: "lancomeCilsBooster",
+    UK: "lancomeCilsBooster",
+    AU: "tarteOpeningActLashPrimer",
+    BR: "lancomeCilsBooster"
+  }
+}),
+
+grandeCosmeticsMiniGrandeLashPeptideSerum: productData({
+  category: "Lash Serum",
+  brand: "Grande Cosmetics",
+  name: "Mini GrandeLASH Peptide Lash Enhancing Serum",
+  type: "Mini peptide lash enhancing serum",
+  sizes: ["mini"],
+  image: skuImage("s2965655"),
+  links: countryLinks({
+    US: "https://www.sephora.com/product/mini-grandelash-peptide-lash-enhancing-serum-P522534",
+    CA: "https://www.sephora.com/ca/en/product/mini-grandelash-peptide-lash-enhancing-serum-P522534"
+  }),
+  alternatives: {
+    FR: "lancomeCilsBooster",
+    UK: "lancomeCilsBooster",
+    AU: "tarteOpeningActLashPrimer",
+    BR: "lancomeCilsBooster"
+  }
+}),
+
+  // -------------------------
   // SKINCARE / SKIN PREP
   // -------------------------
   supergoopGlowscreen: productData({
@@ -12881,6 +13189,7 @@ saieCitySetSettingSpray: productData({
     }
   })
 };
+
 function getProductForCountry(productKey, country) {
   const originalProduct = PRODUCT_CATALOG[productKey];
 
