@@ -7459,10 +7459,15 @@ const products = [
 // Compatible avec un site sans modules :
 if (typeof window !== "undefined") {
   window.products = products;
+  window.productCatalog = products;
   window.sephoraUSFaceCatalogue = products;
 }
 
 // Compatible avec Node/exports si besoin :
 if (typeof module !== "undefined") {
-  module.exports = { products, sephoraUSFaceCatalogue: products };
-}
+  module.exports = {
+    products,
+    productCatalog: products,
+    sephoraUSFaceCatalogue: products
+  };
+  }
