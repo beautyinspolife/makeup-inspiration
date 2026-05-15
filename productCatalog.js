@@ -6926,7 +6926,233 @@ narsTalcFreePowderBlush: productData({
   // -------------------------
   // HIGHLIGHTER / GLOW
   // -------------------------
-  
+  diorForeverGlowLuminizerHighlighter: productData({
+    category: "Highlighter",
+    brand: "DIOR",
+    name: "Forever Glow Luminizer Highlighter",
+    type: "Powder highlighter with hyaluronic acid",
+    sizes: ["standard"],
+    image: skuImage("s2836419"),
+    links: countryLinks({
+      US: "https://www.sephora.com/product/dior-forever-glow-luminizer-highlighter-P515394",
+      CA: "https://www.sephora.com/ca/en/product/dior-forever-glow-luminizer-highlighter-P515394",
+      UK: "https://www.sephora.co.uk/p/dior-forever-glow-luminizer-6g"
+    }),
+    alternatives: {
+      FR: "charlotteBeautyHighlighterWand",
+      AU: "hourglassAmbientLightingPowder",
+      BR: "rareBeautyPositiveLightHighlighter"
+    }
+  }),
+
+  natashaDenonaGlamFaceEyePalette: productData({
+    category: "Highlighter Palette",
+    brand: "NATASHA DENONA",
+    name: "Glam Face & Eye Palette",
+    type: "Face and eye palette with highlighter shades",
+    sizes: ["palette"],
+    image: skuImage("s2486702"),
+    links: countryLinks({
+      US: "https://www.sephora.com/product/natasha-denona-glam-face-eye-palette-P478018",
+      CA: "https://www.sephora.com/ca/en/product/natasha-denona-glam-face-eye-palette-P478018",
+      FR: "https://www.sephora.fr/p/glam-face-palette---palette-maquillage-P10018761.html",
+      UK: "https://www.sephora.co.uk/p/natasha-denona-glam-face-palette-makeup-palette",
+      AU: "https://www.sephora.com.au/products/natasha-denona-glam-face-palette"
+    }),
+    alternatives: {
+      BR: "rareBeautyPositiveLightHighlighter"
+    }
+  }),
+
+  benefitCookieTicklePowderHighlighter: productData({
+    category: "Highlighter",
+    brand: "Benefit Cosmetics",
+    name: "Cookie and Tickle Shimmer Finish Powder Highlighters",
+    type: "Shimmer powder highlighter",
+    sizes: ["standard"],
+    image: skuImage("s2520476"),
+    links: countryLinks({
+      US: "https://www.sephora.com/product/cookie-highlighter-P447375",
+      CA: "https://www.sephora.com/ca/en/product/cookie-highlighter-P447375",
+      FR: "https://www.sephora.fr/p/cookie---highlighter-en-poudre-P10006363.html",
+      UK: "https://www.sephora.co.uk/p/benefit-cosmetics-cookie-box-o-highlighter-8g",
+      AU: "https://www.sephora.com.au/products/benefit-cosmetics-cookie-golden-pearl-highlighter"
+    }),
+    alternatives: {
+      BR: "fentyKillawattHighlighter"
+    }
+  }),
+
+  tatchaSerumStickTreatmentBalm: productData({
+    category: "Glow Balm",
+    brand: "Tatcha",
+    name: "The Serum Stick Line-Smoothing Treatment & Touch Up Balm",
+    type: "Glow touch-up balm",
+    sizes: ["standard"],
+    image: skuImage("s2315323"),
+    links: countryLinks({
+      US: "https://www.sephora.com/product/tatcha-the-serum-stick-treatment-touch-up-balm-P454018",
+      CA: "https://www.sephora.com/ca/en/product/tatcha-the-serum-stick-treatment-touch-up-balm-P454018",
+      UK: "https://www.sephora.co.uk/p/tatcha-the-serum-stick-P1000212639"
+    }),
+    alternatives: {
+      FR: "meritDayGlowHighlightingBalm",
+      AU: "westmanAtelierLitUpHighlightStick",
+      BR: "rareBeautyPositiveLightLiquidLuminizer"
+    }
+  }),
+
+  charlotteBeautyHighlighterWand: productData({
+    category: "Highlighter",
+    brand: "Charlotte Tilbury",
+    name: "Beauty Highlighter Wand",
+    type: "Liquid highlighter wand",
+    sizes: ["standard"],
+    image: skuImage("s2366524"),
+    links: countryLinks({
+      US: "https://www.sephora.com/product/glowgasm-beauty-highlighter-wand-P444154",
+      CA: "https://www.sephora.com/ca/en/product/glowgasm-beauty-highlighter-wand-P444154",
+      FR: "https://www.sephora.fr/p/glowgasm-beauty-light-wand---highlighter-liquide-P3462076.html"
+    }),
+    alternatives: {
+      UK: "charlotteHollywoodFlawlessFilter",
+      AU: "saieGlowySuperGel",
+      BR: "rareBeautyPositiveLightLiquidLuminizer"
+    }
+  }),
+
+  patMcGrathSkinFetishHighlighterBalmDuo: productData({
+    category: "Highlighter",
+    brand: "PAT McGRATH LABS",
+    name: "Skin Fetish Highlighter & Balm Duo",
+    type: "Highlighter and balm duo",
+    sizes: ["standard"],
+    image: skuImage("s2111409"),
+    links: countryLinks({
+      US: "https://www.sephora.com/product/skin-fetish-highlighter-balm-duo-P433003",
+      CA: "https://www.sephora.com/ca/en/product/skin-fetish-highlighter-balm-duo-P433003",
+      FR: "https://www.sephora.fr/p/skin-fetish---duo-illuminateur-P3865104.html",
+      UK: "https://www.sephora.co.uk/p/pat-mcgrath-labs-skin-fetish-highlighter-balm-duo",
+      AU: "https://www.sephora.com.au/products/pat-mcgrath-skin-fetish-highlighter-and-balm-duo"
+    }),
+    alternatives: {
+      BR: "fentyDiamondBombAllOverDiamondVeil"
+    }
+  }),
+
+  charlotteHollywoodFlawlessFilter: productData({
+    category: "Complexion Glow",
+    brand: "Charlotte Tilbury",
+    name: "Hollywood Flawless Filter",
+    type: "Liquid glow booster / highlighter",
+    sizes: ["mini", "standard"],
+    image: skuImage("s2116044"),
+    links: countryLinks({
+      US: "https://www.sephora.com/product/hollywood-flawless-filter-P434104",
+      CA: "https://www.sephora.com/ca/en/product/hollywood-flawless-filter-P434104",
+      FR: "https://www.sephora.fr/p/hollywood-filter---highlighter-liquide-P3462081.html",
+      UK: "https://www.sephora.co.uk/p/charlotte-tilbury-hollywood-flawless-filter-liquid-highlighter-30ml"
+    }),
+    alternatives: {
+      AU: "saieGlowySuperGel",
+      BR: "rareBeautyPositiveLightLiquidLuminizer"
+    }
+  }),
+
+  yslToucheEclatAwakeningConcealerClickPen: productData({
+    category: "Highlighting Pen",
+    brand: "Yves Saint Laurent",
+    name: "Touche Éclat Awakening Concealer Click Pen",
+    type: "Brightening concealer and highlighting pen",
+    sizes: ["standard"],
+    image: skuImage("s2859098"),
+    links: countryLinks({
+      US: "https://www.sephora.com/product/touche-eclat-radiance-perfecting-pen-P218431",
+      CA: "https://www.sephora.com/ca/en/product/touche-eclat-radiance-perfecting-pen-P218431",
+      FR: "https://www.sephora.fr/p/touche-eclat-le-stylo---stylo-illuminateur-de-teint-P29905.html",
+      AU: "https://www.sephora.com.au/products/yves-saint-laurent-touche-eclat-radiance-perfecting-pen"
+    }),
+    alternatives: {
+      UK: "charlotteHollywoodFlawlessFilter",
+      BR: "rareBeautyPositiveLightLiquidLuminizer"
+    }
+  }),
+
+  hudaBlushFilterBlushlightersPalette: productData({
+    category: "Highlighter Palette",
+    brand: "HUDA BEAUTY",
+    name: "Blush Filter Blurring Blushlighters Palette",
+    type: "Blush and highlighter palette",
+    sizes: ["palette"],
+    image: skuImage("s2954642"),
+    links: countryLinks({
+      US: "https://www.sephora.com/product/huda-beauty-blush-filter-blurring-blushlighter-palette-P518601",
+      CA: "https://www.sephora.com/ca/en/product/huda-beauty-blush-filter-blurring-blushlighter-palette-P518601",
+      FR: "https://www.sephora.fr/p/blush-filter-blurring-blushlighters-palette---palette-blush-et-highlighter-P1000211103.html",
+      UK: "https://www.sephora.co.uk/p/huda-beauty-blush-filter-blurring-blushlighters-palette-7-5g",
+      AU: "https://www.sephora.com.au/products/huda-beauty-blush-filter-blurring-blushlighters-palette"
+    }),
+    alternatives: {
+      BR: "rareBeautyPositiveLightHighlighter"
+    }
+  }),
+
+  liveTintedHueglowLiquidHighlighterDrops: productData({
+    category: "Highlighter",
+    brand: "Live Tinted",
+    name: "Hueglow Liquid Highlighter Drops",
+    type: "Liquid highlighter drops",
+    sizes: ["mini", "standard"],
+    image: skuImage("s2704344"),
+    links: countryLinks({
+      CA: "https://www.sephora.com/ca/en/product/hueglow-liquid-highlighter-drops-P506933"
+    }),
+    alternatives: {
+      US: "saieGlowySuperGel",
+      FR: "meritDayGlowHighlightingBalm",
+      UK: "meritDayGlowHighlightingBalm",
+      AU: "westmanAtelierLitUpHighlightStick",
+      BR: "rareBeautyPositiveLightLiquidLuminizer"
+    }
+  }),
+
+  hourglassUnrealRadiantGlowLiquidHighlighter: productData({
+    category: "Highlighter",
+    brand: "Hourglass",
+    name: "Unreal Radiant Glow Liquid Highlighter",
+    type: "Radiant liquid highlighter",
+    sizes: ["standard"],
+    image: skuImage("s2957108"),
+    links: countryLinks({
+      US: "https://www.sephora.com/product/unreal-radiant-glow-liquid-highlighter-P521357",
+      CA: "https://www.sephora.com/ca/en/product/unreal-radiant-glow-liquid-highlighter-P521357",
+      FR: "https://www.sephora.fr/p/unreal-liquid-highlighter---highlighter-liquide-P1000213630.html",
+      UK: "https://www.sephora.co.uk/p/hourglass-unreal-liquid-highlighter",
+      AU: "https://www.sephora.com.au/products/hourglass-unreal-liquid-highlighter"
+    }),
+    alternatives: {
+      BR: "fentyDiamondBombAllOverDiamondVeil"
+    }
+  }),
+
+  meritDayGlowHighlightingBalm: productData({
+    category: "Highlighter",
+    brand: "MERIT",
+    name: "Day Glow Dewy Highlighting Balm",
+    type: "Dewy highlighting balm",
+    sizes: ["standard"],
+    image: skuImage("s2426765"),
+    links: countryLinks({
+      US: "https://www.sephora.com/product/merit-day-glow-highlighting-balm-P468696",
+      CA: "https://www.sephora.com/ca/en/product/merit-day-glow-highlighting-balm-P468696",
+      FR: "https://www.sephora.fr/p/day-glow-highlighting-balm-P1000213279.html",
+      UK: "https://www.sephora.co.uk/p/merit-beauty-day-glow-highlighting-balm-2-28g"
+    }),
+    alternatives: {
+      AU: "westmanAtelierLitUpHighlightStick",
+      BR: "rareBeautyPositiveLightLiquidLuminizer"
+    }
+  }),
 
   hourglassAmbientLightingPalette: productData({
     category: "Highlighter Palette",
