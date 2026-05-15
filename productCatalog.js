@@ -2992,6 +2992,633 @@ const PRODUCT_CATALOG = {
   // BLUSH
   // -------------------------
 
+nudestixNudescreenSpf30BlushTint: productData({
+  category: "Blush",
+  brand: "NUDESTIX",
+  name: "Nudescreen SPF 30 Blush Tint",
+  type: "SPF 30 liquid blush tint for cheeks, lips and eyes",
+  sizes: ["standard"],
+  image: "https://www.sephora.com/productimages/sku/s2756039-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    US: "https://www.sephora.com/product/nudestix-nudescreen-blush-lip-tint-spf-30-P509877",
+    CA: "https://www.sephora.com/ca/en/product/nudestix-nudescreen-blush-lip-tint-spf-30-P509877"
+  }),
+  alternatives: {
+    FR: "hudaBeautyBlushFilterSoftGlowLiquidBlush",
+    UK: "tower28BeachpleaseCreamBlush",
+    AU: "rareBeautySoftPinchLiquidBlush",
+    BR: "rareBeautySoftPinchLiquidBlush"
+  }
+}),
+
+lixrLixstickCreamyLipCheekTintStick: productData({
+  category: "Blush",
+  brand: "LIXR Beauty",
+  name: "Lixstick™ Creamy Lip + Cheek Tint Stick",
+  type: "Creamy lip and cheek tint stick",
+  sizes: ["standard"],
+  image: "https://www.sephora.com/productimages/sku/s2955201-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    US: "https://www.sephora.com/product/lixr-lixstick-multi-tint-P521064",
+    CA: "https://www.sephora.com/ca/en/product/lixr-lixstick-multi-tint-P521064"
+  }),
+  alternatives: {
+    FR: "makeupByMarioSoftPopCreamBlushStick",
+    UK: "meritFlushBalmCreamBlush",
+    AU: "rareBeautySoftPinchLiquidBlush",
+    BR: "glossierCloudPaintGelCreamBlush"
+  }
+}),
+
+tomFordSoleilSunkissedLiquidCreamBlush: productData({
+  category: "Blush",
+  brand: "TOM FORD",
+  name: "Soleil Sunkissed Liquid Cream Blush",
+  type: "Liquid cream blush",
+  sizes: ["standard"],
+  image: "https://www.sephora.com/productimages/sku/s2966547-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    US: "https://www.sephora.com/product/soleil-sunkissed-liquid-cream-blush-P522109",
+    CA: "https://www.sephora.com/ca/en/product/soleil-sunkissed-liquid-cream-blush-P522109"
+  }),
+  alternatives: {
+    FR: "hudaBeautyBlushFilterSoftGlowLiquidBlush",
+    UK: "glossierCloudPaintGelCreamBlush",
+    AU: "rareBeautySoftPinchLiquidBlush",
+    BR: "rareBeautySoftPinchLuminousPowderBlush"
+  }
+}),
+
+isamayaSkinEnhancingDuoCreamBlushHighlighter: productData({
+  category: "Blush",
+  brand: "ISAMAYA",
+  name: "Skin Enhancing Duo - Cream Blush and Highlighter",
+  type: "Cream blush and highlighter duo",
+  sizes: ["standard"],
+  image: "https://www.sephora.com/productimages/sku/s2855559-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    US: "https://www.sephora.com/product/skin-enhancing-duo-cream-blush-highlighter-P515454",
+    CA: "https://www.sephora.com/ca/en/product/skin-enhancing-duo-cream-blush-highlighter-P515454"
+  }),
+  alternatives: {
+    FR: "tarteMacaronBlushGlowDuo",
+    UK: "rareBeautySoftPinchLuminousPowderBlush",
+    AU: "patrickTaMajorHeadlinesBlushDuo",
+    BR: "rareBeautySoftPinchLiquidBlush"
+  }
+}),
+
+macSkinfinishColourstruckBlush: productData({
+  category: "Blush",
+  brand: "MAC Cosmetics",
+  name: "Skinfinish Colourstruck Blush",
+  type: "Buildable powder blush",
+  sizes: ["standard"],
+  image: "https://www.sephora.com/productimages/sku/s2968303-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    US: "https://www.sephora.com/product/skinfinish-colourstruck-blush-P522303",
+    CA: "https://www.sephora.com/ca/en/product/skinfinish-colourstruck-blush-P522303"
+  }),
+  alternatives: {
+    FR: "macGlowPlayCushionyBlush",
+    UK: "narsTalcFreePowderBlush",
+    AU: "rareBeautySoftPinchLuminousPowderBlush",
+    BR: "cliniqueCheekPopBlush"
+  }
+}),
+
+macStrobeBeamLiquidBlush: productData({
+  category: "Blush",
+  brand: "MAC Cosmetics",
+  name: "Strobe Beam Illuminating Liquid Blush with Buildable Coverage",
+  type: "Illuminating liquid blush",
+  sizes: ["standard"],
+  image: "https://www.sephora.com/productimages/sku/s2837466-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    US: "https://www.sephora.com/product/strobe-beam-liquid-blush-P515912",
+    CA: "https://www.sephora.com/ca/en/product/strobe-beam-liquid-blush-P515912"
+  }),
+  alternatives: {
+    FR: "hudaBeautyBlushFilterSoftGlowLiquidBlush",
+    UK: "glossierCloudPaintGelCreamBlush",
+    AU: "rareBeautySoftPinchLiquidBlush",
+    BR: "rareBeautySoftPinchLuminousPowderBlush"
+  }
+}),
+
+chantecailleCheekGeleeHydratingGelCreamBlush: productData({
+  category: "Blush",
+  brand: "CHANTECAILLE",
+  name: "Cheek Gelée Hydrating Gel-Cream Blush",
+  type: "Hydrating gel-cream blush",
+  sizes: ["standard"],
+  image: "https://www.sephora.com/productimages/sku/s2972230-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/cheek-gelee-hydrating-gel-cream-blush-P521950"
+  }),
+  alternatives: {
+    US: "saieDewBlushLiquidCreamBlush",
+    FR: "hudaBeautyBlushFilterSoftGlowLiquidBlush",
+    UK: "glossierCloudPaintGelCreamBlush",
+    AU: "rareBeautySoftPinchLiquidBlush",
+    BR: "rareBeautySoftPinchLiquidBlush"
+  }
+}),
+
+anastasiaMagicTouchCreamBlushLipTrio: productData({
+  category: "Blush",
+  brand: "Anastasia Beverly Hills",
+  name: "Magic Touch Cream Blush & Lip Trio",
+  type: "Cream blush and lip trio",
+  sizes: ["standard"],
+  image: "https://www.sephora.com/productimages/sku/s2873594-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    US: "https://www.sephora.com/product/anastasia-beverly-hills-magic-touch-blush-trio-P516915",
+    CA: "https://www.sephora.com/ca/en/product/anastasia-beverly-hills-magic-touch-blush-trio-P516915"
+  }),
+  alternatives: {
+    FR: "tarteMacaronBlushGlowDuo",
+    UK: "meritFlushBalmCreamBlush",
+    AU: "rareBeautySoftPinchLiquidBlush",
+    BR: "rareBeautySoftPinchLuminousPowderBlush"
+  }
+}),
+
+kvdEverlastingBlush: productData({
+  category: "Blush",
+  brand: "KVD Beauty",
+  name: "Everlasting Blush",
+  type: "Long-wear powder blush",
+  sizes: ["standard"],
+  image: "https://www.sephora.com/productimages/sku/s2307940-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/kvd-vegan-beauty-everlasting-blush-P454732",
+    FR: "https://www.sephora.fr/p/everlasting-blush-P3967160.html",
+    UK: "https://www.sephora.co.uk/p/kvd-beauty-everlasting-blush"
+  }),
+  alternatives: {
+    US: "narsTalcFreePowderBlush",
+    AU: "rareBeautySoftPinchLuminousPowderBlush",
+    BR: "cliniqueCheekPopBlush"
+  }
+}),
+
+guerlainTerracottaHealthyGlowPowderBlush: productData({
+  category: "Blush",
+  brand: "GUERLAIN",
+  name: "Terracotta Healthy Glow Powder Blush",
+  type: "Healthy glow powder blush",
+  sizes: ["standard"],
+  image: "https://www.sephora.com/productimages/sku/s2778801-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/guerlain-terracotta-healthy-glow-powder-blush-P510720"
+  }),
+  alternatives: {
+    US: "gucciLuminousMattePowderBlush",
+    FR: "charlotteTilburyCheekToChicBlush",
+    UK: "narsTalcFreePowderBlush",
+    AU: "rareBeautySoftPinchLuminousPowderBlush",
+    BR: "cliniqueCheekPopBlush"
+  }
+}),
+
+liveTintedBlushCrushLiquidBlush: productData({
+  category: "Blush",
+  brand: "Live Tinted",
+  name: "Blush Crush Liquid Blush",
+  type: "Liquid blush",
+  sizes: ["standard"],
+  image: "https://www.sephora.com/productimages/sku/s2782068-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/live-tinted-blush-crush-liquid-blush-P512735"
+  }),
+  alternatives: {
+    US: "saieDewBlushLiquidCreamBlush",
+    FR: "hudaBeautyBlushFilterSoftGlowLiquidBlush",
+    UK: "glossierCloudPaintGelCreamBlush",
+    AU: "rareBeautySoftPinchLiquidBlush",
+    BR: "rareBeautySoftPinchLiquidBlush"
+  }
+}),
+
+charlotteTilburyMatteBeautyBlushWand: productData({
+  category: "Blush",
+  brand: "Charlotte Tilbury",
+  name: "Matte Beauty Blush Wand",
+  type: "Matte liquid blush wand",
+  sizes: ["standard"],
+  image: "https://www.sephora.com/productimages/sku/s2697829-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    US: "https://www.sephora.com/product/matte-beauty-blush-wands-P504020",
+    CA: "https://www.sephora.com/ca/en/product/matte-beauty-blush-wands-P504020"
+  }),
+  alternatives: {
+    FR: "hudaBeautyBlushFilterSoftGlowLiquidBlush",
+    UK: "glossierCloudPaintGelCreamBlush",
+    AU: "rareBeautySoftPinchLiquidBlush",
+    BR: "rareBeautySoftPinchLuminousPowderBlush"
+  }
+}),
+
+glossierCloudPaintPlushBlush: productData({
+  category: "Blush",
+  brand: "Glossier",
+  name: "Cloud Paint Plush Blush",
+  type: "Soft-matte plush blush",
+  sizes: ["standard"],
+  image: "https://www.sephora.com/productimages/sku/s2902617-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    US: "https://www.sephora.com/product/cloud-paint-plush-blush-P518494",
+    CA: "https://www.sephora.com/ca/en/product/cloud-paint-plush-blush-P518494"
+  }),
+  alternatives: {
+    FR: "glossierCloudPaintGelCreamBlush",
+    UK: "glossierCloudPaintGelCreamBlush",
+    AU: "rareBeautySoftPinchLiquidBlush",
+    BR: "rareBeautySoftPinchLiquidBlush"
+  }
+}),
+
+tower28GetSetMattePowderBlush: productData({
+  category: "Blush",
+  brand: "Tower 28 Beauty",
+  name: "GetSet® Blur + Set Matte Powder Blush",
+  type: "Matte powder blush",
+  sizes: ["standard"],
+  image: "https://www.sephora.com/productimages/sku/s2843084-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    US: "https://www.sephora.com/product/getset-blur-set-matte-powder-blush-P514892",
+    CA: "https://www.sephora.com/ca/en/product/getset-blur-set-matte-powder-blush-P514892",
+    UK: "https://www.sephora.co.uk/p/tower-28-getset-blur-set-matte-powder-blush-4g"
+  }),
+  alternatives: {
+    FR: "rareBeautySoftPinchLuminousPowderBlush",
+    AU: "rareBeautySoftPinchLuminousPowderBlush",
+    BR: "cliniqueCheekPopBlush"
+  }
+}),
+
+saieGlowSculptHighlightingBlush: productData({
+  category: "Blush",
+  brand: "Saie",
+  name: "Glow Sculpt Multi-Use Cream Highlighting Blush",
+  type: "Cream highlighting blush",
+  sizes: ["standard"],
+  image: "https://www.sephora.com/productimages/sku/s2679462-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    US: "https://www.sephora.com/product/saie-the-glow-sculpt-P505541",
+    CA: "https://www.sephora.com/ca/en/product/saie-the-glow-sculpt-P505541"
+  }),
+  alternatives: {
+    FR: "rareBeautySoftPinchLuminousPowderBlush",
+    UK: "glossierCloudPaintGelCreamBlush",
+    AU: "rareBeautySoftPinchLiquidBlush",
+    BR: "rareBeautySoftPinchLuminousPowderBlush"
+  }
+}),
+
+hudaBeautyMiniBlushMocktailDuo: productData({
+  category: "Blush",
+  brand: "HUDA BEAUTY",
+  name: "Mini Blush Mocktail Duos",
+  type: "Mini blush duo",
+  sizes: ["mini"],
+  image: "https://www.sephora.com/productimages/sku/s2963239-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    US: "https://www.sephora.com/product/mini-blush-mocktail-duos-P522100",
+    CA: "https://www.sephora.com/ca/en/product/mini-blush-mocktail-duos-P522100"
+  }),
+  alternatives: {
+    FR: "hudaBeautyBlushFilterBlushlighterPalette",
+    UK: "rareBeautySoftPinchLuminousPowderBlush",
+    AU: "rareBeautySoftPinchLiquidBlush",
+    BR: "rareBeautySoftPinchLiquidBlush"
+  }
+}),
+
+benefitCheekBudsLimitedEditionPalette: productData({
+  category: "Blush",
+  brand: "Benefit Cosmetics",
+  name: "Cheek Buds Limited-Edition Cheek Palette",
+  type: "Cheek palette with bronzer, blushes and highlighter",
+  sizes: ["standard"],
+  image: "https://www.sephora.com/productimages/sku/s2930865-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/benefit-cosmetics-bloom-full-face-palette-P521492"
+  }),
+  alternatives: {
+    US: "oneSizeCheekClapper3DBlushTrio",
+    FR: "hudaBeautyBlushFilterBlushlighterPalette",
+    UK: "rareBeautySoftPinchLuminousPowderBlush",
+    AU: "patrickTaMajorHeadlinesBlushDuo",
+    BR: "rareBeautySoftPinchLiquidBlush"
+  }
+}),
+
+nudestixMiniPinkNudeBlushKit: productData({
+  category: "Blush",
+  brand: "NUDESTIX",
+  name: "Mini Pink Nude Blush 3 PC Kit",
+  type: "Mini blush stick kit",
+  sizes: ["mini", "value"],
+  image: "https://www.sephora.com/productimages/sku/s2647667-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/nudestix-mini-pink-nude-blush-3-pc-kit-P505577"
+  }),
+  alternatives: {
+    US: "nudestixNudiesMatteGlowCoreBlush",
+    FR: "makeupByMarioSoftPopCreamBlushStick",
+    UK: "tower28BeachpleaseCreamBlush",
+    AU: "rareBeautySoftPinchLiquidBlush",
+    BR: "glossierCloudPaintGelCreamBlush"
+  }
+}),
+
+lysHigherStandardSatinMatteCreamBlush: productData({
+  category: "Blush",
+  brand: "LYS Beauty",
+  name: "Higher Standard Satin Matte Cream Blush",
+  type: "Satin matte cream blush",
+  sizes: ["standard"],
+  image: "https://www.sephora.com/productimages/sku/s2419935-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/lys-beauty-higher-standard-satin-matte-cream-blush-P468384"
+  }),
+  alternatives: {
+    US: "lysBeautyHigherStandardCreamGlowBlushStick",
+    FR: "makeupByMarioSoftPopCreamBlushStick",
+    UK: "meritFlushBalmCreamBlush",
+    AU: "rareBeautySoftPinchLiquidBlush",
+    BR: "rareBeautySoftPinchLuminousPowderBlush"
+  }
+}),
+
+makeUpForEverArtistLiquidColorBlush: productData({
+  category: "Blush",
+  brand: "MAKE UP FOR EVER",
+  name: "Artist Liquid Color Waterproof Liquid Blush for Lip + Cheek",
+  type: "Waterproof liquid blush for lip and cheek",
+  sizes: ["standard"],
+  image: "https://www.sephora.com/productimages/sku/s2943249-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    US: "https://www.sephora.com/product/artist-liquid-color-P520538",
+    CA: "https://www.sephora.com/ca/en/product/artist-liquid-color-P520538"
+  }),
+  alternatives: {
+    FR: "hudaBeautyBlushFilterSoftGlowLiquidBlush",
+    UK: "glossierCloudPaintGelCreamBlush",
+    AU: "rareBeautySoftPinchLiquidBlush",
+    BR: "rareBeautySoftPinchLiquidBlush"
+  }
+}),
+
+natashaDenonaRoseCheekDuo: productData({
+  category: "Blush",
+  brand: "NATASHA DENONA",
+  name: "Rose Cheek Duo - Cream Blush and Highlighter",
+  type: "Cream blush and highlighter duo",
+  sizes: ["mini"],
+  image: "https://www.sephora.com/productimages/sku/s2470698-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/natasha-denona-rose-cheek-duo-P479977"
+  }),
+  alternatives: {
+    US: "natashaDenonaHyBlushCloudyCreamCheekDuo",
+    FR: "hudaBeautyBlushFilterBlushlighterPalette",
+    UK: "rareBeautySoftPinchLuminousPowderBlush",
+    AU: "patrickTaMajorHeadlinesBlushDuo",
+    BR: "rareBeautySoftPinchLiquidBlush"
+  }
+}),
+
+natashaDenonaMyMiniDreamGlowBlush: productData({
+  category: "Blush",
+  brand: "NATASHA DENONA",
+  name: "My Mini Dream Glow Blush",
+  type: "Mini blush and highlighter trio",
+  sizes: ["mini"],
+  image: "https://www.sephora.com/productimages/sku/s2743375-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    US: "https://www.sephora.com/product/natasha-denona-my-mini-dream-glow-blush-P509533",
+    CA: "https://www.sephora.com/ca/en/product/natasha-denona-my-mini-dream-glow-blush-P509533"
+  }),
+  alternatives: {
+    FR: "hudaBeautyBlushFilterBlushlighterPalette",
+    UK: "rareBeautySoftPinchLuminousPowderBlush",
+    AU: "patrickTaMajorHeadlinesBlushDuo",
+    BR: "rareBeautySoftPinchLiquidBlush"
+  }
+}),
+
+charlotteTilburyMiniHollywoodBlushGlowPalette: productData({
+  category: "Blush",
+  brand: "Charlotte Tilbury",
+  name: "Mini Hollywood Blush & Glow Palette",
+  type: "Mini blush and highlighter palette",
+  sizes: ["mini"],
+  image: "https://www.sephora.com/productimages/sku/s2705440-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    US: "https://www.sephora.com/product/mini-hollywood-blush-glow-set-shade-1-P508700",
+    CA: "https://www.sephora.com/ca/en/product/mini-hollywood-blush-glow-set-shade-1-P508700"
+  }),
+  alternatives: {
+    FR: "tarteMacaronBlushGlowDuo",
+    UK: "rareBeautySoftPinchLuminousPowderBlush",
+    AU: "patrickTaMajorHeadlinesBlushDuo",
+    BR: "rareBeautySoftPinchLiquidBlush"
+  }
+}),
+
+tooFacedSunBunnyBlushingBronzer: productData({
+  category: "Blush",
+  brand: "Too Faced",
+  name: "Sun Bunny Luminous Blushing Bronzer",
+  type: "Blushing bronzer",
+  sizes: ["standard"],
+  image: "https://www.sephora.com/productimages/sku/s2966083-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    US: "https://www.sephora.com/product/sun-bunny-luminous-blushing-bronzer-P522127",
+    CA: "https://www.sephora.com/ca/en/product/sun-bunny-luminous-blushing-bronzer-P522127"
+  }),
+  alternatives: {
+    FR: "charlotteTilburyCheekToChicBlush",
+    UK: "narsTalcFreePowderBlush",
+    AU: "rareBeautySoftPinchLuminousPowderBlush",
+    BR: "cliniqueCheekPopBlush"
+  }
+}),
+
+caliraySocalSuperbloomLipCheekTint: productData({
+  category: "Blush",
+  brand: "caliray",
+  name: "Socal Superbloom Dewy Lip + Cheek Soft Stain Tint",
+  type: "Dewy lip and cheek tint",
+  sizes: ["standard"],
+  image: "https://www.sephora.com/productimages/sku/s2652923-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    US: "https://www.sephora.com/product/socal-superbloom-lip-cheek-blush-hydrating-soft-stain-with-hyaluronic-acid-P507322",
+    CA: "https://www.sephora.com/ca/en/product/socal-superbloom-lip-cheek-blush-hydrating-soft-stain-with-hyaluronic-acid-P507322"
+  }),
+  alternatives: {
+    FR: "hudaBeautyBlushFilterSoftGlowLiquidBlush",
+    UK: "glossierCloudPaintGelCreamBlush",
+    AU: "rareBeautySoftPinchLiquidBlush",
+    BR: "rareBeautySoftPinchLiquidBlush"
+  }
+}),
+
+sephoraCollectionBlushMultiuseCreamBlush: productData({
+  category: "Blush",
+  brand: "SEPHORA COLLECTION",
+  name: "Blush! Multiuse Cream Blush",
+  type: "Multi-use cream-to-powder blush",
+  sizes: ["standard"],
+  image: "https://www.sephora.com/productimages/sku/s2960367-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    US: "https://www.sephora.com/product/multiuse-cream-blush-P522057",
+    CA: "https://www.sephora.com/ca/en/product/multiuse-cream-blush-P522057",
+    FR: "https://www.sephora.fr/p/blush----blush-creme-multi-usage-P1000213391.html"
+  }),
+  alternatives: {
+    UK: "glossierCloudPaintGelCreamBlush",
+    AU: "rareBeautySoftPinchLiquidBlush",
+    BR: "rareBeautySoftPinchLiquidBlush"
+  }
+}),
+
+sephoraCollectionBlushBlushBlushPalette: productData({
+  category: "Blush",
+  brand: "SEPHORA COLLECTION",
+  name: "Blush Blush Blush. Cream & Powder Palette",
+  type: "Cream and powder blush palette",
+  sizes: ["standard"],
+  image: "https://www.sephora.com/productimages/sku/s2870897-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    US: "https://www.sephora.com/product/blush-blush-blush-palette-P516069",
+    CA: "https://www.sephora.com/ca/en/product/blush-blush-blush-palette-P516069"
+  }),
+  alternatives: {
+    FR: "hudaBeautyBlushFilterBlushlighterPalette",
+    UK: "rareBeautySoftPinchLuminousPowderBlush",
+    AU: "patrickTaMajorHeadlinesBlushDuo",
+    BR: "rareBeautySoftPinchLiquidBlush"
+  }
+}),
+
+benefitWanderfulWorldSilkySoftPowderBlush: productData({
+  category: "Blush",
+  brand: "Benefit Cosmetics",
+  name: "WANDERful World Silky-Soft Powder Blush",
+  type: "Silky-soft powder blush",
+  sizes: ["mini", "standard"],
+  image: "https://www.sephora.com/productimages/sku/s2872166-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    US: "https://www.sephora.com/product/box-o-powder-blush-P500253",
+    CA: "https://www.sephora.com/ca/en/product/box-o-powder-blush-P500253"
+  }),
+  alternatives: {
+    FR: "cliniqueCheekPopBlush",
+    UK: "narsTalcFreePowderBlush",
+    AU: "rareBeautySoftPinchLuminousPowderBlush",
+    BR: "rareBeautySoftPinchLiquidBlush"
+  }
+}),
+
+rareBeautySoftPinchMatteBouncyBlush: productData({
+  category: "Blush",
+  brand: "Rare Beauty by Selena Gomez",
+  name: "Soft Pinch Matte Bouncy Blush",
+  type: "Cream-to-powder matte bouncy blush",
+  sizes: ["standard"],
+  image: "https://www.sephora.com/productimages/sku/s2936425-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    US: "https://www.sephora.com/product/soft-pinch-matte-bouncy-blush-P515519",
+    CA: "https://www.sephora.com/ca/en/product/soft-pinch-matte-bouncy-blush-P515519",
+    FR: "https://www.sephora.fr/p/soft-pinch-matte-bouncy-blush---blush-mat-effet-cocon-P1000206857.html"
+  }),
+  alternatives: {
+    UK: "rareBeautySoftPinchLiquidBlush",
+    AU: "rareBeautySoftPinchLuminousPowderBlush",
+    BR: "rareBeautySoftPinchLiquidBlush"
+  }
+}),
+
+danessaMyricksDewyCheekLipPalette: productData({
+  category: "Blush",
+  brand: "Danessa Myricks Beauty",
+  name: "Dewy Cheek & Lip Palette",
+  type: "Cream cheek and lip palette",
+  sizes: ["standard"],
+  image: "https://www.sephora.com/productimages/sku/s2541316-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/danessa-myricks-beauty-dewy-cheek-lip-palette-P479949"
+  }),
+  alternatives: {
+    US: "danessaMyricksYummySkinFlushedBlush",
+    FR: "hudaBeautyBlushFilterBlushlighterPalette",
+    UK: "glossierCloudPaintGelCreamBlush",
+    AU: "rareBeautySoftPinchLiquidBlush",
+    BR: "rareBeautySoftPinchLuminousPowderBlush"
+  }
+}),
+
+makeupByMarioMiniSoftPopBlushStick: productData({
+  category: "Blush",
+  brand: "MAKEUP BY MARIO",
+  name: "Mini Soft Pop Blush Stick",
+  type: "Mini cream blush stick",
+  sizes: ["mini"],
+  image: "https://www.sephora.com/productimages/sku/s2867588-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    US: "https://www.sephora.com/product/mini-soft-pop-blush-stick-P516161",
+    CA: "https://www.sephora.com/ca/en/product/mini-soft-pop-blush-stick-P516161"
+  }),
+  alternatives: {
+    FR: "makeupByMarioSoftPopCreamBlushStick",
+    UK: "tower28BeachpleaseCreamBlush",
+    AU: "rareBeautySoftPinchLiquidBlush",
+    BR: "rareBeautySoftPinchLiquidBlush"
+  }
+}),
+
+makeUpForEverHdSkinBlushGlowPalette: productData({
+  category: "Blush",
+  brand: "MAKE UP FOR EVER",
+  name: "HD Skin Blush & Glow Longwear Cream Face Palette",
+  type: "Cream blush and glow face palette",
+  sizes: ["standard"],
+  image: "https://www.sephora.com/productimages/sku/s2844660-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    US: "https://www.sephora.com/product/hd-skin-blush-glow-longwear-cream-face-palette-P513035",
+    CA: "https://www.sephora.com/ca/en/product/hd-skin-blush-glow-longwear-cream-face-palette-P513035"
+  }),
+  alternatives: {
+    FR: "hudaBeautyBlushFilterBlushlighterPalette",
+    UK: "rareBeautySoftPinchLuminousPowderBlush",
+    AU: "patrickTaMajorHeadlinesBlushDuo",
+    BR: "rareBeautySoftPinchLiquidBlush"
+  }
+}),
+
+charlotteTilburyUnrealLipCheekGlowBlushStick: productData({
+  category: "Blush",
+  brand: "Charlotte Tilbury",
+  name: "Unreal Lip + Cheek Glow Blush Stick with Hyaluronic Acid",
+  type: "Radiant lip and cheek blush stick",
+  sizes: ["standard"],
+  image: "https://www.sephora.com/productimages/sku/s2868123-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    US: "https://www.sephora.com/product/unreal-blush-P516850",
+    CA: "https://www.sephora.com/ca/en/product/unreal-blush-P516850",
+    FR: "https://www.sephora.fr/p/unreal-blush-healthy-glow-stick----blush-creme-en-stick-P1000208103.html",
+    UK: "https://www.sephora.co.uk/p/charlotte-tilbury-unreal-blush-healthy-glow-stick-9g"
+  }),
+  alternatives: {
+    AU: "rareBeautySoftPinchLiquidBlush",
+    BR: "rareBeautySoftPinchLuminousPowderBlush"
+  }
+}),
+  
 oneSizeCheekClapper3DBlushTrio: productData({
   category: "Blush",
   brand: "ONE/SIZE by Patrick Starrr",
