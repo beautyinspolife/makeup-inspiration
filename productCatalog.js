@@ -2935,8 +2935,161 @@ const PRODUCT_CATALOG = {
   }),
 
   // -------------------------
-  // CONCEALERS / POWDERS
-  // -------------------------
+// CONCEALERS MANQUANTS
+// -------------------------
+
+morpheWakeupArtistCorrectingConcealer: productData({
+  category: "Concealer",
+  brand: "Morphe",
+  name: "Wakeup Artist Under Eye Correcting Concealer",
+  type: "Under-eye correcting concealer",
+  sizes: ["standard"],
+  image: "https://www.sephora.com/productimages/sku/s2850915-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/wakeup-artist-under-eye-correcting-concealer-P515502"
+  }),
+  alternatives: {
+    US: "sephoraBestSkinEverMultiUseConcealer",
+    FR: "sephoraBestSkinEverMultiUseConcealer",
+    UK: "hourglassVanishAirbrushConcealer",
+    AU: "tarteShapeTapeCreamyConcealer",
+    BR: "diorForeverSkinCorrectConcealer"
+  }
+}),
+
+sephoraBestSkinEverMultiUseConcealer: productData({
+  category: "Concealer",
+  brand: "SEPHORA COLLECTION",
+  name: "Best Skin Ever Multi-Use Concealer",
+  type: "Hydrating medium-coverage multi-use concealer",
+  sizes: ["standard"],
+  image: "https://www.sephora.com/productimages/sku/s2886836-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    US: "https://www.sephora.com/product/sephora-collection-best-skin-ever-natural-concealer-P517323",
+    CA: "https://www.sephora.com/ca/en/product/sephora-collection-best-skin-ever-natural-concealer-P517323",
+    FR: "https://www.sephora.fr/p/best-skin-ever---anticerne-multi-usages-P10062277.html"
+  }),
+  alternatives: {
+    UK: "hourglassVanishAirbrushConcealer",
+    AU: "tarteShapeTapeCreamyConcealer",
+    BR: "diorForeverSkinCorrectConcealer"
+  }
+}),
+
+tower28SwipeHydratingSerumConcealer: productData({
+  category: "Concealer",
+  brand: "Tower 28 Beauty",
+  name: "Swipe All-Over Hydrating Serum Concealer with 18-HR Wear",
+  type: "Hydrating serum concealer",
+  sizes: ["standard"],
+  image: "https://www.sephora.com/productimages/sku/s2945053-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    US: "https://www.sephora.com/product/swipe-all-over-hydrating-serum-concealer-P507142",
+    CA: "https://www.sephora.com/ca/en/product/swipe-all-over-hydrating-serum-concealer-P507142"
+  }),
+  alternatives: {
+    FR: "sephoraBestSkinEverMultiUseConcealer",
+    UK: "hourglassVanishAirbrushConcealer",
+    AU: "tarteShapeTapeCreamyConcealer",
+    BR: "diorForeverSkinCorrectConcealer"
+  }
+}),
+
+hourglassVanishAirbrushConcealer: productData({
+  category: "Concealer",
+  brand: "Hourglass",
+  name: "Vanish™ Airbrush Concealer",
+  type: "Full-coverage airbrush liquid concealer",
+  sizes: ["mini", "standard"],
+  image: "https://www.sephora.com/productimages/sku/s2857159-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    US: "https://www.sephora.com/product/hourglass-vanish-airbrush-concealer-P454042",
+    CA: "https://www.sephora.com/ca/en/product/hourglass-vanish-airbrush-concealer-P454042",
+    FR: "https://www.sephora.fr/p/vanish-airbrush-concealer---anticernes-P3959108.html",
+    UK: "https://www.sephora.co.uk/p/hourglass-vanish-airbrush-concealer-6ml"
+  }),
+  alternatives: {
+    AU: "tarteShapeTapeCreamyConcealer",
+    BR: "diorForeverSkinCorrectConcealer"
+  }
+}),
+
+charlotteTilburyAirbrushFlawlessBlurConcealer: productData({
+  category: "Concealer",
+  brand: "Charlotte Tilbury",
+  name: "Airbrush Flawless Crease-Proof Long-Wear Blur Concealer with Hyaluronic Acid",
+  type: "Full-coverage long-wear blurring concealer",
+  sizes: ["standard"],
+  image: "https://www.sephora.com/productimages/sku/s2941888-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    US: "https://www.sephora.com/product/charlotte-tilbury-airbrush-flawless-blur-concealer-P520870",
+    CA: "https://www.sephora.com/ca/en/product/charlotte-tilbury-airbrush-flawless-blur-concealer-P520870",
+    FR: "https://www.sephora.fr/p/airbrush-flawless-blur-concealer-%E2%80%93-correcteur-hydratant-longue-duree-P1000211922.html",
+    UK: "https://www.sephora.co.uk/p/charlotte-tilbury-airbrush-flawless-blur-concealer-flawless-concealer"
+  }),
+  alternatives: {
+    AU: "tarteShapeTapeCreamyConcealer",
+    BR: "diorForeverSkinCorrectConcealer"
+  }
+}),
+
+hausLabsTricloneSkinTechConcealer: productData({
+  category: "Concealer",
+  brand: "HAUS LABS BY LADY GAGA",
+  name: "Triclone Skin Tech Hydrating + De-puffing Concealer with Fermented Arnica",
+  type: "Hydrating and de-puffing concealer",
+  sizes: ["standard"],
+  image: "https://www.sephora.com/productimages/sku/s2696920-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    US: "https://www.sephora.com/product/triclone-skin-tech-hydrating-concealer-with-fermented-arnica-P507110",
+    CA: "https://www.sephora.com/ca/en/product/triclone-skin-tech-hydrating-concealer-with-fermented-arnica-P507110",
+    FR: "https://www.sephora.fr/p/triclone-skin-tech-hydrating-concealer-with-fermented-arnica---correcteur-P10052817.html"
+  }),
+  alternatives: {
+    UK: "hourglassVanishAirbrushConcealer",
+    AU: "tarteShapeTapeCreamyConcealer",
+    BR: "diorForeverSkinCorrectConcealer"
+  }
+}),
+
+tarteShapeTapeCreamyConcealer: productData({
+  category: "Concealer",
+  brand: "tarte",
+  name: "shape tape™ hydrating full coverage creamy concealer",
+  type: "Hydrating full-coverage creamy concealer",
+  sizes: ["mini", "standard"],
+  image: "https://www.sephora.com/productimages/sku/s2821478-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    US: "https://www.sephora.com/product/tarte-shape-tape-tm-ultra-creamy-concealer-P514043",
+    CA: "https://www.sephora.com/ca/en/product/tarte-shape-tape-tm-ultra-creamy-concealer-P514043",
+    FR: "https://www.sephora.fr/p/shape-tape---anticernes-ultra-cremeux-P10014456.html"
+  }),
+  alternatives: {
+    UK: "hourglassVanishAirbrushConcealer",
+    AU: "sephoraBestSkinEverMultiUseConcealer",
+    BR: "diorForeverSkinCorrectConcealer"
+  }
+}),
+
+diorForeverSkinCorrectConcealer: productData({
+  category: "Concealer",
+  brand: "DIOR",
+  name: "Forever Skin Correct Full-Coverage Concealer",
+  type: "Full-coverage 24H concealer",
+  sizes: ["standard"],
+  image: "https://www.sephora.com/productimages/sku/s2639318-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    US: "https://www.sephora.com/product/dior-dior-forever-skin-correct-concealer-P454348",
+    CA: "https://www.sephora.com/ca/en/product/dior-dior-forever-skin-correct-concealer-P454348",
+    FR: "https://www.sephora.fr/p/dior-forever-skin-correct---correcteur-anticerne-haute-couvrance-tenue-24-h-P10048279.html"
+  }),
+  alternatives: {
+    UK: "hourglassVanishAirbrushConcealer",
+    AU: "tarteShapeTapeCreamyConcealer",
+    BR: "sephoraBestSkinEverMultiUseConcealer"
+  }
+}),
+  
   kosasRevealerConcealer: productData({
     category: "Concealer",
     brand: "Kosas",
