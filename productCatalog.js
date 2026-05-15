@@ -9632,6 +9632,215 @@ glossierFuturedewSolidOilSerumIlluminator: productData({
   // -------------------------
   // POUDRE FIXATEUR 
   // -------------------------
+  makeUpForEverMiniHdSkinPressedPowder: productData({
+  category: "Pressed Setting Powder",
+  brand: "MAKE UP FOR EVER",
+  name: "Mini HD Skin Blurring & Perfecting Pressed Powder",
+  type: "Mini pressed blurring and perfecting powder",
+  sizes: ["mini"],
+  image: skuImage("s2869493"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/mini-hd-skin-blurring-perfecting-pressed-powder-P517874?skuId=2869493"
+  }),
+  alternatives: {
+    US: "narsMiniLightReflectingSettingPowder",
+    FR: "sephoraCollectionMicrosmoothBakedFacePowder",
+    UK: "charlotteTilburyAirbrushFlawlessFinishPowder",
+    AU: "kosasCloudSetBakedSettingPowder",
+    BR: "rareBeautyTrueToMyselfPressedFinishingPowder"
+  }
+}),
+
+kosasMiniCloudSetLooseSettingPowder: productData({
+  category: "Loose Setting Powder",
+  brand: "Kosas",
+  name: "Mini Cloud Set Loose Translucent Talc-Free Setting + Blurring Powder",
+  type: "Mini translucent loose blurring setting powder",
+  sizes: ["mini"],
+  image: skuImage("s2936003"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/mini-cloud-set-loose-translucent-talc-free-setting-blurring-powder-P520515?skuId=2936003"
+  }),
+  alternatives: {
+    US: "hudaBeautyEasyBakeLooseSettingPowder",
+    FR: "sephoraCollectionTranslucentSettingPowder",
+    UK: "makeUpForEverHdSkinLoosePowder",
+    AU: "hourglassVeilTranslucentSettingPowder",
+    BR: "rareBeautyTrueToMyselfPressedFinishingPowder"
+  }
+}),
+
+givenchyMiniPrismeLibreLoosePowder: productData({
+  category: "Loose Setting Powder",
+  brand: "Givenchy",
+  name: "Mini Prisme Libre Illuminating & Color Correcting Loose Powder",
+  type: "Mini illuminating color-correcting loose setting powder",
+  sizes: ["mini"],
+  image: skuImage("s2788545"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/prisme-libre-travel-mat-finish-enhanced-radiance-loose-powder-P416205?skuId=2788545"
+  }),
+  alternatives: {
+    US: "hourglassVeilTranslucentSettingPowder",
+    FR: "sephoraCollectionTranslucentSettingPowder",
+    UK: "makeUpForEverHdSkinLoosePowder",
+    AU: "hudaBeautyEasyBakeLooseSettingPowder",
+    BR: "kosasMiniCloudSetLooseSettingPowder"
+  }
+}),
+
+fentyBeautyMiniProFiltrSettingPowder: productData({
+  category: "Loose Setting Powder",
+  brand: "Fenty Beauty by Rihanna",
+  name: "Mini Pro Filt’r Instant Retouch Setting Powder",
+  type: "Mini soft-matte loose setting powder",
+  sizes: ["mini"],
+  image: skuImage("s2211126"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/pro-filt-r-mini-instant-retouch-setting-powder-P443790?skuId=2211126"
+  }),
+  alternatives: {
+    US: "hudaBeautyEasyBakeLooseSettingPowder",
+    FR: "sephoraCollectionTranslucentSettingPowder",
+    UK: "makeUpForEverHdSkinLoosePowder",
+    AU: "kosasCloudSetBakedSettingPowder",
+    BR: "rareBeautyTrueToMyselfPressedFinishingPowder"
+  }
+}),
+
+narsMiniLightReflectingSettingPowder: productData({
+  category: "Pressed Setting Powder",
+  brand: "NARS",
+  name: "Mini Light Reflecting Setting Powder",
+  type: "Mini pressed light-reflecting setting powder",
+  sizes: ["mini"],
+  image: skuImage("s2550499"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/nars-mini-light-reflecting-setting-powder-P480462?skuId=2550499"
+  }),
+  alternatives: {
+    US: "makeUpForEverMiniHdSkinPressedPowder",
+    FR: "sephoraCollectionMicrosmoothBakedFacePowder",
+    UK: "charlotteTilburyAirbrushFlawlessFinishPowder",
+    AU: "kosasCloudSetBakedSettingPowder",
+    BR: "hudaBeautyEasyBakeAndSnatchPressedPowder"
+  }
+}),
+
+tarteCreaselessTwelveHourPowder: productData({
+  category: "Setting Powder",
+  brand: "tarte",
+  name: "Creaseless 12 Hour Powder",
+  type: "Brush-on creaseless setting powder",
+  sizes: ["standard"],
+  image: skuImage("s2984193"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/tarte-creaseless-12-hour-powder-P524687?skuId=2984193"
+  }),
+  alternatives: {
+    US: "narsMiniLightReflectingSettingPowder",
+    FR: "sephoraCollectionTranslucentSettingPowder",
+    UK: "makeUpForEverHdSkinLoosePowder",
+    AU: "kosasCloudSetBakedSettingPowder",
+    BR: "rareBeautyTrueToMyselfPressedFinishingPowder"
+  }
+}),
+
+fentyBeautyMiniInvisimatteSettingPowder: productData({
+  category: "Pressed Setting Powder",
+  brand: "Fenty Beauty by Rihanna",
+  name: "Mini Invisimatte Instant Setting + Blotting Powder",
+  type: "Mini matte pressed setting and blotting powder",
+  sizes: ["mini"],
+  image: skuImage("s2898484"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/fenty-beauty-rihanna-mini-invisimatte-instant-setting-blotting-powder-P518273?skuId=2898484"
+  }),
+  alternatives: {
+    US: "charlotteTilburyAirbrushFlawlessFinishPowder",
+    FR: "sephoraCollectionMicrosmoothBakedFacePowder",
+    UK: "rareBeautyTrueToMyselfPressedFinishingPowder",
+    AU: "kosasCloudSetBakedSettingPowder",
+    BR: "makeUpForEverMiniHdSkinPressedPowder"
+  }
+}),
+
+tarteCreaselessLooseSettingBrighteningPowder: productData({
+  category: "Loose Setting Powder",
+  brand: "tarte",
+  name: "Creaseless Loose Setting & Brightening Powder",
+  type: "Loose brightening setting powder",
+  sizes: ["standard"],
+  image: skuImage("s2833192"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/tarte-creaseless-loose-setting-powder-P512246?skuId=2833192"
+  }),
+  alternatives: {
+    US: "hudaBeautyEasyBakeLooseSettingPowder",
+    FR: "sephoraCollectionTranslucentSettingPowder",
+    UK: "makeUpForEverHdSkinLoosePowder",
+    AU: "kosasMiniCloudSetLooseSettingPowder",
+    BR: "fentyBeautyMiniProFiltrSettingPowder"
+  }
+}),
+
+tarteSmoothOperatorTintedPressedSettingPowder: productData({
+  category: "Pressed Setting Powder",
+  brand: "tarte",
+  name: "Smooth Operator™ Amazonian Clay Tinted Pressed Setting Powder",
+  type: "Tinted pressed finishing and setting powder",
+  sizes: ["standard"],
+  image: skuImage("s1659515"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/powderful-amazonian-clay-pressed-mineral-powder-P152703?skuId=1659515"
+  }),
+  alternatives: {
+    US: "rareBeautyTrueToMyselfPressedFinishingPowder",
+    FR: "sephoraCollectionMicrosmoothBakedFacePowder",
+    UK: "charlotteTilburyAirbrushFlawlessFinishPowder",
+    AU: "kosasCloudSetBakedSettingPowder",
+    BR: "makeUpForEverMiniHdSkinPressedPowder"
+  }
+}),
+
+benefitMiniPorefessionalPowerPowder: productData({
+  category: "Loose Setting Powder",
+  brand: "Benefit Cosmetics",
+  name: "Mini POREfessional Matte Blurring Loose Setting Powder",
+  type: "Mini matte pore-blurring loose setting powder",
+  sizes: ["mini"],
+  image: skuImage("s2792950"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/benefit-cosmetics-mini-porefessional-power-powder-P512868?skuId=2792950"
+  }),
+  alternatives: {
+    US: "milkMakeupPoreEclipseSettingPowder",
+    FR: "sephoraCollectionBlurItLooseSettingPowder",
+    UK: "makeUpForEverHdSkinLoosePowder",
+    AU: "hudaBeautyEasyBakeLooseSettingPowder",
+    BR: "fentyBeautyMiniInvisimatteSettingPowder"
+  }
+}),
+
+tarteAmazonianClayFinishingPowder: productData({
+  category: "Loose Finishing Powder",
+  brand: "tarte",
+  name: "Amazonian Clay Finishing Powder",
+  type: "Translucent loose finishing powder",
+  sizes: ["standard"],
+  image: skuImage("s2614949"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/tarte-amazonian-clay-finishing-powder-P502885?skuId=2614949"
+  }),
+  alternatives: {
+    US: "hudaBeautyEasyBakeLooseSettingPowder",
+    FR: "sephoraCollectionTranslucentSettingPowder",
+    UK: "makeUpForEverHdSkinLoosePowder",
+    AU: "kosasMiniCloudSetLooseSettingPowder",
+    BR: "rareBeautyTrueToMyselfPressedFinishingPowder"
+  }
+}),
+  
   hourglassVeilTranslucentSettingPowder: productData({
   category: "Loose Setting Powder",
   brand: "Hourglass",
@@ -10413,6 +10622,215 @@ saieSlipTintSettingPowder: productData({
   // -------------------------
   // SETTING SPRAYS 
   // -------------------------
+  morpheMiniContinuousSettingMist: productData({
+  category: "Setting Spray",
+  brand: "Morphe",
+  name: "Mini Continuous Setting Mist",
+  type: "Mini micro-fine continuous setting mist",
+  sizes: ["mini"],
+  image: skuImage("s2397578"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/morphe-mini-continuous-setting-mist-P463089?skuId=2397578"
+  }),
+  alternatives: {
+    US: "urbanDecayMiniAllNighterNaturalSettingSpray",
+    FR: "sephoraCollectionMiniAllDaySettingSpray",
+    UK: "makeUpForEverMiniMistFixSettingSpray",
+    AU: "milkMiniPoreEclipseSettingSpray",
+    BR: "rareBeautyAlwaysAnOptimistSettingMist"
+  }
+}),
+
+urbanDecayMiniAllNighterGlowSettingSpray: productData({
+  category: "Setting Spray",
+  brand: "Urban Decay",
+  name: "Mini All Nighter Waterproof Hydrating and Glowy Setting Spray with 24HR Wear",
+  type: "Mini hydrating glowy waterproof setting spray",
+  sizes: ["mini"],
+  image: skuImage("s2891398"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/urban-decay-glow-all-nighter-setting-spray-P517859?skuId=2891398"
+  }),
+  alternatives: {
+    US: "urbanDecayAllNighterSettingSpray",
+    FR: "makeUpForEverMistFixSettingSpray",
+    UK: "rareBeautyAlwaysAnOptimistSettingMist",
+    AU: "milkMakeupHydroGripSettingSpray",
+    BR: "charlotteTilburyAirbrushFlawlessSettingSpray"
+  }
+}),
+
+benefitMiniPorefessionalSuperSetterSpray: productData({
+  category: "Setting Spray",
+  brand: "Benefit Cosmetics",
+  name: "Mini The POREfessional: Super Setter Setting Spray",
+  type: "Mini pore-blurring makeup setting spray",
+  sizes: ["mini"],
+  image: skuImage("s2409522"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/benefit-cosmetics-the-porefessional-super-setter-setting-spray-mini-P466657?skuId=2409522"
+  }),
+  alternatives: {
+    US: "urbanDecayAllNighterSettingSpray",
+    FR: "makeUpForEverMistFixSettingSpray",
+    UK: "charlotteTilburyAirbrushFlawlessSettingSpray",
+    AU: "milkMakeupHydroGripSettingSpray",
+    BR: "rareBeautyAlwaysAnOptimistSettingMist"
+  }
+}),
+
+tarteMiniStaySpraySettingSpray: productData({
+  category: "Setting Spray",
+  brand: "tarte",
+  name: "Mini Stay Spray™ Waterproof Long Lasting Setting Spray",
+  type: "Mini waterproof long-lasting setting spray",
+  sizes: ["mini"],
+  image: skuImage("s2454585"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/tarte-travel-size-stay-spray-setting-spray-P471808?skuId=2454585"
+  }),
+  alternatives: {
+    US: "urbanDecayAllNighterSettingSpray",
+    FR: "sephoraCollectionAllDaySettingSpray",
+    UK: "makeUpForEverMistFixSettingSpray",
+    AU: "milkMakeupHydroGripSettingSpray",
+    BR: "charlotteTilburyAirbrushFlawlessSettingSpray"
+  }
+}),
+
+iliaMiniBlueLightProtectSetMist: productData({
+  category: "Setting Spray",
+  brand: "ILIA",
+  name: "Mini Blue Light Protect + Set Mist",
+  type: "Mini protective makeup setting mist",
+  sizes: ["mini"],
+  image: skuImage("s2442184"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/ilia-mini-blue-light-filter-protect-set-mist-P471246?skuId=2442184"
+  }),
+  alternatives: {
+    US: "rareBeautyAlwaysAnOptimistSettingMist",
+    FR: "makeUpForEverMistFixSettingSpray",
+    UK: "milkMakeupHydroGripSettingSpray",
+    AU: "urbanDecayMiniAllNighterGlowSettingSpray",
+    BR: "charlotteTilburyAirbrushFlawlessSettingSpray"
+  }
+}),
+
+tarteMiniLifeLockSettingSpray: productData({
+  category: "Setting Spray",
+  brand: "tarte",
+  name: "Mini Life Lock™ Hydrating Waterproof Setting Spray",
+  type: "Mini hydrating waterproof setting spray",
+  sizes: ["mini"],
+  image: skuImage("s2849743"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/tarte-mini-life-lock-hydrating-setting-spray-P515094?skuId=2849743"
+  }),
+  alternatives: {
+    US: "rareBeautyAlwaysAnOptimistSettingMist",
+    FR: "makeUpForEverMistFixSettingSpray",
+    UK: "milkMakeupHydroGripSettingSpray",
+    AU: "urbanDecayMiniAllNighterGlowSettingSpray",
+    BR: "charlotteTilburyAirbrushFlawlessSettingSpray"
+  }
+}),
+
+urbanDecayMiniAllNighterMatteSettingSpray: productData({
+  category: "Setting Spray",
+  brand: "Urban Decay",
+  name: "Mini All Nighter Waterproof Matte Setting Spray with 24HR Wear",
+  type: "Mini matte waterproof setting spray",
+  sizes: ["mini"],
+  image: skuImage("s2891406"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/mini-all-nighter-matte-setting-spray-P518811?skuId=2891406"
+  }),
+  alternatives: {
+    US: "oneSizeOnTilDawnSettingSpray",
+    FR: "sephoraCollectionAllDaySettingSpray",
+    UK: "makeUpForEverMistFixSettingSpray",
+    AU: "milkMiniPoreEclipseSettingSpray",
+    BR: "charlotteTilburyAirbrushFlawlessMatteBlurSettingSpray"
+  }
+}),
+
+milkMiniPoreEclipseSettingSpray: productData({
+  category: "Setting Spray",
+  brand: "MILK MAKEUP",
+  name: "Mini Pore Eclipse Mattifying + Blurring Transfer-Proof Setting Spray",
+  type: "Mini mattifying blurring transfer-proof setting spray",
+  sizes: ["mini"],
+  image: skuImage("s2666832"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/mini-pore-eclipse-mattifying-blurring-setting-spray-P506022?skuId=2666832"
+  }),
+  alternatives: {
+    US: "oneSizeOnTilDawnSettingSpray",
+    FR: "sephoraCollectionAllDaySettingSpray",
+    UK: "makeUpForEverMistFixSettingSpray",
+    AU: "urbanDecayMiniAllNighterMatteSettingSpray",
+    BR: "charlotteTilburyAirbrushFlawlessMatteBlurSettingSpray"
+  }
+}),
+
+danessaMyricksMiniYummySkinMattifyingSettingSpray: productData({
+  category: "Setting Spray",
+  brand: "Danessa Myricks Beauty",
+  name: "Mini Yummy Skin Liquid Blurring Balm Mattifying Setting Spray",
+  type: "Mini blurring mattifying setting spray",
+  sizes: ["mini"],
+  image: skuImage("s2887883"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/mini-yummy-skin-liquid-blurring-balm-mattifying-setting-spray-P516874?skuId=2887883"
+  }),
+  alternatives: {
+    US: "milkMiniPoreEclipseSettingSpray",
+    FR: "sephoraCollectionAllDaySettingSpray",
+    UK: "makeUpForEverMistFixSettingSpray",
+    AU: "urbanDecayMiniAllNighterMatteSettingSpray",
+    BR: "charlotteTilburyAirbrushFlawlessMatteBlurSettingSpray"
+  }
+}),
+
+anastasiaMiniDewySetSettingSpray: productData({
+  category: "Setting Spray",
+  brand: "Anastasia Beverly Hills",
+  name: "Mini Dewy Set Hydrating Setting Spray",
+  type: "Mini hydrating dewy setting spray",
+  sizes: ["mini"],
+  image: skuImage("s2360998"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/anastasia-beverly-hills-mini-dewy-set-hydrating-setting-spay-P459508?skuId=2360998"
+  }),
+  alternatives: {
+    US: "rareBeautyAlwaysAnOptimistSettingMist",
+    FR: "makeUpForEverMistFixSettingSpray",
+    UK: "milkMakeupHydroGripSettingSpray",
+    AU: "urbanDecayMiniAllNighterGlowSettingSpray",
+    BR: "charlotteTilburyAirbrushFlawlessSettingSpray"
+  }
+}),
+
+tooFacedMiniHangoverSettingSpray: productData({
+  category: "Setting Spray",
+  brand: "Too Faced",
+  name: "Mini Hangover 3-in-1 Replenishing Primer & Setting Spray",
+  type: "Mini primer and setting spray",
+  sizes: ["mini"],
+  image: skuImage("s2030088"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/hangover-3-in-1-replenishing-primer-setting-spray-mini-P428037?skuId=2030088"
+  }),
+  alternatives: {
+    US: "rareBeautyAlwaysAnOptimistSettingMist",
+    FR: "makeUpForEverMistFixSettingSpray",
+    UK: "milkMakeupHydroGripSettingSpray",
+    AU: "urbanDecayMiniAllNighterGlowSettingSpray",
+    BR: "charlotteTilburyAirbrushFlawlessSettingSpray"
+  }
+}),
+  
   benefitPorefessionalSuperSetterSpray: productData({
   category: "Setting Spray",
   brand: "Benefit Cosmetics",
