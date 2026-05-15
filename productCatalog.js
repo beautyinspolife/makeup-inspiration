@@ -9665,6 +9665,233 @@ smashboxCaliContourFacePalette: productData({
   // -------------------------
   // BB CREMES
   // -------------------------
+  summerFridaysSheerSkinTint: productData({
+  category: "Skin Tint",
+  brand: "Summer Fridays",
+  name: "Sheer Skin Tint with Hyaluronic Acid + Squalane",
+  type: "Lightweight sheer skin tint with natural finish",
+  sizes: ["standard"],
+  image: skuImage("s2536183"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/sheer-skin-tint-with-hyaluronic-acid-squalane-P501777"
+  }),
+  alternatives: {
+    US: "itCosmeticsCcNudeGlowSkinTint",
+    FR: "itCosmeticsCcCreamFullCoverageSpf50",
+    UK: "drJartPremiumBbTintedMoisturizer",
+    AU: "tarteBbBlurTintedMoisturizer",
+    BR: "anastasiaBeautyBalmSkinTint"
+  }
+}),
+
+itCosmeticsCcAirbrushPerfectingPowderFoundation: productData({
+  category: "Powder Foundation",
+  brand: "IT Cosmetics",
+  name: "CC+ Airbrush Perfecting Powder Foundation",
+  type: "Color-correcting pressed powder foundation with buildable coverage",
+  sizes: ["standard"],
+  image: skuImage("s2227601"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/your-skin-but-better-cc-airbrush-perfecting-powder-spf-50-P411889?skuId=2227601"
+  }),
+  alternatives: {
+    US: "itCosmeticsCcCreamNaturalMatteSpf40",
+    FR: "cliniqueMoistureSurgeCcCreamSpf30",
+    UK: "itCosmeticsCcCreamFullCoverageSpf50",
+    AU: "tarteBbBlurTintedMoisturizer",
+    BR: "anastasiaBeautyBalmSkinTint"
+  }
+}),
+
+itCosmeticsCcCreamFullCoverageSpf50: productData({
+  category: "CC Cream",
+  brand: "IT Cosmetics",
+  name: "CC+ Cream Full Coverage Color Correcting Foundation with SPF 50+",
+  type: "Full-coverage color-correcting CC cream with SPF 50+",
+  sizes: ["mini", "standard"],
+  image: skuImage("s2599793"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/your-skin-but-better-cc-cream-spf-50-P411885"
+  }),
+  alternatives: {
+    US: "itCosmeticsCcNudeGlowSkinTint",
+    FR: "cliniqueMoistureSurgeCcCreamSpf30",
+    UK: "drJartPremiumBbTintedMoisturizer",
+    AU: "itCosmeticsCcCreamNaturalMatteSpf40",
+    BR: "summerFridaysSheerSkinTint"
+  }
+}),
+
+itCosmeticsCcNudeGlowSkinTint: productData({
+  category: "CC Skin Tint",
+  brand: "IT Cosmetics",
+  name: "CC+ Nude Glow Lightweight Foundation + Glow Serum with SPF 40 and Niacinamide",
+  type: "Medium-coverage glowy skin tint with SPF 40 and niacinamide",
+  sizes: ["standard"],
+  image: skuImage("s2515716"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/it-cosmetics-cc-nude-glow-lightweight-foundation-glow-serum-spf-40-niacinamide-P482010"
+  }),
+  alternatives: {
+    US: "summerFridaysSheerSkinTint",
+    FR: "itCosmeticsCcCreamFullCoverageSpf50",
+    UK: "drJartPremiumBbTintedMoisturizer",
+    AU: "anastasiaBeautyBalmSkinTint",
+    BR: "tarteBbBlurTintedMoisturizer"
+  }
+}),
+
+tarteBbBlurTintedMoisturizer: productData({
+  category: "BB Cream",
+  brand: "tarte",
+  name: "BB Blur Natural Matte Tinted Moisturizer",
+  type: "Vegan matte BB tinted moisturizer with blurred finish",
+  sizes: ["standard"],
+  image: skuImage("s2757094"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/bb-tinted-treatment-12-hour-primer-P382096"
+  }),
+  alternatives: {
+    US: "summerFridaysSheerSkinTint",
+    FR: "cliniqueMoistureSurgeCcCreamSpf30",
+    UK: "itCosmeticsCcCreamNaturalMatteSpf40",
+    AU: "drJartPremiumBbTintedMoisturizer",
+    BR: "anastasiaBeautyBalmSkinTint"
+  }
+}),
+
+drJartPremiumBbTintedMoisturizer: productData({
+  category: "BB Cream",
+  brand: "Dr. Jart+",
+  name: "Premium BB Tinted Moisturizer with Niacinamide and SPF 40",
+  type: "Natural-finish BB tinted moisturizer with skincare benefits and SPF 40",
+  sizes: ["standard"],
+  image: skuImage("s2676260"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/dr-jart-premium-bb-tinted-moisturizer-with-niacinamide-spf-40-P505373"
+  }),
+  alternatives: {
+    US: "itCosmeticsCcCreamFullCoverageSpf50",
+    FR: "cliniqueMoistureSurgeCcCreamSpf30",
+    UK: "summerFridaysSheerSkinTint",
+    AU: "itCosmeticsCcNudeGlowSkinTint",
+    BR: "tarteBbBlurTintedMoisturizer"
+  }
+}),
+
+itCosmeticsCcCreamNaturalMatteSpf40: productData({
+  category: "CC Cream",
+  brand: "IT Cosmetics",
+  name: "CC+ Cream Natural Matte Foundation with SPF 40",
+  type: "Full-coverage natural matte CC cream for oily skin with SPF 40",
+  sizes: ["standard"],
+  image: skuImage("s2773695"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/it-cosmetics-cc-cream-natural-matte-foundation-with-spf-40-P510447"
+  }),
+  alternatives: {
+    US: "tarteBbBlurTintedMoisturizer",
+    FR: "cliniqueMoistureSurgeCcCreamSpf30",
+    UK: "itCosmeticsCcCreamFullCoverageSpf50",
+    AU: "drJartPremiumBbTintedMoisturizer",
+    BR: "summerFridaysSheerSkinTint"
+  }
+}),
+
+cliniqueMoistureSurgeCcCreamSpf30: productData({
+  category: "CC Cream",
+  brand: "CLINIQUE",
+  name: "Moisture Surge™ CC Cream Hydrating Color Corrector Broad Spectrum SPF 30",
+  type: "Hydrating color-correcting CC cream with SPF 30",
+  sizes: ["standard"],
+  image: skuImage("s1509512"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/moisture-surge-cc-cream-hydrating-colour-corrector-broad-spectrum-spf-30-P378639"
+  }),
+  alternatives: {
+    US: "itCosmeticsCcCreamFullCoverageSpf50",
+    FR: "itCosmeticsCcNudeGlowSkinTint",
+    UK: "drJartPremiumBbTintedMoisturizer",
+    AU: "summerFridaysSheerSkinTint",
+    BR: "tarteBbBlurTintedMoisturizer"
+  }
+}),
+
+itCosmeticsCcCreamIlluminationSpf50: productData({
+  category: "CC Cream",
+  brand: "IT Cosmetics",
+  name: "CC+ Cream Illumination with SPF 50+",
+  type: "Radiant full-coverage color-correcting CC cream with SPF 50+",
+  sizes: ["mini", "standard"],
+  image: skuImage("s1869015"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/your-skin-but-better-cc-illumination-cream-spf-50-P411884"
+  }),
+  alternatives: {
+    US: "itCosmeticsCcNudeGlowSkinTint",
+    FR: "cliniqueMoistureSurgeCcCreamSpf30",
+    UK: "summerFridaysSheerSkinTint",
+    AU: "drJartPremiumBbTintedMoisturizer",
+    BR: "anastasiaBeautyBalmSkinTint"
+  }
+}),
+
+tarteColoredClayCcUndereyeCorrector: productData({
+  category: "Color Corrector",
+  brand: "tarte",
+  name: "Colored Clay CC Undereye Corrector",
+  type: "Cream color corrector for under-eye darkness",
+  sizes: ["standard"],
+  image: skuImage("s1626951"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/colored-clay-cc-undereye-corrector-P387175"
+  }),
+  alternatives: {
+    US: "itCosmeticsCcCreamFullCoverageSpf50",
+    FR: "cliniqueMoistureSurgeCcCreamSpf30",
+    UK: "itCosmeticsCcNudeGlowSkinTint",
+    AU: "drJartPremiumBbTintedMoisturizer",
+    BR: "anastasiaBeautyBalmSkinTint"
+  }
+}),
+
+liseWatierMultiPerfectingCcCream: productData({
+  category: "CC Cream",
+  brand: "Lise Watier",
+  name: "Multi-Perfecting CC Cream Moisturizer",
+  type: "Hydrating multi-perfecting CC cream moisturizer",
+  sizes: ["standard"],
+  image: skuImage("s2232569"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/multi-perfecting-cc-cream-moisturizer-P444958?skuId=2232569"
+  }),
+  alternatives: {
+    US: "cliniqueMoistureSurgeCcCreamSpf30",
+    FR: "itCosmeticsCcCreamFullCoverageSpf50",
+    UK: "summerFridaysSheerSkinTint",
+    AU: "drJartPremiumBbTintedMoisturizer",
+    BR: "tarteBbBlurTintedMoisturizer"
+  }
+}),
+
+anastasiaBeautyBalmSkinTint: productData({
+  category: "Skin Tint Balm",
+  brand: "Anastasia Beverly Hills",
+  name: "Beauty Balm Serum Boosted Skin Tint",
+  type: "Solid serum-boosted skin tint with sheer-to-light coverage",
+  sizes: ["stick"],
+  image: skuImage("s2752848"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/anastasia-beverly-hills-beauty-balm-skin-serum-boosted-skin-tint-P511190"
+  }),
+  alternatives: {
+    US: "summerFridaysSheerSkinTint",
+    FR: "cliniqueMoistureSurgeCcCreamSpf30",
+    UK: "itCosmeticsCcNudeGlowSkinTint",
+    AU: "drJartPremiumBbTintedMoisturizer",
+    BR: "tarteBbBlurTintedMoisturizer"
+  }
+}),
   
   // -------------------------
   // MASCARA
