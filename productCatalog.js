@@ -6927,6 +6927,215 @@ narsTalcFreePowderBlush: productData({
   // HIGHLIGHTER / GLOW
   // -------------------------
 
+  diorLimitedEditionForeverGlowLuminizerHighlighter: productData({
+    category: "Highlighter",
+    brand: "DIOR",
+    name: "Limited Edition Forever Glow Luminizer Highlighter",
+    type: "Limited-edition powder highlighter",
+    sizes: ["standard"],
+    image: skuImage("s2965010"),
+    links: countryLinks({
+      US: "https://www.sephora.com/product/limited-edition-forever-glow-luminizer-highlighter-P522108",
+      CA: "https://www.sephora.com/ca/en/product/limited-edition-forever-glow-luminizer-highlighter-P522108"
+    }),
+    alternatives: {
+      FR: "rareBeautyPositiveLightHighlighter",
+      UK: "yslHyperLuminizePowderHighlighter",
+      AU: "hourglassAmbientStrobeLightingPowder",
+      BR: "fentyKillawattHighlighter"
+    }
+  }),
+
+  diorBackstageGlassyGlowStickHighlighterBalm: productData({
+    category: "Highlighter",
+    brand: "DIOR",
+    name: "Backstage Glassy Glow Stick Multi-Use Stick Highlighter Balm",
+    type: "Glassy multi-use highlighter balm stick",
+    sizes: ["standard"],
+    image: skuImage("s2962504"),
+    links: countryLinks({
+      US: "https://www.sephora.com/product/backstage-glassy-glow-stick-multi-use-stick-highlighter-balm-P522583",
+      CA: "https://www.sephora.com/ca/en/product/backstage-glassy-glow-stick-multi-use-stick-highlighter-balm-P522583"
+    }),
+    alternatives: {
+      FR: "westmanAtelierLitUpHighlightStick",
+      UK: "meritDayGlowHighlightingBalm",
+      AU: "hausLabsBioRadiantHighlighterBalm",
+      BR: "rareBeautyPositiveLightLiquidLuminizer"
+    }
+  }),
+
+  tomFordShadeIlluminateHighlightingDuo: productData({
+    category: "Highlighter",
+    brand: "TOM FORD",
+    name: "Shade and Illuminate Highlighting Duo",
+    type: "Powder highlighting duo",
+    sizes: ["standard"],
+    image: skuImage("s2602886"),
+    links: countryLinks({
+      CA: "https://www.sephora.com/ca/en/product/skin-illuminating-powder-duo-P422552"
+    }),
+    alternatives: {
+      US: "yslHyperLuminizePowderHighlighter",
+      FR: "charlotteMiniFilmstarBronzeGlowDuo",
+      UK: "yslHyperLuminizePowderHighlighter",
+      AU: "pradaLightGlowingHighlighterPowder",
+      BR: "fentyKillawattHighlighter"
+    }
+  }),
+
+  tomFordSoleilGlowBronzer: productData({
+    category: "Highlighter / Bronzer",
+    brand: "TOM FORD",
+    name: "Soleil Glow Bronzer for Buildable, Luminous Finish",
+    type: "Luminous powder bronzer",
+    sizes: ["standard"],
+    image: skuImage("s2219582"),
+    links: countryLinks({
+      CA: "https://www.sephora.com/ca/en/product/soleil-glow-bronzer-P443930"
+    }),
+    alternatives: {
+      US: "makeupByMarioSoftSculptTransformingSkinPerfector",
+      FR: "charlotteMiniFilmstarBronzeGlowDuo",
+      UK: "charlotteMiniFilmstarBronzeGlowDuo",
+      AU: "makeupByMarioSoftSculptTransformingSkinPerfector",
+      BR: "fentyKillawattHighlighter"
+    }
+  }),
+
+  makeUpForEverArtistColorPencilLongwearEyeliner: productData({
+    category: "Highlighter / Multi-Use Pencil",
+    brand: "MAKE UP FOR EVER",
+    name: "Artist Color Pencil Longwear Eyeliner",
+    type: "Multi-use matte and shimmer pencil",
+    sizes: ["standard"],
+    image: skuImage("s2072734"),
+    links: countryLinks({
+      US: "https://www.sephora.com/product/make-up-for-ever-artist-color-pencil-longwear-eyeliner-P511574",
+      CA: "https://www.sephora.com/ca/en/product/make-up-for-ever-artist-color-pencil-longwear-eyeliner-P511574",
+      FR: "https://www.sephora.fr/p/artist-color-pencil---crayon-multi-usage-P3294062.html"
+    }),
+    alternatives: {
+      UK: "charlotteBeautyHighlighterWand",
+      AU: "makeUpForEverHdSkinBlushGlowPalette",
+      BR: "fentyKillawattHighlighter"
+    }
+  }),
+
+  nudestixMiniNudiesRosesHoneyNudesKit: productData({
+    category: "Highlighter / Multi-Use Set",
+    brand: "NUDESTIX",
+    name: "Mini NUDIES Roses 'N Honey Nudes 3pc Kit",
+    type: "Mini multi-use face, eye and lip set",
+    sizes: ["set", "mini"],
+    image: skuImage("s2467561"),
+    links: countryLinks({
+      US: "https://www.sephora.com/product/nudestix-mini-nudies-roses-n-honey-nudes-3pc-kit-P478523",
+      CA: "https://www.sephora.com/ca/en/product/nudestix-mini-nudies-roses-n-honey-nudes-3pc-kit-P478523"
+    }),
+    alternatives: {
+      FR: "iliaMultiStickCreamBlushHighlighterLipTint",
+      UK: "westmanAtelierLitUpHighlightStick",
+      AU: "iliaMultiStickCreamBlushHighlighterLipTint",
+      BR: "rareBeautyPositiveLightLiquidLuminizer"
+    }
+  }),
+
+  rareBeautyMiniPositiveLightLiquidLuminizer: productData({
+    category: "Highlighter",
+    brand: "Rare Beauty by Selena Gomez",
+    name: "Mini Positive Light Liquid Luminizer",
+    type: "Mini liquid highlighter",
+    sizes: ["mini"],
+    image: skuImage("s2761997"),
+    links: countryLinks({
+      US: "https://www.sephora.com/product/rare-beauty-by-selena-gomez-mini-positive-light-liquid-luminizer-P509964",
+      CA: "https://www.sephora.com/ca/en/product/rare-beauty-by-selena-gomez-mini-positive-light-liquid-luminizer-P509964",
+      UK: "https://www.sephora.co.uk/p/rare-beauty-mini-positive-light-liquid-luminizer"
+    }),
+    alternatives: {
+      FR: "rareBeautyPositiveLightHighlighter",
+      AU: "rareBeautyPositiveLightLiquidLuminizer",
+      BR: "rareBeautyPositiveLightLiquidLuminizer"
+    }
+  }),
+
+  sephoraGleamGoLiquidLuminizer: productData({
+    category: "Highlighter",
+    brand: "SEPHORA COLLECTION",
+    name: "Gleam & Go Liquid Luminizer",
+    type: "Liquid highlighter with cushion applicator",
+    sizes: ["standard"],
+    image: skuImage("s2932481"),
+    links: countryLinks({
+      US: "https://www.sephora.com/product/gleam-glow-luminizer-P520687",
+      CA: "https://www.sephora.com/ca/en/product/gleam-glow-luminizer-P520687",
+      FR: "https://www.sephora.fr/p/gleam-et-go---highlighter-liquide-fini-seconde-peau-P1000211789.html",
+      UK: "https://www.sephora.co.uk/p/sephora-collection-gleam-go-liquid-highlighter"
+    }),
+    alternatives: {
+      AU: "saieGlowySuperGel",
+      BR: "rareBeautyPositiveLightLiquidLuminizer"
+    }
+  }),
+
+  macSkinfinishLightstruckLiquidHighlighter: productData({
+    category: "Highlighter",
+    brand: "MAC Cosmetics",
+    name: "Skinfinish Lightstruck Hydrating, Radiant Glow Liquid Highlighter",
+    type: "Hydrating radiant liquid highlighter",
+    sizes: ["standard"],
+    image: skuImage("s2884377"),
+    links: countryLinks({
+      US: "https://www.sephora.com/product/skinfinish-lightstruck-light-reflecting-hydrating-lustrous-colour-liquid-highlighter-P517618",
+      CA: "https://www.sephora.com/ca/en/product/skinfinish-lightstruck-light-reflecting-hydrating-lustrous-colour-liquid-highlighter-P517618",
+      FR: "https://www.sephora.fr/p/skinfinish-lightstruck-liquid-highlighter---highlighter-liquide-P1000209805.html",
+      UK: "https://www.sephora.co.uk/p/m-a-c-skinfinish-lightstruck-liquid-highlighter-15ml"
+    }),
+    alternatives: {
+      AU: "armaniFluidSheerGlowEnhancer",
+      BR: "rareBeautyPositiveLightLiquidLuminizer"
+    }
+  }),
+
+  refyGlossHighlighter: productData({
+    category: "Highlighter",
+    brand: "REFY",
+    name: "Gloss Highlighter",
+    type: "Glass-like gloss highlighter",
+    sizes: ["standard"],
+    image: skuImage("s2798213"),
+    links: countryLinks({
+      US: "https://www.sephora.com/product/refy-beauty-gloss-highlighter-P475158",
+      CA: "https://www.sephora.com/ca/en/product/refy-beauty-gloss-highlighter-P475158",
+      UK: "https://www.sephora.co.uk/p/REFY-GLOSS-HIGHLIGHTER-20ml"
+    }),
+    alternatives: {
+      FR: "meritDayGlowHighlightingBalm",
+      AU: "westmanAtelierLitUpHighlightStick",
+      BR: "rareBeautyPositiveLightLiquidLuminizer"
+    }
+  }),
+
+  fentyLiquidKillawattFluidFreestyleHighlighter: productData({
+    category: "Highlighter",
+    brand: "Fenty Beauty by Rihanna",
+    name: "Liquid Killawatt Fluid Freestyle Highlighter",
+    type: "Liquid freestyle highlighter",
+    sizes: ["standard"],
+    image: "",
+    links: countryLinks({
+      CA: "https://www.sephora.com/ca/en/product/fenty-beauty-rihanna-liquid-killawatt-fluid-freestyle-highlighter-P479634",
+      FR: "https://www.sephora.fr/p/liquid-killawatt---fluid-freestyle-highlighter-P10022569.html"
+    }),
+    alternatives: {
+      US: "fentyKillawattHighlighter",
+      UK: "fentyDiamondBombAllOverDiamondVeil",
+      AU: "fentyKillawattHighlighter",
+      BR: "fentyKillawattHighlighter"
+    }
+  }),
+
   guerlainMeteoritesPearlsOfPowder: productData({
     category: "Highlighter / Finishing Powder",
     brand: "GUERLAIN",
