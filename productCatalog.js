@@ -11175,46 +11175,47 @@ anastasiaBeautyBalmSkinTint: productData({
   }
 }),
   
-  "
+  
 // -------------------------
 // MASCARA 
 // -------------------------
 
-lancomeCilsBooster: productData({
-  category: "Mascara Primer",
-  brand: "Lancôme",
-  name: "Cils Booster XL Super-Enhancing Mascara Primer",
-  type: "White lash primer to boost mascara volume and length",
-  sizes: ["standard"],
-  image: skuImage("s2109965"),
+
+tower28MakeWavesMascara: productData({
+  category: "Mascara",
+  brand: "Tower 28 Beauty",
+  name: "MakeWaves® Lengthening + Volumizing Mascara",
+  type: "Lengthening and volumizing clean mascara",
+  sizes: ["mini", "standard"],
+  image: skuImage("s2606176"),
   links: countryLinks({
-    US: "https://www.sephora.com/product/cils-booster-xl-super-enhancing-mascara-base-P128706",
-    CA: "https://www.sephora.com/ca/en/product/cils-booster-xl-super-enhancing-mascara-base-P128706"
+    US: "https://www.sephora.com/product/makewaves-lengthening-curling-clean-mascara-P502484",
+    CA: "https://www.sephora.com/ca/en/product/P502484",
+    UK: "https://www.sephora.co.uk/p/tower-28-makewaves-lengthening-volumizing-mascara-8-22g"
   }),
   alternatives: {
-    FR: "urbanDecaySubversionLashPrimer",
-    UK: "cliniqueLashBuildingPrimer",
-    AU: "cliniqueLashBuildingPrimer",
+    FR: "rareBeautyPerfectStrokesMascara",
+    AU: "rareBeautyPerfectStrokesMascara",
     BR: "rareBeautyPerfectStrokesMascara"
   }
 }),
 
-tooFacedBetterThanSexMascara: productData({
+calirayComeHellOrHighWaterMascara: productData({
   category: "Mascara",
-  brand: "Too Faced",
-  name: "Better Than Sex Volumizing & Lengthening Mascara",
-  type: "Iconic volumizing and lengthening mascara",
+  brand: "caliray",
+  name: "Come Hell or High Water 24-hour Volumizing & Lengthening Tubing Mascara",
+  type: "Volumizing and lengthening tubing mascara",
   sizes: ["mini", "standard"],
-  image: skuImage("s1533439"),
+  image: skuImage("s2514214"),
   links: countryLinks({
-    US: "https://www.sephora.com/product/better-than-sex-mascara-P381000",
-    CA: "https://www.sephora.com/ca/en/product/better-than-sex-mascara-P381000"
+    US: "https://www.sephora.com/product/caliray-come-hell-or-high-water-volumizing-tubing-mascara-P479308",
+    CA: "https://www.sephora.com/ca/en/product/caliray-come-hell-or-high-water-volumizing-tubing-mascara-P479308"
   }),
   alternatives: {
-    FR: "sephoraCollectionSizeUpMascara",
-    UK: "rareBeautyPerfectStrokesMascara",
-    AU: "benefitBadgalBangMascara",
-    BR: "fentyHellaThiccMascara"
+    FR: "tarteTarteletteTubingMascara",
+    UK: "tarteTarteletteTubingMascara",
+    AU: "tarteTarteletteTubingMascara",
+    BR: "tarteTarteletteTubingMascara"
   }
 }),
 
@@ -11222,36 +11223,129 @@ rareBeautyPerfectStrokesMascara: productData({
   category: "Mascara",
   brand: "Rare Beauty by Selena Gomez",
   name: "Perfect Strokes Universal Volumizing Mascara",
-  type: "Universal volumizing mascara for fuller-looking lashes",
+  type: "Universal volumizing mascara",
   sizes: ["mini", "standard"],
-  image: skuImage("s2418721"),
+  image: skuImage("s2474138"),
   links: countryLinks({
-    US: "https://www.sephora.com/product/rare-beauty-by-selena-gomez-perfect-strokes-universal-volumizing-mascara-P475610",
-    CA: "https://www.sephora.com/ca/en/product/rare-beauty-by-selena-gomez-perfect-strokes-universal-volumizing-mascara-P475610"
+    US: "https://www.sephora.com/product/rare-beauty-by-selena-gomez-perfect-strokes-universal-volumizing-mascara-P475599",
+    CA: "https://www.sephora.com/ca/en/product/rare-beauty-by-selena-gomez-perfect-strokes-universal-volumizing-mascara-P475599",
+    FR: "https://www.sephora.fr/p/perfect-trokes-universal---mascara-volumisant-P10018050.html",
+    UK: "https://www.sephora.co.uk/p/rare-beauty-rare-beauty-perfect-strokes-universal-volumising-mascara",
+    AU: "https://www.sephora.com.au/products/rare-beauty-perfect-strokes-universal-volumizing-mascara",
+    BR: "https://www.sephora.com.br/Mascara-de-Cilios-Rare-Beauty-Perfect-Strokes-Universal-Mascara-44990711-44990711.html"
+  }),
+  alternatives: {}
+}),
+
+yslLashClashMascara: productData({
+  category: "Mascara",
+  brand: "Yves Saint Laurent",
+  name: "Lash Clash Extreme Volume Mascara",
+  type: "Extreme volume mascara",
+  sizes: ["mini", "standard"],
+  image: skuImage("s2638336"),
+  links: countryLinks({
+    US: "https://www.sephora.com/product/yves-saint-laurent-lash-clash-extreme-volume-mascara-P479863",
+    CA: "https://www.sephora.com/ca/en/product/yves-saint-laurent-lash-clash-extreme-volume-mascara-P479863",
+    FR: "https://www.sephora.fr/p/lash-clash---mascara-volume-extreme-P10024132.html",
+    UK: "https://www.sephora.co.uk/p/yves-saint-laurent-mascara-lash-clash-mascara-8ml",
+    AU: "https://www.sephora.com.au/products/yves-saint-laurent-lash-clash-extreme-volume-mascara",
+    BR: "https://www.sephora.com.br/mascara-de-cilios-yves-saint-laurent-lash-clash-mascara-88990770-88990770.html"
+  }),
+  alternatives: {}
+}),
+
+yslLashLatexMascara: productData({
+  category: "Mascara",
+  brand: "Yves Saint Laurent",
+  name: "Lash Latex Sculpting & Lengthening Mascara",
+  type: "Sculpting and lengthening mascara",
+  sizes: ["standard"],
+  image: skuImage("s2925717"),
+  links: countryLinks({
+    US: "https://www.sephora.com/product/lash-latex-sculpting-lengthening-mascara-P520022",
+    CA: "https://www.sephora.com/ca/en/product/lash-latex-sculpting-lengthening-mascara-P520022",
+    FR: "https://www.sephora.fr/p/mascara-lash-latex---mascara-noir-allongeant-et-sculptant-P1000211870.html"
   }),
   alternatives: {
-    FR: "sephoraCollectionBigByDefinitionMascara",
-    UK: "iliaLimitlessLashMascara",
-    AU: "tower28MakeWavesMascara",
-    BR: "tooFacedBetterThanSexMascara"
+    UK: "yslLashClashMascara",
+    AU: "yslLashClashMascara",
+    BR: "yslLashClashMascara"
   }
 }),
 
-benefitBadgalBangMascara: productData({
+westmanAtelierEyeWantYouMascara: productData({
   category: "Mascara",
-  brand: "Benefit Cosmetics",
-  name: "BADgal BANG! Volumizing Mascara",
-  type: "Volumizing mascara for dramatic lash volume",
+  brand: "Westman Atelier",
+  name: "Eye Want You Lengthening + Volumizing Clean Mascara",
+  type: "Clean lengthening and volumizing mascara",
   sizes: ["mini", "standard"],
-  image: skuImage("s2064681"),
+  image: skuImage("s2699205"),
   links: countryLinks({
-    US: "https://www.sephora.com/product/badgal-bang-volumizing-mascara-P427517",
-    CA: "https://www.sephora.com/ca/en/product/badgal-bang-volumizing-mascara-P427517"
+    US: "https://www.sephora.com/product/eye-want-you-lengthening-volumizing-clean-mascara-P508542",
+    CA: "https://www.sephora.com/ca/en/product/eye-want-you-lengthening-volumizing-clean-mascara-P508542"
   }),
   alternatives: {
-    FR: "sephoraCollectionSizeUpMascara",
-    UK: "benefitFanFestMascara",
-    AU: "tooFacedBetterThanSexMascara",
+    FR: "rareBeautyPerfectStrokesMascara",
+    UK: "rareBeautyPerfectStrokesMascara",
+    AU: "rareBeautyPerfectStrokesMascara",
+    BR: "rareBeautyPerfectStrokesMascara"
+  }
+}),
+
+milkRiseWaterproofMascara: productData({
+  category: "Mascara",
+  brand: "MILK MAKEUP",
+  name: "RISE Waterproof Lifting + Lengthening Mascara",
+  type: "Waterproof lifting and lengthening mascara",
+  sizes: ["standard"],
+  image: skuImage("s2511681"),
+  links: countryLinks({
+    US: "https://www.sephora.com/product/milk-makeup-rise-mascara-P479643",
+    CA: "https://www.sephora.com/ca/en/product/milk-makeup-rise-mascara-P479643"
+  }),
+  alternatives: {
+    FR: "benefitBadgalBangWaterproofMascara",
+    UK: "benefitBadgalBangWaterproofMascara",
+    AU: "benefitBadgalBangWaterproofMascara",
+    BR: "benefitBadgalBangWaterproofMascara"
+  }
+}),
+
+tarteTarteletteTubingMascara: productData({
+  category: "Mascara",
+  brand: "tarte",
+  name: "tartelette™ tubing mascara",
+  type: "Lengthening tubing mascara",
+  sizes: ["mini", "standard"],
+  image: skuImage("s2585628"),
+  links: countryLinks({
+    US: "https://www.sephora.com/product/tartelette-tubing-mascara-P500182",
+    CA: "https://www.sephora.com/ca/en/product/tartelette-tubing-mascara-P500182",
+    FR: "https://www.sephora.fr/p/tartelette%E2%84%A2-tubing-mascara-P10027090.html",
+    UK: "https://www.sephora.co.uk/p/tarte-tartelette-tubing-mascara-8ml",
+    AU: "https://www.sephora.com.au/products/tarte-tartelette-tubing-mascara"
+  }),
+  alternatives: {
+    BR: "rareBeautyPerfectStrokesMascara"
+  }
+}),
+
+tarteTarteletteXLTubingMascara: productData({
+  category: "Mascara",
+  brand: "tarte",
+  name: "tartelette™ XL Tubing Mascara",
+  type: "XL lengthening tubing mascara",
+  sizes: ["mini", "standard"],
+  image: skuImage("s2834372"),
+  links: countryLinks({
+    US: "https://www.sephora.com/product/tarte-tartelette-tubing-xl-mascara-P510692",
+    CA: "https://www.sephora.com/ca/en/product/tarte-tartelette-tubing-xl-mascara-P510692",
+    FR: "https://www.sephora.fr/p/tartelette%E2%84%A2-xl-tubing-mascara---mascara-P1000203000.html",
+    UK: "https://www.sephora.co.uk/p/tarte-tartelette-xl-tubing-mascara-mascara",
+    AU: "https://www.sephora.com.au/products/tarte-tartelette-xl-tubing-mascara"
+  }),
+  alternatives: {
     BR: "rareBeautyPerfectStrokesMascara"
   }
 }),
@@ -11259,59 +11353,743 @@ benefitBadgalBangMascara: productData({
 iliaLimitlessLashMascara: productData({
   category: "Mascara",
   brand: "ILIA",
-  name: "Limitless Lash Lengthening Clean Mascara",
-  type: "Clean lengthening mascara for lifted, separated lashes",
+  name: "Limitless Lash Mascara",
+  type: "Clean lengthening mascara",
   sizes: ["mini", "standard"],
-  image: skuImage("s2107274"),
+  image: skuImage("s2850378"),
   links: countryLinks({
     US: "https://www.sephora.com/product/limitless-lash-mascara-P431750",
-    CA: "https://www.sephora.com/ca/en/product/limitless-lash-mascara-P431750"
+    CA: "https://www.sephora.com/ca/en/product/limitless-lash-mascara-P431750",
+    AU: "https://www.sephora.com.au/products/ilia-limitless-lash-mascara"
   }),
   alternatives: {
-    FR: "sephoraCollectionLoveTheLiftMascara",
-    UK: "tower28MakeWavesMascara",
-    AU: "calirayComeHellOrHighWaterMascara",
+    FR: "rareBeautyPerfectStrokesMascara",
+    UK: "rareBeautyPerfectStrokesMascara",
     BR: "rareBeautyPerfectStrokesMascara"
   }
 }),
 
-milkKushMascara: productData({
+refyLashSculptMascara: productData({
   category: "Mascara",
-  brand: "MILK MAKEUP",
-  name: "KUSH High Volumizing Mascara",
-  type: "High-volume mascara for fuller-looking lashes",
-  sizes: ["mini", "standard"],
-  image: skuImage("s2096451"),
+  brand: "REFY",
+  name: "Lash Sculpt Lengthen and Lift Mascara",
+  type: "Lengthening and lifting mascara",
+  sizes: ["standard"],
+  image: skuImage("s2617819"),
   links: countryLinks({
-    US: "https://www.sephora.com/product/kush-mascara-P429903",
-    CA: "https://www.sephora.com/ca/en/product/kush-mascara-P429903"
+    US: "https://www.sephora.com/product/refy-beauty-refy-lash-sculpt-lengthen-lift-mascara-P510451",
+    CA: "https://www.sephora.com/ca/en/product/refy-beauty-lash-sculpt-lengthen-and-lift-mascara-P510451",
+    UK: "https://www.sephora.co.uk/p/refy-lash-sculpt-mascara"
   }),
   alternatives: {
-    FR: "sephoraCollectionBigByDefinitionMascara",
-    UK: "fentyHellaThiccMascara",
-    AU: "tooFacedBetterThanSexMascara",
+    FR: "rareBeautyPerfectStrokesMascara",
+    AU: "rareBeautyPerfectStrokesMascara",
+    BR: "rareBeautyPerfectStrokesMascara"
+  }
+}),
+
+sephoraCollectionSizeUpMascara: productData({
+  category: "Mascara",
+  brand: "SEPHORA COLLECTION",
+  name: "Size Up Volumizing Mascara",
+  type: "Volumizing mascara",
+  sizes: ["mini", "standard"],
+  image: skuImage("s2339539"),
+  links: countryLinks({
+    US: "https://www.sephora.com/product/size-up-mascara-P466443",
+    CA: "https://www.sephora.com/ca/en/product/size-up-mascara-P466443",
+    FR: "https://www.sephora.fr/p/size-up---mascara-volume-extra-large-immediat-P10061351.html"
+  }),
+  alternatives: {
+    UK: "rareBeautyPerfectStrokesMascara",
+    AU: "rareBeautyPerfectStrokesMascara",
+    BR: "rareBeautyPerfectStrokesMascara"
+  }
+}),
+
+sephoraCollectionBigByDefinitionMascara: productData({
+  category: "Mascara",
+  brand: "SEPHORA COLLECTION",
+  name: "Big By Definition Defining & Volumizing Mascara",
+  type: "Defining and volumizing mascara",
+  sizes: ["mini", "standard"],
+  image: skuImage("s2498236"),
+  links: countryLinks({
+    US: "https://www.sephora.com/product/sephora-collection-big-by-definition-defining-volumizing-mascara-P479649",
+    CA: "https://www.sephora.com/ca/en/product/sephora-collection-big-by-definition-defining-volumizing-mascara-P479649",
+    FR: "https://www.sephora.fr/p/big-by-definition-mascara---mascara-volume-effet-cils-demultiplies-P10022509.html"
+  }),
+  alternatives: {
+    UK: "rareBeautyPerfectStrokesMascara",
+    AU: "rareBeautyPerfectStrokesMascara",
+    BR: "rareBeautyPerfectStrokesMascara"
+  }
+}),
+
+sephoraCollectionLoveTheLiftMascara: productData({
+  category: "Mascara",
+  brand: "SEPHORA COLLECTION",
+  name: "Love The Lift Curling + Volumizing Mascara",
+  type: "Curling and volumizing mascara",
+  sizes: ["mini", "standard"],
+  image: skuImage("s2711695"),
+  links: countryLinks({
+    US: "https://www.sephora.com/product/love-the-lift-curling-and-volumizing-mascara-P509469",
+    CA: "https://www.sephora.com/ca/en/product/love-the-lift-curling-and-volumizing-mascara-P509469",
+    FR: "https://www.sephora.fr/p/love-the-lift---mascara-courbe-instantanee-et-volume-lifte-P10055781.html"
+  }),
+  alternatives: {
+    UK: "rareBeautyPerfectStrokesMascara",
+    AU: "rareBeautyPerfectStrokesMascara",
+    BR: "rareBeautyPerfectStrokesMascara"
+  }
+}),
+
+benefitBadgalBangMascara: productData({
+  category: "Mascara",
+  brand: "Benefit Cosmetics",
+  name: "BADgal BANG! Volumizing Mascara",
+  type: "Volumizing mascara",
+  sizes: ["mini", "standard"],
+  image: skuImage("s2031649"),
+  links: countryLinks({
+    US: "https://www.sephora.com/product/badgal-bang-volumizing-mascara-P427517",
+    CA: "https://www.sephora.com/ca/en/product/badgal-bang-volumizing-mascara-P427517",
+    FR: "https://www.sephora.fr/p/badgal-bang----mascara-volume-renversant---P3228024.html",
+    UK: "https://www.sephora.co.uk/p/benefit-cosmetics-badgal-bang-volumizing-mascara",
+    AU: "https://www.sephora.com.au/products/benefit-cosmetics-badgal-bang",
+    BR: "https://www.sephora.com.br/mascara-de-cilios-benefit-badgal-bang-prd40439-12847.html"
+  }),
+  alternatives: {}
+}),
+
+benefitBadgalBangWaterproofMascara: productData({
+  category: "Mascara",
+  brand: "Benefit Cosmetics",
+  name: "BADgal BANG! Waterproof Mascara",
+  type: "Waterproof volumizing mascara",
+  sizes: ["standard"],
+  image: skuImage("s2520294"),
+  links: countryLinks({
+    US: "https://www.sephora.com/product/benefit-cosmetics-badgal-bang-volumizing-waterproof-mascara-P480341",
+    CA: "https://www.sephora.com/ca/en/product/benefit-cosmetics-badgal-bang-volumizing-waterproof-mascara-P480341",
+    FR: "https://www.sephora.fr/p/badgal-bang---mascara-volumateur-waterproof-P10023150.html",
+    UK: "https://www.sephora.co.uk/p/benefit-cosmetics-badgal-bang-waterproof-mascara-waterproof-volumizing-mascara",
+    AU: "https://www.sephora.com.au/products/benefit-cosmetics-badgal-bang-waterproof-mascara"
+  }),
+  alternatives: {
     BR: "benefitBadgalBangMascara"
   }
 }),
 
-charlottePillowTalkMascara: productData({
+benefitFanFestMascara: productData({
   category: "Mascara",
-  brand: "Charlotte Tilbury",
-  name: "Pillow Talk Push Up Lashes Volumizing & Lengthening Mascara",
-  type: "Push-up effect mascara for lifted, lengthened lashes",
+  brand: "Benefit Cosmetics",
+  name: "Fan Fest Fanning & Volumizing Mascara",
+  type: "Fanning and volumizing mascara",
   sizes: ["mini", "standard"],
-  image: skuImage("s2368439"),
+  image: skuImage("s2761278"),
   links: countryLinks({
-    US: "https://www.sephora.com/product/pillow-talk-push-up-lashes-volumizing-lengthening-mascara-P461894",
-    CA: "https://www.sephora.com/ca/en/product/pillow-talk-push-up-lashes-volumizing-lengthening-mascara-P461894"
+    US: "https://www.sephora.com/product/benefit-cosmetics-fan-fest-fanning-volumizing-mascara-P506666",
+    CA: "https://www.sephora.com/ca/en/product/benefit-cosmetics-fan-fest-fanning-volumizing-mascara-P506666",
+    FR: "https://www.sephora.fr/p/fan-fest---mascara-effet-eventail-et-volume-P10051624.html"
   }),
   alternatives: {
-    FR: "sephoraCollectionLoveTheLiftMascara",
-    UK: "rareBeautyPerfectStrokesMascara",
-    AU: "benefitRollerLashMascara",
-    BR: "tooFacedBetterThanSexMascara"
+    UK: "benefitBadgalBangMascara",
+    AU: "benefitBadgalBangMascara",
+    BR: "benefitBadgalBangMascara"
   }
 }),
+
+benefitRollerLashMascara: productData({
+  category: "Mascara",
+  brand: "Benefit Cosmetics",
+  name: "Roller Lash Curling & Lifting Mascara",
+  type: "Curling and lifting mascara",
+  sizes: ["mini", "standard"],
+  image: skuImage("s1663400"),
+  links: countryLinks({
+    US: "https://www.sephora.com/product/roller-lash-curling-lifting-mascara-P392516",
+    CA: "https://www.sephora.com/ca/en/product/roller-lash-curling-lifting-mascara-P392516",
+    FR: "https://www.sephora.fr/p/roller-lash-mascara-P2101001.html"
+  }),
+  alternatives: {
+    UK: "benefitBadgalBangMascara",
+    AU: "benefitBadgalBangMascara",
+    BR: "benefitBadgalBangMascara"
+  }
+}),
+
+diorDiorshowMascara: productData({
+  category: "Mascara",
+  brand: "DIOR",
+  name: "Diorshow Mascara",
+  type: "Buildable volume mascara",
+  sizes: ["standard"],
+  image: skuImage("s2486330"),
+  links: countryLinks({
+    US: "https://www.sephora.com/product/diorshow-mascara-P396240",
+    CA: "https://www.sephora.com/ca/en/product/diorshow-mascara-P396240",
+    UK: "https://www.sephora.co.uk/p/dior-diorshow-mascara-90-natural-origin-ingredients-lash-by-lash-volume",
+    AU: "https://www.sephora.com.au/products/dior-show-24h-buildable-volume-mascara",
+    BR: "https://www.sephora.com.br/Mascara-de-Cilios-Dior-Diorshow-Mascara-88990189-88990189.html"
+  }),
+  alternatives: {
+    FR: "sephoraCollectionSizeUpMascara"
+  }
+}),
+
+diorDiorshowIconicOvercurlMascara: productData({
+  category: "Mascara",
+  brand: "DIOR",
+  name: "Diorshow Iconic Overcurl Mascara",
+  type: "Curling and volumizing mascara",
+  sizes: ["standard"],
+  image: skuImage("s2669729"),
+  links: countryLinks({
+    US: "https://www.sephora.com/product/diorshow-iconic-overcurl-mascara-P377821",
+    CA: "https://www.sephora.com/ca/en/product/diorshow-iconic-overcurl-mascara-P377821",
+    UK: "https://www.sephora.co.uk/p/dior-diorshow-iconic-overcurl-mascara-6g",
+    AU: "https://www.sephora.com.au/products/dior-diorshow-iconic-overcurl-mascara",
+    BR: "https://www.sephora.com.br/mascara-de-cilios-dior-diorshow-diorshow-iconic-overcurl-mascara-88991037-88991037.html"
+  }),
+  alternatives: {
+    FR: "sephoraCollectionLoveTheLiftMascara"
+  }
+}),
+
+diorDiorshowIconicOvercurlWaterproofMascara: productData({
+  category: "Mascara",
+  brand: "DIOR",
+  name: "Diorshow Iconic Overcurl Waterproof Mascara",
+  type: "Waterproof curling and volumizing mascara",
+  sizes: ["standard"],
+  image: skuImage("s1679447"),
+  links: countryLinks({
+    US: "https://www.sephora.com/product/diorshow-iconic-overcurl-waterproof-mascara-P386816",
+    CA: "https://www.sephora.com/ca/en/product/diorshow-iconic-overcurl-waterproof-mascara-P386816",
+    UK: "https://www.sephora.co.uk/p/dior-diorshow-iconic-overcurl-waterproof-waterproof-mascara",
+    AU: "https://www.sephora.com.au/products/dior-diorshow-iconic-overcurl-mascara-waterproof",
+    BR: "https://www.sephora.com.br/mascara-de-cilios-diorshow-iconic-overcurl-waterproof-9090546819-9090546819.html"
+  }),
+  alternatives: {
+    FR: "benefitBadgalBangWaterproofMascara"
+  }
+}),
+
+diorDiorshowWaterproofMascara: productData({
+  category: "Mascara",
+  brand: "DIOR",
+  name: "Diorshow Waterproof Mascara",
+  type: "Waterproof volume mascara",
+  sizes: ["standard"],
+  image: skuImage("s2486348"),
+  links: countryLinks({
+    US: "https://www.sephora.com/product/diorshow-waterproof-mascara-P99901",
+    CA: "https://www.sephora.com/ca/en/product/diorshow-waterproof-mascara-P99901",
+    AU: "https://www.sephora.com.au/products/dior-diorshow-waterproof-mascara"
+  }),
+  alternatives: {
+    FR: "benefitBadgalBangWaterproofMascara",
+    UK: "benefitBadgalBangWaterproofMascara",
+    BR: "benefitBadgalBangWaterproofMascara"
+  }
+}),
+
+diorDiorshowOvervolumeMascara: productData({
+  category: "Mascara",
+  brand: "DIOR",
+  name: "Diorshow Overvolume Extreme Volume Mascara",
+  type: "Extreme volume mascara",
+  sizes: ["standard"],
+  image: skuImage("s2859338"),
+  links: countryLinks({
+    US: "https://www.sephora.com/product/diorshow-overvolume-extreme-volume-mascara-P516615",
+    CA: "https://www.sephora.com/ca/en/product/diorshow-overvolume-extreme-volume-mascara-P516615",
+    AU: "https://www.sephora.com.au/products/dior-diorshow-overvolume-extreme-volume-mascara"
+  }),
+  alternatives: {
+    FR: "benefitBadgalBangMascara",
+    UK: "benefitBadgalBangMascara",
+    BR: "benefitBadgalBangMascara"
+  }
+}),
+
+lancomeCilsBoosterXL: productData({
+  category: "Mascara Primer",
+  brand: "Lancôme",
+  name: "Cils Booster XL Super-Enhancing Mascara Primer",
+  type: "Mascara primer",
+  sizes: ["standard"],
+  image: skuImage("s2109965"),
+  links: countryLinks({
+    US: "https://www.sephora.com/product/cils-booster-xl-super-enhancing-mascara-base-P128706",
+    CA: "https://www.sephora.com/ca/en/product/cils-booster-xl-super-enhancing-mascara-base-P128706"
+  }),
+  alternatives: {
+    FR: "tarteTarteletteTubingMascara",
+    UK: "tarteTarteletteTubingMascara",
+    AU: "tarteTarteletteTubingMascara",
+    BR: "tarteTarteletteTubingMascara"
+  }
+}),
+
+lancomeLashIdoleMascara: productData({
+  category: "Mascara",
+  brand: "Lancôme",
+  name: "Lash Idôle Lash-Lifting & Volumizing Mascara",
+  type: "Lash lifting and volumizing mascara",
+  sizes: ["mini", "standard"],
+  image: skuImage("s2376770"),
+  links: countryLinks({
+    US: "https://www.sephora.com/product/lancome-lash-idole-lash-lifting-volumizing-mascara-P467846",
+    CA: "https://www.sephora.com/ca/en/product/lancome-lash-idole-lash-lifting-volumizing-mascara-P467846"
+  }),
+  alternatives: {
+    FR: "rareBeautyPerfectStrokesMascara",
+    UK: "rareBeautyPerfectStrokesMascara",
+    AU: "rareBeautyPerfectStrokesMascara",
+    BR: "rareBeautyPerfectStrokesMascara"
+  }
+}),
+
+lancomeLashIdoleFlutterExtensionMascara: productData({
+  category: "Mascara",
+  brand: "Lancôme",
+  name: "Lash Idôle Flutter Extension Mascara",
+  type: "Lengthening mascara",
+  sizes: ["standard"],
+  image: skuImage("s2844264"),
+  links: countryLinks({
+    US: "https://www.sephora.com/product/lash-idole-flutter-extension-mascara-P515454",
+    CA: "https://www.sephora.com/ca/en/product/lash-idole-flutter-extension-mascara-P515454"
+  }),
+  alternatives: {
+    FR: "yslLashClashMascara",
+    UK: "yslLashClashMascara",
+    AU: "yslLashClashMascara",
+    BR: "yslLashClashMascara"
+  }
+}),
+
+lancomeHypnoseDramaMascara: productData({
+  category: "Mascara",
+  brand: "Lancôme",
+  name: "Hypnôse Drama Instant Full Body Volume Mascara",
+  type: "Full-volume mascara",
+  sizes: ["standard"],
+  image: skuImage("s1446499"),
+  links: countryLinks({
+    US: "https://www.sephora.com/product/hypnose-drama-instant-full-body-volume-mascara-P245421",
+    CA: "https://www.sephora.com/ca/en/product/hypnose-drama-instant-full-body-volume-mascara-P245421"
+  }),
+  alternatives: {
+    FR: "yslLashClashMascara",
+    UK: "yslLashClashMascara",
+    AU: "yslLashClashMascara",
+    BR: "yslLashClashMascara"
+  }
+}),
+
+hourglassUnlockedMascara: productData({
+  category: "Mascara",
+  brand: "Hourglass",
+  name: "Unlocked Instant Extensions Mascara",
+  type: "Lengthening tubing mascara",
+  sizes: ["mini", "standard"],
+  image: skuImage("s2887537"),
+  links: countryLinks({
+    US: "https://www.sephora.com/product/hourglass-unlocked-instant-extensions-mascara-P460829",
+    CA: "https://www.sephora.com/ca/en/product/hourglass-unlocked-instant-extensions-mascara-P460829"
+  }),
+  alternatives: {
+    FR: "tarteTarteletteTubingMascara",
+    UK: "tarteTarteletteTubingMascara",
+    AU: "tarteTarteletteTubingMascara",
+    BR: "tarteTarteletteTubingMascara"
+  }
+}),
+
+hourglassCautionMascara: productData({
+  category: "Mascara",
+  brand: "Hourglass",
+  name: "Caution™ Extreme Lash Mascara",
+  type: "Extreme lash mascara",
+  sizes: ["mini", "standard"],
+  image: skuImage("s2134609"),
+  links: countryLinks({
+    US: "https://www.sephora.com/product/caution-extreme-lash-mascara-P433809",
+    CA: "https://www.sephora.com/ca/en/product/caution-extreme-lash-mascara-P433809"
+  }),
+  alternatives: {
+    FR: "benefitBadgalBangMascara",
+    UK: "benefitBadgalBangMascara",
+    AU: "benefitBadgalBangMascara",
+    BR: "benefitBadgalBangMascara"
+  }
+}),
+
+pradaPradascopeMascara: productData({
+  category: "Mascara",
+  brand: "Prada",
+  name: "Pradascope Lash Lifting & Lengthening Mascara",
+  type: "Lifting and lengthening mascara",
+  sizes: ["standard"],
+  image: skuImage("s2836070"),
+  links: countryLinks({
+    US: "https://www.sephora.com/product/prada-beauty-pradascope-lash-lifting-lengthening-mascara-P515390",
+    CA: "https://www.sephora.com/ca/en/product/prada-beauty-pradascope-lash-lifting-lengthening-mascara-P515390",
+    AU: "https://www.sephora.com.au/products/prada-pradascope-lash-extending-mascara"
+  }),
+  alternatives: {
+    FR: "rareBeautyPerfectStrokesMascara",
+    UK: "rareBeautyPerfectStrokesMascara",
+    BR: "rareBeautyPerfectStrokesMascara"
+  }
+}),
+
+meritCleanLashMascara: productData({
+  category: "Mascara",
+  brand: "MERIT",
+  name: "Clean Lash Lengthening Tubing Mascara",
+  type: "Clean lengthening tubing mascara",
+  sizes: ["standard"],
+  image: skuImage("s2426781"),
+  links: countryLinks({
+    US: "https://www.sephora.com/product/merit-clean-lash-lengthening-mascara-P468692",
+    CA: "https://www.sephora.com/ca/en/product/merit-clean-lash-lengthening-mascara-P468692"
+  }),
+  alternatives: {
+    FR: "tarteTarteletteTubingMascara",
+    UK: "tarteTarteletteTubingMascara",
+    AU: "tarteTarteletteTubingMascara",
+    BR: "tarteTarteletteTubingMascara"
+  }
+}),
+
+hausLabsBStructuralMascara: productData({
+  category: "Mascara",
+  brand: "HAUS LABS BY LADY GAGA",
+  name: "B Structural Volumizing + Lengthening Mascara",
+  type: "Volumizing and lengthening mascara",
+  sizes: ["standard"],
+  image: skuImage("s2827780"),
+  links: countryLinks({
+    US: "https://www.sephora.com/product/haus-labs-by-lady-gaga-b-structural-volumizing-lengthening-mascara-P514550",
+    CA: "https://www.sephora.com/ca/en/product/haus-labs-by-lady-gaga-b-structural-volumizing-lengthening-mascara-P514550"
+  }),
+  alternatives: {
+    FR: "benefitBadgalBangMascara",
+    UK: "benefitBadgalBangMascara",
+    AU: "benefitBadgalBangMascara",
+    BR: "benefitBadgalBangMascara"
+  }
+}),
+
+fentyHellaThiccMascara: productData({
+  category: "Mascara",
+  brand: "Fenty Beauty by Rihanna",
+  name: "Hella Thicc Volumizing Mascara",
+  type: "Volumizing mascara",
+  sizes: ["mini", "standard"],
+  image: skuImage("s2597599"),
+  links: countryLinks({
+    US: "https://www.sephora.com/product/fenty-beauty-rihanna-hella-thicc-volumizing-mascara-P503652",
+    CA: "https://www.sephora.com/ca/en/product/fenty-beauty-rihanna-hella-thicc-volumizing-mascara-P503652",
+    UK: "https://www.sephora.co.uk/p/fenty-beauty-hella-thicc-volumizing-mascara",
+    AU: "https://www.sephora.com.au/products/fenty-beauty-hella-thicc-volumizing-mascara"
+  }),
+  alternatives: {
+    FR: "benefitBadgalBangMascara",
+    BR: "benefitBadgalBangMascara"
+  }
+}),
+
+tooFacedBetterThanSexMascara: productData({
+  category: "Mascara",
+  brand: "Too Faced",
+  name: "Better Than Sex Volumizing & Lengthening Mascara",
+  type: "Volumizing and lengthening mascara",
+  sizes: ["mini", "standard"],
+  image: skuImage("s1533439"),
+  links: countryLinks({
+    US: "https://www.sephora.com/product/better-than-sex-mascara-P381000",
+    CA: "https://www.sephora.com/ca/en/product/better-than-sex-mascara-P381000"
+  }),
+  alternatives: {
+    FR: "benefitBadgalBangMascara",
+    UK: "benefitBadgalBangMascara",
+    AU: "benefitBadgalBangMascara",
+    BR: "benefitBadgalBangMascara"
+  }
+}),
+
+tooFacedBetterThanSexWaterproofMascara: productData({
+  category: "Mascara",
+  brand: "Too Faced",
+  name: "Better Than Sex Waterproof Mascara",
+  type: "Waterproof volumizing mascara",
+  sizes: ["standard"],
+  image: skuImage("s1673846"),
+  links: countryLinks({
+    US: "https://www.sephora.com/product/better-than-sex-waterproof-mascara-P397517",
+    CA: "https://www.sephora.com/ca/en/product/better-than-sex-waterproof-mascara-P397517"
+  }),
+  alternatives: {
+    FR: "benefitBadgalBangWaterproofMascara",
+    UK: "benefitBadgalBangWaterproofMascara",
+    AU: "benefitBadgalBangWaterproofMascara",
+    BR: "benefitBadgalBangWaterproofMascara"
+  }
+}),
+
+tooFacedNaturallyBetterThanSexMascara: productData({
+  category: "Mascara",
+  brand: "Too Faced",
+  name: "Naturally Better Than Sex Mascara",
+  type: "Volumizing and lengthening mascara",
+  sizes: ["standard"],
+  image: skuImage("s2443364"),
+  links: countryLinks({
+    US: "https://www.sephora.com/product/naturally-better-than-sex-mascara-P474319",
+    CA: "https://www.sephora.com/ca/en/product/naturally-better-than-sex-mascara-P474319"
+  }),
+  alternatives: {
+    FR: "benefitBadgalBangMascara",
+    UK: "benefitBadgalBangMascara",
+    AU: "benefitBadgalBangMascara",
+    BR: "benefitBadgalBangMascara"
+  }
+}),
+
+oneSizeFantasizeMascara: productData({
+  category: "Mascara",
+  brand: "ONE/SIZE by Patrick Starrr",
+  name: "Fantasize Lifting & Lengthening Mascara",
+  type: "Lifting and lengthening mascara",
+  sizes: ["mini", "standard"],
+  image: skuImage("s2753564"),
+  links: countryLinks({
+    US: "https://www.sephora.com/product/one-size-fantasize-lifting-lengthening-mascara-P510730",
+    CA: "https://www.sephora.com/ca/en/product/one-size-fantasize-lifting-lengthening-mascara-P510730"
+  }),
+  alternatives: {
+    FR: "rareBeautyPerfectStrokesMascara",
+    UK: "rareBeautyPerfectStrokesMascara",
+    AU: "rareBeautyPerfectStrokesMascara",
+    BR: "rareBeautyPerfectStrokesMascara"
+  }
+}),
+
+saieMascara101: productData({
+  category: "Mascara",
+  brand: "Saie",
+  name: "Mascara 101 Lengthening and Lifting Mascara",
+  type: "Lengthening and lifting mascara",
+  sizes: ["standard"],
+  image: skuImage("s2579969"),
+  links: countryLinks({
+    US: "https://www.sephora.com/product/mascara-101-lengthening-and-lifting-mascara-P500409",
+    CA: "https://www.sephora.com/ca/en/product/mascara-101-lengthening-and-lifting-mascara-P500409"
+  }),
+  alternatives: {
+    FR: "rareBeautyPerfectStrokesMascara",
+    UK: "rareBeautyPerfectStrokesMascara",
+    AU: "rareBeautyPerfectStrokesMascara",
+    BR: "rareBeautyPerfectStrokesMascara"
+  }
+}),
+
+makeupByMarioMasterMascara: productData({
+  category: "Mascara",
+  brand: "MAKEUP BY MARIO",
+  name: "Master Mascara®",
+  type: "Volumizing and lengthening mascara",
+  sizes: ["standard"],
+  image: skuImage("s2486728"),
+  links: countryLinks({
+    US: "https://www.sephora.com/product/master-mascara-P479765",
+    CA: "https://www.sephora.com/ca/en/product/master-mascara-P479765"
+  }),
+  alternatives: {
+    FR: "rareBeautyPerfectStrokesMascara",
+    UK: "rareBeautyPerfectStrokesMascara",
+    AU: "rareBeautyPerfectStrokesMascara",
+    BR: "rareBeautyPerfectStrokesMascara"
+  }
+}),
+
+makeUpForEverArtistClumpFreeMascara: productData({
+  category: "Mascara",
+  brand: "MAKE UP FOR EVER",
+  name: "Artist Clump-Free Volumizing Mascara",
+  type: "Clump-free volumizing mascara",
+  sizes: ["standard"],
+  image: skuImage("s2848786"),
+  links: countryLinks({
+    US: "https://www.sephora.com/product/make-up-for-ever-artist-clump-free-volumizing-mascara-P516285",
+    CA: "https://www.sephora.com/ca/en/product/make-up-for-ever-artist-clump-free-volumizing-mascara-P516285"
+  }),
+  alternatives: {
+    FR: "benefitBadgalBangMascara",
+    UK: "benefitBadgalBangMascara",
+    AU: "benefitBadgalBangMascara",
+    BR: "benefitBadgalBangMascara"
+  }
+}),
+
+glossierLashSlickMascara: productData({
+  category: "Mascara",
+  brand: "Glossier",
+  name: "Lash Slick Mascara",
+  type: "Lengthening mascara",
+  sizes: ["standard"],
+  image: skuImage("s2655827"),
+  links: countryLinks({
+    US: "https://www.sephora.com/product/glossier-lash-slick-mascara-P504831",
+    CA: "https://www.sephora.com/ca/en/product/glossier-lash-slick-mascara-P504831",
+    UK: "https://www.sephora.co.uk/p/glossier-lash-slick-mascara"
+  }),
+  alternatives: {
+    FR: "rareBeautyPerfectStrokesMascara",
+    AU: "rareBeautyPerfectStrokesMascara",
+    BR: "rareBeautyPerfectStrokesMascara"
+  }
+}),
+
+cliniqueHighImpactMascara: productData({
+  category: "Mascara",
+  brand: "CLINIQUE",
+  name: "High Impact Mascara",
+  type: "Volumizing and lengthening mascara",
+  sizes: ["mini", "standard"],
+  image: skuImage("s706598"),
+  links: countryLinks({
+    US: "https://www.sephora.com/product/high-impact-mascara-P122910",
+    CA: "https://www.sephora.com/ca/en/product/high-impact-mascara-P122910"
+  }),
+  alternatives: {
+    FR: "benefitBadgalBangMascara",
+    UK: "benefitBadgalBangMascara",
+    AU: "benefitBadgalBangMascara",
+    BR: "benefitBadgalBangMascara"
+  }
+}),
+
+cliniqueLashPowerMascara: productData({
+  category: "Mascara",
+  brand: "CLINIQUE",
+  name: "Lash Power Mascara Long-Wearing Formula",
+  type: "Long-wearing mascara",
+  sizes: ["standard"],
+  image: skuImage("s989871"),
+  links: countryLinks({
+    US: "https://www.sephora.com/product/lash-power-mascara-long-wearing-formula-P122900",
+    CA: "https://www.sephora.com/ca/en/product/lash-power-mascara-long-wearing-formula-P122900"
+  }),
+  alternatives: {
+    FR: "rareBeautyPerfectStrokesMascara",
+    UK: "rareBeautyPerfectStrokesMascara",
+    AU: "rareBeautyPerfectStrokesMascara",
+    BR: "rareBeautyPerfectStrokesMascara"
+  }
+}),
+
+guerlainMadEyesMascara: productData({
+  category: "Mascara",
+  brand: "GUERLAIN",
+  name: "Mad Eyes Long-Wear Volumizing Mascara",
+  type: "Long-wear volumizing mascara",
+  sizes: ["standard"],
+  image: skuImage("s2306926"),
+  links: countryLinks({
+    US: "https://www.sephora.com/product/mad-eyes-mascara-P454324",
+    CA: "https://www.sephora.com/ca/en/product/mad-eyes-mascara-P454324"
+  }),
+  alternatives: {
+    FR: "benefitBadgalBangMascara",
+    UK: "benefitBadgalBangMascara",
+    AU: "benefitBadgalBangMascara",
+    BR: "benefitBadgalBangMascara"
+  }
+}),
+
+gucciLObscurMascara: productData({
+  category: "Mascara",
+  brand: "Gucci",
+  name: "L’Obscur Mascara",
+  type: "Buildable lengthening mascara",
+  sizes: ["standard"],
+  image: skuImage("s2395689"),
+  links: countryLinks({
+    US: "https://www.sephora.com/product/gucci-l-obscur-mascara-P458818",
+    CA: "https://www.sephora.com/ca/en/product/gucci-l-obscur-mascara-P458818"
+  }),
+  alternatives: {
+    FR: "yslLashClashMascara",
+    UK: "yslLashClashMascara",
+    AU: "yslLashClashMascara",
+    BR: "yslLashClashMascara"
+  }
+}),
+
+patMcGrathDarkStarMascara: productData({
+  category: "Mascara",
+  brand: "PAT McGRATH LABS",
+  name: "Dark Star Volumizing Mascara",
+  type: "Volumizing mascara",
+  sizes: ["standard"],
+  image: skuImage("s2380582"),
+  links: countryLinks({
+    US: "https://www.sephora.com/product/dark-star-mascara-P458481",
+    CA: "https://www.sephora.com/ca/en/product/dark-star-mascara-P458481"
+  }),
+  alternatives: {
+    FR: "benefitBadgalBangMascara",
+    UK: "benefitBadgalBangMascara",
+    AU: "benefitBadgalBangMascara",
+    BR: "benefitBadgalBangMascara"
+  }
+}),
+
+patMcGrathFetishEyesMascara: productData({
+  category: "Mascara",
+  brand: "PAT McGRATH LABS",
+  name: "FetishEyes™ Mascara",
+  type: "Lengthening mascara",
+  sizes: ["standard"],
+  image: skuImage("s2177640"),
+  links: countryLinks({
+    US: "https://www.sephora.com/product/fetisheyes-mascara-P436716",
+    CA: "https://www.sephora.com/ca/en/product/fetisheyes-mascara-P436716"
+  }),
+  alternatives: {
+    FR: "rareBeautyPerfectStrokesMascara",
+    UK: "rareBeautyPerfectStrokesMascara",
+    AU: "rareBeautyPerfectStrokesMascara",
+    BR: "rareBeautyPerfectStrokesMascara"
+  }
+}),
+
+urbanDecayTubeJobMascara: productData({
+  category: "Mascara",
+  brand: "Urban Decay",
+  name: "Tube Job Lengthening + Curling Tubing Mascara",
+  type: "Lengthening and curling tubing mascara",
+  sizes: ["standard"],
+  image: skuImage("s2859429"),
+  links: countryLinks({
+    US: "https://www.sephora.com/product/urban-decay-tube-job-lengthening-curling-tubing-mascara-P516762",
+    CA: "https://www.sephora.com/ca/en/product/urban-decay-tube-job-lengthening-curling-tubing-mascara-P516762"
+  }),
+  alternatives: {
+    FR: "tarteTarteletteTubingMascara",
+    UK: "tarteTarteletteTubingMascara",
+    AU: "tarteTarteletteTubingMascara",
+    BR: "tarteTarteletteTubingMascara"
+  }
+}),
+    
   // -------------------------
   // BROWS
   // -------------------------
