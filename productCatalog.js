@@ -11175,81 +11175,143 @@ anastasiaBeautyBalmSkinTint: productData({
   }
 }),
   
-  // -------------------------
-  // MASCARA
-  // -------------------------
-  lancomeCilsBooster: productData({
-    category: "Mascara Primer",
-    brand: "Lancôme",
-    name: "Cils Booster XL Super-Enhancing Mascara Primer",
-    image: skuImage("s2109965"),
-    links: {
-      US: "https://www.sephora.com/product/cils-booster-xl-super-enhancing-mascara-base-P128706",
-      CA: "https://www.sephora.com/ca/en/product/cils-booster-xl-super-enhancing-mascara-base-P128706"
-    }
-  }),
+  "
+// -------------------------
+// MASCARA 
+// -------------------------
 
-  tooFacedBetterThanSexMascara: productData({
-    category: "Mascara",
-    brand: "Too Faced",
-    name: "Better Than Sex Volumizing & Lengthening Mascara",
-    image: skuImage("s1533439"),
-    links: {
-      US: "https://www.sephora.com/product/better-than-sex-mascara-P381000",
-      CA: "https://www.sephora.com/ca/en/product/better-than-sex-mascara-P381000"
-    }
+lancomeCilsBooster: productData({
+  category: "Mascara Primer",
+  brand: "Lancôme",
+  name: "Cils Booster XL Super-Enhancing Mascara Primer",
+  type: "White lash primer to boost mascara volume and length",
+  sizes: ["standard"],
+  image: skuImage("s2109965"),
+  links: countryLinks({
+    US: "https://www.sephora.com/product/cils-booster-xl-super-enhancing-mascara-base-P128706",
+    CA: "https://www.sephora.com/ca/en/product/cils-booster-xl-super-enhancing-mascara-base-P128706"
   }),
+  alternatives: {
+    FR: "urbanDecaySubversionLashPrimer",
+    UK: "cliniqueLashBuildingPrimer",
+    AU: "cliniqueLashBuildingPrimer",
+    BR: "rareBeautyPerfectStrokesMascara"
+  }
+}),
 
-  rareBeautyPerfectStrokesMascara: productData({
-    category: "Mascara",
-    brand: "Rare Beauty by Selena Gomez",
-    name: "Perfect Strokes Universal Volumizing Mascara",
-    links: {
-      US: "https://www.sephora.com/product/rare-beauty-by-selena-gomez-perfect-strokes-universal-volumizing-mascara-P475610",
-      CA: "https://www.sephora.com/ca/en/product/rare-beauty-by-selena-gomez-perfect-strokes-universal-volumizing-mascara-P475610"
-    }
+tooFacedBetterThanSexMascara: productData({
+  category: "Mascara",
+  brand: "Too Faced",
+  name: "Better Than Sex Volumizing & Lengthening Mascara",
+  type: "Iconic volumizing and lengthening mascara",
+  sizes: ["mini", "standard"],
+  image: skuImage("s1533439"),
+  links: countryLinks({
+    US: "https://www.sephora.com/product/better-than-sex-mascara-P381000",
+    CA: "https://www.sephora.com/ca/en/product/better-than-sex-mascara-P381000"
   }),
+  alternatives: {
+    FR: "sephoraCollectionSizeUpMascara",
+    UK: "rareBeautyPerfectStrokesMascara",
+    AU: "benefitBadgalBangMascara",
+    BR: "fentyHellaThiccMascara"
+  }
+}),
 
-  benefitBadgalBangMascara: productData({
-    category: "Mascara",
-    brand: "Benefit Cosmetics",
-    name: "BADgal BANG! Volumizing Mascara",
-    links: {
-      US: "https://www.sephora.com/product/badgal-bang-volumizing-mascara-P427517",
-      CA: "https://www.sephora.com/ca/en/product/badgal-bang-volumizing-mascara-P427517"
-    }
+rareBeautyPerfectStrokesMascara: productData({
+  category: "Mascara",
+  brand: "Rare Beauty by Selena Gomez",
+  name: "Perfect Strokes Universal Volumizing Mascara",
+  type: "Universal volumizing mascara for fuller-looking lashes",
+  sizes: ["mini", "standard"],
+  image: skuImage("s2418721"),
+  links: countryLinks({
+    US: "https://www.sephora.com/product/rare-beauty-by-selena-gomez-perfect-strokes-universal-volumizing-mascara-P475610",
+    CA: "https://www.sephora.com/ca/en/product/rare-beauty-by-selena-gomez-perfect-strokes-universal-volumizing-mascara-P475610"
   }),
+  alternatives: {
+    FR: "sephoraCollectionBigByDefinitionMascara",
+    UK: "iliaLimitlessLashMascara",
+    AU: "tower28MakeWavesMascara",
+    BR: "tooFacedBetterThanSexMascara"
+  }
+}),
 
-  iliaLimitlessLashMascara: productData({
-    category: "Mascara",
-    brand: "ILIA",
-    name: "Limitless Lash Lengthening Clean Mascara",
-    links: {
-      US: "https://www.sephora.com/product/limitless-lash-mascara-P431750",
-      CA: "https://www.sephora.com/ca/en/product/limitless-lash-mascara-P431750"
-    }
+benefitBadgalBangMascara: productData({
+  category: "Mascara",
+  brand: "Benefit Cosmetics",
+  name: "BADgal BANG! Volumizing Mascara",
+  type: "Volumizing mascara for dramatic lash volume",
+  sizes: ["mini", "standard"],
+  image: skuImage("s2064681"),
+  links: countryLinks({
+    US: "https://www.sephora.com/product/badgal-bang-volumizing-mascara-P427517",
+    CA: "https://www.sephora.com/ca/en/product/badgal-bang-volumizing-mascara-P427517"
   }),
+  alternatives: {
+    FR: "sephoraCollectionSizeUpMascara",
+    UK: "benefitFanFestMascara",
+    AU: "tooFacedBetterThanSexMascara",
+    BR: "rareBeautyPerfectStrokesMascara"
+  }
+}),
 
-  milkKushMascara: productData({
-    category: "Mascara",
-    brand: "MILK MAKEUP",
-    name: "KUSH High Volumizing Mascara",
-    links: {
-      US: "https://www.sephora.com/product/kush-mascara-P429903",
-      CA: "https://www.sephora.com/ca/en/product/kush-mascara-P429903"
-    }
+iliaLimitlessLashMascara: productData({
+  category: "Mascara",
+  brand: "ILIA",
+  name: "Limitless Lash Lengthening Clean Mascara",
+  type: "Clean lengthening mascara for lifted, separated lashes",
+  sizes: ["mini", "standard"],
+  image: skuImage("s2107274"),
+  links: countryLinks({
+    US: "https://www.sephora.com/product/limitless-lash-mascara-P431750",
+    CA: "https://www.sephora.com/ca/en/product/limitless-lash-mascara-P431750"
   }),
+  alternatives: {
+    FR: "sephoraCollectionLoveTheLiftMascara",
+    UK: "tower28MakeWavesMascara",
+    AU: "calirayComeHellOrHighWaterMascara",
+    BR: "rareBeautyPerfectStrokesMascara"
+  }
+}),
 
-  charlottePillowTalkMascara: productData({
-    category: "Mascara",
-    brand: "Charlotte Tilbury",
-    name: "Pillow Talk Push Up Lashes Mascara",
-    links: {
-      US: "https://www.sephora.com/product/pillow-talk-push-up-lashes-volumizing-lengthening-mascara-P461894",
-      CA: "https://www.sephora.com/ca/en/product/pillow-talk-push-up-lashes-volumizing-lengthening-mascara-P461894"
-    }
+milkKushMascara: productData({
+  category: "Mascara",
+  brand: "MILK MAKEUP",
+  name: "KUSH High Volumizing Mascara",
+  type: "High-volume mascara for fuller-looking lashes",
+  sizes: ["mini", "standard"],
+  image: skuImage("s2096451"),
+  links: countryLinks({
+    US: "https://www.sephora.com/product/kush-mascara-P429903",
+    CA: "https://www.sephora.com/ca/en/product/kush-mascara-P429903"
   }),
+  alternatives: {
+    FR: "sephoraCollectionBigByDefinitionMascara",
+    UK: "fentyHellaThiccMascara",
+    AU: "tooFacedBetterThanSexMascara",
+    BR: "benefitBadgalBangMascara"
+  }
+}),
 
+charlottePillowTalkMascara: productData({
+  category: "Mascara",
+  brand: "Charlotte Tilbury",
+  name: "Pillow Talk Push Up Lashes Volumizing & Lengthening Mascara",
+  type: "Push-up effect mascara for lifted, lengthened lashes",
+  sizes: ["mini", "standard"],
+  image: skuImage("s2368439"),
+  links: countryLinks({
+    US: "https://www.sephora.com/product/pillow-talk-push-up-lashes-volumizing-lengthening-mascara-P461894",
+    CA: "https://www.sephora.com/ca/en/product/pillow-talk-push-up-lashes-volumizing-lengthening-mascara-P461894"
+  }),
+  alternatives: {
+    FR: "sephoraCollectionLoveTheLiftMascara",
+    UK: "rareBeautyPerfectStrokesMascara",
+    AU: "benefitRollerLashMascara",
+    BR: "tooFacedBetterThanSexMascara"
+  }
+}),
   // -------------------------
   // BROWS
   // -------------------------
