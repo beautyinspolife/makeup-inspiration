@@ -78,10 +78,292 @@ function productData({
 }
 
 const PRODUCT_CATALOG = {
-  // -------------------------
-// FARDS À PAUPIÈRES / EYESHADOW
+// -------------------------
+// FARDS À PAUPIÈRES / EYESHADOW 
 // -------------------------
 
+charlotteTilburySuperNudesEasyPalette: productData({
+  category: "Eyeshadow Palette",
+  brand: "Charlotte Tilbury",
+  name: "Super Nudes Easy Eyeshadow Palette",
+  type: "Six-shade nude eyeshadow palette",
+  sizes: ["palette"],
+  image: skuImage("s2382885"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/charlotte-tilbury-iconic-nude-easy-eye-palette-P461433"
+  }),
+  alternatives: {
+    US: "makeupByMarioMasterMattesPalette",
+    FR: "sephoraCollectionMiniMixEyeshadowPalette",
+    UK: "hudaNudeObsessionsPalette",
+    AU: "natashaINeedANudePalette",
+    BR: "tooFacedNaturalNudesPalette"
+  }
+}),
+
+patMcGrathMothershipVIIDivineRose: productData({
+  category: "Eyeshadow Palette",
+  brand: "PAT McGRATH LABS",
+  name: "Mothership VII Eyeshadow Palette: Divine Rose",
+  type: "Ten-shade rose-toned luxury eyeshadow palette",
+  sizes: ["palette"],
+  image: skuImage("s2877728"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/mothership-vii-divine-rose-P516243"
+  }),
+  alternatives: {
+    US: "patMcGrathMothershipXISunlitSeduction",
+    FR: "natashaDenonaRetroPalette",
+    UK: "hudaNewNudePalette",
+    AU: "patrickTaMajorDimensionIIRosePalette",
+    BR: "natashaDenonaINeedAWarmPalette"
+  }
+}),
+
+patMcGrathMothershipXIIPetalmorphosis: productData({
+  category: "Eyeshadow Palette",
+  brand: "PAT McGRATH LABS",
+  name: "MOTHERSHIP XII Eyeshadow Palette: Petalmorphosis",
+  type: "Ten-shade luxury colorful eyeshadow palette",
+  sizes: ["palette"],
+  image: skuImage("s2840114"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/mothership-xii-petalmorphosis-P516229"
+  }),
+  alternatives: {
+    US: "danessaMyricksLightworkVIIPalette",
+    FR: "hudaPrettyGrungeEyeshadowPalette",
+    UK: "natashaDenonaRetroGlamPalette",
+    AU: "hudaEmpoweredPalette",
+    BR: "natashaDenonaMyDreamPalette"
+  }
+}),
+
+patMcGrathMothershipXISunlitSeduction: productData({
+  category: "Eyeshadow Palette",
+  brand: "PAT McGRATH LABS",
+  name: "Mothership XI Eyeshadow Palette: Sunlit Seduction",
+  type: "Ten-shade warm pink, lavender and gold eyeshadow palette",
+  sizes: ["palette"],
+  image: skuImage("s2699411"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/mothership-xi-eye-shadow-palette-sunlit-seduction-P507506"
+  }),
+  alternatives: {
+    US: "patMcGrathMothershipVIIDivineRose",
+    FR: "natashaDenonaLoveFacePalette",
+    UK: "hudaNewNudePalette",
+    AU: "patrickTaMajorDimensionIIRosePalette",
+    BR: "natashaDenonaINeedAWarmPalette"
+  }
+}),
+
+patMcGrathLuxeQuadPassionFleur: productData({
+  category: "Eyeshadow Palette",
+  brand: "PAT McGRATH LABS",
+  name: "Luxe Eye Shadow Quad: Passion Fleur",
+  type: "Four-shade floral luxury eyeshadow quad",
+  sizes: ["palette"],
+  image: "",
+  links: countryLinks({}),
+  alternatives: {
+    US: "patMcGrathDivineBronzePalette",
+    FR: "natashaDenonaMiniRosePalette",
+    UK: "charlotteTilburyPillowTalkLuxuryPalette",
+    AU: "hudaNudeObsessionsPalette",
+    BR: "patrickTaMajorDimensionIIRosePalette"
+  }
+}),
+
+sephoraCollectionMiniMixEyeshadowPalette: productData({
+  category: "Eyeshadow Palette",
+  brand: "SEPHORA COLLECTION",
+  name: "Mini Mix Eyeshadow Palette",
+  type: "Mini three-shade eyeshadow palette",
+  sizes: ["mini", "palette"],
+  image: skuImage("s2819977"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/mini-mix-eyeshadow-palette-P515045"
+  }),
+  alternatives: {
+    US: "morpheTrophyWifeEyeshadowTrio",
+    FR: "kajaBentoEyeshadowTrio",
+    UK: "sephoraCollectionMegaMixPalette",
+    AU: "natashaDenonaMiniStarlettePalette",
+    BR: "natashaDenonaMiniRosePalette"
+  }
+}),
+
+morpheTrophyWifeEyeshadowTrio: productData({
+  category: "Eyeshadow Palette",
+  brand: "Morphe",
+  name: "Trophy Wife Eyeshadow Trio",
+  type: "Three-shade matte, shimmer and metallic eyeshadow trio",
+  sizes: ["palette"],
+  image: skuImage("s2936169"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/torphy-wife-eyeshadow-trio-P520583"
+  }),
+  alternatives: {
+    US: "sephoraCollectionMiniMixEyeshadowPalette",
+    FR: "sephoraCollectionMiniMixEyeshadowPalette",
+    UK: "kajaBentoEyeshadowTrio",
+    AU: "natashaDenonaMiniStarlettePalette",
+    BR: "sephoraCollectionMegaMixPalette"
+  }
+}),
+
+danessaMyricksMiniEverydayMagicNeutralFreedomPalette: productData({
+  category: "Eyeshadow Palette",
+  brand: "Danessa Myricks Beauty",
+  name: "Mini Everyday Magic Neutral Freedom Palette",
+  type: "Mini six-shade neutral eyeshadow palette",
+  sizes: ["mini", "palette"],
+  image: skuImage("s2942381"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/mini-everyday-magic-neutral-freedom-palette-P520269"
+  }),
+  alternatives: {
+    US: "makeupByMarioMasterMattesPalette",
+    FR: "sephoraCollectionMiniMixEyeshadowPalette",
+    UK: "hudaNudeObsessionsPalette",
+    AU: "natashaINeedANudePalette",
+    BR: "tooFacedNaturalNudesPalette"
+  }
+}),
+
+hudaPrettyGrungeEyeshadowPalette: productData({
+  category: "Eyeshadow Palette",
+  brand: "HUDA BEAUTY",
+  name: "Pretty Grunge Eyeshadow Palette",
+  type: "Smoky cool-toned eighteen-shade eyeshadow palette",
+  sizes: ["palette"],
+  image: skuImage("s2691350"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/pretty-grunge-eyeshadow-palette-P507079"
+  }),
+  alternatives: {
+    US: "natashaDenonaXenonPalette",
+    FR: "natashaDenonaXenonPalette",
+    UK: "urbanDecayNaked2BasicsPalette",
+    AU: "makeupByMarioMasterMattesPalette",
+    BR: "danessaMyricksGroundworkPalette"
+  }
+}),
+
+urbanDecayMoondustStargazePalette: productData({
+  category: "Eyeshadow Palette",
+  brand: "Urban Decay",
+  name: "Moondust Stargaze Eyeshadow Palette",
+  type: "Four-shade sparkle eyeshadow palette",
+  sizes: ["palette"],
+  image: skuImage("s2987469"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/moondust-stargaze-eyeshadow-palette-P522865"
+  }),
+  alternatives: {
+    US: "sephoraCollectionCleanGlitterEyeshadowPalette",
+    FR: "sephoraCollectionMegaMixPalette",
+    UK: "natashaDenonaLuxeGlamCompactQuad",
+    AU: "hudaCreamyObsessionsPalette",
+    BR: "kajaBentoEyeshadowTrio"
+  }
+}),
+
+tomFordSoleilEyeColorQuadLumiere: productData({
+  category: "Eyeshadow Palette",
+  brand: "TOM FORD",
+  name: "Soleil Eye Color Quad Lumiere Eyeshadow",
+  type: "Four-shade luxury luminous eyeshadow quad",
+  sizes: ["palette"],
+  image: skuImage("s2966521"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/soleil-eye-color-quad-lumiere-eyeshadow-P522138"
+  }),
+  alternatives: {
+    US: "charlotteTilburyPillowTalkLuxuryPalette",
+    FR: "natashaDenonaLuxeGlamCompactQuad",
+    UK: "patrickTaMajorDimensionIIRosePalette",
+    AU: "hudaNudeObsessionsPalette",
+    BR: "sephoraCollectionMegaMixPalette"
+  }
+}),
+
+lawlessLavenderOneEyeshadowPalette: productData({
+  category: "Eyeshadow Palette",
+  brand: "LAWLESS",
+  name: "The Lavender One Talc-Free Eyeshadow Palette",
+  type: "Lavender-toned talc-free eyeshadow palette",
+  sizes: ["palette"],
+  image: skuImage("s2651297"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/lawless-the-lavender-one-talc-free-eyeshadow-palette-P505251"
+  }),
+  alternatives: {
+    US: "natashaDenonaMiniRosePalette",
+    FR: "sephoraCollectionMegaMixPalette",
+    UK: "hudaCreamyObsessionsPalette",
+    AU: "natashaDenonaRetroPalette",
+    BR: "patrickTaMajorDimensionIIRosePalette"
+  }
+}),
+
+nudestixNudeMetallicsForEyes: productData({
+  category: "Eyeshadow Stick Set",
+  brand: "NUDESTIX",
+  name: "Nude Metallics For Eyes",
+  type: "Three-piece metallic nude eye pencil set",
+  sizes: ["set"],
+  image: skuImage("s2041788"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/nude-metallics-for-eyes-P428673"
+  }),
+  alternatives: {
+    US: "bobbiBrownMiniLongWearCreamShadowStickDuo",
+    FR: "sephoraCollectionColorfulEyeshadowEyelinerMultiStick",
+    UK: "sephoraCollectionColorfulEyeshadowEyelinerMultiStick",
+    AU: "bobbiBrownMiniLongWearCreamShadowStickDuo",
+    BR: "sephoraCollectionMiniMixEyeshadowPalette"
+  }
+}),
+
+bobbiBrownMiniLongWearCreamShadowStickDuo: productData({
+  category: "Eyeshadow Stick Set",
+  brand: "Bobbi Brown",
+  name: "Mini Long-Wear Cream Shadow Stick Duo",
+  type: "Two-piece mini cream eyeshadow stick set",
+  sizes: ["mini", "set"],
+  image: skuImage("s2903425"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/mini-long-wear-cream-shadow-stick-duo-P517612"
+  }),
+  alternatives: {
+    US: "nudestixNudeMetallicsForEyes",
+    FR: "sephoraCollectionColorfulEyeshadowEyelinerMultiStick",
+    UK: "nudestixNudeMetallicsForEyes",
+    AU: "sephoraCollectionColorfulEyeshadowEyelinerMultiStick",
+    BR: "sephoraCollectionMiniMixEyeshadowPalette"
+  }
+}),
+
+danessaMyricksInfiniteChromeFlakesGel: productData({
+  category: "Eyeshadow",
+  brand: "Danessa Myricks Beauty",
+  name: "Infinite Chrome Flakes Multichrome Gel for Eyes & Face",
+  type: "Multichrome gel flakes for eyes",
+  sizes: ["standard"],
+  image: skuImage("s2575538"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/danessa-myricks-beauty-infinite-chrome-flakes-multichrome-gel-for-eyes-face-P481968"
+  }),
+  alternatives: {
+    US: "urbanDecayMoondustStargazePalette",
+    FR: "sephoraCollectionColorfulEyeshadow",
+    UK: "sephoraCollectionCleanGlitterEyeshadowPalette",
+    AU: "natashaDenonaLuxeGlamCompactQuad",
+    BR: "hudaCreamyObsessionsPalette"
+  }
+}),
 isamayaPaletteCore20: productData({
   category: "Eyeshadow",
   brand: "ISAMAYA",
