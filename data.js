@@ -1128,7 +1128,7 @@ const LOOKS = [
     id: 83,
     slug: "natural-makeup-that-looks-good-in-every-light-",
     title: "Natural makeup that looks good in every light",
-    category: "natural",
+    category: "clean girl",
     homeImage: "images/home/file_000000006b34720981d70fb6980a4db1~2.png",
     heroImage: "images/home/file_000000006b34720981d70fb6980a4db1~2.png",
     products: []
