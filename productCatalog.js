@@ -2935,8 +2935,254 @@ const PRODUCT_CATALOG = {
   }),
 
   // -------------------------
-// CONCEALERS MANQUANTS
+// CONCEALERS 
 // -------------------------
+  guerlainPreciousLightConcealer: productData({
+  category: "Concealer",
+  brand: "GUERLAIN",
+  name: "Precious Light Illuminator and Concealer",
+  type: "Radiant illuminating concealer pen",
+  sizes: ["standard"],
+  image: "https://www.sephora.com/productimages/sku/s1197920-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/precious-light-illuminator-and-concealer-P249300"
+  }),
+  alternatives: {
+    US: "armaniLuminousSilkConcealer",
+    FR: "sephoraBestSkinEverMultiUseConcealer",
+    UK: "charlotteTilburyAirbrushFlawlessBlurConcealer",
+    AU: "tarteShapeTapeCreamyConcealer",
+    BR: "fentyProFiltrInstantRetouchConcealer"
+  }
+}),
+
+guerlainTerracottaNaturalPerfectionConcealer: productData({
+  category: "Concealer",
+  brand: "GUERLAIN",
+  name: "Terracotta Natural Perfection Concealer",
+  type: "Natural finish liquid-to-powder concealer",
+  sizes: ["standard"],
+  image: "https://www.sephora.com/productimages/sku/s2772408-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/guerlain-terracotta-natural-perfection-concealer-P510719"
+  }),
+  alternatives: {
+    US: "charlotteTilburyAirbrushFlawlessBlurConcealer",
+    FR: "sephoraBestSkinEverMultiUseConcealer",
+    UK: "hourglassVanishAirbrushConcealer",
+    AU: "tarteShapeTapeCreamyConcealer",
+    BR: "fentyProFiltrInstantRetouchConcealer"
+  }
+}),
+
+danessaMyricksVisionCreamCoverConcealer: productData({
+  category: "Concealer",
+  brand: "Danessa Myricks Beauty",
+  name: "Vision Cream Cover Adjustable Foundation & Concealer",
+  type: "Adjustable foundation and concealer cream",
+  sizes: ["standard"],
+  image: "https://www.sephora.com/productimages/sku/s2443943-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    US: "https://www.sephora.com/product/danessa-myricks-vision-cream-cover-2-in-1-foundation-concealer-P469460",
+    CA: "https://www.sephora.com/ca/en/product/danessa-myricks-vision-cream-cover-2-in-1-foundation-concealer-P469460"
+  }),
+  alternatives: {
+    FR: "hausLabsTricloneSkinTechConcealer",
+    UK: "hourglassVanishAirbrushConcealer",
+    AU: "tarteShapeTapeCreamyConcealer",
+    BR: "fentyProFiltrInstantRetouchConcealer"
+  }
+}),
+
+lixrBeautyMultiUseConcealerFoundationStick: productData({
+  category: "Concealer",
+  brand: "LIXR Beauty",
+  name: "Multi-Use Cream-to-Powder Concealer & Foundation Stick",
+  type: "Cream-to-powder concealer and foundation stick",
+  sizes: ["standard"],
+  image: "https://www.sephora.com/productimages/sku/s2955284-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    US: "https://www.sephora.com/product/lixr-complexion-stick-P521062",
+    CA: "https://www.sephora.com/ca/en/product/lixr-complexion-stick-P521062"
+  }),
+  alternatives: {
+    FR: "westmanAtelierVitalSkincareConcealer",
+    UK: "charlotteTilburyAirbrushFlawlessBlurConcealer",
+    AU: "tarteShapeTapeCreamyConcealer",
+    BR: "fentyProFiltrInstantRetouchConcealer"
+  }
+}),
+
+tarteShapeTapeBlurringConcealerStick: productData({
+  category: "Concealer",
+  brand: "tarte",
+  name: "shape tape™ blurring concealer stick",
+  type: "Blurring waterproof concealer and foundation stick",
+  sizes: ["standard"],
+  image: "https://www.sephora.com/productimages/sku/s2869865-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    US: "https://www.sephora.com/product/shape-tape-tm-blur-concealer-stick-P515882",
+    CA: "https://www.sephora.com/ca/en/product/shape-tape-tm-blur-concealer-stick-P515882"
+  }),
+  alternatives: {
+    FR: "charlotteTilburyAirbrushFlawlessBlurConcealer",
+    UK: "charlotteTilburyAirbrushFlawlessBlurConcealer",
+    AU: "tarteShapeTapeCreamyConcealer",
+    BR: "fentyProFiltrInstantRetouchConcealer"
+  }
+}),
+
+anastasiaBeverlyHillsProPencil: productData({
+  category: "Concealer",
+  brand: "Anastasia Beverly Hills",
+  name: "Highlighting & Concealing Eyebrow Pro Pencil",
+  type: "Brow highlighter, concealer and eyeshadow base pencil",
+  sizes: ["standard"],
+  image: "https://www.sephora.com/productimages/sku/s1622075-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    US: "https://www.sephora.com/product/pro-pencil-P386783",
+    CA: "https://www.sephora.com/ca/en/product/pro-pencil-P386783"
+  }),
+  alternatives: {
+    FR: "sephoraBestSkinEverMultiUseConcealer",
+    UK: "charlotteTilburyAirbrushFlawlessBlurConcealer",
+    AU: "tarteShapeTapeCreamyConcealer",
+    BR: "benefitBoiIngCakelessConcealer"
+  }
+}),
+
+cleDePeauBeauteTheConcealer: productData({
+  category: "Concealer",
+  brand: "Clé de Peau Beauté",
+  name: "The Concealer",
+  type: "Luxury stick concealer",
+  sizes: ["standard"],
+  image: "https://www.sephora.com/productimages/sku/s2566222-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/cle-de-peau-beaute-the-concealor-P481967"
+  }),
+  alternatives: {
+    US: "hourglassVanishAirbrushConcealer",
+    FR: "westmanAtelierVitalSkincareConcealer",
+    UK: "hourglassVanishAirbrushConcealer",
+    AU: "tarteShapeTapeCreamyConcealer",
+    BR: "fentyProFiltrInstantRetouchConcealer"
+  }
+}),
+
+makeUpForEverFullCoverConcealer: productData({
+  category: "Concealer",
+  brand: "MAKE UP FOR EVER",
+  name: "Full Cover Concealer",
+  type: "Full-coverage waterproof matte concealer",
+  sizes: ["standard"],
+  image: "https://www.sephora.com/productimages/sku/s1247204-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/full-cover-concealer-P151107"
+  }),
+  alternatives: {
+    US: "makeUpForEverHdSkinFullCoverConcealer",
+    FR: "makeUpForEverHdSkinFullCoverConcealer",
+    UK: "makeUpForEverHdSkinFullCoverConcealer",
+    AU: "makeUpForEverHdSkinFullCoverConcealer",
+    BR: "fentyProFiltrInstantRetouchConcealer"
+  }
+}),
+
+tarteMaracujaCreaselessFullCoverageUndereyeConcealer: productData({
+  category: "Concealer",
+  brand: "tarte",
+  name: "Maracuja Creaseless Full Coverage Radiant Undereye Concealer",
+  type: "Full-coverage radiant under-eye concealer",
+  sizes: ["standard", "mini"],
+  image: "https://www.sephora.com/productimages/sku/s2094548-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    US: "https://www.sephora.com/product/creaseless-concealer-P433206",
+    CA: "https://www.sephora.com/ca/en/product/creaseless-concealer-P433206"
+  }),
+  alternatives: {
+    FR: "tarteShapeTapeCreamyConcealer",
+    UK: "charlotteTilburyBeautifulSkinRadiantConcealer",
+    AU: "tarteShapeTapeCreamyConcealer",
+    BR: "fentyProFiltrInstantRetouchConcealer"
+  }
+}),
+
+tarteMiniMaracujaCreaselessUndereyeConcealer: productData({
+  category: "Concealer",
+  brand: "tarte",
+  name: "Mini Maracuja Creaseless Full Coverage Radiant Undereye Concealer",
+  type: "Mini full-coverage radiant under-eye concealer",
+  sizes: ["mini"],
+  image: "https://www.sephora.com/productimages/sku/s2252179-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    US: "https://www.sephora.com/product/mini-creaseless-under-eye-concealer-P447364",
+    CA: "https://www.sephora.com/ca/en/product/mini-creaseless-under-eye-concealer-P447364"
+  }),
+  alternatives: {
+    FR: "tarteShapeTapeCreamyConcealer",
+    UK: "charlotteTilburyBeautifulSkinRadiantConcealer",
+    AU: "tarteShapeTapeCreamyConcealer",
+    BR: "fentyProFiltrInstantRetouchConcealer"
+  }
+}),
+
+tarteMiniMaracujaCreaselessCreamyConcealer: productData({
+  category: "Concealer",
+  brand: "tarte",
+  name: "Mini Maracuja Creaseless Creamy Liquid Concealer",
+  type: "Mini creamy crease-proof concealer",
+  sizes: ["mini"],
+  image: "https://www.sephora.com/productimages/sku/s2783553-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    US: "https://www.sephora.com/product/tarte-mini-maracuja-creamy-creaseless-concealer-P512244",
+    CA: "https://www.sephora.com/ca/en/product/tarte-mini-maracuja-creamy-creaseless-concealer-P512244"
+  }),
+  alternatives: {
+    FR: "tarteShapeTapeCreamyConcealer",
+    UK: "charlotteTilburyBeautifulSkinRadiantConcealer",
+    AU: "tarteShapeTapeCreamyConcealer",
+    BR: "fentyProFiltrInstantRetouchConcealer"
+  }
+}),
+
+tarteEssentialsShapeTapeMaracujaJuicyLipDuo: productData({
+  category: "Concealer Set",
+  brand: "tarte",
+  name: "tarte™ essentials shape tape™ concealer & maracuja juicy lip duo",
+  type: "Limited-edition concealer and lip oil duo",
+  sizes: ["set", "travel-size"],
+  image: "https://www.sephora.com/productimages/sku/s2945814-main-zoom.jpg?imwidth=315",
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/tarte-essentials-shape-tape-maracuja-juicy-lip-duo-P520776"
+  }),
+  alternatives: {
+    US: "tarteShapeTapeMatteConcealer",
+    FR: "tarteShapeTapeCreamyConcealer",
+    UK: "tarteShapeTapeCreamyConcealer",
+    AU: "tarteShapeTapeCreamyConcealer",
+    BR: "fentyProFiltrInstantRetouchConcealer"
+  }
+}),
+
+chantecailleBioLiftingConcealer: productData({
+  category: "Concealer",
+  brand: "CHANTECAILLE",
+  name: "Bio Lifting Concealer",
+  type: "Peptide-infused smoothing concealer",
+  sizes: ["standard"],
+  image: "",
+  links: countryLinks({}),
+  alternatives: {
+    US: "hourglassVanishAirbrushConcealer",
+    CA: "charlotteTilburyAirbrushFlawlessBlurConcealer",
+    FR: "sephoraBestSkinEverMultiUseConcealer",
+    UK: "charlotteTilburyAirbrushFlawlessBlurConcealer",
+    AU: "tarteShapeTapeCreamyConcealer",
+    BR: "fentyProFiltrInstantRetouchConcealer"
+  }
+}),
+  
   tarteShapeTapeHydratingColorCorrector: productData({
   category: "Concealer",
   brand: "tarte",
