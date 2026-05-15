@@ -6926,6 +6926,214 @@ narsTalcFreePowderBlush: productData({
   // -------------------------
   // HIGHLIGHTER / GLOW
   // -------------------------
+  hausLabsBioRadiantHighlighterBalm: productData({
+    category: "Highlighter",
+    brand: "HAUS LABS BY LADY GAGA",
+    name: "Bio-Radiant Glassy Balm Highlighter Stick",
+    type: "Glassy hydrating highlighter balm stick",
+    sizes: ["standard"],
+    image: skuImage("s2850345"),
+    links: countryLinks({
+      US: "https://www.sephora.com/product/haus-labs-by-lady-gaga-bio-radiant-glassy-highlighter-balm-P515434",
+      CA: "https://www.sephora.com/ca/en/product/haus-labs-by-lady-gaga-bio-radiant-glassy-highlighter-balm-P515434",
+      FR: "https://www.sephora.fr/p/bio-radiant%E2%84%A2-glassy-highlighter-balm---baume-enlumineur-visage-P10061973.html",
+      UK: "https://www.sephora.co.uk/p/haus-labs-by-lady-gaga-bio-radiant-highlighter-balm-3g",
+      AU: "https://www.sephora.com.au/products/haus-labs-by-lady-gaga-bio-radiant-glassy-balm-highlighter-stick"
+    }),
+    alternatives: {
+      BR: "fentyKillawattHighlighter"
+    }
+  }),
+
+  tooFacedDiscoCrushEyeFaceSparkle: productData({
+    category: "Highlighter",
+    brand: "Too Faced",
+    name: "Disco Crush High Shine Glitter Eye + Face Sparkle",
+    type: "Multi-use glitter eye and face highlighter",
+    sizes: ["standard"],
+    image: skuImage("s2794519"),
+    links: countryLinks({
+      US: "https://www.sephora.com/product/too-faced-disco-crush-high-shine-glitter-eye-face-sparkle-P512319",
+      CA: "https://www.sephora.com/ca/en/product/too-faced-disco-crush-high-shine-glitter-eye-face-sparkle-P512319",
+      FR: "https://www.sephora.fr/p/ddisco-crush---fard-a-paupieres-P10059057.html"
+    }),
+    alternatives: {
+      UK: "fentyDiamondBombAllOverDiamondVeil",
+      AU: "fentyKillawattHighlighter",
+      BR: "fentyKillawattHighlighter"
+    }
+  }),
+
+  kosasShinyObjectsWetGlistenHighlighter: productData({
+    category: "Highlighter",
+    brand: "Kosas",
+    name: "Shiny Objects Wet Glisten Highlighter Powder for Face and Eyes",
+    type: "Wet-pressed powder highlighter",
+    sizes: ["standard"],
+    image: skuImage("s2935930"),
+    links: countryLinks({
+      US: "https://www.sephora.com/product/shiny-objects-highlighter-P520040",
+      CA: "https://www.sephora.com/ca/en/product/shiny-objects-highlighter-P520040",
+      UK: "https://www.sephora.co.uk/p/kosas-shiny-objects-wet-glisten-powder-highlighter"
+    }),
+    alternatives: {
+      FR: "rareBeautyPositiveLightHighlighter",
+      AU: "hourglassAmbientStrobeLightingPowder",
+      BR: "fentyKillawattHighlighter"
+    }
+  }),
+
+  danessaMyricksYummySkinLowlighter: productData({
+    category: "Highlighter",
+    brand: "Danessa Myricks Beauty",
+    name: "Yummy Skin Blurring Balm Powder Lowlighter Soft Glow Highlighter",
+    type: "Balm-to-powder soft glow highlighter",
+    sizes: ["standard"],
+    image: skuImage("s2774396"),
+    links: countryLinks({
+      US: "https://www.sephora.com/product/danessa-myricks-beauty-yummy-skin-blurring-balm-powder-lowlighter-soft-glow-highlighter-P510405",
+      CA: "https://www.sephora.com/ca/en/product/danessa-myricks-beauty-yummy-skin-blurring-balm-powder-lowlighter-soft-glow-highlighter-P510405"
+    }),
+    alternatives: {
+      FR: "hausLabsBioRadiantHighlighterBalm",
+      UK: "hourglassAmbientStrobeLightingPowder",
+      AU: "westmanAtelierLitUpHighlightStick",
+      BR: "fentyKillawattHighlighter"
+    }
+  }),
+
+  natashaDenonaMyMiniDreamGlowBlush: productData({
+    category: "Highlighter Palette",
+    brand: "NATASHA DENONA",
+    name: "My Mini Dream Glow Blush",
+    type: "Mini blush and highlighter palette",
+    sizes: ["mini", "palette"],
+    image: skuImage("s2743375"),
+    links: countryLinks({
+      US: "https://www.sephora.com/product/natasha-denona-my-mini-dream-glow-blush-P509533",
+      CA: "https://www.sephora.com/ca/en/product/natasha-denona-my-mini-dream-glow-blush-P509533",
+      FR: "https://www.sephora.fr/p/my-mini-dream-glow-blush---palette-de-blush-et-enlumineurs-P10055817.html",
+      UK: "https://www.sephora.co.uk/p/natasha-denona-my-mini-dream-glow-blush-blush-highlighter-palette",
+      AU: "https://www.sephora.com.au/products/natasha-denona-my-mini-dream-glow-blush"
+    }),
+    alternatives: {
+      BR: "rareBeautyPositiveLightHighlighter"
+    }
+  }),
+
+  fentyKillawattHighlighter: productData({
+    category: "Highlighter",
+    brand: "Fenty Beauty by Rihanna",
+    name: "Killawatt Freestyle Highlighter",
+    type: "Cream-powder freestyle highlighter",
+    sizes: ["standard"],
+    image: skuImage("s1925916"),
+    links: countryLinks({
+      US: "https://www.sephora.com/product/killawatt-freestyle-highlighter-P64879845",
+      CA: "https://www.sephora.com/ca/en/product/killawatt-freestyle-highlighter-P64879845",
+      FR: "https://www.sephora.fr/p/killawatt-freestyle-highlighter---enlumineur-P3079031.html",
+      UK: "https://www.sephora.co.uk/p/fenty-beauty-killawatt-freestyle-highlighter-duo",
+      AU: "https://www.sephora.com.au/products/fenty-killawatt-freestyle-highlighter",
+      BR: "https://www.sephora.com.br/iluminador-fenty-killawatt-freestyle-highlighter-prd45240-11952.html"
+    }),
+    alternatives: {}
+  }),
+
+  rareBeautyPositiveLightHighlighter: productData({
+    category: "Highlighter",
+    brand: "Rare Beauty by Selena Gomez",
+    name: "Positive Light Silky Touch Highlighter",
+    type: "Silky powder highlighter",
+    sizes: ["standard"],
+    image: skuImage("s2629509"),
+    links: countryLinks({
+      US: "https://www.sephora.com/product/rare-beauty-by-selena-gomez-positive-light-silky-touch-highlighter-P503711",
+      CA: "https://www.sephora.com/ca/en/product/rare-beauty-by-selena-gomez-positive-light-silky-touch-highlighter-P503711",
+      FR: "https://www.sephora.fr/p/positive-light-silky-touch-highlighter---enlumineur-P10045917.html",
+      UK: "https://www.sephora.co.uk/p/rare-beauty-positive-light-silky-touch-highlighter"
+    }),
+    alternatives: {
+      AU: "fentyKillawattHighlighter",
+      BR: "fentyKillawattHighlighter"
+    }
+  }),
+
+  pradaLightGlowingHighlighterPowder: productData({
+    category: "Highlighter",
+    brand: "Prada",
+    name: "Prada Light Glowing Highlighter Powder",
+    type: "Lightweight powder highlighter",
+    sizes: ["standard"],
+    image: skuImage("s2853273"),
+    links: countryLinks({
+      US: "https://www.sephora.com/product/prada-beauty-prada-light-glowing-highlighter-powder-P516789",
+      CA: "https://www.sephora.com/ca/en/product/prada-beauty-prada-light-glowing-highlighter-powder-P516789",
+      FR: "https://www.sephora.fr/p/prada-light-glowing-powder---poudre-highlighter-eclatante-P1000207884.html"
+    }),
+    alternatives: {
+      UK: "yslHyperLuminizePowderHighlighter",
+      AU: "hourglassAmbientStrobeLightingPowder",
+      BR: "fentyKillawattHighlighter"
+    }
+  }),
+
+  hourglassAmbientStrobeLightingPowder: productData({
+    category: "Highlighter",
+    brand: "Hourglass",
+    name: "Ambient® Strobe Lighting Powder",
+    type: "Illuminating strobing powder",
+    sizes: ["mini", "standard"],
+    image: skuImage("s1779982"),
+    links: countryLinks({
+      US: "https://www.sephora.com/product/ambient-strobe-lighting-powder-P404706",
+      CA: "https://www.sephora.com/ca/en/product/ambient-strobe-lighting-powder-P404706",
+      UK: "https://www.sephora.co.uk/p/hourglass-ambient-strobe-lighting-powder",
+      AU: "https://www.sephora.com.au/products/hourglass-ambient-strobe-lighting-powder"
+    }),
+    alternatives: {
+      FR: "rareBeautyPositiveLightHighlighter",
+      BR: "fentyKillawattHighlighter"
+    }
+  }),
+
+  saieMiniGlowySuperGel: productData({
+    category: "Highlighter",
+    brand: "Saie",
+    name: "Mini Glowy Super Gel Lightweight Dewy Multipurpose Illuminator",
+    type: "Mini liquid gel illuminator",
+    sizes: ["mini"],
+    image: skuImage("s2834935"),
+    links: countryLinks({
+      US: "https://www.sephora.com/product/saie-mini-glowy-super-gel-lightweight-dewy-highlighter-P468207",
+      CA: "https://www.sephora.com/ca/en/product/saie-mini-glowy-super-gel-lightweight-dewy-highlighter-P468207"
+    }),
+    alternatives: {
+      FR: "rareBeautyPositiveLightHighlighter",
+      UK: "hourglassAmbientStrobeLightingPowder",
+      AU: "westmanAtelierLitUpHighlightStick",
+      BR: "fentyKillawattHighlighter"
+    }
+  }),
+
+  armaniFluidSheerGlowEnhancer: productData({
+    category: "Highlighter",
+    brand: "Armani Beauty",
+    name: "Fluid Sheer Glow Enhancer Highlighter",
+    type: "Liquid glow enhancer",
+    sizes: ["standard"],
+    image: skuImage("s2424851"),
+    links: countryLinks({
+      US: "https://www.sephora.com/product/giorgio-armani-beauty-fluid-sheer-glow-enhancer-highlighter-P469835",
+      CA: "https://www.sephora.com/ca/en/product/giorgio-armani-beauty-fluid-sheer-glow-enhancer-highlighter-P469835",
+      FR: "https://www.sephora.fr/p/fluid-sheer---fluide-embellisseur-P10013536.html",
+      UK: "https://www.sephora.co.uk/p/armani-fluid-sheer-glow-enhancer",
+      AU: "https://www.sephora.com.au/products/armani-beauty-fluid-sheer-liquid-highlighter"
+    }),
+    alternatives: {
+      BR: "rareBeautyPositiveLightLiquidLuminizer"
+    }
+  }),
+  
   diorForeverGlowLuminizerHighlighter: productData({
     category: "Highlighter",
     brand: "DIOR",
