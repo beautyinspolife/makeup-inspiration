@@ -996,9 +996,10 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
-// -------------------------
-  // FOUNDATIONS / FONDS DE TEINT 
+// FOUNDATIONS / FONDS DE TEINT 
   // -------------------------
+
+
 
   makeUpForEverRebootFoundation: productData({
     category: "Foundation",
@@ -1006,17 +1007,19 @@ anastasiaSoftGlamPalette: productData({
     name: "Reboot Active Care Revitalizing Foundation",
     type: "Revitalizing / natural finish foundation",
     sizes: ["standard"],
-    image: "",
-    links: countryLinks({}),
+    image: "https://www.sephora.com/productimages/sku/s2282590-main-zoom.jpg?imwidth=315",
+    links: countryLinks({
+      CA: "https://www.sephora.com/ca/en/product/make-up-for-ever-reboot-foundation-P454035"
+    }),
     alternatives: {
       US: "makeUpForEverHdSkinFoundation",
-      CA: "makeUpForEverHdSkinFoundation",
       FR: "makeUpForEverHdSkinFoundation",
       UK: "makeUpForEverHdSkinFoundation",
       AU: "makeUpForEverHdSkinFoundation",
       BR: "fentySoftLitLuminousFoundation"
     }
   }),
+
 
   danessaMyricksYummySkinSerumFoundation: productData({
     category: "Foundation",
@@ -1025,10 +1028,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Serum foundation / skin-like finish",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2574879-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2574879-main-zoom.jpg?imwidth=315",
-      CA: "https://www.sephora.com/productimages/sku/s2574879-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/danessa-myricks-beauty-yummy-skin-serum-foundation-P481694",
       CA: "https://www.sephora.com/ca/en/product/danessa-myricks-beauty-yummy-skin-serum-foundation-P481694"
@@ -1041,6 +1040,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   urbanDecayHydromaniacTintedHydrator: productData({
     category: "Foundation",
     brand: "Urban Decay",
@@ -1048,10 +1048,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Glowy tinted hydrator / medium coverage",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2670966-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2670966-main-zoom.jpg?imwidth=315",
-      CA: "https://www.sephora.com/productimages/sku/s2670966-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/urban-decay-hydromaniac-glowy-tinted-hydrator-foundation-P467658",
       CA: "https://www.sephora.com/ca/en/product/urban-decay-hydromaniac-glowy-tinted-hydrator-foundation-P467658"
@@ -1064,13 +1060,14 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   givenchyPrismeLibreSkinCaringFoundation: productData({
     category: "Foundation",
     brand: "Givenchy",
     name: "Prisme Libre Skin-Caring 24H Hydrating Foundation",
     type: "Hydrating / skin-caring foundation",
     sizes: ["standard"],
-    image: "",
+    image: "https://www.sephora.com/productimages/sku/s2849628-main-zoom.jpg?imwidth=315",
     links: countryLinks({}),
     alternatives: {
       US: "givenchyPrismeLibreGlowSerumFoundation",
@@ -1082,6 +1079,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   lixrBeautyMultiUseFoundationStick: productData({
     category: "Foundation",
     brand: "LIXR Beauty",
@@ -1089,10 +1087,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Cream-to-powder foundation and concealer stick",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2955284-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2955284-main-zoom.jpg?imwidth=315",
-      CA: "https://www.sephora.com/productimages/sku/s2955284-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/lixr-complexion-stick-P521062",
       CA: "https://www.sephora.com/ca/en/product/lixr-complexion-stick-P521062"
@@ -1105,13 +1099,14 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   kvdLockItPowderFoundation: productData({
     category: "Foundation",
     brand: "KVD Beauty",
     name: "Lock-It Powder Foundation",
     type: "Powder foundation / full coverage",
     sizes: ["standard"],
-    image: "",
+    image: "https://www.sephora.com/productimages/sku/s2413680-main-zoom.jpg?imwidth=315",
     links: countryLinks({}),
     alternatives: {
       US: "bareMineralsBareProPowderFoundation",
@@ -1123,6 +1118,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   lancomeDualFinishPowderFoundation: productData({
     category: "Foundation",
     brand: "Lancôme",
@@ -1130,10 +1126,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Powder foundation / longwear finish",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s135558-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s135558-main-zoom.jpg?imwidth=315",
-      CA: "https://www.sephora.com/productimages/sku/s135558-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/dual-finish-multi-tasking-longwear-powder-foundation-P54419",
       CA: "https://www.sephora.com/ca/en/product/dual-finish-multi-tasking-longwear-powder-foundation-P54419"
@@ -1146,23 +1138,26 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   natashaDenonaHyGlamPowderFoundation: productData({
     category: "Foundation",
     brand: "NATASHA DENONA",
     name: "Hy-Glam Powder Foundation",
     type: "Powder foundation / smoothing finish",
     sizes: ["standard"],
-    image: "",
-    links: countryLinks({}),
+    image: "https://www.sephora.com/productimages/sku/s2960953-main-zoom.jpg?imwidth=315",
+    links: countryLinks({
+      US: "https://www.sephora.com/product/hy-glam-powder-foundation-P521641",
+      CA: "https://www.sephora.com/ca/en/product/hy-glam-powder-foundation-P521641"
+    }),
     alternatives: {
-      US: "bareMineralsBareProPowderFoundation",
-      CA: "bareMineralsBareProPowderFoundation",
       FR: "fentyProFiltrSoftMattePowderFoundation",
       UK: "fentyProFiltrSoftMattePowderFoundation",
       AU: "fentySoftLitLuminousFoundation",
       BR: "fentySoftLitLuminousFoundation"
     }
   }),
+
 
   danessaMyricksVisionCreamCover: productData({
     category: "Foundation",
@@ -1170,11 +1165,12 @@ anastasiaSoftGlamPalette: productData({
     name: "Vision Cream Cover Adjustable Foundation & Concealer",
     type: "Foundation and concealer cream",
     sizes: ["standard"],
-    image: "",
-    links: countryLinks({}),
+    image: "https://www.sephora.com/productimages/sku/s2443919-main-zoom.jpg?imwidth=315",
+    links: countryLinks({
+      US: "https://www.sephora.com/product/danessa-myricks-vision-cream-cover-2-in-1-foundation-concealer-P469460",
+      CA: "https://www.sephora.com/ca/en/product/danessa-myricks-vision-cream-cover-2-in-1-foundation-concealer-P469460"
+    }),
     alternatives: {
-      US: "danessaMyricksYummySkinSerumFoundation",
-      CA: "danessaMyricksYummySkinSerumFoundation",
       FR: "hausLabsTricloneFoundation",
       UK: "hudaEasyBlurFoundation",
       AU: "fentySoftLitLuminousFoundation",
@@ -1182,17 +1178,19 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   tarteAmazonianClayPowderFoundation: productData({
     category: "Foundation",
     brand: "tarte",
-    name: "Amazonian Clay Blurring Powder Foundation",
+    name: "Amazonian Clay 16-Hour Blurring Powder Foundation",
     type: "Powder foundation / blurring finish",
     sizes: ["standard"],
-    image: "",
-    links: countryLinks({}),
+    image: "https://www.sephora.com/productimages/sku/s2641306-main-zoom.jpg?imwidth=315",
+    links: countryLinks({
+      US: "https://www.sephora.com/product/tarte-amazonian-clay-blurring-powder-foundation-P504215",
+      CA: "https://www.sephora.com/ca/en/product/tarte-amazonian-clay-blurring-powder-foundation-P504215"
+    }),
     alternatives: {
-      US: "bareMineralsBareProPowderFoundation",
-      CA: "bareMineralsBareProPowderFoundation",
       FR: "fentyProFiltrSoftMattePowderFoundation",
       UK: "fentyProFiltrSoftMattePowderFoundation",
       AU: "fentySoftLitLuminousFoundation",
@@ -1200,19 +1198,19 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   guerlainTerracottaJoliTeintFoundation: productData({
     category: "Foundation",
     brand: "GUERLAIN",
     name: "Terracotta Joli Teint Foundation",
     type: "Lightweight glow foundation",
     sizes: ["standard"],
-    image: "",
+    image: "https://www.sephora.com/productimages/sku/s2940674-main-zoom.jpg?imwidth=315",
     links: countryLinks({
-      FR: ""
+      CA: "https://www.sephora.com/ca/en/product/terracotta-joli-teint-foundation-P520396"
     }),
     alternatives: {
       US: "esteeLauderFuturistHydraRescueFoundation",
-      CA: "guerlainTerracottaLeTeintFoundation",
       FR: "fentySoftLitLuminousFoundation",
       UK: "charlotteTilburyBeautifulSkinFoundation",
       AU: "fentySoftLitLuminousFoundation",
@@ -1220,23 +1218,26 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   lancomeTeintIdoleFoundationStick: productData({
     category: "Foundation",
     brand: "Lancôme",
-    name: "Teint Idole Ultra Wear Foundation Stick",
+    name: "Teint Idole Ultra Wear Stick Foundation",
     type: "Multi-use foundation stick",
     sizes: ["standard"],
-    image: "",
-    links: countryLinks({}),
+    image: "https://media.sephora.eu/content/dam/digital/pim/published/L/LANCO/809766/399862-media_swatch.jpg?scaleHeight=750&scaleMode=fit&scaleWidth=750",
+    links: countryLinks({
+      FR: "https://www.sephora.fr/p/teint-idole-ultra-wear-fondotinta-stick-P10013856.html",
+      UK: "https://www.sephora.co.uk/p/lancome-teint-idole-ultra-wear-stick-foundation"
+    }),
     alternatives: {
       US: "westmanAtelierVitalSkinFoundationStick",
       CA: "westmanAtelierVitalSkinFoundationStick",
-      FR: "westmanAtelierVitalSkinFoundationStick",
-      UK: "charlotteTilburyUnrealSkinStick",
       AU: "fentySoftLitLuminousFoundation",
       BR: "fentySoftLitLuminousFoundation"
     }
   }),
+
 
   esteeLauderFuturistHydraRescueFoundation: productData({
     category: "Foundation",
@@ -1245,10 +1246,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Hydrating / radiant foundation / SPF 45",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2324481-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2324481-main-zoom.jpg?imwidth=315",
-      CA: "https://www.sephora.com/productimages/sku/s2324481-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/estee-lauder-futurist-hydrating-rescue-moisturizing-foundation-spf-45-P454063",
       CA: "https://www.sephora.com/ca/en/product/estee-lauder-futurist-hydrating-rescue-moisturizing-foundation-spf-45-P454063"
@@ -1261,17 +1258,19 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   esteeLauderDoubleWearPowderFoundation: productData({
     category: "Foundation",
     brand: "Estée Lauder",
     name: "Double Wear Stay-in-Place Matte Powder Foundation",
     type: "Matte powder foundation",
     sizes: ["standard"],
-    image: "",
-    links: countryLinks({}),
+    image: "https://www.sephora.com/productimages/sku/s2879583-main-zoom.jpg?imwidth=315",
+    links: countryLinks({
+      CA: "https://www.sephora.com/ca/en/product/double-wear-stay-in-place-matte-powder-foundation-P516655"
+    }),
     alternatives: {
       US: "lancomeDualFinishPowderFoundation",
-      CA: "lancomeDualFinishPowderFoundation",
       FR: "fentyProFiltrSoftMattePowderFoundation",
       UK: "fentyProFiltrSoftMattePowderFoundation",
       AU: "fentySoftLitLuminousFoundation",
@@ -1279,23 +1278,26 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   macStudioRadianceSerumFoundation: productData({
     category: "Foundation",
     brand: "MAC Cosmetics",
-    name: "Studio Radiance Serum-Powered Foundation",
+    name: "Studio Radiance Serum-Powered 24HR Buildable Hydrating Foundation",
     type: "Serum foundation / radiant finish",
     sizes: ["standard"],
-    image: "",
-    links: countryLinks({}),
+    image: "https://media.sephora.eu/content/dam/digital/pim/published/M/MAC/732135/357862-media_swatch.jpg?scaleHeight=750&scaleMode=fit&scaleWidth=750",
+    links: countryLinks({
+      CA: "https://www.sephora.com/ca/en/product/studio-radiance-serum-powered-foundation-P507890",
+      FR: "https://www.sephora.fr/p/studio-radiance-serum-powered-foundation---fond-de-teint-P1000202444.html"
+    }),
     alternatives: {
       US: "macStudioFixFluidFoundation",
-      CA: "macStudioFixFluidFoundation",
-      FR: "fentySoftLitLuminousFoundation",
       UK: "fentySoftLitLuminousFoundation",
       AU: "fentySoftLitLuminousFoundation",
       BR: "fentySoftLitLuminousFoundation"
     }
   }),
+
 
   cliniqueBeyondPerfectingPowderFoundation: productData({
     category: "Foundation",
@@ -1303,17 +1305,19 @@ anastasiaSoftGlamPalette: productData({
     name: "Beyond Perfecting Powder Foundation + Concealer",
     type: "Powder foundation and concealer",
     sizes: ["standard"],
-    image: "",
-    links: countryLinks({}),
+    image: "https://www.sephora.com/productimages/sku/s1740231-main-zoom.jpg?imwidth=315",
+    links: countryLinks({
+      CA: "https://www.sephora.com/ca/en/product/beyond-perfecting-powder-foundation-concealer-P426374"
+    }),
     alternatives: {
       US: "cliniqueBeyondPerfectingFoundationConcealer",
-      CA: "cliniqueBeyondPerfectingFoundationConcealer",
       FR: "fentyProFiltrSoftMattePowderFoundation",
       UK: "charlotteTilburyAirbrushFlawlessFoundation",
       AU: "fentySoftLitLuminousFoundation",
       BR: "fentySoftLitLuminousFoundation"
     }
   }),
+
 
   diorForeverSkinMatteFoundation: productData({
     category: "Foundation",
@@ -1322,15 +1326,9 @@ anastasiaSoftGlamPalette: productData({
     type: "Natural matte / blurring longwear foundation",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2933901-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2933901-main-zoom.jpg?imwidth=315",
-      CA: "https://www.sephora.com/productimages/sku/s2933901-main-zoom.jpg?imwidth=315",
-      FR: "https://www.sephora.com/productimages/sku/s2933901-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/dior-forever-skin-wear-blurring-natural-matte-foundation-24-hour-ultra-wear-P520603",
-      CA: "https://www.sephora.com/ca/en/product/dior-forever-skin-wear-blurring-natural-matte-foundation-24-hour-ultra-wear-P520603",
-      FR: ""
+      CA: "https://www.sephora.com/ca/en/product/dior-forever-skin-wear-blurring-natural-matte-foundation-24-hour-ultra-wear-P520603"
     }),
     alternatives: {
       FR: "hudaEasyBlurFoundation",
@@ -1340,6 +1338,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   milkFlexFoundationStick: productData({
     category: "Foundation",
     brand: "MILK MAKEUP",
@@ -1347,10 +1346,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Foundation stick / natural finish",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2242261-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2242261-main-zoom.jpg?imwidth=315",
-      CA: "https://www.sephora.com/productimages/sku/s2242261-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/flex-foundation-stick-P448151",
       CA: "https://www.sephora.com/ca/en/product/flex-foundation-stick-P448151"
@@ -1363,6 +1358,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   iliaTrueSkinSerumFoundation: productData({
     category: "Foundation",
     brand: "ILIA",
@@ -1370,10 +1366,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Medium coverage / serum foundation",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2527729-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2527729-main-zoom.jpg?imwidth=315",
-      CA: "https://www.sephora.com/productimages/sku/s2527729-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/true-skin-serum-foundation-P429548",
       CA: "https://www.sephora.com/ca/en/product/true-skin-serum-foundation-P429548"
@@ -1386,23 +1378,26 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   lawlessConcealTheDealFoundation: productData({
     category: "Foundation",
     brand: "LAWLESS",
-    name: "Conceal The Deal Long-Wear Full-Coverage Foundation",
+    name: "Conseal The Deal Long-Wear Full-Coverage Foundation",
     type: "Full coverage / longwear foundation",
     sizes: ["standard"],
-    image: "",
-    links: countryLinks({}),
+    image: "https://www.sephora.com/productimages/sku/s2530988-main-zoom.jpg?imwidth=315",
+    links: countryLinks({
+      CA: "https://www.sephora.com/ca/en/product/lawless-conseal-deal-long-wear-full-coverage-foundation-P475128"
+    }),
     alternatives: {
       US: "charlotteTilburyAirbrushFlawlessFoundation",
-      CA: "charlotteTilburyAirbrushFlawlessFoundation",
       FR: "charlotteTilburyAirbrushFlawlessFoundation",
       UK: "charlotteTilburyAirbrushFlawlessFoundation",
       AU: "fentySoftLitLuminousFoundation",
       BR: "fentySoftLitLuminousFoundation"
     }
   }),
+
 
   hourglassAmbientSoftGlowFoundation: productData({
     category: "Foundation",
@@ -1411,10 +1406,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Soft glow / medium coverage foundation",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2586741-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2586741-main-zoom.jpg?imwidth=315",
-      CA: "https://www.sephora.com/productimages/sku/s2586741-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/ambient-soft-glow-foundation-P501154",
       CA: "https://www.sephora.com/ca/en/product/ambient-soft-glow-foundation-P501154"
@@ -1427,25 +1418,26 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   guerlainTerracottaLeTeintGlowFoundation: productData({
     category: "Foundation",
     brand: "GUERLAIN",
-    name: "Terracotta Le Teint Glow Foundation",
+    name: "Terracotta Le Teint Glow Healthy Glow Foundation",
     type: "Healthy glow foundation",
     sizes: ["standard"],
-    image: "",
+    image: "https://www.sephora.com/productimages/sku/s2837805-main-zoom.jpg?imwidth=315",
     links: countryLinks({
-      FR: ""
+      CA: "https://www.sephora.com/ca/en/product/terracotta-le-teint-glow-healthy-glow-foundation-P515530"
     }),
     alternatives: {
       US: "esteeLauderFuturistHydraRescueFoundation",
-      CA: "guerlainTerracottaLeTeintFoundation",
       FR: "fentySoftLitLuminousFoundation",
       UK: "charlotteTilburyBeautifulSkinFoundation",
       AU: "fentySoftLitLuminousFoundation",
       BR: "fentySoftLitLuminousFoundation"
     }
   }),
+
 
   patrickTaMajorSkinCremeFoundationDuo: productData({
     category: "Foundation",
@@ -1454,10 +1446,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Cream foundation and finishing powder duo",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2607398-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2607398-main-zoom.jpg?imwidth=315",
-      CA: "https://www.sephora.com/productimages/sku/s2607398-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/major-skin-creme-powder-foundation-duo-P502039",
       CA: "https://www.sephora.com/ca/en/product/major-skin-creme-powder-foundation-duo-P502039"
@@ -1470,6 +1458,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   liseWatierTeintMultiFiniCompactFoundation: productData({
     category: "Foundation",
     brand: "Lise Watier",
@@ -1477,9 +1466,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Oil-free compact powder foundation",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2133213-main-zoom.jpg?imwidth=315",
-    images: {
-      CA: "https://www.sephora.com/productimages/sku/s2133213-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       CA: "https://www.sephora.com/ca/en/product/teint-multi-fini-oil-free-compact-foundation-P435761"
     }),
@@ -1492,6 +1478,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   patrickTaHydraLuxeFoundation: productData({
     category: "Foundation",
     brand: "PATRICK TA",
@@ -1499,10 +1486,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Luminous / skin-perfecting foundation",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2793578-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2793578-main-zoom.jpg?imwidth=315",
-      CA: "https://www.sephora.com/productimages/sku/s2793578-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/patrick-ta-major-skin-hydra-luxe-luminous-skin-perfecting-foundation-for-natural-glow-P513075",
       CA: "https://www.sephora.com/ca/en/product/patrick-ta-major-skin-hydra-luxe-luminous-skin-perfecting-foundation-for-natural-glow-P513075"
@@ -1515,6 +1498,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   basmaFoundationStick: productData({
     category: "Foundation",
     brand: "BASMA",
@@ -1522,10 +1506,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Hydrating foundation stick",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2681427-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2681427-main-zoom.jpg?imwidth=315",
-      CA: "https://www.sephora.com/productimages/sku/s2681427-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/the-foundation-stick-P505428",
       CA: "https://www.sephora.com/ca/en/product/the-foundation-stick-P505428"
@@ -1538,6 +1518,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   bareMineralsBareProPowderFoundation: productData({
     category: "Foundation",
     brand: "bareMinerals",
@@ -1545,10 +1526,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Matte powder foundation",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2850006-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2850006-main-zoom.jpg?imwidth=315",
-      CA: "https://www.sephora.com/productimages/sku/s2850006-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/barepro-tm-24hr-skin-perfecting-talc-free-matte-powder-foundation-P514907",
       CA: "https://www.sephora.com/ca/en/product/barepro-tm-24hr-skin-perfecting-talc-free-matte-powder-foundation-P514907"
@@ -1561,6 +1538,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   bareMineralsOriginalLoosePowderFoundation: productData({
     category: "Foundation",
     brand: "bareMinerals",
@@ -1568,10 +1546,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Loose mineral powder foundation",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s1228998-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s1228998-main-zoom.jpg?imwidth=315",
-      CA: "https://www.sephora.com/productimages/sku/s1228998-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/bareminerals-original-foundation-broad-spectrum-spf-15-P61003",
       CA: "https://www.sephora.com/ca/en/product/bareminerals-original-foundation-P520059"
@@ -1584,6 +1558,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   oneSizeTurnUpTheBasePowderFoundation: productData({
     category: "Foundation",
     brand: "ONE/SIZE by Patrick Starrr",
@@ -1591,10 +1566,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Versatile powder foundation",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2426930-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2426930-main-zoom.jpg?imwidth=315",
-      CA: "https://www.sephora.com/productimages/sku/s2426930-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/one-size-by-patrick-starrr-turn-up-base-versatile-powder-foundation-P469953",
       CA: "https://www.sephora.com/ca/en/product/one-size-by-patrick-starrr-turn-up-base-versatile-powder-foundation-P469953"
@@ -1607,6 +1578,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   tarteAmazonianClayFoundation: productData({
     category: "Foundation",
     brand: "tarte",
@@ -1614,10 +1586,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Full coverage / soft matte foundation",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2476216-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2476216-main-zoom.jpg?imwidth=315",
-      CA: "https://www.sephora.com/productimages/sku/s2476216-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/tarte-amazonian-clay-16-hour-full-coverage-foundation-P473821",
       CA: "https://www.sephora.com/ca/en/product/tarte-amazonian-clay-16-hour-full-coverage-foundation-P473821"
@@ -1630,6 +1598,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   tarteShapeTapeFoundationConcealerStick: productData({
     category: "Foundation",
     brand: "tarte",
@@ -1637,10 +1606,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Foundation and concealer stick",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2869865-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2869865-main-zoom.jpg?imwidth=315",
-      CA: "https://www.sephora.com/productimages/sku/s2869865-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/shape-tape-tm-blur-concealer-stick-P515882",
       CA: "https://www.sephora.com/ca/en/product/shape-tape-tm-blur-concealer-stick-P515882"
@@ -1653,6 +1618,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   makeUpForEverHdSkinMatteVelvetPowder: productData({
     category: "Foundation",
     brand: "MAKE UP FOR EVER",
@@ -1660,9 +1626,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Matte blurring powder foundation",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2671410-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2671410-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/make-up-for-ever-hd-skin-matte-velvet-powder-foundation-P504432"
     }),
@@ -1675,6 +1638,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   anastasiaBeverlyHillsLuminousFoundation: productData({
     category: "Foundation",
     brand: "Anastasia Beverly Hills",
@@ -1682,9 +1646,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Luminous / medium coverage foundation",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2270759-main-zoom.jpg?imwidth=315",
-    images: {
-      CA: "https://www.sephora.com/productimages/sku/s2270759-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       CA: "https://www.sephora.com/ca/en/product/luminous-foundation-P449124"
     }),
@@ -1697,6 +1658,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   anastasiaBeverlyHillsImpeccableFoundation: productData({
     category: "Foundation",
     brand: "Anastasia Beverly Hills",
@@ -1704,10 +1666,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Blurring / second-skin matte foundation",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2934693-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2934693-main-zoom.jpg?imwidth=315",
-      CA: "https://www.sephora.com/productimages/sku/s2934693-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/anastasia-beverly-hills-impeccable-blurring-second-skin-matte-foundation-P515098",
       CA: "https://www.sephora.com/ca/en/product/anastasia-beverly-hills-impeccable-blurring-second-skin-matte-foundation-P515098"
@@ -1720,6 +1678,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   narsSoftMatteCompleteFoundation: productData({
     category: "Foundation",
     brand: "NARS",
@@ -1727,9 +1686,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Soft matte / full coverage foundation",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2374411-main-zoom.jpg?imwidth=315",
-    images: {
-      CA: "https://www.sephora.com/productimages/sku/s2374411-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       CA: "https://www.sephora.com/ca/en/product/nars-soft-matte-complete-foundation-P462720"
     }),
@@ -1742,6 +1698,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   liseWatierTeintLiftAntiRidesFoundation: productData({
     category: "Foundation",
     brand: "Lise Watier",
@@ -1749,9 +1706,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Anti-aging / natural finish foundation",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2502698-main-zoom.jpg?imwidth=315",
-    images: {
-      CA: "https://www.sephora.com/productimages/sku/s2502698-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       CA: "https://www.sephora.com/ca/en/product/lise-watier-teint-lift-anti-rides-foundation-P477482"
     }),
@@ -1764,6 +1718,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   guerlainParureGoldFoundation: productData({
     category: "Foundation",
     brand: "GUERLAIN",
@@ -1771,12 +1726,8 @@ anastasiaSoftGlamPalette: productData({
     type: "Radiant matte / longwear foundation",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2613016-main-zoom.jpg?imwidth=315",
-    images: {
-      CA: "https://www.sephora.com/productimages/sku/s2613016-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
-      CA: "https://www.sephora.com/ca/en/product/parure-gold-radiant-matte-skin-perfecting-longwear-foundation-P502171",
-      FR: ""
+      CA: "https://www.sephora.com/ca/en/product/parure-gold-radiant-matte-skin-perfecting-longwear-foundation-P502171"
     }),
     alternatives: {
       US: "charlotteTilburyBeautifulSkinFoundation",
@@ -1787,6 +1738,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   milkBlurLiquidMatteFoundation: productData({
     category: "Foundation",
     brand: "MILK MAKEUP",
@@ -1794,9 +1746,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Matte / blurring liquid foundation",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s1965003-main-zoom.jpg?imwidth=315",
-    images: {
-      CA: "https://www.sephora.com/productimages/sku/s1965003-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       CA: "https://www.sephora.com/ca/en/brand/milk-makeup/foundation-makeup"
     }),
@@ -1809,6 +1758,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   tooFacedBornThisWaySoftMatteFoundation: productData({
     category: "Foundation",
     brand: "Too Faced",
@@ -1816,9 +1766,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Soft matte / 24-hour foundation",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2413136-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2413136-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/too-faced-born-this-way-matte-24-hour-foundation-P458586"
     }),
@@ -1831,6 +1778,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   beautyblenderBounceLiquidWhipFoundation: productData({
     category: "Foundation",
     brand: "Beautyblender",
@@ -1838,10 +1786,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Full coverage / matte longwear foundation",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2074540-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2074540-main-zoom.jpg?imwidth=315",
-      CA: "https://www.sephora.com/productimages/sku/s2074540-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/bounce-liquid-whip-longwear-foundation-P433987",
       CA: "https://www.sephora.com/ca/en/product/bounce-liquid-whip-longwear-foundation-P433987"
@@ -1854,6 +1798,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   oneSizeBeautyBlurBalmFoundation: productData({
     category: "Foundation",
     brand: "ONE/SIZE by Patrick Starrr",
@@ -1861,9 +1806,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Hybrid balm foundation / blurring foundation",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2551257-main-zoom.jpg?imwidth=315",
-    images: {
-      CA: "https://www.sephora.com/productimages/sku/s2551257-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       CA: "https://www.sephora.com/ca/en/product/turn-up-base-beauty-blur-balm-foundation-P478536"
     }),
@@ -1876,6 +1818,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   cliniqueEvenBetterFoundationSpf15: productData({
     category: "Foundation",
     brand: "CLINIQUE",
@@ -1883,9 +1826,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Natural finish / SPF 15 foundation",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2927085-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2927085-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/even-better-makeup-spf-15-P122764"
     }),
@@ -1898,6 +1838,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   hourglassVanishFoundationStick: productData({
     category: "Foundation",
     brand: "Hourglass",
@@ -1905,10 +1846,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Waterproof / full coverage foundation stick",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s1827252-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s1827252-main-zoom.jpg?imwidth=315",
-      CA: "https://www.sephora.com/productimages/sku/s1827252-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/vanish-seamless-finish-foundation-stick-P410532",
       CA: "https://www.sephora.com/ca/en/product/vanish-seamless-finish-foundation-stick-P410532"
@@ -1921,6 +1858,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   makeupByMarioSurrealSkinFoundation: productData({
     category: "Foundation",
     brand: "MAKEUP BY MARIO",
@@ -1928,10 +1866,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Luminous / hydrating foundation",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2835213-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2835213-main-zoom.jpg?imwidth=315",
-      CA: "https://www.sephora.com/productimages/sku/s2835213-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/makeup-by-mario-surreal-foundation-P503679",
       CA: "https://www.sephora.com/ca/en/product/makeup-by-mario-surreal-foundation-P503679"
@@ -1944,6 +1878,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   makeUpForEverMatteVelvetSkinFoundation: productData({
     category: "Foundation",
     brand: "MAKE UP FOR EVER",
@@ -1951,9 +1886,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Full coverage / matte waterproof foundation",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2031011-main-zoom.jpg?imwidth=315",
-    images: {
-      CA: "https://www.sephora.com/productimages/sku/s2031011-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       CA: "https://www.sephora.com/ca/en/product/matte-velvet-skin-full-coverage-foundation-P434023"
     }),
@@ -1966,6 +1898,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   guerlainTerracottaLeTeintFoundation: productData({
     category: "Foundation",
     brand: "GUERLAIN",
@@ -1973,12 +1906,8 @@ anastasiaSoftGlamPalette: productData({
     type: "Luminous matte / longwear foundation",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2655462-main-zoom.jpg?imwidth=315",
-    images: {
-      CA: "https://www.sephora.com/productimages/sku/s2655462-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
-      CA: "https://www.sephora.com/ca/en/product/guerlain-terracotta-le-teint-perfecting-foundation-luminous-matte-P505377",
-      FR: ""
+      CA: "https://www.sephora.com/ca/en/product/guerlain-terracotta-le-teint-perfecting-foundation-luminous-matte-P505377"
     }),
     alternatives: {
       US: "charlotteTilburyBeautifulSkinFoundation",
@@ -1989,6 +1918,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   lysBeautyTripleFixSerumFoundation: productData({
     category: "Foundation",
     brand: "LYS Beauty",
@@ -1996,9 +1926,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Serum foundation / natural finish",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2411783-main-zoom.jpg?imwidth=315",
-    images: {
-      CA: "https://www.sephora.com/productimages/sku/s2411783-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       CA: "https://www.sephora.com/ca/en/product/lys-beauty-triple-fix-serum-foundation-P468380"
     }),
@@ -2011,6 +1938,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   charlotteTilburyBeautifulSkinFoundation: productData({
     category: "Foundation",
     brand: "Charlotte Tilbury",
@@ -2018,10 +1946,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Medium coverage / hydrating foundation",
     sizes: ["standard", "mini"],
     image: "https://www.sephora.com/productimages/sku/s2510642-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2510642-main-zoom.jpg?imwidth=315",
-      CA: "https://www.sephora.com/productimages/sku/s2510642-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/charlotte-tilbury-beautiful-skin-medium-coverage-liquid-foundation-with-hyaluronic-acid-P480286",
       CA: "https://www.sephora.com/ca/en/product/charlotte-tilbury-beautiful-skin-medium-coverage-liquid-foundation-with-hyaluronic-acid-P480286"
@@ -2034,6 +1958,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   glossierStretchFluidFoundation: productData({
     category: "Foundation",
     brand: "Glossier",
@@ -2041,9 +1966,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Buildable coverage / second-skin foundation",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2702231-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2702231-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/stretch-fluid-skincare-foundation-P507806"
     }),
@@ -2056,6 +1978,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   makeUpForEverUltraHdStickFoundation: productData({
     category: "Foundation",
     brand: "MAKE UP FOR EVER",
@@ -2063,9 +1986,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Cream foundation stick / buildable coverage",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s1911445-main-zoom.jpg?imwidth=315",
-    images: {
-      CA: "https://www.sephora.com/productimages/sku/s1911445-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       CA: "https://www.sephora.com/ca/en/product/ultra-hd-invisible-cover-stick-foundation-P398775"
     }),
@@ -2078,6 +1998,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   bobbiBrownSkinFoundationStick: productData({
     category: "Foundation",
     brand: "Bobbi Brown",
@@ -2085,9 +2006,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Foundation stick / natural finish",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s1286681-main-zoom.jpg?imwidth=315",
-    images: {
-      CA: "https://www.sephora.com/productimages/sku/s1286681-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       CA: "https://www.sephora.com/ca/en/product/foundation-stick-P270549"
     }),
@@ -2100,16 +2018,13 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
-  tarteShapeTapeCloudCoverageFoundation: productData({
+    tarteShapeTapeCloudCoverageFoundation: productData({
     category: "Foundation",
     brand: "tarte",
     name: "Shape Tape™ Cloud Coverage CC Cream",
     type: "Lightweight CC cream / natural matte foundation",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2668697-main-zoom.jpg?imwidth=315",
-    images: {
-      CA: "https://www.sephora.com/productimages/sku/s2668697-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       CA: "https://www.sephora.com/ca/en/product/tarte-shape-tape-tm-cloud-cream-P505474"
     }),
@@ -2122,6 +2037,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   benefitPorefessionalFoundation: productData({
     category: "Foundation",
     brand: "Benefit Cosmetics",
@@ -2129,10 +2045,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Smoothing / blurring foundation",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2896546-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2896546-main-zoom.jpg?imwidth=315",
-      CA: "https://www.sephora.com/productimages/sku/s2896546-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/the-porefessional-smoothing-blurring-foundation-P517143",
       CA: "https://www.sephora.com/ca/en/product/the-porefessional-smoothing-blurring-foundation-P517143"
@@ -2145,6 +2057,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   fentySoftLitLuminousFoundation: productData({
     category: "Foundation",
     brand: "Fenty Beauty by Rihanna",
@@ -2152,14 +2065,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Luminous / hydrating longwear foundation",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2746543-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2746543-main-zoom.jpg?imwidth=315",
-      CA: "https://www.sephora.com/productimages/sku/s2746543-main-zoom.jpg?imwidth=315",
-      FR: "https://www.sephora.com/productimages/sku/s2746543-main-zoom.jpg?imwidth=315",
-      UK: "https://www.sephora.com/productimages/sku/s2746543-main-zoom.jpg?imwidth=315",
-      AU: "https://www.sephora.com/productimages/sku/s2746543-main-zoom.jpg?imwidth=315",
-      BR: "https://www.sephora.com/productimages/sku/s2746543-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/fenty-beauty-rihanna-soft-lit-naturally-luminous-hydrating-longwear-foundation-P511130",
       CA: "https://www.sephora.com/ca/en/product/fenty-beauty-rihanna-soft-lit-naturally-luminous-hydrating-longwear-foundation-P511130",
@@ -2168,8 +2073,8 @@ anastasiaSoftGlamPalette: productData({
       AU: "https://www.sephora.com.au/products/fenty-beauty-softlit-luminous-foundation",
       BR: "https://www.sephora.com.br/base-fenty-soft-lit-luminous-88991910-88991910.html"
     }),
-    alternatives: {}
-  }),
+    alternatives: {}),
+
 
   hudaEasyBlurFoundation: productData({
     category: "Foundation",
@@ -2178,14 +2083,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Blurring / natural airbrush foundation",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2888873-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2888873-main-zoom.jpg?imwidth=315",
-      CA: "https://www.sephora.com/productimages/sku/s2888873-main-zoom.jpg?imwidth=315",
-      FR: "https://www.sephora.com/productimages/sku/s2888873-main-zoom.jpg?imwidth=315",
-      UK: "https://www.sephora.com/productimages/sku/s2888873-main-zoom.jpg?imwidth=315",
-      AU: "https://www.sephora.com/productimages/sku/s2888873-main-zoom.jpg?imwidth=315",
-      BR: "https://www.sephora.com/productimages/sku/s2746543-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/huda-beauty-easy-blur-smoothing-foundation-P512640",
       CA: "https://www.sephora.com/ca/en/product/huda-beauty-easy-blur-smoothing-foundation-P512640",
@@ -2198,6 +2095,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   hausLabsTricloneFoundation: productData({
     category: "Foundation",
     brand: "HAUS LABS BY LADY GAGA",
@@ -2205,14 +2103,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Medium coverage / natural finish foundation",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2597276-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2597276-main-zoom.jpg?imwidth=315",
-      CA: "https://www.sephora.com/productimages/sku/s2597276-main-zoom.jpg?imwidth=315",
-      FR: "https://www.sephora.com/productimages/sku/s2597276-main-zoom.jpg?imwidth=315",
-      UK: "https://www.sephora.com/productimages/sku/s2597276-main-zoom.jpg?imwidth=315",
-      AU: "https://www.sephora.com/productimages/sku/s2597276-main-zoom.jpg?imwidth=315",
-      BR: "https://www.sephora.com/productimages/sku/s2746543-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/triclone-skin-tech-medium-coverage-foundation-with-fermented-arnica-P502185",
       CA: "https://www.sephora.com/ca/en/product/triclone-skin-tech-medium-coverage-foundation-with-fermented-arnica-P502185",
@@ -2225,6 +2115,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   armaniLuminousSilkFoundation: productData({
     category: "Foundation",
     brand: "Armani Beauty",
@@ -2232,14 +2123,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Natural glow / liquid foundation",
     sizes: ["mini", "standard"],
     image: "https://www.sephora.com/productimages/sku/s2926731-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2926731-main-zoom.jpg?imwidth=315",
-      CA: "https://www.sephora.com/productimages/sku/s2926731-main-zoom.jpg?imwidth=315",
-      FR: "https://www.sephora.com/productimages/sku/s2926731-main-zoom.jpg?imwidth=315",
-      UK: "https://www.sephora.com/productimages/sku/s2926731-main-zoom.jpg?imwidth=315",
-      AU: "https://www.sephora.com/productimages/sku/s2746543-main-zoom.jpg?imwidth=315",
-      BR: "https://www.sephora.com/productimages/sku/s2746543-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/luminous-silk-natural-glow-blurring-liquid-foundation-with-24-hour-wear-P519887",
       CA: "https://www.sephora.com/ca/en/product/luminous-silk-natural-glow-blurring-liquid-foundation-with-24-hour-wear-P519887",
@@ -2252,6 +2135,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   diorBackstageFaceBodyFoundation: productData({
     category: "Foundation",
     brand: "DIOR",
@@ -2259,18 +2143,9 @@ anastasiaSoftGlamPalette: productData({
     type: "Face and body / buildable foundation",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2669539-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2669539-main-zoom.jpg?imwidth=315",
-      CA: "https://www.sephora.com/productimages/sku/s2669539-main-zoom.jpg?imwidth=315",
-      FR: "https://www.sephora.com/productimages/sku/s2746543-main-zoom.jpg?imwidth=315",
-      UK: "https://www.sephora.com/productimages/sku/s2669539-main-zoom.jpg?imwidth=315",
-      AU: "https://www.sephora.com/productimages/sku/s2746543-main-zoom.jpg?imwidth=315",
-      BR: "https://www.sephora.com/productimages/sku/s2746543-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/backstage-face-body-foundation-P432500",
       CA: "https://www.sephora.com/ca/en/product/backstage-face-body-foundation-P432500",
-      FR: "",
       UK: "https://www.sephora.co.uk/p/dior-face-body-foundation"
     }),
     alternatives: {
@@ -2280,6 +2155,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   saieGlowySuperSkinFoundation: productData({
     category: "Foundation",
     brand: "Saie",
@@ -2287,14 +2163,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Glowy / serum foundation",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2637387-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2637387-main-zoom.jpg?imwidth=315",
-      CA: "https://www.sephora.com/productimages/sku/s2637387-main-zoom.jpg?imwidth=315",
-      FR: "https://www.sephora.com/productimages/sku/s2746543-main-zoom.jpg?imwidth=315",
-      UK: "https://www.sephora.com/productimages/sku/s2746543-main-zoom.jpg?imwidth=315",
-      AU: "https://www.sephora.com/productimages/sku/s2746543-main-zoom.jpg?imwidth=315",
-      BR: "https://www.sephora.com/productimages/sku/s2746543-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/saie-glowy-super-skin-lightweight-hydrobounce-serum-foundation-P504907",
       CA: "https://www.sephora.com/ca/en/product/saie-glowy-super-skin-lightweight-hydrobounce-serum-foundation-P504907"
@@ -2307,6 +2175,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   danessaMyricksYummySkinBlurringBalmPowder: productData({
     category: "Foundation",
     brand: "Danessa Myricks Beauty",
@@ -2314,14 +2183,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Blurring balm / powder foundation",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2836716-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2836716-main-zoom.jpg?imwidth=315",
-      CA: "https://www.sephora.com/productimages/sku/s2836716-main-zoom.jpg?imwidth=315",
-      FR: "https://www.sephora.com/productimages/sku/s2888873-main-zoom.jpg?imwidth=315",
-      UK: "https://www.sephora.com/productimages/sku/s2836716-main-zoom.jpg?imwidth=315",
-      AU: "https://www.sephora.com/productimages/sku/s2746543-main-zoom.jpg?imwidth=315",
-      BR: "https://www.sephora.com/productimages/sku/s2746543-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/danessa-myricks-beauty-yummy-skin-blurring-balm-powder-P484039",
       CA: "https://www.sephora.com/ca/en/product/danessa-myricks-beauty-yummy-skin-blurring-balm-powder-P484039",
@@ -2334,6 +2195,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   meritMinimalistComplexionStick: productData({
     category: "Foundation",
     brand: "MERIT",
@@ -2341,14 +2203,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Foundation and concealer stick",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2791861-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2791861-main-zoom.jpg?imwidth=315",
-      CA: "https://www.sephora.com/productimages/sku/s2791861-main-zoom.jpg?imwidth=315",
-      FR: "https://www.sephora.com/productimages/sku/s2597276-main-zoom.jpg?imwidth=315",
-      UK: "https://www.sephora.com/productimages/sku/s2746543-main-zoom.jpg?imwidth=315",
-      AU: "https://www.sephora.com/productimages/sku/s2597276-main-zoom.jpg?imwidth=315",
-      BR: "https://www.sephora.com/productimages/sku/s2746543-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/merit-the-minimalist-perfecting-complexion-foundation-concealer-stick-P468694",
       CA: "https://www.sephora.com/ca/en/product/merit-the-minimalist-perfecting-complexion-foundation-concealer-stick-P468694"
@@ -2361,6 +2215,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   itCosmeticsCcCreamSpf50: productData({
     category: "Foundation",
     brand: "IT Cosmetics",
@@ -2368,14 +2223,6 @@ anastasiaSoftGlamPalette: productData({
     type: "CC cream / full coverage foundation",
     sizes: ["mini", "standard"],
     image: "https://www.sephora.com/productimages/sku/s2840676-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2840676-main-zoom.jpg?imwidth=315",
-      CA: "https://www.sephora.com/productimages/sku/s2840676-main-zoom.jpg?imwidth=315",
-      FR: "https://www.sephora.com/productimages/sku/s2888873-main-zoom.jpg?imwidth=315",
-      UK: "https://www.sephora.com/productimages/sku/s2840676-main-zoom.jpg?imwidth=315",
-      AU: "https://www.sephora.com/productimages/sku/s2840676-main-zoom.jpg?imwidth=315",
-      BR: "https://www.sephora.com/productimages/sku/s2746543-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/your-skin-but-better-cc-cream-spf-50-P411885",
       CA: "https://www.sephora.com/ca/en/product/your-skin-but-better-cc-cream-spf-50-P411885",
@@ -2388,6 +2235,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   yslAllHoursFoundation: productData({
     category: "Foundation",
     brand: "Yves Saint Laurent",
@@ -2395,14 +2243,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Luminous matte / 24h foundation",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2598118-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2598118-main-zoom.jpg?imwidth=315",
-      CA: "https://www.sephora.com/productimages/sku/s2598118-main-zoom.jpg?imwidth=315",
-      FR: "https://www.sephora.com/productimages/sku/s2598118-main-zoom.jpg?imwidth=315",
-      UK: "https://www.sephora.com/productimages/sku/s2598118-main-zoom.jpg?imwidth=315",
-      AU: "https://www.sephora.com/productimages/sku/s2746543-main-zoom.jpg?imwidth=315",
-      BR: "https://www.sephora.com/productimages/sku/s2746543-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/all-hours-full-coverage-matte-foundation-P421456",
       CA: "https://www.sephora.com/ca/en/product/yves-saint-laurent-all-hours-foundation-P503910",
@@ -2414,6 +2254,7 @@ anastasiaSoftGlamPalette: productData({
       BR: "fentySoftLitLuminousFoundation"
     }
   }),
+
   natashaDenonaHyGlamFoundation: productData({
     category: "Foundation",
     brand: "NATASHA DENONA",
@@ -2421,10 +2262,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Hydrating / blurring luminous serum foundation",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2890325-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2890325-main-zoom.jpg?imwidth=315",
-      CA: "https://www.sephora.com/productimages/sku/s2890325-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/natasha-denona-hy-glam-foundation-hydrating-blurring-luminous-longwear-serum-foundation-P517849",
       CA: "https://www.sephora.com/ca/en/product/natasha-denona-hy-glam-foundation-hydrating-blurring-luminous-longwear-serum-foundation-P517849"
@@ -2437,6 +2274,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   hourglassVeilHydratingSkinTint: productData({
     category: "Foundation",
     brand: "Hourglass",
@@ -2444,11 +2282,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Hydrating skin tint / sheer foundation",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2690857-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2690857-main-zoom.jpg?imwidth=315",
-      CA: "https://www.sephora.com/productimages/sku/s2690915-main-zoom.jpg?imwidth=315",
-      FR: "https://www.sephora.com/productimages/sku/s2690857-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/veil-hydrating-skin-tint-P506573",
       CA: "https://www.sephora.com/ca/en/product/veil-hydrating-skin-tint-P506573",
@@ -2461,6 +2294,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   narsLightReflectingFoundation: productData({
     category: "Foundation",
     brand: "NARS",
@@ -2468,13 +2302,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Medium coverage / natural luminous foundation",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2514586-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2514586-main-zoom.jpg?imwidth=315",
-      CA: "https://www.sephora.com/productimages/sku/s2514586-main-zoom.jpg?imwidth=315",
-      FR: "https://www.sephora.com/productimages/sku/s2514586-main-zoom.jpg?imwidth=315",
-      UK: "https://www.sephora.com/productimages/sku/s2514586-main-zoom.jpg?imwidth=315",
-      BR: "https://www.sephora.com/productimages/sku/s2514586-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/nars-light-reflecting-advance-skincare-foundation-P479338",
       CA: "https://www.sephora.com/ca/en/product/nars-light-reflecting-advance-skincare-foundation-P479338",
@@ -2487,6 +2314,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   makeUpForEverHdSkinFoundation: productData({
     category: "Foundation",
     brand: "MAKE UP FOR EVER",
@@ -2494,13 +2322,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Natural matte / waterproof foundation",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2514214-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2514214-main-zoom.jpg?imwidth=315",
-      CA: "https://www.sephora.com/productimages/sku/s2514214-main-zoom.jpg?imwidth=315",
-      FR: "https://www.sephora.com/productimages/sku/s2514214-main-zoom.jpg?imwidth=315",
-      UK: "https://www.sephora.com/productimages/sku/s2514214-main-zoom.jpg?imwidth=315",
-      AU: "https://www.sephora.com/productimages/sku/s2514214-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/make-up-for-ever-hd-skin-foundation-P479712",
       CA: "https://www.sephora.com/ca/en/product/make-up-for-ever-hd-skin-foundation-P479712",
@@ -2513,6 +2334,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   fentyProFiltrSoftMatteFoundation: productData({
     category: "Foundation",
     brand: "Fenty Beauty by Rihanna",
@@ -2520,12 +2342,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Soft matte / longwear foundation",
     sizes: ["mini", "standard"],
     image: "https://www.sephora.com/productimages/sku/s1925395-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s1925395-main-zoom.jpg?imwidth=315",
-      CA: "https://www.sephora.com/productimages/sku/s1925395-main-zoom.jpg?imwidth=315",
-      FR: "https://www.sephora.com/productimages/sku/s1925395-main-zoom.jpg?imwidth=315",
-      UK: "https://www.sephora.com/productimages/sku/s1925395-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/pro-filtr-soft-matte-longwear-foundation-P87985432",
       CA: "https://www.sephora.com/ca/en/product/pro-filtr-soft-matte-longwear-foundation-P87985432",
@@ -2538,6 +2354,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   fentyProFiltrHydratingFoundation: productData({
     category: "Foundation",
     brand: "Fenty Beauty by Rihanna",
@@ -2545,10 +2362,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Hydrating / longwear foundation",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2157683-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2157683-main-zoom.jpg?imwidth=315",
-      FR: "https://www.sephora.com/productimages/sku/s2157683-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/pro-filt-r-hydrating-longwear-foundation-P448702",
       FR: "https://www.sephora.fr/p/pro-filt-r-hydrating-longwear-foundation---fond-de-teint-hydratant-P3809035.html"
@@ -2561,6 +2374,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   oneSizeFullBeatLiquidFoundation: productData({
     category: "Foundation",
     brand: "ONE/SIZE by Patrick Starrr",
@@ -2568,10 +2382,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Waterproof / matte liquid foundation",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2801199-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2801199-main-zoom.jpg?imwidth=315",
-      CA: "https://www.sephora.com/productimages/sku/s2801199-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/one-size-by-patrick-starrr-turn-up-base-full-beat-liquid-foundation-P513724",
       CA: "https://www.sephora.com/ca/en/product/one-size-by-patrick-starrr-turn-up-base-full-beat-liquid-foundation-P513724"
@@ -2584,6 +2394,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   rareBeautyTrueToMyselfFoundation: productData({
     category: "Foundation",
     brand: "Rare Beauty by Selena Gomez",
@@ -2591,9 +2402,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Natural matte / longwear foundation",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2959849-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2959849-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/true-to-myself-natural-matte-longwear-foundation-P521996"
     }),
@@ -2606,6 +2414,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   itCosmeticsCcNaturalMatteSpf40: productData({
     category: "Foundation",
     brand: "IT Cosmetics",
@@ -2613,10 +2422,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Natural matte CC cream / SPF 40",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2840676-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2840676-main-zoom.jpg?imwidth=315",
-      CA: "https://www.sephora.com/productimages/sku/s2840676-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/it-cosmetics-cc-cream-natural-matte-foundation-with-spf-40-P510447",
       CA: "https://www.sephora.com/ca/en/product/it-cosmetics-cc-cream-natural-matte-foundation-with-spf-40-P510447"
@@ -2629,6 +2434,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   charlotteTilburyUnrealSkinStick: productData({
     category: "Foundation",
     brand: "Charlotte Tilbury",
@@ -2636,10 +2442,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Hydrating glow foundation stick",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2765824-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2765824-main-zoom.jpg?imwidth=315",
-      FR: "https://www.sephora.com/productimages/sku/s2765824-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/charlotte-tilbury-unreal-skin-sheer-glow-tint-hydrating-foundation-stick-P511699",
       FR: "https://www.sephora.fr/p/unreal-skin-sheer-glow-tint---stick-fond-de-teint-hydratant-P10059185.html"
@@ -2652,6 +2454,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   narsNaturalMatteLongwearFoundation: productData({
     category: "Foundation",
     brand: "NARS",
@@ -2659,9 +2462,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Matte / pore-blurring foundation",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2893311-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2893311-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/natural-matte-longwear-foundation-P520608"
     }),
@@ -2674,6 +2474,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   narsNaturalRadiantLongwearFoundation: productData({
     category: "Foundation",
     brand: "NARS",
@@ -2681,11 +2482,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Radiant / longwear foundation",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2031086-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2031086-main-zoom.jpg?imwidth=315",
-      CA: "https://www.sephora.com/productimages/sku/s2031086-main-zoom.jpg?imwidth=315",
-      UK: "https://www.sephora.com/productimages/sku/s2031086-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/natural-radiant-longwear-foundation-P427301",
       CA: "https://www.sephora.com/ca/en/product/natural-radiant-longwear-foundation-P427301",
@@ -2698,6 +2494,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   iliaSuperSerumSkinTintSpf40: productData({
     category: "Foundation",
     brand: "ILIA",
@@ -2705,10 +2502,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Skin tint / serum foundation / SPF",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2333607-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2333607-main-zoom.jpg?imwidth=315",
-      FR: "https://www.sephora.com/productimages/sku/s2333607-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/ilia-super-serum-skin-tint-spf-40-P455418",
       FR: "https://www.sephora.fr/p/super-serum-skin-tint-spf-30---creme-serum-teintee-P4136096.html"
@@ -2720,6 +2513,7 @@ anastasiaSoftGlamPalette: productData({
       BR: "fentySoftLitLuminousFoundation"
     }
   }),
+
     
   tarteFaceTapeFoundation: productData({
     category: "Foundation",
@@ -2728,11 +2522,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Full coverage / natural matte foundation",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2924801-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2924801-main-zoom.jpg?imwidth=315",
-      CA: "https://www.sephora.com/productimages/sku/s2924801-main-zoom.jpg?imwidth=315",
-      FR: "https://www.sephora.com/productimages/sku/s2924801-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/face-tape-foundation-P522249",
       CA: "https://www.sephora.com/ca/en/product/face-tape-foundation-P522249",
@@ -2745,6 +2534,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   urbanDecayFaceBondFoundation: productData({
     category: "Foundation",
     brand: "Urban Decay",
@@ -2752,10 +2542,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Waterproof / self-setting foundation",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2741692-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2741692-main-zoom.jpg?imwidth=315",
-      CA: "https://www.sephora.com/productimages/sku/s2741692-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/urban-decay-face-bond-self-setting-waterproof-foundation-P509419",
       CA: "https://www.sephora.com/ca/en/product/urban-decay-face-bond-self-setting-waterproof-foundation-P509419"
@@ -2768,6 +2554,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   tooFacedBornThisWayUndetectableFoundation: productData({
     category: "Foundation",
     brand: "Too Faced",
@@ -2775,10 +2562,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Medium-to-full coverage / natural finish foundation",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2885648-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2885648-main-zoom.jpg?imwidth=315",
-      CA: "https://www.sephora.com/productimages/sku/s2885648-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/too-faced-born-this-way-natural-finish-foundation-P517843",
       CA: "https://www.sephora.com/ca/en/product/too-faced-born-this-way-natural-finish-foundation-P517843"
@@ -2791,6 +2574,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   bobbiBrownWeightlessSkinFoundation: productData({
     category: "Foundation",
     brand: "Bobbi Brown",
@@ -2798,11 +2582,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Oil-controlling / natural matte foundation",
     sizes: ["mini", "standard"],
     image: "https://www.sephora.com/productimages/sku/s2798858-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2798858-main-zoom.jpg?imwidth=315",
-      CA: "https://www.sephora.com/productimages/sku/s2798858-main-zoom.jpg?imwidth=315",
-      FR: "https://www.sephora.com/productimages/sku/s2798858-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/weightless-skin-oil-controlling-foundation-spf-15-with-hyaluronic-acid-P512885",
       CA: "https://www.sephora.com/ca/en/product/weightless-skin-oil-controlling-foundation-spf-15-with-hyaluronic-acid-P512885",
@@ -2815,6 +2594,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   charlotteTilburyAirbrushFlawlessFoundation: productData({
     category: "Foundation",
     brand: "Charlotte Tilbury",
@@ -2822,12 +2602,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Full coverage / matte blurring foundation",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2891240-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2891240-main-zoom.jpg?imwidth=315",
-      CA: "https://www.sephora.com/productimages/sku/s2891240-main-zoom.jpg?imwidth=315",
-      FR: "https://www.sephora.com/productimages/sku/s2891240-main-zoom.jpg?imwidth=315",
-      UK: "https://www.sephora.com/productimages/sku/s2891240-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/airbrush-flawless-blurring-matte-full-coverage-foundation-P516897",
       CA: "https://www.sephora.com/ca/en/product/airbrush-flawless-blurring-matte-full-coverage-foundation-P516897",
@@ -2840,6 +2614,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   cliniqueSuperbalancedFoundation: productData({
     category: "Foundation",
     brand: "CLINIQUE",
@@ -2847,9 +2622,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Natural finish / balancing foundation",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s126441-main-zoom.jpg?imwidth=315",
-    images: {
-      CA: "https://www.sephora.com/productimages/sku/s126441-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       CA: "https://www.sephora.com/ca/en/product/superbalanced-makeup-P122740"
     }),
@@ -2862,6 +2634,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   cliniqueBeyondPerfectingFoundationConcealer: productData({
     category: "Foundation",
     brand: "CLINIQUE",
@@ -2869,10 +2642,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Foundation and concealer / natural finish",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s1674679-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s1674679-main-zoom.jpg?imwidth=315",
-      CA: "https://www.sephora.com/productimages/sku/s1674679-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/beyond-perfecting-foundation-concealer-P393325",
       CA: "https://www.sephora.com/ca/en/product/beyond-perfecting-foundation-concealer-P393325"
@@ -2885,6 +2654,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   esteeLauderDoubleWearLightweightMatteFoundation: productData({
     category: "Foundation",
     brand: "Estée Lauder",
@@ -2892,10 +2662,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Lightweight matte / longwear foundation",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2937324-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2937324-main-zoom.jpg?imwidth=315",
-      CA: "https://www.sephora.com/productimages/sku/s2937324-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/double-wear-stay-in-place-lightweight-matte-foundation-with-36-hour-wear-P520286",
       CA: "https://www.sephora.com/ca/en/product/double-wear-stay-in-place-lightweight-matte-foundation-with-36-hour-wear-P520286"
@@ -2908,6 +2674,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   fashionFairSkinFlexStickFoundation: productData({
     category: "Foundation",
     brand: "Fashion Fair",
@@ -2915,10 +2682,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Stick foundation / natural semi-matte finish",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2509198-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2509198-main-zoom.jpg?imwidth=315",
-      CA: "https://www.sephora.com/productimages/sku/s2509198-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/fashion-fair-skinflex-stick-foundation-P476556",
       CA: "https://www.sephora.com/ca/en/product/fashion-fair-skinflex-stick-foundation-P476556"
@@ -2931,6 +2694,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   morpheLightformExtendedHydrationFoundation: productData({
     category: "Foundation",
     brand: "Morphe",
@@ -2938,9 +2702,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Hydrating / medium coverage foundation",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2755353-main-zoom.jpg?imwidth=315",
-    images: {
-      CA: "https://www.sephora.com/productimages/sku/s2755353-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       CA: "https://www.sephora.com/ca/en/product/morphe-lightform-extended-hydration-foundation-P510145"
     }),
@@ -2953,6 +2714,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   liseWatierTeintVeloursFoundation: productData({
     category: "Foundation",
     brand: "Lise Watier",
@@ -2960,9 +2722,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Velvet matte / oil-free foundation",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2133346-main-zoom.jpg?imwidth=315",
-    images: {
-      CA: "https://www.sephora.com/productimages/sku/s2133346-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       CA: "https://www.sephora.com/ca/en/product/velvet-matte-foundation-P435759"
     }),
@@ -2975,6 +2734,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   makeUpForEverHdSkinPerfectingFoundation: productData({
     category: "Foundation",
     brand: "MAKE UP FOR EVER",
@@ -2982,9 +2742,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Natural finish / longwear foundation",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2963460-main-zoom.jpg?imwidth=315",
-    images: {
-      CA: "https://www.sephora.com/productimages/sku/s2963460-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       CA: "https://www.sephora.com/ca/en/product/hd-skin-perfecting-foundation-P522269"
     }),
@@ -2997,6 +2754,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   tarteAmazonianClayFoundationMini: productData({
     category: "Foundation",
     brand: "tarte",
@@ -3004,9 +2762,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Mini / full coverage soft matte foundation",
     sizes: ["mini"],
     image: "https://www.sephora.com/productimages/sku/s2476174-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2476174-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/tarte-mini-amazonian-clay-16-hour-full-coverage-foundation-P473843"
     }),
@@ -3018,6 +2773,7 @@ anastasiaSoftGlamPalette: productData({
       BR: "fentySoftLitLuminousFoundation"
     }
   }),
+
     
   macStudioFixFluidFoundation: productData({
     category: "Foundation",
@@ -3026,12 +2782,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Soft matte / buildable liquid foundation",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2651255-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2651255-main-zoom.jpg?imwidth=315",
-      CA: "https://www.sephora.com/productimages/sku/s2651255-main-zoom.jpg?imwidth=315",
-      FR: "https://www.sephora.com/productimages/sku/s2651255-main-zoom.jpg?imwidth=315",
-      UK: "https://www.sephora.com/productimages/sku/s2651255-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/mac-cosmetics-studio-fix-fluid-spf-15-P511153",
       CA: "https://www.sephora.com/ca/en/product/mac-cosmetics-studio-fix-fluid-spf-15-P511153",
@@ -3044,6 +2794,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   patMcGrathSublimePerfectionFoundation: productData({
     category: "Foundation",
     brand: "PAT McGRATH LABS",
@@ -3051,12 +2802,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Weightless / buildable foundation",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2256899-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2256899-main-zoom.jpg?imwidth=315",
-      CA: "https://www.sephora.com/productimages/sku/s2256899-main-zoom.jpg?imwidth=315",
-      FR: "https://www.sephora.com/productimages/sku/s2256899-main-zoom.jpg?imwidth=315",
-      UK: "https://www.sephora.com/productimages/sku/s2256899-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/skin-fetish-sublime-perfection-foundation-P447519",
       CA: "https://www.sephora.com/ca/en/product/skin-fetish-sublime-perfection-foundation-P447519",
@@ -3069,6 +2814,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   tomFordArchitectureSoftMatteFoundation: productData({
     category: "Foundation",
     brand: "TOM FORD",
@@ -3076,9 +2822,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Soft matte / blurring foundation",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2972057-main-zoom.jpg?imwidth=315",
-    images: {
-      CA: "https://www.sephora.com/productimages/sku/s2972057-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       CA: "https://www.sephora.com/ca/en/product/tom-ford-architecture-soft-matte-blurring-foundation-P521686"
     }),
@@ -3090,7 +2833,6 @@ anastasiaSoftGlamPalette: productData({
       BR: "fentySoftLitLuminousFoundation"
     }
   }),
-
   fentyProFiltrSoftMattePowderFoundation: productData({
     category: "Foundation",
     brand: "Fenty Beauty by Rihanna",
@@ -3098,12 +2840,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Powder foundation / soft matte finish",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2413680-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2413680-main-zoom.jpg?imwidth=315",
-      CA: "https://www.sephora.com/productimages/sku/s2413680-main-zoom.jpg?imwidth=315",
-      FR: "https://www.sephora.com/productimages/sku/s2413680-main-zoom.jpg?imwidth=315",
-      UK: "https://www.sephora.com/productimages/sku/s2413680-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/fenty-beauty-rihanna-pro-filt-r-soft-matte-powder-foundation-P466829",
       CA: "https://www.sephora.com/ca/en/product/fenty-beauty-rihanna-pro-filt-r-soft-matte-powder-foundation-P466829",
@@ -3116,6 +2852,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   itCosmeticsCcAirbrushPerfectingPowder: productData({
     category: "Foundation",
     brand: "IT Cosmetics",
@@ -3123,14 +2860,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Powder foundation / airbrush finish",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2413680-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2413680-main-zoom.jpg?imwidth=315",
-      CA: "https://www.sephora.com/productimages/sku/s2413680-main-zoom.jpg?imwidth=315",
-      FR: "https://www.sephora.com/productimages/sku/s2413680-main-zoom.jpg?imwidth=315",
-      UK: "https://www.sephora.com/productimages/sku/s2413680-main-zoom.jpg?imwidth=315",
-      AU: "https://www.sephora.com/productimages/sku/s2746543-main-zoom.jpg?imwidth=315",
-      BR: "https://www.sephora.com/productimages/sku/s2746543-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({}),
     alternatives: {
       US: "fentyProFiltrSoftMattePowderFoundation",
@@ -3142,6 +2871,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   chantecailleFutureSkinFoundation: productData({
     category: "Foundation",
     brand: "CHANTECAILLE",
@@ -3149,9 +2879,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Lightweight gel foundation / natural finish",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2964393-main-zoom.jpg?imwidth=315",
-    images: {
-      CA: "https://www.sephora.com/productimages/sku/s2964393-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       CA: "https://www.sephora.com/ca/en/product/future-skin-lightweight-natural-finish-foundation-P521947"
     }),
@@ -3164,6 +2891,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   iliaSkinRewindComplexionStick: productData({
     category: "Foundation",
     brand: "ILIA",
@@ -3171,9 +2899,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Foundation and concealer stick",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2739803-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2739803-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/ilia-skin-rewind-complexion-stick-P509720"
     }),
@@ -3186,6 +2911,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   fashionFairCremeToPowderFoundation: productData({
     category: "Foundation",
     brand: "Fashion Fair",
@@ -3193,10 +2919,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Cream-to-powder foundation",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2509230-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2509230-main-zoom.jpg?imwidth=315",
-      CA: "https://www.sephora.com/productimages/sku/s2509230-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/fashion-fair-creme-to-powder-skin-foundation-P476444",
       CA: "https://www.sephora.com/ca/en/product/fashion-fair-creme-to-powder-skin-foundation-P476444"
@@ -3209,6 +2931,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   lysBeautyTripleFixFoundationStick: productData({
     category: "Foundation",
     brand: "LYS Beauty",
@@ -3216,10 +2939,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Hydrating / blurring foundation stick",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2823011-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2823011-main-zoom.jpg?imwidth=315",
-      CA: "https://www.sephora.com/productimages/sku/s2823011-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/lys-beauty-triple-fix-blurring-hydrating-skin-tint-foundation-stick-P513483",
       CA: "https://www.sephora.com/ca/en/product/lys-beauty-triple-fix-blurring-hydrating-skin-tint-foundation-stick-P513483"
@@ -3232,6 +2951,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   macStudioFixPowderFoundation: productData({
     category: "Foundation",
     brand: "MAC Cosmetics",
@@ -3239,10 +2959,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Powder foundation / matte finish",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2892636-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2892636-main-zoom.jpg?imwidth=315",
-      FR: "https://www.sephora.com/productimages/sku/s2892636-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/studio-fix-powder-plus-foundation-24hr-oil-control-blur-matte-finish-12hr-buildable-coverage-P516457",
       FR: "https://www.sephora.fr/p/studio-fix-powder-plus-foundation---fond-de-teint-poudre-P1000206951.html"
@@ -3255,6 +2971,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   makeUpForEverHdSkinHydraGlowFoundation: productData({
     category: "Foundation",
     brand: "MAKE UP FOR EVER",
@@ -3262,9 +2979,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Hydrating / luminous foundation",
     sizes: ["mini", "standard"],
     image: "https://www.sephora.com/productimages/sku/s2738474-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2738474-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/make-up-for-ever-hd-skin-hydra-glow-skincare-foundation-with-hyaluronic-acid-P510064"
     }),
@@ -3277,6 +2991,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   givenchyPrismeLibreGlowSerumFoundation: productData({
     category: "Foundation",
     brand: "Givenchy",
@@ -3284,10 +2999,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Glow serum foundation / natural finish",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2849628-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2849628-main-zoom.jpg?imwidth=315",
-      FR: "https://www.sephora.com/productimages/sku/s2849628-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/givenchy-prisme-libre-glow-serum-blurring-foundation-with-natural-finish-P514905",
       FR: "https://www.sephora.fr/p/prisme-libre-glow-serum---fond-de-teint-soin-perfecteur-P1000205463.html"
@@ -3300,6 +3011,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   gucciEterniteDeBeauteFoundation: productData({
     category: "Foundation",
     brand: "Gucci",
@@ -3307,9 +3019,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Full coverage / luminous matte foundation",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2405355-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2405355-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/gucci-fluide-de-beaute-fini-naturel-natural-finish-fluid-foundation-P467622"
     }),
@@ -3322,6 +3031,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   cliniqueEvenBetterClinicalSerumFoundation: productData({
     category: "Foundation",
     brand: "CLINIQUE",
@@ -3329,10 +3039,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Serum foundation / SPF 25",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2422822-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2422822-main-zoom.jpg?imwidth=315",
-      CA: "https://www.sephora.com/productimages/sku/s2422822-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/clinique-even-better-clinical-serum-foundation-broad-spectrum-spf-25-P468639",
       CA: "https://www.sephora.com/ca/en/product/clinique-even-better-clinical-serum-foundation-broad-spectrum-spf-25-P468639"
@@ -3345,6 +3051,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   lauraMercierRealFlawlessFoundation: productData({
     category: "Foundation",
     brand: "Laura Mercier",
@@ -3352,11 +3059,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Weightless / waterproof foundation",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2642759-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2642759-main-zoom.jpg?imwidth=315",
-      FR: "https://www.sephora.com/productimages/sku/s2642759-main-zoom.jpg?imwidth=315",
-      UK: "https://www.sephora.com/productimages/sku/s2642759-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/laura-mercier-real-flawless-weightless-perfecting-foundation-P504012",
       FR: "https://www.sephora.fr/p/real-flawless-foundation---fond-de-teint-P10049151.html",
@@ -3369,6 +3071,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   kosasRevealerFoundationSpf25: productData({
     category: "Foundation",
     brand: "Kosas",
@@ -3376,11 +3079,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Skin-improving foundation / SPF 25",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2512291-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2512291-main-zoom.jpg?imwidth=315",
-      CA: "https://www.sephora.com/productimages/sku/s2512291-main-zoom.jpg?imwidth=315",
-      UK: "https://www.sephora.com/productimages/sku/s2512291-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/kosas-revealer-skin-improving-foundation-spf25-with-hyaluronic-acid-niacinamide-P481396",
       CA: "https://www.sephora.com/ca/en/product/revealer-skin-improving-foundation-spf25-with-hyaluronic-acid-niacinamide-P502143",
@@ -3393,6 +3091,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   westmanAtelierVitalSkinFoundationStick: productData({
     category: "Foundation",
     brand: "Westman Atelier",
@@ -3400,11 +3099,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Foundation and concealer stick",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2503092-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2503092-main-zoom.jpg?imwidth=315",
-      CA: "https://www.sephora.com/productimages/sku/s2503092-main-zoom.jpg?imwidth=315",
-      FR: "https://www.sephora.com/productimages/sku/s2503092-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/westman-atelier-vital-skin-foundation-stick-P468429",
       CA: "https://www.sephora.com/ca/en/product/westman-atelier-vital-skin-foundation-stick-P468429",
@@ -3417,6 +3111,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   lancomeTeintIdoleUltraWearFoundation: productData({
     category: "Foundation",
     brand: "Lancôme",
@@ -3424,12 +3119,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Matte / longwear foundation",
     sizes: ["standard"],
     image: "https://media.sephora.eu/content/dam/digital/pim/published/L/LANCO/660059/313102-media_swatch.jpg?scaleHeight=750&scaleMode=fit&scaleWidth=750",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2690378-main-zoom.jpg?imwidth=315",
-      CA: "https://www.sephora.com/productimages/sku/s2690378-main-zoom.jpg?imwidth=315",
-      FR: "https://media.sephora.eu/content/dam/digital/pim/published/L/LANCO/660059/313102-media_swatch.jpg?scaleHeight=750&scaleMode=fit&scaleWidth=750",
-      UK: "https://media.sephora.eu/content/dam/digital/pim/published/L/LANCO/660059/313102-media_swatch.jpg?scaleHeight=750&scaleMode=fit&scaleWidth=750"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/teint-idole-ultra-24h-long-wear-foundation-P308201",
       CA: "https://www.sephora.com/ca/en/product/teint-idole-ultra-24h-long-wear-foundation-P308201",
@@ -3442,6 +3131,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   lancomeTeintIdoleCareGlowFoundation: productData({
     category: "Foundation",
     brand: "Lancôme",
@@ -3449,12 +3139,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Glow / hydrating foundation",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2589265-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2589265-main-zoom.jpg?imwidth=315",
-      CA: "https://www.sephora.com/productimages/sku/s2589265-main-zoom.jpg?imwidth=315",
-      FR: "https://www.sephora.com/productimages/sku/s2589265-main-zoom.jpg?imwidth=315",
-      UK: "https://www.sephora.com/productimages/sku/s2589265-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/teint-idole-ultra-wear-care-glow-foundation-P500706",
       CA: "https://www.sephora.com/ca/en/product/teint-idole-ultra-wear-care-glow-foundation-P500706",
@@ -3467,6 +3151,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   kvdGoodAppleSerumFoundation: productData({
     category: "Foundation",
     brand: "KVD Beauty",
@@ -3474,11 +3159,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Full coverage / serum foundation",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2646180-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2646180-main-zoom.jpg?imwidth=315",
-      CA: "https://www.sephora.com/productimages/sku/s2646180-main-zoom.jpg?imwidth=315",
-      FR: "https://www.sephora.com/productimages/sku/s2646180-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/kvd-vegan-beauty-good-apple-full-coverage-transfer-proof-vegan-serum-foundation-P504366",
       CA: "https://www.sephora.com/ca/en/product/kvd-vegan-beauty-good-apple-full-coverage-transfer-proof-vegan-serum-foundation-P504366",
@@ -3491,6 +3171,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   kvdGoodAppleCreamFoundationBalm: productData({
     category: "Foundation",
     brand: "KVD Beauty",
@@ -3498,11 +3179,6 @@ anastasiaSoftGlamPalette: productData({
     type: "Cream foundation balm / full coverage",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2420040-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2420040-main-zoom.jpg?imwidth=315",
-      CA: "https://www.sephora.com/productimages/sku/s2420040-main-zoom.jpg?imwidth=315",
-      FR: "https://www.sephora.com/productimages/sku/s2420040-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/kvd-vegan-beauty-good-apple-skin-perfecting-foundation-balm-P469488",
       CA: "https://www.sephora.com/ca/en/product/kvd-vegan-beauty-good-apple-skin-perfecting-foundation-balm-P469488",
@@ -3515,6 +3191,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   diorForeverSkinPerfectStickFoundation: productData({
     category: "Foundation",
     brand: "DIOR",
@@ -3522,15 +3199,9 @@ anastasiaSoftGlamPalette: productData({
     type: "Foundation stick / 24H wear",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2882546-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2882546-main-zoom.jpg?imwidth=315",
-      CA: "https://www.sephora.com/productimages/sku/s2882546-main-zoom.jpg?imwidth=315",
-      FR: "https://www.sephora.com/productimages/sku/s2882546-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
       US: "https://www.sephora.com/product/dior-forever-skin-perfect-24h-multi-use-foundation-P512480",
-      CA: "https://www.sephora.com/ca/en/product/dior-forever-skin-perfect-24h-multi-use-foundation-P512480",
-      FR: ""
+      CA: "https://www.sephora.com/ca/en/product/dior-forever-skin-perfect-24h-multi-use-foundation-P512480"
     }),
     alternatives: {
       FR: "westmanAtelierVitalSkinFoundationStick",
@@ -3540,6 +3211,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   diorForeverSkinGlowFoundation: productData({
     category: "Foundation",
     brand: "DIOR",
@@ -3547,12 +3219,8 @@ anastasiaSoftGlamPalette: productData({
     type: "Glow / longwear foundation",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2934149-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2934149-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
-      US: "https://www.sephora.com/product/forever-skin-glow-liquid-foundation-24-hour-wear-P520267",
-      FR: ""
+      US: "https://www.sephora.com/product/forever-skin-glow-liquid-foundation-24-hour-wear-P520267"
     }),
     alternatives: {
       CA: "fentySoftLitLuminousFoundation",
@@ -3563,6 +3231,7 @@ anastasiaSoftGlamPalette: productData({
     }
   }),
 
+
   diorForeverNaturalVelvetCompactFoundation: productData({
     category: "Foundation",
     brand: "DIOR",
@@ -3570,12 +3239,8 @@ anastasiaSoftGlamPalette: productData({
     type: "Compact powder foundation / matte finish",
     sizes: ["standard"],
     image: "https://www.sephora.com/productimages/sku/s2572253-main-zoom.jpg?imwidth=315",
-    images: {
-      US: "https://www.sephora.com/productimages/sku/s2572253-main-zoom.jpg?imwidth=315"
-    },
     links: countryLinks({
-      US: "https://www.sephora.com/product/diorskin-forever-perfect-matte-powder-foundation-P297404",
-      FR: ""
+      US: "https://www.sephora.com/product/diorskin-forever-perfect-matte-powder-foundation-P297404"
     }),
     alternatives: {
       CA: "fentyProFiltrSoftMattePowderFoundation",
