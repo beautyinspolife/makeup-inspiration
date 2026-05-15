@@ -1,35 +1,4 @@
-const DATA_DEFAULT_PRODUCT_IMAGE =
-  "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='500' viewBox='0 0 400 500'%3E%3Crect width='400' height='500' fill='%23f5f5f5'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-size='18' fill='%23999'%3EProduct%3C/text%3E%3C/svg%3E";
 
-function makeProduct(key) {
-  const catalog = Array.isArray(window.productCatalog)
-    ? window.productCatalog
-    : Array.isArray(window.products)
-      ? window.products
-      : [];
-
-  const found = catalog.find(product =>
-    product && (
-      product.code === key ||
-      product.name === key ||
-      String(product.name || "").toLowerCase().includes(String(key).toLowerCase())
-    )
-  );
-
-  if (found) return found;
-
-  const readableName = String(key)
-    .replace(/([A-Z])/g, " $1")
-    .replace(/[-_]/g, " ")
-    .replace(/^./, char => char.toUpperCase())
-    .trim();
-
-  return {
-    name: readableName || "Product coming soon",
-    image: DATA_DEFAULT_PRODUCT_IMAGE,
-    link: "#"
-  };
-}
 
 const LOOKS = [
 
