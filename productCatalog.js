@@ -6926,55 +6926,195 @@ narsTalcFreePowderBlush: productData({
   // -------------------------
   // HIGHLIGHTER / GLOW
   // -------------------------
-  charlotteBeautyHighlighterWand: productData({
-    category: "Highlighter",
-    brand: "Charlotte Tilbury",
-    name: "Beauty Highlighter Wand",
-    image: skuImage("s2366524"),
-    links: {
-      US: "https://www.sephora.com/product/glowgasm-beauty-highlighter-wand-P444154",
-      CA: "https://www.sephora.com/ca/en/product/glowgasm-beauty-highlighter-wand-P444154"
+  
+
+  hourglassAmbientLightingPalette: productData({
+    category: "Highlighter Palette",
+    brand: "Hourglass",
+    name: "Ambient Lighting Palette",
+    type: "Finishing / glow palette",
+    sizes: ["standard"],
+    image: skuImage("s1606086"),
+    links: countryLinks({
+      US: "https://www.sephora.com/product/ambient-lighting-palette-P382309",
+      CA: "https://www.sephora.com/ca/en/product/ambient-lighting-palette-P382309",
+      UK: "https://www.sephora.co.uk/p/hourglass-ambient-lighting-palette"
+    }),
+    alternatives: {
+      FR: "rareBeautyPositiveLightHighlighter",
+      AU: "fentyKillawattHighlighter",
+      BR: "charlotteBeautyHighlighterWand"
     }
   }),
 
-  rareBeautyPositiveLightHighlighter: productData({
+  rareBeautyPositiveLightLiquidLuminizer: productData({
     category: "Highlighter",
     brand: "Rare Beauty by Selena Gomez",
-    name: "Positive Light Silky Touch Highlighter",
-    links: {
-      US: "https://www.sephora.com/product/rare-beauty-by-selena-gomez-positive-light-silky-touch-highlighter-P503711",
-      CA: "https://www.sephora.com/ca/en/product/rare-beauty-by-selena-gomez-positive-light-silky-touch-highlighter-P503711"
+    name: "Positive Light Liquid Luminizer Highlight",
+    type: "Liquid highlighter",
+    sizes: ["standard"],
+    image: skuImage("s2362168"),
+    links: countryLinks({
+      US: "https://www.sephora.com/product/rare-beauty-by-selena-gomez-positive-light-liquid-luminizer-highlight-P38855877",
+      CA: "https://www.sephora.com/ca/en/product/rare-beauty-by-selena-gomez-positive-light-liquid-luminizer-highlight-P38855877",
+      UK: "https://www.sephora.co.uk/p/rare-beauty-rare-beauty-positive-light-liquid-luminizer-highlighter-15ml"
+    }),
+    alternatives: {
+      FR: "rareBeautyPositiveLightHighlighter",
+      AU: "saieGlowySuperGel",
+      BR: "charlotteBeautyHighlighterWand"
     }
   }),
 
-  fentyKillawattHighlighter: productData({
+  fentyDiamondBombAllOverDiamondVeil: productData({
     category: "Highlighter",
     brand: "Fenty Beauty by Rihanna",
-    name: "Killawatt Freestyle Highlighter",
-    image: skuImage("s1925916"),
-    links: {
-      US: "https://www.sephora.com/product/killawatt-freestyle-highlighter-P64879845",
-      CA: "https://www.sephora.com/ca/en/product/killawatt-freestyle-highlighter-P64879845"
+    name: "Diamond Bomb All-Over Diamond Veil",
+    type: "Glitter gel-powder highlighter",
+    sizes: ["mini", "standard"],
+    image: skuImage("s2113033"),
+    links: countryLinks({
+      US: "https://www.sephora.com/product/diamond-bomb-all-over-diamond-veil-P85225585",
+      CA: "https://www.sephora.com/ca/en/product/diamond-bomb-all-over-diamond-veil-P85225585",
+      UK: "https://www.sephora.co.uk/p/fenty-beauty-diamond-bomb"
+    }),
+    alternatives: {
+      FR: "fentyKillawattHighlighter",
+      AU: "rareBeautyPositiveLightHighlighter",
+      BR: "hausLabsBioRadiantHighlighterBalm"
     }
   }),
 
-  hausLabsBioRadiantHighlighterBalm: productData({
+  yslHyperLuminizePowderHighlighter: productData({
     category: "Highlighter",
-    brand: "HAUS LABS BY LADY GAGA",
-    name: "Bio-Radiant Glassy Highlighter Balm",
-    links: {
-      US: "https://www.sephora.com/product/haus-labs-by-lady-gaga-bio-radiant-glassy-highlighter-balm-P515434",
-      CA: "https://www.sephora.com/ca/en/product/haus-labs-by-lady-gaga-bio-radiant-glassy-highlighter-balm-P515434"
+    brand: "Yves Saint Laurent",
+    name: "Hyper Luminize Powder Highlighter",
+    type: "Powder highlighter",
+    sizes: ["standard"],
+    image: skuImage("s2880854"),
+    links: countryLinks({
+      US: "https://www.sephora.com/product/yves-saint-laurent-ysl-hyper-luminize-powder-highlighter-P517012",
+      CA: "https://www.sephora.com/ca/en/product/yves-saint-laurent-ysl-hyper-luminize-powder-highlighter-P517012",
+      UK: "https://www.sephora.co.uk/p/yves-saint-laurent-all-hours-hyper-luminize"
+    }),
+    alternatives: {
+      FR: "charlotteBeautyHighlighterWand",
+      AU: "hourglassAmbientLightingPalette",
+      BR: "rareBeautyPositiveLightHighlighter"
     }
   }),
 
-  charlotteHollywoodFlawlessFilter: productData({
-    category: "Complexion Glow",
-    brand: "Charlotte Tilbury",
-    name: "Hollywood Flawless Filter",
-    links: {
-      US: "https://www.sephora.com/product/hollywood-flawless-filter-P434104",
-      CA: "https://www.sephora.com/ca/en/product/hollywood-flawless-filter-P434104"
+  diorForeverGlowMaximizer: productData({
+    category: "Highlighter",
+    brand: "DIOR",
+    name: "Forever Glow Maximizer Longwear Liquid Highlighter",
+    type: "Liquid highlighter",
+    sizes: ["standard"],
+    image: skuImage("s2750826"),
+    links: countryLinks({
+      US: "https://www.sephora.com/product/dior-forever-glow-maximizer-longwear-liquid-highlighter-P510547",
+      CA: "https://www.sephora.com/ca/en/product/dior-forever-glow-maximizer-longwear-liquid-highlighter-P510547",
+      UK: "https://www.sephora.co.uk/p/dior-forever-glow-maximizer-11ml"
+    }),
+    alternatives: {
+      FR: "yslHyperLuminizePowderHighlighter",
+      AU: "hourglassAmbientLightingPowder",
+      BR: "rareBeautyPositiveLightLiquidLuminizer"
+    }
+  }),
+
+  hourglassAmbientLightingPowder: productData({
+    category: "Highlighter",
+    brand: "Hourglass",
+    name: "Ambient Lighting Powder",
+    type: "Finishing glow powder",
+    sizes: ["mini", "standard"],
+    image: skuImage("s1483510"),
+    links: countryLinks({
+      US: "https://www.sephora.com/product/ambient-lighting-powder-P377723",
+      CA: "https://www.sephora.com/ca/en/product/ambient-lighting-powder-P377723",
+      UK: "https://www.sephora.co.uk/p/hourglass-ambient-lighting-powder"
+    }),
+    alternatives: {
+      FR: "saieGlowySuperGel",
+      AU: "charlotteBeautyHighlighterWand",
+      BR: "fentyKillawattHighlighter"
+    }
+  }),
+
+  saieGlowySuperGel: productData({
+    category: "Highlighter",
+    brand: "Saie",
+    name: "Glowy Super Gel Lightweight Dewy Multipurpose Illuminator",
+    type: "Liquid gel illuminator",
+    sizes: ["standard"],
+    image: skuImage("s2763894"),
+    links: countryLinks({
+      US: "https://www.sephora.com/product/saie-glowy-super-gel-lightweight-dewy-highlighter-P468206",
+      CA: "https://www.sephora.com/ca/en/product/saie-glowy-super-gel-lightweight-dewy-highlighter-P468206"
+    }),
+    alternatives: {
+      FR: "rareBeautyPositiveLightHighlighter",
+      UK: "hourglassAmbientLightingPowder",
+      AU: "charlotteHollywoodFlawlessFilter",
+      BR: "hausLabsBioRadiantHighlighterBalm"
+    }
+  }),
+
+  westmanAtelierLitUpHighlightStick: productData({
+    category: "Highlighter",
+    brand: "Westman Atelier",
+    name: "Lit Up Highlight Stick",
+    type: "Glassy gel highlighter stick",
+    sizes: ["mini", "standard"],
+    image: skuImage("s2434181"),
+    links: countryLinks({
+      US: "https://www.sephora.com/product/westman-atelier-lit-up-highlight-stick-P468430",
+      CA: "https://www.sephora.com/ca/en/product/westman-atelier-lit-up-highlight-stick-P468430"
+    }),
+    alternatives: {
+      FR: "charlotteBeautyHighlighterWand",
+      UK: "hourglassAmbientLightingPowder",
+      AU: "saieGlowySuperGel",
+      BR: "rareBeautyPositiveLightHighlighter"
+    }
+  }),
+
+  diorForeverGlowStarFilter: productData({
+    category: "Highlighter",
+    brand: "DIOR",
+    name: "Forever Glow Star Filter Multi-Use Complexion Enhancing Booster",
+    type: "Complexion glow booster",
+    sizes: ["standard"],
+    image: skuImage("s2751014"),
+    links: countryLinks({
+      US: "https://www.sephora.com/product/forever-glow-star-filter-multi-use-complexion-enhancing-booster-P509901",
+      CA: "https://www.sephora.com/ca/en/product/forever-glow-star-filter-multi-use-complexion-enhancing-booster-P509901",
+      UK: "https://www.sephora.co.uk/p/dior-forever-glow-star-filter-30ml"
+    }),
+    alternatives: {
+      FR: "saieGlowySuperGel",
+      AU: "charlotteHollywoodFlawlessFilter",
+      BR: "rareBeautyPositiveLightLiquidLuminizer"
+    }
+  }),
+
+  sephoraColorfulPowderLuminizer: productData({
+    category: "Highlighter",
+    brand: "SEPHORA COLLECTION",
+    name: "Colorful Powder Luminizer",
+    type: "Powder highlighter",
+    sizes: ["standard"],
+    image: skuImage("s2711729"),
+    links: countryLinks({
+      CA: "https://www.sephora.com/ca/en/product/sephora-colorful-powder-luminizer-P509722"
+    }),
+    alternatives: {
+      US: "rareBeautyPositiveLightHighlighter",
+      FR: "charlotteBeautyHighlighterWand",
+      UK: "hourglassAmbientLightingPowder",
+      AU: "fentyKillawattHighlighter",
+      BR: "hausLabsBioRadiantHighlighterBalm"
     }
   }),
 
