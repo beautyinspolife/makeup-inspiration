@@ -2879,6 +2879,580 @@ const PRODUCT_CATALOG = {
   }),
 
   // -------------------------
+// TINTED MOISTURIZERS / SKIN TINTS
+// -------------------------
+
+liveTintedHueguardSkinTint: productData({
+  category: "Tinted Sunscreen",
+  brand: "Live Tinted",
+  name: "Hueguard Skin Tint SPF 50 Mineral Sunscreen Broad Spectrum",
+  type: "Mineral tinted sunscreen / lightweight skin tint",
+  sizes: ["standard"],
+  image: skuImage("s2838936"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/hueguard-skin-tint-spf-50-mineral-sunscreen-broad-spectrum-P517709"
+  }),
+  alternatives: {
+    US: "supergoopProtectintDailySpfTint",
+    FR: "fentyEazeDropBlurringSkinTint",
+    UK: "summerFridaysSheerSkinTint",
+    AU: "itCosmeticsCcNudeGlowSkinTint",
+    BR: "fentyEazeDropBlurringSkinTint"
+  }
+}),
+
+summerFridaysSheerSkinTint: productData({
+  category: "Skin Tint",
+  brand: "Summer Fridays",
+  name: "Sheer Skin Tint with Hyaluronic Acid + Squalane",
+  type: "Sheer hydrating skin tint / natural finish",
+  sizes: ["standard"],
+  image: skuImage("s2536183"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/sheer-skin-tint-with-hyaluronic-acid-squalane-P501777"
+  }),
+  alternatives: {
+    US: "fentyEazeDropBlurringSkinTint",
+    FR: "fentyEazeDropBlurringSkinTint",
+    UK: "saieSlipTintTintedMoisturizer",
+    AU: "itCosmeticsCcNudeGlowSkinTint",
+    BR: "rareBeautyPositiveLightTintedMoisturizer"
+  }
+}),
+
+itCosmeticsCcNudeGlowSkinTint: productData({
+  category: "CC Skin Tint",
+  brand: "IT Cosmetics",
+  name: "CC+ Nude Glow Lightweight Foundation + Glow Serum with SPF 40 and Niacinamide",
+  type: "Glowy CC skin tint / SPF 40",
+  sizes: ["standard"],
+  image: skuImage("s2515716"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/it-cosmetics-cc-nude-glow-lightweight-foundation-glow-serum-spf-40-niacinamide-P482010"
+  }),
+  alternatives: {
+    US: "itCosmeticsCcCreamSpf50",
+    FR: "fentyEazeDropBlurringSkinTint",
+    UK: "itCosmeticsCcCreamSpf50",
+    AU: "iliaSuperSerumSkinTintSpf40",
+    BR: "fentySoftLitLuminousFoundation"
+  }
+}),
+
+armaniGoldenHourSkinTint: productData({
+  category: "Skin Tint",
+  brand: "Armani Beauty",
+  name: "Golden Hour 24HR Lightweight Skin Tint with Hyaluronic Acid",
+  type: "Lightweight longwear skin tint / natural glow",
+  sizes: ["standard"],
+  image: skuImage("s2881332"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/golden-hour-24hr-lightweight-skin-tint-with-hyaluronic-acid-P517007"
+  }),
+  alternatives: {
+    US: "hourglassVeilHydratingSkinTint",
+    FR: "fentySoftLitLuminousFoundation",
+    UK: "charlotteTilburyBeautifulSkinFoundation",
+    AU: "fentySoftLitLuminousFoundation",
+    BR: "fentySoftLitLuminousFoundation"
+  }
+}),
+
+anastasiaBeautyBalmSkinTint: productData({
+  category: "Skin Tint Balm",
+  brand: "Anastasia Beverly Hills",
+  name: "Beauty Balm Serum Boosted Skin Tint",
+  type: "Serum-boosted balm skin tint / sheer-to-light coverage",
+  sizes: ["stick"],
+  image: skuImage("s2752848"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/anastasia-beverly-hills-beauty-balm-skin-serum-boosted-skin-tint-P511190"
+  }),
+  alternatives: {
+    US: "rareBeautyPositiveLightTintedMoisturizer",
+    FR: "fentyEazeDropBlurSmoothTintStick",
+    UK: "hourglassVeilHydratingSkinTint",
+    AU: "fentyEazeDropBlurSmoothTintStick",
+    BR: "fentyEazeDropBlurSmoothTintStick"
+  }
+}),
+
+cliniqueMoistureSurgeCcCreamSpf30: productData({
+  category: "CC Cream",
+  brand: "CLINIQUE",
+  name: "Moisture Surge™ CC Cream Hydrating Colour Corrector Broad Spectrum SPF 30",
+  type: "Hydrating color-correcting CC cream / SPF 30",
+  sizes: ["standard"],
+  image: skuImage("s1509512"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/moisture-surge-cc-cream-hydrating-colour-corrector-broad-spectrum-spf-30-P378639"
+  }),
+  alternatives: {
+    US: "itCosmeticsCcCreamSpf50",
+    FR: "itCosmeticsCcNudeGlowSkinTint",
+    UK: "itCosmeticsCcCreamSpf50",
+    AU: "iliaSuperSerumSkinTintSpf40",
+    BR: "rareBeautyPositiveLightTintedMoisturizer"
+  }
+}),
+
+itCosmeticsCcIlluminationCreamSpf50: productData({
+  category: "CC Cream",
+  brand: "IT Cosmetics",
+  name: "CC+ Cream Illumination with SPF 50+",
+  type: "Radiant full-coverage CC cream / SPF 50+",
+  sizes: ["mini", "standard"],
+  image: skuImage("s1869015"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/your-skin-but-better-cc-illumination-cream-spf-50-P411884"
+  }),
+  alternatives: {
+    US: "itCosmeticsCcNudeGlowSkinTint",
+    FR: "fentySoftLitLuminousFoundation",
+    UK: "itCosmeticsCcCreamSpf50",
+    AU: "iliaSuperSerumSkinTintSpf40",
+    BR: "fentySoftLitLuminousFoundation"
+  }
+}),
+
+gucciGlowSkinTintedMoisturizer: productData({
+  category: "Tinted Moisturizer",
+  brand: "Gucci",
+  name: "Glow Skin Tinted Moisturizer with Hyaluronic Acid & Bakuchiol",
+  type: "Glowy tinted moisturizer / hydrating skin tint",
+  sizes: ["standard"],
+  image: skuImage("s2834513"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/glow-skin-tinted-moisturizer-with-hyaluronic-acid-bakuchiol-P517009"
+  }),
+  alternatives: {
+    US: "hourglassVeilHydratingSkinTint",
+    FR: "fentySoftLitLuminousFoundation",
+    UK: "charlotteTilburyBeautifulSkinFoundation",
+    AU: "fentySoftLitLuminousFoundation",
+    BR: "fentySoftLitLuminousFoundation"
+  }
+}),
+
+kosasGlowIvSkinEnhancer: productData({
+  category: "Glow Booster",
+  brand: "Kosas",
+  name: "Glow I.V. Vitamin-Infused Skin Illuminating Enhancer",
+  type: "Illuminating skin enhancer / glow booster",
+  sizes: ["standard"],
+  image: skuImage("s2642411"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/kosas-glow-i-v-vitamin-infused-skin-illuminating-enhancer-P503896"
+  }),
+  alternatives: {
+    US: "charlotteHollywoodFlawlessFilter",
+    FR: "fentySoftLitLuminousFoundation",
+    UK: "charlotteHollywoodFlawlessFilter",
+    AU: "rareBeautyPositiveLightTintedMoisturizer",
+    BR: "fentySoftLitLuminousFoundation"
+  }
+}),
+
+milkHydroGripGelTint: productData({
+  category: "Skin Tint",
+  brand: "MILK MAKEUP",
+  name: "Hydro Grip 12-Hour Hydrating Gel Skin Tint",
+  type: "Hydrating gel skin tint / 12-hour wear",
+  sizes: ["standard"],
+  image: skuImage("s2843183"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/milk-makeup-hydro-grip-12-hour-hydrating-gel-skin-tint-P515226",
+    FR: "https://www.sephora.fr/p/hydro-grip-gel-tint---gel-teinte-hydratant-hydro-grip-12-heures-P10061406.html"
+  }),
+  alternatives: {
+    US: "summerFridaysSheerSkinTint",
+    UK: "hourglassVeilHydratingSkinTint",
+    AU: "fentyEazeDropBlurringSkinTint",
+    BR: "fentyEazeDropBlurringSkinTint"
+  }
+}),
+
+supergoopProtectintDailySpfTint: productData({
+  category: "Tinted Sunscreen",
+  brand: "Supergoop!",
+  name: "Protec(tint) Daily SPF Tint SPF 50 Sunscreen Skin Tint with Ectoin",
+  type: "Daily tinted SPF skin tint / SPF 50",
+  sizes: ["standard"],
+  image: skuImage("s2842219"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/protec-tint-daily-spf-tint-spf-50-sunscreen-skin-tint-with-ectoin-P515667"
+  }),
+  alternatives: {
+    US: "liveTintedHueguardSkinTint",
+    FR: "iliaSuperSerumSkinTintSpf40",
+    UK: "summerFridaysSheerSkinTint",
+    AU: "itCosmeticsCcNudeGlowSkinTint",
+    BR: "fentyEazeDropBlurringSkinTint"
+  }
+}),
+
+fentyEazeDropBlurringSkinTint: productData({
+  category: "Skin Tint",
+  brand: "Fenty Beauty by Rihanna",
+  name: "Eaze Drop Blurring Skin Tint",
+  type: "Blurring lightweight skin tint / natural finish",
+  sizes: ["standard"],
+  image: skuImage("s2431864"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/fenty-beauty-rihanna-eaze-drop-blurring-skin-tint-P470025"
+  }),
+  alternatives: {
+    US: "fentyEazeDropBlurSmoothTintStick",
+    FR: "fentySoftLitLuminousFoundation",
+    UK: "fentySoftLitLuminousFoundation",
+    AU: "fentySoftLitLuminousFoundation",
+    BR: "fentySoftLitLuminousFoundation"
+  }
+}),
+
+saieSlipTintTintedMoisturizer: productData({
+  category: "Tinted Moisturizer",
+  brand: "Saie",
+  name: "Slip Tint Lightweight Tinted Moisturizer with Hyaluronic Acid",
+  type: "Lightweight tinted moisturizer / dewy finish",
+  sizes: ["standard"],
+  image: skuImage("s2499465"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/saie-slip-tint-dewy-tinted-moisturizer-P478316"
+  }),
+  alternatives: {
+    US: "summerFridaysSheerSkinTint",
+    FR: "fentyEazeDropBlurringSkinTint",
+    UK: "hourglassVeilHydratingSkinTint",
+    AU: "itCosmeticsCcNudeGlowSkinTint",
+    BR: "rareBeautyPositiveLightTintedMoisturizer"
+  }
+}),
+
+danessaMyricksYummySkinSerumTint: productData({
+  category: "Serum Skin Tint",
+  brand: "Danessa Myricks Beauty",
+  name: "Yummy Skin Soothing Serum Skin Tint Foundation with Peptides + Ceramides",
+  type: "Soothing serum skin tint / light coverage",
+  sizes: ["standard"],
+  image: skuImage("s2836641"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/yummy-skin-serum-tint-P506512"
+  }),
+  alternatives: {
+    US: "danessaMyricksYummySkinSerumFoundation",
+    FR: "hausLabsTricloneFoundation",
+    UK: "hudaEasyBlurFoundation",
+    AU: "fentySoftLitLuminousFoundation",
+    BR: "fentySoftLitLuminousFoundation"
+  }
+}),
+
+refySkinBaseHydratingGelSkinTint: productData({
+  category: "Skin Tint",
+  brand: "REFY",
+  name: "Skin Base Hydrating Gel Skin Tint with Hyaluronic Acid",
+  type: "Hydrating gel skin tint / fresh finish",
+  sizes: ["standard"],
+  image: skuImage("s2938355"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/skin-base-hydrating-gel-skin-tint-with-hyaluronic-acid-P520680"
+  }),
+  alternatives: {
+    US: "summerFridaysSheerSkinTint",
+    FR: "fentyEazeDropBlurringSkinTint",
+    UK: "hourglassVeilHydratingSkinTint",
+    AU: "milkHydroGripGelTint",
+    BR: "rareBeautyPositiveLightTintedMoisturizer"
+  }
+}),
+
+oneSizeB12BaseThinnerLuminousSerum: productData({
+  category: "Complexion Booster",
+  brand: "ONE/SIZE by Patrick Starrr",
+  name: "B12 Base Thinner Luminous Vitamin Pearl Boosting Serum",
+  type: "Luminous vitamin serum / complexion booster",
+  sizes: ["standard"],
+  image: "",
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/b12-base-thinner-luminous-vitamin-pearl-boosting-serum-P515065"
+  }),
+  alternatives: {
+    US: "kosasGlowIvSkinEnhancer",
+    FR: "fentySoftLitLuminousFoundation",
+    UK: "charlotteHollywoodFlawlessFilter",
+    AU: "rareBeautyPositiveLightTintedMoisturizer",
+    BR: "fentySoftLitLuminousFoundation"
+  }
+}),
+
+sephoraCollectionRevealTheRealSkinTint: productData({
+  category: "Skin Tint",
+  brand: "SEPHORA COLLECTION",
+  name: "Reveal The Real 12HR Soft Radiant Skin Tint",
+  type: "Soft radiant skin tint / 12-hour wear",
+  sizes: ["standard"],
+  image: skuImage("s2760726"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/reveal-real-soft-radiant-skin-tint-P511752"
+  }),
+  alternatives: {
+    US: "fentyEazeDropBlurringSkinTint",
+    FR: "fentyEazeDropBlurringSkinTint",
+    UK: "hourglassVeilHydratingSkinTint",
+    AU: "rareBeautyPositiveLightTintedMoisturizer",
+    BR: "fentySoftLitLuminousFoundation"
+  }
+}),
+
+rareBeautyPositiveLightTintedMoisturizer: productData({
+  category: "Tinted Moisturizer",
+  brand: "Rare Beauty by Selena Gomez",
+  name: "Positive Light Tinted Moisturizer",
+  type: "Lightweight tinted moisturizer / natural glow",
+  sizes: ["standard"],
+  image: skuImage("s2557106"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/rare-beauty-by-selena-gomez-positive-light-tinted-moisturizer-P482728"
+  }),
+  alternatives: {
+    US: "summerFridaysSheerSkinTint",
+    FR: "fentyEazeDropBlurringSkinTint",
+    UK: "hourglassVeilHydratingSkinTint",
+    AU: "itCosmeticsCcNudeGlowSkinTint",
+    BR: "fentySoftLitLuminousFoundation"
+  }
+}),
+
+tarteBbBlurTintedMoisturizer: productData({
+  category: "BB Cream",
+  brand: "tarte",
+  name: "BB Blur Natural Matte Tinted Moisturizer",
+  type: "Matte tinted moisturizer / BB cream",
+  sizes: ["standard"],
+  image: skuImage("s2757094"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/bb-tinted-treatment-12-hour-primer-P382096"
+  }),
+  alternatives: {
+    US: "itCosmeticsCcNudeGlowSkinTint",
+    FR: "fentyEazeDropBlurringSkinTint",
+    UK: "itCosmeticsCcCreamSpf50",
+    AU: "summerFridaysSheerSkinTint",
+    BR: "rareBeautyPositiveLightTintedMoisturizer"
+  }
+}),
+
+lauraMercierTintedBlurBalmSkinTint: productData({
+  category: "Tinted Balm",
+  brand: "Laura Mercier",
+  name: "Tinted Blur Balm Skin Tint with Peptides",
+  type: "Blurring tinted balm / light coverage",
+  sizes: ["standard"],
+  image: skuImage("s2938991"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/tinted-blur-balm-skin-tint-with-peptides-P520503"
+  }),
+  alternatives: {
+    US: "hourglassVeilHydratingSkinTint",
+    FR: "fentyEazeDropBlurringSkinTint",
+    UK: "charlotteTilburyBeautifulSkinFoundation",
+    AU: "rareBeautyPositiveLightTintedMoisturizer",
+    BR: "fentySoftLitLuminousFoundation"
+  }
+}),
+
+makeUpForEverSuperBoostSkinTint: productData({
+  category: "Skin Tint",
+  brand: "MAKE UP FOR EVER",
+  name: "Super Boost Lightweight Moisturizing Skin Tint with Hyaluronic and Polyglutamic Acids",
+  type: "Moisturizing lightweight skin tint",
+  sizes: ["standard"],
+  image: skuImage("s2844538"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/super-boost-skin-tint-P515080"
+  }),
+  alternatives: {
+    US: "makeUpForEverHdSkinHydraGlowFoundation",
+    FR: "makeUpForEverHdSkinFoundation",
+    UK: "makeUpForEverHdSkinFoundation",
+    AU: "makeUpForEverHdSkinFoundation",
+    BR: "fentySoftLitLuminousFoundation"
+  }
+}),
+
+glossierPerfectingSkinTint: productData({
+  category: "Skin Tint",
+  brand: "Glossier",
+  name: "Perfecting Skin Tint for Dewy Sheer Coverage",
+  type: "Dewy sheer coverage skin tint",
+  sizes: ["standard"],
+  image: "",
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/glossier-perfecting-skin-tint-for-dewy-sheer-coverage-P504782"
+  }),
+  alternatives: {
+    US: "summerFridaysSheerSkinTint",
+    FR: "fentyEazeDropBlurringSkinTint",
+    UK: "hourglassVeilHydratingSkinTint",
+    AU: "rareBeautyPositiveLightTintedMoisturizer",
+    BR: "fentySoftLitLuminousFoundation"
+  }
+}),
+
+beautyblenderRadiantSkinTint: productData({
+  category: "Skin Tint",
+  brand: "Beautyblender",
+  name: "Bounce™ Always On Radiant Skin Tint",
+  type: "Radiant 12-hour skin tint with hyaluronic acid",
+  sizes: ["standard"],
+  image: skuImage("s2477438"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/beautyblender-bounce-trade-always-on-radiant-skin-tint-P477136"
+  }),
+  alternatives: {
+    US: "summerFridaysSheerSkinTint",
+    FR: "fentyEazeDropBlurringSkinTint",
+    UK: "hourglassVeilHydratingSkinTint",
+    AU: "itCosmeticsCcNudeGlowSkinTint",
+    BR: "rareBeautyPositiveLightTintedMoisturizer"
+  }
+}),
+
+narsPureRadiantTintedMoisturizer: productData({
+  category: "Tinted Moisturizer",
+  brand: "NARS",
+  name: "Pure Radiant Tinted Moisturizer Broad Spectrum SPF 30",
+  type: "Radiant tinted moisturizer / SPF 30",
+  sizes: ["standard"],
+  image: skuImage("s1421429"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/pure-radiant-tinted-moisturizer-P381737"
+  }),
+  alternatives: {
+    US: "narsLightReflectingFoundation",
+    FR: "narsLightReflectingFoundation",
+    UK: "narsLightReflectingFoundation",
+    AU: "fentySoftLitLuminousFoundation",
+    BR: "narsLightReflectingFoundation"
+  }
+}),
+
+bobbiBrownVitaminEnrichedSkinTint: productData({
+  category: "Tinted Moisturizer",
+  brand: "Bobbi Brown",
+  name: "Vitamin Enriched Hydrating Skin Tint SPF 15 with Hyaluronic Acid",
+  type: "Hydrating vitamin skin tint / SPF 15",
+  sizes: ["standard"],
+  image: skuImage("s2701639"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/vitamin-enriched-hydrating-skin-tint-spf-15-with-hyaluronic-acid-P506571"
+  }),
+  alternatives: {
+    US: "hourglassVeilHydratingSkinTint",
+    FR: "fentySoftLitLuminousFoundation",
+    UK: "charlotteTilburyBeautifulSkinFoundation",
+    AU: "fentySoftLitLuminousFoundation",
+    BR: "fentySoftLitLuminousFoundation"
+  }
+}),
+
+fentyEazeDropBlurSmoothTintStick: productData({
+  category: "Tint Stick",
+  brand: "Fenty Beauty by Rihanna",
+  name: "Eaze Drop Blur + Smooth Tint Stick Foundation",
+  type: "Blurring skin tint stick / smooth finish",
+  sizes: ["stick"],
+  image: "",
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/fenty-eaze-drop-blur-smooth-tint-stick-P507453"
+  }),
+  alternatives: {
+    US: "fentyEazeDropBlurringSkinTint",
+    FR: "fentyEazeDropBlurringSkinTint",
+    UK: "fentySoftLitLuminousFoundation",
+    AU: "fentySoftLitLuminousFoundation",
+    BR: "fentySoftLitLuminousFoundation"
+  }
+}),
+
+calirayFreedreamingSkinTint: productData({
+  category: "Skin Tint",
+  brand: "caliray",
+  name: "Freedreaming Blurring Lightweight Skin Tint",
+  type: "Lightweight blurring skin tint",
+  sizes: ["standard"],
+  image: "",
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/caliray-freedreaming-clean-blurring-skin-tint-P480579"
+  }),
+  alternatives: {
+    US: "summerFridaysSheerSkinTint",
+    FR: "fentyEazeDropBlurringSkinTint",
+    UK: "hourglassVeilHydratingSkinTint",
+    AU: "rareBeautyPositiveLightTintedMoisturizer",
+    BR: "fentySoftLitLuminousFoundation"
+  }
+}),
+
+lixrBeautySkinShakeSerumTint: productData({
+  category: "Serum Skin Tint",
+  brand: "LIXR Beauty",
+  name: "Skin Shake Bi-Phase Serum Skin Tint with Squalane",
+  type: "Bi-phase serum skin tint / lightweight glow",
+  sizes: ["standard"],
+  image: "",
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/lixr-skin-shake-bi-phase-serum-roller-P521067"
+  }),
+  alternatives: {
+    US: "danessaMyricksYummySkinSerumTint",
+    FR: "fentySoftLitLuminousFoundation",
+    UK: "hudaEasyBlurFoundation",
+    AU: "fentySoftLitLuminousFoundation",
+    BR: "fentySoftLitLuminousFoundation"
+  }
+}),
+
+smashboxHaloHealthyGlowTintedMoisturizer: productData({
+  category: "Tinted Moisturizer",
+  brand: "Smashbox",
+  name: "Halo Healthy Glow Tinted Moisturizer Broad Spectrum SPF 25 with Hyaluronic Acid",
+  type: "Healthy glow tinted moisturizer / SPF 25",
+  sizes: ["standard"],
+  image: "",
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/smashbox-halo-healthy-glow-tinted-moisturizer-broad-spectrum-spf-25-P460019"
+  }),
+  alternatives: {
+    US: "hourglassVeilHydratingSkinTint",
+    FR: "fentyEazeDropBlurringSkinTint",
+    UK: "charlotteTilburyBeautifulSkinFoundation",
+    AU: "fentySoftLitLuminousFoundation",
+    BR: "rareBeautyPositiveLightTintedMoisturizer"
+  }
+}),
+
+lauraMercierNaturalDewySkinTint: productData({
+  category: "Tinted Moisturizer",
+  brand: "Laura Mercier",
+  name: "Long-Wear Tinted Moisturizer Natural Dewy with Hyaluronic Acid",
+  type: "Natural dewy tinted moisturizer / long-wear",
+  sizes: ["mini", "standard"],
+  image: "",
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/skin-tint-natural-dewy-P514826"
+  }),
+  alternatives: {
+    US: "hourglassVeilHydratingSkinTint",
+    FR: "fentyEazeDropBlurringSkinTint",
+    UK: "charlotteTilburyBeautifulSkinFoundation",
+    AU: "rareBeautyPositiveLightTintedMoisturizer",
+    BR: "fentySoftLitLuminousFoundation"
+  }
+}),
+
+  // -------------------------
   // BRUSHES / TOOLS
   // -------------------------
   sephoraFoundationBrush47: productData({
