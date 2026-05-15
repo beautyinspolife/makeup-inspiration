@@ -79,6 +79,432 @@ function productData({
 
 const PRODUCT_CATALOG = {
   // -------------------------
+// FARDS À PAUPIÈRES / EYESHADOW
+// -------------------------
+
+isamayaPaletteCore20: productData({
+  category: "Eyeshadow",
+  brand: "ISAMAYA",
+  name: "Palette Core 2.0",
+  type: "Eyeshadow palette",
+  sizes: ["palette"],
+  links: countryLinks({})
+}),
+
+danessaMyricksDreamFreedomPastelMiniPalette: productData({
+  category: "Eyeshadow",
+  brand: "Danessa Myricks Beauty",
+  name: "Dream Freedom Pastel Mini Palette",
+  type: "Mini eyeshadow palette",
+  sizes: ["mini", "palette"],
+  links: countryLinks({})
+}),
+
+natashaDenonaLoveFacePalette: productData({
+  category: "Face & Eye Palette",
+  brand: "NATASHA DENONA",
+  name: "Love Face Palette",
+  type: "Face and eye palette",
+  sizes: ["palette"],
+  links: countryLinks({})
+}),
+
+charlotteTilburyDarlingPalette: productData({
+  category: "Eyeshadow",
+  brand: "Charlotte Tilbury",
+  name: "Darling Eyeshadow Palette",
+  type: "Eyeshadow palette",
+  sizes: ["palette"],
+  links: countryLinks({})
+}),
+
+isamayaBasePalette10: productData({
+  category: "Eyeshadow",
+  brand: "ISAMAYA",
+  name: "Palette Base 1.0",
+  type: "Eyeshadow palette",
+  sizes: ["palette"],
+  links: countryLinks({})
+}),
+
+anastasiaPrimroseFaceEyePalette: productData({
+  category: "Face & Eye Palette",
+  brand: "Anastasia Beverly Hills",
+  name: "Primrose Palette",
+  type: "Face and eye palette",
+  sizes: ["palette"],
+  links: countryLinks({})
+}),
+
+patMcGrathMothershipVBronzeSeduction: productData({
+  category: "Eyeshadow",
+  brand: "PAT McGRATH LABS",
+  name: "Mothership V: Bronze Seduction",
+  type: "Eyeshadow palette",
+  sizes: ["palette"],
+  links: countryLinks({})
+}),
+
+patMcGrathMothershipIXHuetopianDream: productData({
+  category: "Eyeshadow",
+  brand: "PAT McGRATH LABS",
+  name: "Mothership IX: Huetopian Dream",
+  type: "Eyeshadow palette",
+  sizes: ["palette"],
+  links: countryLinks({})
+}),
+
+danessaMyricksGroundworkPalette: productData({
+  category: "Eyeshadow",
+  brand: "Danessa Myricks Beauty",
+  name: "Groundwork Palette",
+  type: "Multi-use eye palette",
+  sizes: ["palette"],
+  links: countryLinks({})
+}),
+
+natashaDenonaLuxeGlamCompactQuad: productData({
+  category: "Eyeshadow",
+  brand: "NATASHA DENONA",
+  name: "Luxe Glam Compact Quad Eyeshadow Palette",
+  type: "Eyeshadow quad",
+  sizes: ["palette"],
+  links: countryLinks({})
+}),
+
+danessaMyricksLightworkVIIPalette: productData({
+  category: "Eyeshadow",
+  brand: "Danessa Myricks Beauty",
+  name: "LIGHTWORK VII: The Freedom Palette",
+  type: "Eyeshadow palette",
+  sizes: ["palette"],
+  links: countryLinks({})
+}),
+
+anastasiaNouveauPalette: productData({
+  category: "Eyeshadow",
+  brand: "Anastasia Beverly Hills",
+  name: "Nouveau Palette",
+  type: "Eyeshadow palette",
+  sizes: ["palette"],
+  links: countryLinks({})
+}),
+
+patrickTaMajorDimensionIIRosePalette: productData({
+  category: "Eyeshadow",
+  brand: "PATRICK TA",
+  name: "Major Dimension II Rose Eyeshadow Palette",
+  type: "Eyeshadow palette",
+  sizes: ["palette"],
+  links: countryLinks({})
+}),
+
+patMcGrathDivineBronzePalette: productData({
+  category: "Eyeshadow",
+  brand: "PAT McGRATH LABS",
+  name: "Divine Bronze Eyeshadow Palette",
+  type: "Eyeshadow palette",
+  sizes: ["palette"],
+  links: countryLinks({})
+}),
+
+kajaBentoEyeshadowTrio: productData({
+  category: "Eyeshadow",
+  brand: "Kaja",
+  name: "Bento Eyeshadow Trio",
+  type: "Stacked eyeshadow trio",
+  sizes: ["palette"],
+  links: countryLinks({})
+}),
+
+sephoraCollectionMegaMixPalette: productData({
+  category: "Eyeshadow",
+  brand: "SEPHORA COLLECTION",
+  name: "Mega Mix Eyeshadow Palette",
+  type: "Eyeshadow palette",
+  sizes: ["palette"],
+  links: countryLinks({})
+}),
+
+natashaDenonaXenonPalette: productData({
+  category: "Eyeshadow",
+  brand: "NATASHA DENONA",
+  name: "Xenon Palette",
+  type: "Eyeshadow palette",
+  sizes: ["palette"],
+  links: countryLinks({})
+}),
+
+makeUpForEverArtistToGoPalette: productData({
+  category: "Eyeshadow",
+  brand: "MAKE UP FOR EVER",
+  name: "Artist To Go Eyeshadow Palette",
+  type: "Mini eyeshadow palette",
+  sizes: ["mini", "palette"],
+  links: countryLinks({})
+}),
+
+pradaDimensionsMultiEffectPalette: productData({
+  category: "Eyeshadow",
+  brand: "Prada",
+  name: "Dimensions Multi-Effect Refillable Eyeshadow Palette",
+  type: "Refillable eyeshadow palette",
+  sizes: ["palette"],
+  links: countryLinks({})
+}),
+
+natashaDenonaMyDreamPalette: productData({
+  category: "Eyeshadow",
+  brand: "NATASHA DENONA",
+  name: "My Dream Eyeshadow Palette",
+  type: "Eyeshadow palette",
+  sizes: ["palette"],
+  links: countryLinks({})
+}),
+
+macConnectInColor12Palette: productData({
+  category: "Eyeshadow",
+  brand: "MAC Cosmetics",
+  name: "Connect In Color Eye Shadow Palette - 12 Pan",
+  type: "Eyeshadow palette",
+  sizes: ["palette"],
+  links: countryLinks({})
+}),
+
+anastasiaSoftGlamIIMiniPalette: productData({
+  category: "Eyeshadow",
+  brand: "Anastasia Beverly Hills",
+  name: "Soft Glam II Mini Eyeshadow Palette",
+  type: "Mini eyeshadow palette",
+  sizes: ["mini", "palette"],
+  links: countryLinks({})
+}),
+
+urbanDecayMiniNaked3Palette: productData({
+  category: "Eyeshadow",
+  brand: "Urban Decay",
+  name: "Mini Naked3 Eyeshadow Palette",
+  type: "Mini eyeshadow palette",
+  sizes: ["mini", "palette"],
+  links: countryLinks({})
+}),
+
+natashaDenonaEyeSculptPalette: productData({
+  category: "Eyeshadow",
+  brand: "NATASHA DENONA",
+  name: "Eye Sculpt Palette",
+  type: "Eyeshadow palette",
+  sizes: ["palette"],
+  links: countryLinks({})
+}),
+
+anastasiaHazeMiniPalette: productData({
+  category: "Eyeshadow",
+  brand: "Anastasia Beverly Hills",
+  name: "Haze Mini Eyeshadow Palette",
+  type: "Mini eyeshadow palette",
+  sizes: ["mini", "palette"],
+  links: countryLinks({})
+}),
+
+hudaIcyNudePalette: productData({
+  category: "Eyeshadow",
+  brand: "HUDA BEAUTY",
+  name: "Icy Nude Eyeshadow Palette",
+  type: "Eyeshadow palette",
+  sizes: ["palette"],
+  links: countryLinks({})
+}),
+
+patrickTaMajorDimensionPalette: productData({
+  category: "Eyeshadow",
+  brand: "PATRICK TA",
+  name: "Major Dimension Eyeshadow Palette",
+  type: "Eyeshadow palette",
+  sizes: ["palette"],
+  links: countryLinks({})
+}),
+
+natashaDenonaRetroGlamPalette: productData({
+  category: "Eyeshadow",
+  brand: "NATASHA DENONA",
+  name: "Retro Glam Eyeshadow Palette",
+  type: "Eyeshadow palette",
+  sizes: ["palette"],
+  links: countryLinks({})
+}),
+
+hudaEmpoweredPalette: productData({
+  category: "Eyeshadow",
+  brand: "HUDA BEAUTY",
+  name: "Empowered Eyeshadow Palette",
+  type: "Eyeshadow palette",
+  sizes: ["palette"],
+  links: countryLinks({})
+}),
+
+diorDiorshow5CouleursPalette: productData({
+  category: "Eyeshadow",
+  brand: "DIOR",
+  name: "Diorshow 5 Couleurs Eyeshadow Palette",
+  type: "Eyeshadow palette",
+  sizes: ["palette"],
+  links: countryLinks({})
+}),
+
+hudaNewNudePalette: productData({
+  category: "Eyeshadow",
+  brand: "HUDA BEAUTY",
+  name: "The New Nude Eyeshadow Palette",
+  type: "Eyeshadow palette",
+  sizes: ["palette"],
+  links: countryLinks({})
+}),
+
+natashaDenonaRetroPalette: productData({
+  category: "Eyeshadow",
+  brand: "NATASHA DENONA",
+  name: "Retro Eyeshadow Palette",
+  type: "Eyeshadow palette",
+  sizes: ["palette"],
+  links: countryLinks({})
+}),
+
+natashaDenonaINeedAWarmPalette: productData({
+  category: "Eyeshadow",
+  brand: "NATASHA DENONA",
+  name: "I Need A Warm Eyeshadow Palette",
+  type: "Eyeshadow palette",
+  sizes: ["palette"],
+  links: countryLinks({})
+}),
+
+patrickTaMajorDimensionIIIMattesPalette: productData({
+  category: "Eyeshadow",
+  brand: "PATRICK TA",
+  name: "Major Dimension III Matte Eyeshadow Palette",
+  type: "Matte eyeshadow palette",
+  sizes: ["palette"],
+  links: countryLinks({})
+}),
+
+patMcGrathCelestialDivinityPalette: productData({
+  category: "Eyeshadow",
+  brand: "PAT McGRATH LABS",
+  name: "Celestial Divinity Eyeshadow Palette",
+  type: "Eyeshadow palette",
+  sizes: ["palette"],
+  links: countryLinks({})
+}),
+
+natashaDenonaMiniStarlettePalette: productData({
+  category: "Eyeshadow",
+  brand: "NATASHA DENONA",
+  name: "Mini Starlette Eyeshadow Palette",
+  type: "Mini eyeshadow palette",
+  sizes: ["mini", "palette"],
+  links: countryLinks({})
+}),
+
+urbanDecayNaked2BasicsPalette: productData({
+  category: "Eyeshadow",
+  brand: "Urban Decay",
+  name: "Naked2 Basics Eyeshadow Palette",
+  type: "Eyeshadow palette",
+  sizes: ["palette"],
+  links: countryLinks({})
+}),
+
+lawlessTheLittleOnePalette: productData({
+  category: "Eyeshadow",
+  brand: "LAWLESS",
+  name: "The Little One Eyeshadow Palette",
+  type: "Mini eyeshadow palette",
+  sizes: ["mini", "palette"],
+  links: countryLinks({})
+}),
+
+natashaDenonaMiniRosePalette: productData({
+  category: "Eyeshadow",
+  brand: "NATASHA DENONA",
+  name: "Mini Rose Eyeshadow Palette",
+  type: "Mini eyeshadow palette",
+  sizes: ["mini", "palette"],
+  links: countryLinks({})
+}),
+
+makeupByMarioEtherealEyesMoonlightPalette: productData({
+  category: "Eyeshadow",
+  brand: "MAKEUP BY MARIO",
+  name: "Ethereal Eyes Eyeshadow Palette: Moonlight",
+  type: "Eyeshadow palette",
+  sizes: ["palette"],
+  links: countryLinks({})
+}),
+
+cliniqueAllAboutShadow8PanPalette: productData({
+  category: "Eyeshadow",
+  brand: "CLINIQUE",
+  name: "All About Shadow 8-Pan Palette",
+  type: "Eyeshadow palette",
+  sizes: ["palette"],
+  links: countryLinks({})
+}),
+
+natashaDenonaGlamPalette: productData({
+  category: "Eyeshadow",
+  brand: "NATASHA DENONA",
+  name: "Glam Eyeshadow Palette",
+  type: "Eyeshadow palette",
+  sizes: ["palette"],
+  links: countryLinks({})
+}),
+
+diorBackstageEyePalette: productData({
+  category: "Eyeshadow",
+  brand: "DIOR",
+  name: "Backstage Eye Palette",
+  type: "Eyeshadow palette",
+  sizes: ["palette"],
+  links: countryLinks({})
+}),
+
+hungVanngoBeautyColorStoryPalette: productData({
+  category: "Eyeshadow",
+  brand: "Hung Vanngo Beauty",
+  name: "Color Story Eyeshadow Palette",
+  type: "Eyeshadow palette",
+  sizes: ["palette"],
+  links: countryLinks({})
+}),
+
+yslCoutureMiniClutchPalette: productData({
+  category: "Eyeshadow",
+  brand: "Yves Saint Laurent",
+  name: "Couture Mini Clutch Eyeshadow Palette",
+  type: "Eyeshadow palette",
+  sizes: ["palette"],
+  links: countryLinks({})
+}),
+
+glossierEssentialMonochromesPalette: productData({
+  category: "Eyeshadow",
+  brand: "Glossier",
+  name: "Essential Monochromes Eyeshadow Palette",
+  type: "Eyeshadow trio",
+  sizes: ["palette"],
+  links: countryLinks({})
+}),
+
+anastasiaSoftGlamPalette: productData({
+  category: "Eyeshadow",
+  brand: "Anastasia Beverly Hills",
+  name: "Soft Glam Eyeshadow Palette",
+  type: "Eyeshadow palette",
+  sizes: ["palette"],
+  links: countryLinks({})
+}),
+  // -------------------------
   // PRIMERS / BASES
   // -------------------------
   milkHydroGripPrimer: productData({
