@@ -9208,78 +9208,464 @@ glossierFuturedewSolidOilSerumIlluminator: productData({
   // -------------------------
   // BRONZER / CONTOUR
   // -------------------------
-  makeupByMarioSoftSculptStick: productData({
-    category: "Bronzer / Contour",
-    brand: "MAKEUP BY MARIO",
-    name: "SoftSculpt Cream Contour & Bronzer Shaping Stick",
-    image: skuImage("s2867505"),
-    links: {
-      US: "https://www.sephora.com/product/softsculpt-cream-contour-bronzer-stick-P516546",
-      CA: "https://www.sephora.com/ca/en/product/softsculpt-cream-contour-bronzer-stick-P516546"
-    }
+  westmanAtelierMiniFaceTraceContourStick: productData({
+  category: "Contour Stick",
+  brand: "Westman Atelier",
+  name: "Mini Petite Face Trace Cream Contour Stick",
+  type: "Mini cream contour stick with a natural sculpted finish",
+  sizes: ["mini"],
+  image: skuImage("s2640811"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/westman-atelier-petite-face-trace-contour-stick-P504318"
   }),
+  alternatives: {
+    US: "makeupByMarioMiniSoftSculptShapingStick",
+    FR: "sephoraCollectionCreamContourStick",
+    UK: "fentyBeautyMatchStixMatteContourSkinstick",
+    AU: "milkMakeupSculptCreamContourStick",
+    BR: "lysBeautyNoLimitsCreamBronzerContourStick"
+  }
+}),
 
-  makeupByMarioSkinEnhancer: productData({
-    category: "Bronzer / Contour",
-    brand: "MAKEUP BY MARIO",
-    name: "SoftSculpt Transforming Skin Enhancer",
-    links: {
-      US: "https://www.sephora.com/product/softsculpt-transforming-skin-enhancer-P500452",
-      CA: "https://www.sephora.com/ca/en/product/softsculpt-transforming-skin-enhancer-P500452"
-    }
+westmanAtelierFaceTraceContourStick: productData({
+  category: "Contour Stick",
+  brand: "Westman Atelier",
+  name: "Face Trace Cream Contour Stick",
+  type: "Cream contour stick for soft sculpting and definition",
+  sizes: ["standard"],
+  image: skuImage("s2434108"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/westman-atelier-face-trace-contour-stick-P468433"
   }),
+  alternatives: {
+    US: "makeupByMarioSoftSculptContourBronzerStick",
+    FR: "sephoraCollectionCreamContourStick",
+    UK: "fentyBeautyMatchStixMatteContourSkinstick",
+    AU: "milkMakeupSculptCreamContourStick",
+    BR: "rareBeautySoftPinchLiquidContour"
+  }
+}),
 
-  narsLagunaBronzingCream: productData({
-    category: "Bronzer / Contour",
-    brand: "NARS",
-    name: "Laguna Bronzing Cream",
-    image: skuImage("s2568798"),
-    links: {
-      US: "https://www.sephora.com/product/nars-laguna-bronzing-cream-P471270",
-      CA: "https://www.sephora.com/ca/en/product/nars-laguna-bronzing-cream-P471270"
-    }
+diorForeverSkinCreamContourStick: productData({
+  category: "Contour Stick",
+  brand: "DIOR",
+  name: "Forever Skin Cream Contour Sculpting Face Stick",
+  type: "Luxury cream contour and bronzing face stick",
+  sizes: ["standard"],
+  image: skuImage("s2789063"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/dior-forever-24h-wear-seamless-contour-stick-P512863"
   }),
+  alternatives: {
+    US: "makeupByMarioSoftSculptContourBronzerStick",
+    FR: "sephoraCollectionCreamContourStick",
+    UK: "fentyBeautyMatchStixMatteContourSkinstick",
+    AU: "milkMakeupSculptCreamContourStick",
+    BR: "lysBeautyNoLimitsCreamBronzerContourStick"
+  }
+}),
 
-  fentySunStalkrBronzer: productData({
-    category: "Bronzer",
-    brand: "Fenty Beauty by Rihanna",
-    name: "Sun Stalk'r Instant Warmth Bronzer",
-    links: {
-      US: "https://www.sephora.com/product/sun-stalk-r-instant-warmth-bronzer-P55978845",
-      CA: "https://www.sephora.com/ca/en/product/sun-stalk-r-instant-warmth-bronzer-P55978845"
-    }
+makeupByMarioSoftSculptContourBronzerStick: productData({
+  category: "Contour Stick",
+  brand: "MAKEUP BY MARIO",
+  name: "SoftSculpt® Cream Contour & Bronzer Shaping Stick",
+  type: "Dual-ended cream contour and bronzer shaping stick",
+  sizes: ["standard"],
+  image: skuImage("s2867505"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/softsculpt-cream-contour-bronzer-stick-P516546"
   }),
+  alternatives: {
+    US: "westmanAtelierFaceTraceContourStick",
+    FR: "sephoraCollectionCreamContourStick",
+    UK: "fentyBeautyMatchStixMatteContourSkinstick",
+    AU: "milkMakeupSculptCreamContourStick",
+    BR: "rareBeautySoftPinchLiquidContour"
+  }
+}),
 
-  benefitHoolaBronzer: productData({
-    category: "Bronzer",
-    brand: "Benefit Cosmetics",
-    name: "Hoola Matte Bronzer",
-    links: {
-      US: "https://www.sephora.com/product/hoola-matte-bronzer-P290636",
-      CA: "https://www.sephora.com/ca/en/product/hoola-matte-bronzer-P290636"
-    }
+makeupByMarioMiniSoftSculptShapingStick: productData({
+  category: "Contour Stick",
+  brand: "MAKEUP BY MARIO",
+  name: "Mini SoftSculpt® Shaping Stick",
+  type: "Mini cream contour stick for soft definition",
+  sizes: ["mini"],
+  image: skuImage("s2867430"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/mini-softsculpt-shaping-stick-P516118?skuId=2867430"
   }),
+  alternatives: {
+    US: "westmanAtelierMiniFaceTraceContourStick",
+    FR: "sephoraCollectionCreamContourStick",
+    UK: "fentyBeautyMatchStixMatteContourSkinstick",
+    AU: "milkMakeupSculptCreamContourStick",
+    BR: "lysBeautyNoLimitsCreamBronzerContourStick"
+  }
+}),
 
-  rareBeautyWarmWishesBronzer: productData({
-    category: "Bronzer / Contour",
-    brand: "Rare Beauty by Selena Gomez",
-    name: "Warm Wishes Effortless Bronzer Stick",
-    links: {
-      US: "https://www.sephora.com/product/rare-beauty-by-selena-gomez-warm-wishes-effortless-bronzer-stick-P501539",
-      CA: "https://www.sephora.com/ca/en/product/rare-beauty-by-selena-gomez-warm-wishes-effortless-bronzer-stick-P501539"
-    }
+rareBeautySoftPinchLiquidContour: productData({
+  category: "Liquid Contour",
+  brand: "Rare Beauty by Selena Gomez",
+  name: "Soft Pinch Liquid Contour",
+  type: "Weightless liquid contour for natural lifted definition",
+  sizes: ["standard"],
+  image: skuImage("s2828705"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/soft-pinch-liquid-contour-P514741"
   }),
+  alternatives: {
+    US: "saieDewBronzeLiquidBronzer",
+    FR: "sephoraCollectionCreamContourStick",
+    UK: "makeupByMarioSoftSculptContourBronzerStick",
+    AU: "fentyBeautyMatchStixMatteContourSkinstick",
+    BR: "lysBeautyNoLimitsCreamBronzerContourStick"
+  }
+}),
 
-  milkSculptCreamContourStick: productData({
-    category: "Bronzer / Contour",
-    brand: "MILK MAKEUP",
-    name: "Sculpt Cream Contour Stick",
-    links: {
-      US: "https://www.sephora.com/product/milk-makeup-sculpt-cream-contour-stick-P503903",
-      CA: "https://www.sephora.com/ca/en/product/milk-makeup-sculpt-cream-contour-stick-P503903"
-    }
+sephoraCollectionCreamContourStick: productData({
+  category: "Contour Stick",
+  brand: "SEPHORA COLLECTION",
+  name: "Cream Contour Stick",
+  type: "Affordable cream contour stick for face sculpting",
+  sizes: ["standard"],
+  image: skuImage("s2731289"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/contour-stick-P511273"
   }),
+  alternatives: {
+    US: "makeupByMarioSoftSculptContourBronzerStick",
+    FR: "rareBeautySoftPinchLiquidContour",
+    UK: "fentyBeautyMatchStixMatteContourSkinstick",
+    AU: "milkMakeupSculptCreamContourStick",
+    BR: "lysBeautyNoLimitsCreamBronzerContourStick"
+  }
+}),
 
+fentyBeautyMatchStixMatteContourSkinstick: productData({
+  category: "Contour Stick",
+  brand: "Fenty Beauty by Rihanna",
+  name: "Match Stix Matte Contour Skinstick",
+  type: "Matte contour stick for sculpting and defining",
+  sizes: ["standard"],
+  image: skuImage("s1925577"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/match-stix-matte-skinstick-P18975403"
+  }),
+  alternatives: {
+    US: "makeupByMarioSoftSculptContourBronzerStick",
+    FR: "sephoraCollectionCreamContourStick",
+    UK: "rareBeautySoftPinchLiquidContour",
+    AU: "milkMakeupSculptCreamContourStick",
+    BR: "lysBeautyNoLimitsCreamBronzerContourStick"
+  }
+}),
+
+milkMakeupSculptCreamContourStick: productData({
+  category: "Contour Stick",
+  brand: "MILK MAKEUP",
+  name: "Sculpt Cream Contour Stick",
+  type: "Cream contour stick with a matte sculpted finish",
+  sizes: ["standard"],
+  image: skuImage("s2872406"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/milk-makeup-sculpt-cream-contour-stick-P503903"
+  }),
+  alternatives: {
+    US: "fentyBeautyMatchStixMatteContourSkinstick",
+    FR: "sephoraCollectionCreamContourStick",
+    UK: "makeupByMarioSoftSculptContourBronzerStick",
+    AU: "rareBeautySoftPinchLiquidContour",
+    BR: "lysBeautyNoLimitsCreamBronzerContourStick"
+  }
+}),
+
+lysBeautyNoLimitsCreamBronzerContourStick: productData({
+  category: "Bronzer Stick",
+  brand: "LYS Beauty",
+  name: "No Limits Cream Bronzer and Contour Stick",
+  type: "Cream bronzer and contour stick for sculpting warmth",
+  sizes: ["standard"],
+  image: skuImage("s2735967"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/no-limits-cream-bronzer-stick-P500123"
+  }),
+  alternatives: {
+    US: "fentyBeautyMatchStixMatteContourSkinstick",
+    FR: "sephoraCollectionCreamContourStick",
+    UK: "makeupByMarioSoftSculptContourBronzerStick",
+    AU: "milkMakeupSculptCreamContourStick",
+    BR: "rareBeautySoftPinchLiquidContour"
+  }
+}),
+
+saieDewBronzeLiquidBronzer: productData({
+  category: "Liquid Bronzer",
+  brand: "Saie",
+  name: "Dew Bronze Soft-Focus Sculpting Liquid Bronzer",
+  type: "Soft-focus liquid bronzer for natural sculpting",
+  sizes: ["standard"],
+  image: skuImage("s2753788"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/saie-dew-bronze-soft-focus-effortless-liquid-bronzer-P510823"
+  }),
+  alternatives: {
+    US: "rareBeautySoftPinchLiquidContour",
+    FR: "sephoraCollectionCreamContourStick",
+    UK: "makeupByMarioSoftSculptContourBronzerStick",
+    AU: "fentyBeautyMatchStixMatteContourSkinstick",
+    BR: "lysBeautyNoLimitsCreamBronzerContourStick"
+  }
+}),
+
+morpheSuddenHeatCreamyBronzerStick: productData({
+  category: "Bronzer Stick",
+  brand: "Morphe",
+  name: "Sudden Heat Creamy Bronzer Stick",
+  type: "Creamy bronzer stick with a soft matte finish",
+  sizes: ["standard"],
+  image: skuImage("s2877223"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/sudden-heat-creamy-bronzer-stick-P517701"
+  }),
+  alternatives: {
+    US: "lysBeautyNoLimitsCreamBronzerContourStick",
+    FR: "sephoraCollectionCreamContourStick",
+    UK: "makeupByMarioSoftSculptContourBronzerStick",
+    AU: "milkMakeupSculptCreamContourStick",
+    BR: "rareBeautySoftPinchLiquidContour"
+  }
+}),
+
+tooFacedChocolateSoleilBronzingStick: productData({
+  category: "Bronzer Stick",
+  brand: "Too Faced",
+  name: "Chocolate Soleil Melting Bronzing & Sculpting Stick",
+  type: "Melting cream bronzing and sculpting stick",
+  sizes: ["standard"],
+  image: skuImage("s2772101"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/too-faced-chocolate-soleil-bronzing-stick-P510403"
+  }),
+  alternatives: {
+    US: "lysBeautyNoLimitsCreamBronzerContourStick",
+    FR: "sephoraCollectionCreamContourStick",
+    UK: "makeupByMarioSoftSculptContourBronzerStick",
+    AU: "fentyBeautyMatchStixMatteContourSkinstick",
+    BR: "milkMakeupSculptCreamContourStick"
+  }
+}),
+
+meritBronzeBalmSheerBronzer: productData({
+  category: "Bronzer Stick",
+  brand: "MERIT",
+  name: "Bronze Balm Sheer Sculpting Bronzer",
+  type: "Sheer cream bronzer stick for natural warmth",
+  sizes: ["standard"],
+  image: skuImage("s2744068"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/bronze-balm-sheer-sculpting-bronzer-P501766"
+  }),
+  alternatives: {
+    US: "saieDewBronzeLiquidBronzer",
+    FR: "sephoraCollectionCreamContourStick",
+    UK: "rareBeautySoftPinchLiquidContour",
+    AU: "milkMakeupSculptCreamContourStick",
+    BR: "lysBeautyNoLimitsCreamBronzerContourStick"
+  }
+}),
+
+charlotteTilburyHollywoodContourWand: productData({
+  category: "Liquid Contour",
+  brand: "Charlotte Tilbury",
+  name: "Hollywood Contour Wand",
+  type: "Liquid cream contour wand for sculpted cheekbones",
+  sizes: ["standard"],
+  image: skuImage("s2841278"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/hollywood-contour-wand-P434002"
+  }),
+  alternatives: {
+    US: "rareBeautySoftPinchLiquidContour",
+    FR: "sephoraCollectionCreamContourStick",
+    UK: "makeupByMarioSoftSculptContourBronzerStick",
+    AU: "fentyBeautyMatchStixMatteContourSkinstick",
+    BR: "lysBeautyNoLimitsCreamBronzerContourStick"
+  }
+}),
+
+anastasiaSmoothBlurCreamContourStick: productData({
+  category: "Contour Stick",
+  brand: "Anastasia Beverly Hills",
+  name: "Smooth Blur Cream Contour Stick",
+  type: "Cream contour stick with a smooth blurred finish",
+  sizes: ["standard"],
+  image: skuImage("s2934743"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/anastasia-beverly-hills-smooth-blur-cream-contour-stick-P516074"
+  }),
+  alternatives: {
+    US: "makeupByMarioSoftSculptContourBronzerStick",
+    FR: "sephoraCollectionCreamContourStick",
+    UK: "fentyBeautyMatchStixMatteContourSkinstick",
+    AU: "milkMakeupSculptCreamContourStick",
+    BR: "rareBeautySoftPinchLiquidContour"
+  }
+}),
+  charlotteTilburyAirbrushMatteBronzer: productData({
+  category: "Powder Bronzer",
+  brand: "Charlotte Tilbury",
+  name: "Refillable Airbrush Matte Bronzer",
+  type: "Matte powder bronzer in a refillable compact",
+  sizes: ["standard", "refill"],
+  image: skuImage("s2351187"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/charlotte-tilbury-airbrush-flawless-bronzer-P459144"
+  }),
+  alternatives: {
+    US: "hausLabsPowerSculptVelvetBronzer",
+    FR: "sephoraCollectionColorfulContourMattePowder",
+    UK: "makeupForEverArtistContourPowder",
+    AU: "patrickTaMajorSculptDuo",
+    BR: "westmanAtelierBabyCheeksFaceTraceDuo"
+  }
+}),
+
+hausLabsPowerSculptVelvetBronzer: productData({
+  category: "Powder Bronzer",
+  brand: "HAUS LABS BY LADY GAGA",
+  name: "Power Sculpt Velvet Talc-Free Powder Bronzer",
+  type: "Talc-free powder bronzer with a blurred velvet finish",
+  sizes: ["standard"],
+  image: skuImage("s2796555"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/power-sculpt-velvet-bronzer-powder-with-fermented-arnica-P500301"
+  }),
+  alternatives: {
+    US: "charlotteTilburyAirbrushMatteBronzer",
+    FR: "sephoraCollectionColorfulContourMattePowder",
+    UK: "makeupForEverArtistContourPowder",
+    AU: "patrickTaMajorSculptDuo",
+    BR: "westmanAtelierBabyCheeksFaceTraceDuo"
+  }
+}),
+
+sephoraCollectionColorfulContourMattePowder: productData({
+  category: "Contour Powder",
+  brand: "SEPHORA COLLECTION",
+  name: "Sephora Colorful® Contour Matte Powder",
+  type: "Single matte contour powder",
+  sizes: ["standard"],
+  image: skuImage("s2711281"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/sephora-colorful-contour-matte-powder-P509721"
+  }),
+  alternatives: {
+    US: "makeupForEverArtistContourPowder",
+    FR: "hausLabsPowerSculptVelvetBronzer",
+    UK: "charlotteTilburyAirbrushMatteBronzer",
+    AU: "patrickTaMajorSculptDuo",
+    BR: "westmanAtelierBabyCheeksFaceTraceDuo"
+  }
+}),
+
+makeupForEverArtistContourPowder: productData({
+  category: "Contour Powder",
+  brand: "MAKE UP FOR EVER",
+  name: "Artist Longwear Skin-Fusing Contour Powder",
+  type: "Longwear powder contour with a skin-fusing matte finish",
+  sizes: ["standard"],
+  image: skuImage("s2703031"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/artist-longwear-skin-fusing-contour-powder-p507362-P507362"
+  }),
+  alternatives: {
+    US: "sephoraCollectionColorfulContourMattePowder",
+    FR: "hausLabsPowerSculptVelvetBronzer",
+    UK: "charlotteTilburyAirbrushMatteBronzer",
+    AU: "patrickTaMajorSculptDuo",
+    BR: "westmanAtelierBabyCheeksFaceTraceDuo"
+  }
+}),
+
+patrickTaMajorSculptDuo: productData({
+  category: "Contour & Bronzer Duo",
+  brand: "PATRICK TA",
+  name: "Major Sculpt Crème Contour & Powder Bronzer Duo",
+  type: "Cream contour and powder bronzer sculpting duo",
+  sizes: ["duo"],
+  image: skuImage("s2653921"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/patrick-ta-major-sculpt-creme-contour-powder-bronzer-duo-P471059"
+  }),
+  alternatives: {
+    US: "westmanAtelierBabyCheeksFaceTraceDuo",
+    FR: "sephoraCollectionColorfulContourMattePowder",
+    UK: "charlotteTilburyAirbrushMatteBronzer",
+    AU: "hausLabsPowerSculptVelvetBronzer",
+    BR: "makeupForEverArtistContourPowder"
+  }
+}),
+
+westmanAtelierBabyCheeksFaceTraceDuo: productData({
+  category: "Contour & Blush Duo",
+  brand: "Westman Atelier",
+  name: "Baby Cheeks + Face Trace Sculpting Powder Duo",
+  type: "Powder blush and contour sculpting duo",
+  sizes: ["duo"],
+  image: skuImage("s2869105"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/baby-cheeks-face-trace-sculpting-powder-duo-P516091"
+  }),
+  alternatives: {
+    US: "patrickTaMajorSculptDuo",
+    FR: "sephoraCollectionColorfulContourMattePowder",
+    UK: "charlotteTilburyAirbrushMatteBronzer",
+    AU: "hausLabsPowerSculptVelvetBronzer",
+    BR: "makeupForEverArtistContourPowder"
+  }
+}),
+
+macStudioFixSculptShapeContourPalette: productData({
+  category: "Contour Palette",
+  brand: "MAC Cosmetics",
+  name: "Studio Fix Sculpt and Shape Sheer Contour and Highlight Palette",
+  type: "Six-shade sheer contour and highlight face palette",
+  sizes: ["palette"],
+  image: skuImage("s2044030"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/studio-fix-sculpt-shape-contour-palette-P14798414"
+  }),
+  alternatives: {
+    US: "smashboxCaliContourFacePalette",
+    FR: "sephoraCollectionColorfulContourMattePowder",
+    UK: "patrickTaMajorSculptDuo",
+    AU: "makeupForEverArtistContourPowder",
+    BR: "hausLabsPowerSculptVelvetBronzer"
+  }
+}),
+
+smashboxCaliContourFacePalette: productData({
+  category: "Contour Palette",
+  brand: "Smashbox",
+  name: "Cali Contour Face Palette",
+  type: "Six-well contour, bronzer, blush and highlighter face palette",
+  sizes: ["palette"],
+  image: skuImage("s2026565"),
+  links: countryLinks({
+    CA: "https://www.sephora.com/ca/en/product/cali-contour-palette-P429909"
+  }),
+  alternatives: {
+    US: "macStudioFixSculptShapeContourPalette",
+    FR: "sephoraCollectionColorfulContourMattePowder",
+    UK: "patrickTaMajorSculptDuo",
+    AU: "charlotteTilburyAirbrushMatteBronzer",
+    BR: "hausLabsPowerSculptVelvetBronzer"
+  }
+}),
+  // -------------------------
+  // BB CREMES
+  // -------------------------
+  
   // -------------------------
   // MASCARA
   // -------------------------
