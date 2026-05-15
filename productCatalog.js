@@ -6926,7 +6926,272 @@ narsTalcFreePowderBlush: productData({
   // -------------------------
   // HIGHLIGHTER / GLOW
   // -------------------------
+  westmanAtelierLiquidSuperLoadedIlluminator: productData({
+    category: "Highlighter",
+    brand: "Westman Atelier",
+    name: "Liquid Super Loaded All-Over Illuminating Highlighter with Vitamin C",
+    type: "Liquid complexion illuminator",
+    sizes: ["standard"],
+    image: skuImage("s2701282"),
+    links: countryLinks({
+      US: "https://www.sephora.com/product/liquid-super-loaded-all-over-illuminator-with-vitamin-c-P506546",
+      CA: "https://www.sephora.com/ca/en/product/liquid-super-loaded-all-over-illuminator-with-vitamin-c-P506546"
+    }),
+    alternatives: {
+      FR: "westmanAtelierSuperLoadedTintedHighlight",
+      UK: "westmanAtelierLitUpHighlightStick",
+      AU: "westmanAtelierLitUpHighlightStick",
+      BR: "rareBeautyPositiveLightLiquidLuminizer"
+    }
+  }),
 
+  guerlainTerracottaLuminizerHighlighterPowder: productData({
+    category: "Highlighter",
+    brand: "GUERLAIN",
+    name: "Terracotta Luminizer Highlighter Powder",
+    type: "Shimmering powder highlighter",
+    sizes: ["standard"],
+    image: skuImage("s2664118"),
+    links: countryLinks({
+      CA: "https://www.sephora.com/ca/en/product/guerlain-terracotta-luminizer-highlighter-powder-P505718"
+    }),
+    alternatives: {
+      US: "yslHyperLuminizePowderHighlighter",
+      FR: "rareBeautyPositiveLightHighlighter",
+      UK: "hourglassAmbientStrobeLightingPowder",
+      AU: "pradaLightGlowingHighlighterPowder",
+      BR: "fentyKillawattHighlighter"
+    }
+  }),
+
+  makeUpForEverStarLitPowder: productData({
+    category: "Highlighter",
+    brand: "MAKE UP FOR EVER",
+    name: "Star Lit Powder",
+    type: "Ultra-fine shimmering powder",
+    sizes: ["standard"],
+    image: skuImage("s1911114"),
+    links: countryLinks({
+      US: "https://www.sephora.com/product/star-lit-powder-P415958",
+      CA: "https://www.sephora.com/ca/en/product/star-lit-powder-P415958"
+    }),
+    alternatives: {
+      FR: "makeUpForEverHdSkinBlushGlowPalette",
+      UK: "hourglassAmbientStrobeLightingPowder",
+      AU: "fentyKillawattHighlighter",
+      BR: "fentyKillawattHighlighter"
+    }
+  }),
+
+  givenchyPrismeLibreStrobingHighlighterPowder: productData({
+    category: "Highlighter",
+    brand: "Givenchy",
+    name: "Prisme Libre Strobing & Illuminating Highlighter Powder",
+    type: "Marbled powder highlighter",
+    sizes: ["standard"],
+    image: skuImage("s2947679"),
+    links: countryLinks({
+      US: "https://www.sephora.com/product/prisme-libre-strobing-and-illuminating-highlighter-powder-P520320",
+      CA: "https://www.sephora.com/ca/en/product/prisme-libre-strobing-and-illuminating-highlighter-powder-P520320"
+    }),
+    alternatives: {
+      FR: "rareBeautyPositiveLightHighlighter",
+      UK: "yslHyperLuminizePowderHighlighter",
+      AU: "pradaLightGlowingHighlighterPowder",
+      BR: "fentyKillawattHighlighter"
+    }
+  }),
+
+  anastasiaBeverlyHillsFacePalette: productData({
+    category: "Highlighter Palette",
+    brand: "Anastasia Beverly Hills",
+    name: "Face Palettes – All in One Bronzer, Highlighter, Blush",
+    type: "Bronzer, highlighter and blush face palette",
+    sizes: ["palette"],
+    image: skuImage("s2411536"),
+    links: countryLinks({
+      CA: "https://www.sephora.com/ca/en/product/anastasia-beverly-hills-face-palette-P471735"
+    }),
+    alternatives: {
+      US: "natashaDenonaGlamFaceEyePalette",
+      FR: "hudaBlushFilterBlushlightersPalette",
+      UK: "charlotteMiniHollywoodBlushGlowPalette",
+      AU: "makeUpForEverHdSkinBlushGlowPalette",
+      BR: "rareBeautyPositiveLightHighlighter"
+    }
+  }),
+
+  kvdShadeLightRefillableContourPalette: productData({
+    category: "Highlighter / Contour Palette",
+    brand: "KVD Beauty",
+    name: "Shade + Light Refillable Powder Face Contour Palette",
+    type: "Powder contour and highlight palette",
+    sizes: ["palette"],
+    image: skuImage("s1848522"),
+    links: countryLinks({
+      CA: "https://www.sephora.com/ca/en/product/shade-light-face-contour-refillable-palette-P413458"
+    }),
+    alternatives: {
+      US: "makeupByMarioSoftSculptTransformingSkinPerfector",
+      FR: "makeUpForEverHdSkinSculptingPalette",
+      UK: "makeupByMarioSoftSculptTransformingSkinPerfector",
+      AU: "makeUpForEverHdSkinSculptingPalette",
+      BR: "fentyKillawattHighlighter"
+    }
+  }),
+
+  liseWatierHavanaTrioHighlighter: productData({
+    category: "Highlighter Palette",
+    brand: "Lise Watier",
+    name: "Havana Trio Highlighter",
+    type: "Three-shade powder highlighter palette",
+    sizes: ["palette"],
+    image: skuImage("s2133643"),
+    links: countryLinks({
+      CA: "https://www.sephora.com/ca/en/product/havana-trio-highlighter-P435747"
+    }),
+    alternatives: {
+      US: "hourglassAmbientLightingPalette",
+      FR: "rareBeautyPositiveLightHighlighter",
+      UK: "hourglassAmbientLightingPalette",
+      AU: "fentyKillawattHighlighter",
+      BR: "fentyKillawattHighlighter"
+    }
+  }),
+
+  gucciIlluminateurDeBeauteDrops: productData({
+    category: "Highlighter",
+    brand: "Gucci",
+    name: "Illuminateur De Beauté Multi Use Highlighting Drops",
+    type: "Liquid highlighting drops",
+    sizes: ["standard"],
+    image: skuImage("s2687135"),
+    links: countryLinks({
+      CA: "https://www.sephora.com/ca/en/product/eclat-de-beaute-multi-use-drops-P506101"
+    }),
+    alternatives: {
+      US: "armaniLuminousSilkAcquaHighlighter",
+      FR: "saieGlowySuperGel",
+      UK: "armaniFluidSheerGlowEnhancer",
+      AU: "westmanAtelierLiquidSuperLoadedIlluminator",
+      BR: "rareBeautyPositiveLightLiquidLuminizer"
+    }
+  }),
+
+  charlotteMiniHollywoodBlushGlowPalette: productData({
+    category: "Highlighter Palette",
+    brand: "Charlotte Tilbury",
+    name: "Mini Hollywood Blush & Glow Palette",
+    type: "Mini blush and highlighter palette",
+    sizes: ["mini", "palette"],
+    image: skuImage("s2705440"),
+    links: countryLinks({
+      US: "https://www.sephora.com/product/mini-hollywood-blush-glow-set-shade-1-P508700",
+      CA: "https://www.sephora.com/ca/en/product/mini-hollywood-blush-glow-set-shade-1-P508700"
+    }),
+    alternatives: {
+      FR: "charlotteBeautyHighlighterWand",
+      UK: "charlotteHollywoodFlawlessFilter",
+      AU: "charlotteHollywoodFlawlessFilter",
+      BR: "rareBeautyPositiveLightLiquidLuminizer"
+    }
+  }),
+
+  morpheDreamlightGeleeHighlighterStick: productData({
+    category: "Highlighter",
+    brand: "Morphe",
+    name: "Dreamlight Gelee Highlighter Stick",
+    type: "Water-based gelée highlighter stick",
+    sizes: ["standard"],
+    image: skuImage("s2936193"),
+    links: countryLinks({
+      CA: "https://www.sephora.com/ca/en/product/dreamlight-gelee-highlighter-stick-P520075"
+    }),
+    alternatives: {
+      US: "milkDewyCreamHighlighterStick",
+      FR: "sephoraColorfulPowderLuminizer",
+      UK: "westmanAtelierLitUpHighlightStick",
+      AU: "milkDewyCreamHighlighterStick",
+      BR: "fentyKillawattHighlighter"
+    }
+  }),
+
+  oneSizeB12BaseThinnerLuminousSerum: productData({
+    category: "Highlighter / Glow Serum",
+    brand: "ONE/SIZE by Patrick Starrr",
+    name: "B12 Base Thinner Luminous Vitamin Pearl Boosting Serum",
+    type: "Glow serum and mixing medium",
+    sizes: ["standard"],
+    image: skuImage("s2943413"),
+    links: countryLinks({
+      US: "https://www.sephora.com/product/b12-base-thinner-luminous-vitamin-pearl-boosting-serum-P515065",
+      CA: "https://www.sephora.com/ca/en/product/b12-base-thinner-luminous-vitamin-pearl-boosting-serum-P515065"
+    }),
+    alternatives: {
+      FR: "saieGlowySuperGel",
+      UK: "charlotteHollywoodFlawlessFilter",
+      AU: "armaniFluidSheerGlowEnhancer",
+      BR: "rareBeautyPositiveLightLiquidLuminizer"
+    }
+  }),
+
+  milkDewyCreamHighlighterStick: productData({
+    category: "Highlighter",
+    brand: "MILK MAKEUP",
+    name: "Dewy Cream Highlighter Stick",
+    type: "Cream highlighter stick",
+    sizes: ["standard"],
+    image: skuImage("s2601175"),
+    links: countryLinks({
+      US: "https://www.sephora.com/product/dewy-cream-highlighter-stick-P404798",
+      CA: "https://www.sephora.com/ca/en/product/dewy-cream-highlighter-stick-P404798"
+    }),
+    alternatives: {
+      FR: "meritDayGlowHighlightingBalm",
+      UK: "westmanAtelierLitUpHighlightStick",
+      AU: "westmanAtelierLitUpHighlightStick",
+      BR: "fentyKillawattHighlighter"
+    }
+  }),
+
+  iliaMultiStickCreamBlushHighlighterLipTint: productData({
+    category: "Highlighter / Multi-Use Stick",
+    brand: "ILIA",
+    name: "Multi-Stick Cream Blush + Highlighter + Lip Tint",
+    type: "Multi-use cream stick",
+    sizes: ["standard"],
+    image: skuImage("s2564367"),
+    links: countryLinks({
+      US: "https://www.sephora.com/product/multi-stick-P411848",
+      CA: "https://www.sephora.com/ca/en/product/multi-stick-P411848"
+    }),
+    alternatives: {
+      FR: "meritDayGlowHighlightingBalm",
+      UK: "westmanAtelierLitUpHighlightStick",
+      AU: "westmanAtelierLitUpHighlightStick",
+      BR: "rareBeautyPositiveLightLiquidLuminizer"
+    }
+  }),
+
+  calirayLightSourceIlluminator: productData({
+    category: "Highlighter",
+    brand: "caliray",
+    name: "Light Source Blurring & Hydrating Illuminator",
+    type: "Blurring hydrating liquid illuminator",
+    sizes: ["standard"],
+    image: skuImage("s2968410"),
+    links: countryLinks({
+      US: "https://www.sephora.com/product/light-source-illuminator-P522521"
+    }),
+    alternatives: {
+      CA: "saieGlowySuperGel",
+      FR: "saieGlowySuperGel",
+      UK: "charlotteHollywoodFlawlessFilter",
+      AU: "westmanAtelierLiquidSuperLoadedIlluminator",
+      BR: "rareBeautyPositiveLightLiquidLuminizer"
+    }
+  }),
+  
   givenchyPrismeLibreLoosePowder: productData({
     category: "Highlighter / Setting Powder",
     brand: "Givenchy",
