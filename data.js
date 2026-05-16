@@ -1585,8 +1585,8 @@ LOOKS.push(
     title: "Perfume That Smells Expensive",
     category: "perfume",
     subcategory: "all",
-    homeImage: "images/perfume/file_0000000005f08720aa27f1fcf129c7716.png",
-    heroImage: "images/perfume/file_0000000005f08720aa27f1fcf129c7716.png",
+    homeImage: "images/perfume/file_000000005f08720aa27f1fcf129c7716.png",
+    heroImage: "images/perfume/file_000000005f08720aa27f1fcf129c7716.png",
     products: []
   },
   {
@@ -1605,8 +1605,8 @@ LOOKS.push(
     title: "Elegant Perfume Find",
     category: "perfume",
     subcategory: "all",
-    homeImage: "images/perfume/file_00000000062fc71f48ee58fc8c53ee0f7.png",
-    heroImage: "images/perfume/file_00000000062fc71f48ee58fc8c53ee0f7.png",
+    homeImage: "images/perfume/file_0000000062fc71f48ee58fc8c53ee0f7.png",
+    heroImage: "images/perfume/file_0000000062fc71f48ee58fc8c53ee0f7.png",
     products: []
   },
   {
@@ -1645,8 +1645,8 @@ LOOKS.push(
     title: "Feminine Perfume Inspiration",
     category: "perfume",
     subcategory: "all",
-    homeImage: "images/perfume/file_000000000833c720a835f4b9189654d5e.png",
-    heroImage: "images/perfume/file_000000000833c720a835f4b9189654d5e.png",
+    homeImage: "images/perfume/file_00000000833c720a835f4b9189654d5e.png",
+    heroImage: "images/perfume/file_00000000833c720a835f4b9189654d5e.png",
     products: []
   },
   {
