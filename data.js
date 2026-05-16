@@ -1555,8 +1555,8 @@ LOOKS.push(
     title: "Luxury Perfume Find",
     category: "perfume",
     subcategory: "all",
-    homeImage: "images/perfume/file_00000000053fc720a8260c8cfb8cd69d0.png",
-    heroImage: "images/perfume/file_00000000053fc720a8260c8cfb8cd69d0.png",
+    homeImage: "images/perfume/file_0000000053fc720a8260c8cfb8cd69d0.png",
+    heroImage: "images/perfume/file_0000000053fc720a8260c8cfb8cd69d0.png",
     products: []
   },
   {
@@ -1565,8 +1565,8 @@ LOOKS.push(
     title: "Expensive Smelling Perfume",
     category: "perfume",
     subcategory: "all",
-    homeImage: "images/perfume/file_0000000005450720ab78dc66e29ecc1af.png",
-    heroImage: "images/perfume/file_0000000005450720ab78dc66e29ecc1af.png",
+    homeImage: "images/perfume/file_000000005450720ab78dc66e29ecc1af.png",
+    heroImage: "images/perfume/file_000000005450720ab78dc66e29ecc1af.png",
     products: []
   },
   {
@@ -1575,8 +1575,8 @@ LOOKS.push(
     title: "Luxury Perfume Inspiration",
     category: "perfume",
     subcategory: "all",
-    homeImage: "images/perfume/file_000000000551871f4a29fc8817eba1956.png",
-    heroImage: "images/perfume/file_000000000551871f4a29fc8817eba1956.png",
+    homeImage: "images/perfume/file_00000000551871f4a29fc8817eba1956.png",
+    heroImage: "images/perfume/file_00000000551871f4a29fc8817eba1956.png",
     products: []
   },
   {
@@ -1595,8 +1595,8 @@ LOOKS.push(
     title: "Chic Perfume Inspiration",
     category: "perfume",
     subcategory: "all",
-    homeImage: "images/perfume/file_00000000061cc720aa7cb087b5332de65.png",
-    heroImage: "images/perfume/file_00000000061cc720aa7cb087b5332de65.png",
+    homeImage: "images/perfume/file_0000000061cc720aa7cb087b5332de65.png",
+    heroImage: "images/perfume/file_0000000061cc720aa7cb087b5332de65.png",
     products: []
   },
   {
@@ -1615,8 +1615,8 @@ LOOKS.push(
     title: "Clean Girl Perfume Inspiration",
     category: "perfume",
     subcategory: "all",
-    homeImage: "images/perfume/file_00000000067507246a5f1bc0f5c7f6634.png",
-    heroImage: "images/perfume/file_00000000067507246a5f1bc0f5c7f6634.png",
+    homeImage: "images/perfume/file_0000000067507246a5f1bc0f5c7f6634.png",
+    heroImage: "images/perfume/file_0000000067507246a5f1bc0f5c7f6634.png",
     products: []
   },
   {
@@ -1625,8 +1625,8 @@ LOOKS.push(
     title: "Fresh Perfume Find",
     category: "perfume",
     subcategory: "all",
-    homeImage: "images/perfume/file_00000000067c4720aad03db0f97ef4b85.png",
-    heroImage: "images/perfume/file_00000000067c4720aad03db0f97ef4b85.png",
+    homeImage: "images/perfume/file_0000000067c4720aad03db0f97ef4b85.png",
+    heroImage: "images/perfume/file_0000000067c4720aad03db0f97ef4b85.png",
     products: []
   },
   {
@@ -1635,8 +1635,8 @@ LOOKS.push(
     title: "Soft Luxury Perfume",
     category: "perfume",
     subcategory: "all",
-    homeImage: "images/perfume/file_00000000068a8720a8554a50db9cea19c.png",
-    heroImage: "images/perfume/file_00000000068a8720a8554a50db9cea19c.png",
+    homeImage: "images/perfume/file_0000000068a8720a8554a50db9cea19c.png",
+    heroImage: "images/perfume/file_0000000068a8720a8554a50db9cea19c.png",
     products: []
   },
   {
@@ -1655,8 +1655,8 @@ LOOKS.push(
     title: "Luxury Scent Inspiration",
     category: "perfume",
     subcategory: "all",
-    homeImage: "images/perfume/file_00000000084c072468639ca4bfb2cfc69.png",
-    heroImage: "images/perfume/file_00000000084c072468639ca4bfb2cfc69.png",
+    homeImage: "images/perfume/file_0000000084c072468639ca4bfb2cf6c9.png",
+    heroImage: "images/perfume/file_0000000084c072468639ca4bfb2cf6c9.png",
     products: []
   },
   {
@@ -1665,8 +1665,8 @@ LOOKS.push(
     title: "Warm Perfume Find",
     category: "perfume",
     subcategory: "all",
-    homeImage: "images/perfume/file_000000000890c71f4ab1019a4d315bed6.png",
-    heroImage: "images/perfume/file_000000000890c71f4ab1019a4d315bed6.png",
+    homeImage: "images/perfume/file_00000000890c71f4ab1019a4d315bed6.png",
+    heroImage: "images/perfume/file_00000000890c71f4ab1019a4d315bed6.png",
     products: []
   },
   {
@@ -1675,8 +1675,8 @@ LOOKS.push(
     title: "Minimal Luxury Perfume",
     category: "perfume",
     subcategory: "all",
-    homeImage: "images/perfume/file_00000000093f471f4846bccc8bdb8b4aa.png",
-    heroImage: "images/perfume/file_00000000093f471f4846bccc8bdb8b4aa.png",
+    homeImage: "images/perfume/file_0000000093f471f4846bccc8bdb8b4aa.png",
+    heroImage: "images/perfume/file_0000000093f471f4846bccc8bdb8b4aa.png",
     products: []
   },
   {
@@ -1865,8 +1865,8 @@ LOOKS.push(
     title: "Handheld Luxury Perfume",
     category: "perfume",
     subcategory: "all",
-    homeImage: "images/perfume/file_00000000177c71f4acbdfaf182674250.png",
-    heroImage: "images/perfume/file_00000000177c71f4acbdfaf182674250.png",
+    homeImage: "images/perfume/file_00000000177c71f4acbdffa182674250.png",
+    heroImage: "images/perfume/file_00000000177c71f4acbdffa182674250.png",
     products: []
   },
   {
@@ -1915,8 +1915,8 @@ LOOKS.push(
     title: "Soft Beige Perfume",
     category: "perfume",
     subcategory: "all",
-    homeImage: "images/perfume/file_0000000049cc71f48dacf215af55de9.png",
-    heroImage: "images/perfume/file_0000000049cc71f48dacf215af55de9.png",
+    homeImage: "images/perfume/file_0000000049cc71f48dac6f215af55de9.png",
+    heroImage: "images/perfume/file_0000000049cc71f48dac6f215af55de9.png",
     products: []
   },
   {
