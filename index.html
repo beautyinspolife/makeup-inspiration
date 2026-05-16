@@ -563,7 +563,7 @@
   <script src="productCatalog.js"></script>
   <script src="data.js"></script>  
   <script>
-    const USER_MARKET = "US";
+    let USER_MARKET = "US";
 
 function getProductLink(product) {
   return (
@@ -574,8 +574,18 @@ function getProductLink(product) {
     }
     
     const state = {
-      category: "natural"
-    };
+  category: "natural",
+  perfumeSubcategory: "all"
+};
+
+const PERFUME_SUBCATEGORIES = [
+  { id: "all", label: "All Perfumes" },
+  { id: "luxury", label: "Luxury" },
+  { id: "vanilla", label: "Vanilla" },
+  { id: "fresh", label: "Fresh & Clean" },
+  { id: "summer", label: "Summer" },
+  { id: "compliments", label: "Compliment Scents" }
+];
 
     function shuffleArray(array) {
       const cloned = [...array];
@@ -591,13 +601,29 @@ function getProductLink(product) {
     }
 
     function setCategory(category) {
-      state.category = category;
-      render();
-    }
+  state.category = category;
+  state.perfumeSubcategory = "all";
+  render();
+}
+
+function setPerfumeSubcategory(subcategory) {
+  state.perfumeSubcategory = subcategory;
+  render();
+        }
 
     function renderHome() {
-      const filtered = LOOKS.filter(look => look.category === state.category);
-      const randomOrder = shuffleArray(filtered);
+  const filtered = LOOKS.filter((look) => {
+    const sameCategory = look.category === state.category;
+
+    const samePerfumeSubcategory =
+      state.category !== "perfume" ||
+      state.perfumeSubcategory === "all" ||
+      look.subcategory === state.perfumeSubcategory;
+
+    return sameCategory && samePerfumeSubcategory;
+  });
+
+  const randomOrder = shuffleArray(filtered);
 
       return `
         <div class="page">
@@ -632,8 +658,24 @@ function getProductLink(product) {
 
   <button class="tab ${state.category === "skincare" ? "active" : ""}" onclick="setCategory('skincare')">
     Skincare
-  </button>
+</button>
+    <button class="tab ${state.category === "perfume" ? "active" : ""}" onclick="setCategory('perfume')">
+  Perfumes
+</button>
 </div>
+
+${state.category === "perfume" ? `
+  <div class="tabs">
+    ${PERFUME_SUBCATEGORIES.map(item => `
+      <button 
+        class="tab ${state.perfumeSubcategory === item.id ? "active" : ""}" 
+        onclick="setPerfumeSubcategory('${item.id}')"
+      >
+        ${item.label}
+      </button>
+    `).join("")}
+  </div>
+` : ""}
             <h1 class="title">Makeup Inspiration</h1>
           </section>
 
@@ -664,7 +706,7 @@ function getProductLink(product) {
         <div class="hero-overlay"></div>
 
         <div class="hero-intro">
-          <p class="hero-kicker">Beauty Inspiration</p>
+          <p class="hero-kicker">${look.title}</p>
           <div class="hero-divider"></div>
           <p class="hero-subtitle">Shop My Beauty Finds</p>
           <p class="hero-caption">Tap a product below to view it on the official website</p>
