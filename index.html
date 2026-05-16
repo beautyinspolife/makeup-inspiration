@@ -679,7 +679,14 @@ const perfumeSubcategoryRoutes = {
   "summer-perfumes-sephora-us": "summer",
   "compliment-perfumes-sephora-us": "compliments"
 };
-
+const PERFUME_SUBCATEGORIES = [
+  { id: "all", label: "All Perfumes", href: "#/all-perfumes-sephora-us" },
+  { id: "luxury", label: "Luxury", href: "#/luxury-perfumes-sephora-us" },
+  { id: "vanilla", label: "Vanilla", href: "#/best-vanilla-perfumes-sephora-us" },
+  { id: "fresh", label: "Fresh & Clean", href: "#/fresh-clean-perfumes-sephora-us" },
+  { id: "summer", label: "Summer", href: "#/summer-perfumes-sephora-us" },
+  { id: "compliments", label: "Compliment Scents", href: "#/compliment-perfumes-sephora-us" }
+];
     function shuffleArray(array) {
       const cloned = [...array];
       for (let i = cloned.length - 1; i > 0; i--) {
