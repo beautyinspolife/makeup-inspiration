@@ -663,7 +663,14 @@ function getProductLink(product) {
   category: "natural",
   perfumeSubcategory: "all"
 };
-
+const categoryRoutes = {
+  "natural-makeup-inspo-sephora-us": "natural",
+  "glam-makeup-looks-sephora-us": "glam",
+  "smokey-makeup-looks-sephora-us": "smokey",
+  "clean-girl-makeup-sephora-us": "clean girl",
+  "skincare-before-makeup-sephora-us": "skincare",
+  "all-perfumes-sephora-us": "perfume"
+};
 const PERFUME_SUBCATEGORIES = [
   { id: "all", label: "All Perfumes", href: "#/all-perfumes-sephora-us" },
   { id: "luxury", label: "Luxury", href: "#/luxury-perfumes-sephora-us" },
@@ -895,28 +902,11 @@ function renderPerfume(look) {
     return;
   }
 
-  const categoryRoutes = {
-  "natural-makeup-inspo-sephora-us": "natural",
-  "glam-makeup-looks-sephora-us": "glam",
-  "smokey-makeup-looks-sephora-us": "smokey",
-  "clean-girl-makeup-sephora-us": "clean girl",
-  "skincare-before-makeup-sephora-us": "skincare",
-  "all-perfumes-sephora-us": "perfume"
-};
-
-if (categoryRoutes[slug]) {
-  state.category = categoryRoutes[slug];
-  state.perfumeSubcategory = "all";
-  app.innerHTML = renderHome();
-  return;
-    } 
-
-if (perfumeRoutes[slug]) {
-  state.category = "perfume";
-  state.perfumeSubcategory = perfumeRoutes[slug];
-  app.innerHTML = renderHome();
-  return;
-}
+  if (slug === "all-perfumes-sephora-us" || slug === "perfumes") {
+    state.category = "perfume";
+    app.innerHTML = renderHome();
+    return;
+  }
 
   if (look) {
     app.innerHTML = look.category === "perfume"
@@ -927,7 +917,6 @@ if (perfumeRoutes[slug]) {
 
   app.innerHTML = renderHome();
     }
-      
       
     
     window.addEventListener("hashchange", render);
