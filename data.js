@@ -1551,7 +1551,7 @@ const LOOKS = [
 LOOKS.push(
   {
     id: 123,
-    slug: "all-perfume-find-001",
+    slug: "all-perfume-find-001-sephora-us",
     title: "Luxury Perfume Find",
     category: "perfume",
     subcategory: "all",
@@ -1561,7 +1561,7 @@ LOOKS.push(
   },
   {
     id: 124,
-    slug: "all-perfume-find-002",
+    slug: "all-perfume-find-002-sephora-us",
     title: "Expensive Smelling Perfume",
     category: "perfume",
     subcategory: "all",
@@ -1571,7 +1571,7 @@ LOOKS.push(
   },
   {
     id: 125,
-    slug: "all-perfume-find-003",
+    slug: "all-perfume-find-003-sephora-us",
     title: "Luxury Perfume Inspiration",
     category: "perfume",
     subcategory: "all",
@@ -1581,7 +1581,7 @@ LOOKS.push(
   },
   {
     id: 126,
-    slug: "all-perfume-find-004",
+    slug: "all-perfume-find-004-sephora-us",
     title: "Perfume That Smells Expensive",
     category: "perfume",
     subcategory: "all",
@@ -1591,7 +1591,7 @@ LOOKS.push(
   },
   {
     id: 127,
-    slug: "all-perfume-find-005",
+    slug: "all-perfume-find-005-sephora-us",
     title: "Chic Perfume Inspiration",
     category: "perfume",
     subcategory: "all",
@@ -1601,7 +1601,7 @@ LOOKS.push(
   },
   {
     id: 128,
-    slug: "all-perfume-find-006",
+    slug: "all-perfume-find-006-sephora-us",
     title: "Elegant Perfume Find",
     category: "perfume",
     subcategory: "all",
@@ -1611,7 +1611,7 @@ LOOKS.push(
   },
   {
     id: 129,
-    slug: "all-perfume-find-007",
+    slug: "all-perfume-find-007-sephora-us",
     title: "Clean Girl Perfume Inspiration",
     category: "perfume",
     subcategory: "all",
@@ -1621,7 +1621,7 @@ LOOKS.push(
   },
   {
     id: 130,
-    slug: "all-perfume-find-008",
+    slug: "all-perfume-find-008-sephora-us",
     title: "Fresh Perfume Find",
     category: "perfume",
     subcategory: "all",
@@ -1631,7 +1631,7 @@ LOOKS.push(
   },
   {
     id: 131,
-    slug: "all-perfume-find-009",
+    slug: "all-perfume-find-009-sephora-us",
     title: "Soft Luxury Perfume",
     category: "perfume",
     subcategory: "all",
@@ -1641,7 +1641,7 @@ LOOKS.push(
   },
   {
     id: 132,
-    slug: "all-perfume-find-010",
+    slug: "all-perfume-find-010-sephora-us",
     title: "Feminine Perfume Inspiration",
     category: "perfume",
     subcategory: "all",
@@ -1651,7 +1651,7 @@ LOOKS.push(
   },
   {
     id: 133,
-    slug: "all-perfume-find-011",
+    slug: "all-perfume-find-011-sephora-us",
     title: "Luxury Scent Inspiration",
     category: "perfume",
     subcategory: "all",
@@ -1661,7 +1661,7 @@ LOOKS.push(
   },
   {
     id: 134,
-    slug: "all-perfume-find-012",
+    slug: "all-perfume-find-012-sephora-us",
     title: "Warm Perfume Find",
     category: "perfume",
     subcategory: "all",
@@ -1671,7 +1671,7 @@ LOOKS.push(
   },
   {
     id: 135,
-    slug: "all-perfume-find-013",
+    slug: "all-perfume-find-013-sephora-us",
     title: "Minimal Luxury Perfume",
     category: "perfume",
     subcategory: "all",
@@ -1681,7 +1681,7 @@ LOOKS.push(
   },
   {
     id: 136,
-    slug: "all-perfume-find-014",
+    slug: "all-perfume-find-014-sephora-us",
     title: "Golden Perfume Inspiration",
     category: "perfume",
     subcategory: "all",
@@ -1691,7 +1691,7 @@ LOOKS.push(
   },
   {
     id: 137,
-    slug: "all-perfume-find-015",
+    slug: "all-perfume-find-015-sephora-us",
     title: "Dark Luxury Perfume",
     category: "perfume",
     subcategory: "all",
@@ -1701,7 +1701,7 @@ LOOKS.push(
   },
   {
     id: 138,
-    slug: "all-perfume-find-016",
+    slug: "all-perfume-find-016-sephora-us",
     title: "Pretty Perfume Inspiration",
     category: "perfume",
     subcategory: "all",
@@ -1711,7 +1711,7 @@ LOOKS.push(
   },
   {
     id: 139,
-    slug: "all-perfume-find-017",
+    slug: "all-perfume-find-017-sephora-us",
     title: "Soft Feminine Perfume",
     category: "perfume",
     subcategory: "all",
@@ -1721,7 +1721,7 @@ LOOKS.push(
   },
   {
     id: 140,
-    slug: "all-perfume-find-018",
+    slug: "all-perfume-find-018-sephora-us",
     title: "Red Bottle Perfume Inspiration",
     category: "perfume",
     subcategory: "all",
@@ -1731,7 +1731,7 @@ LOOKS.push(
   },
   {
     id: 141,
-    slug: "all-perfume-find-019",
+    slug: "all-perfume-find-019-sephora-us",
     title: "Vanilla Perfume Inspiration",
     category: "perfume",
     subcategory: "all",
@@ -1741,7 +1741,7 @@ LOOKS.push(
   },
   {
     id: 142,
-    slug: "all-perfume-find-020",
+    slug: "all-perfume-find-020-sephora-us",
     title: "Pink Perfume Inspiration",
     category: "perfume",
     subcategory: "all",
@@ -1751,7 +1751,7 @@ LOOKS.push(
   },
   {
     id: 143,
-    slug: "all-perfume-find-021",
+    slug: "all-perfume-find-021-sephora-us",
     title: "Creamy Perfume Inspiration",
     category: "perfume",
     subcategory: "all",
@@ -1761,7 +1761,7 @@ LOOKS.push(
   },
   {
     id: 144,
-    slug: "all-perfume-find-022",
+    slug: "all-perfume-find-022-sephora-us",
     title: "Brown Bottle Perfume",
     category: "perfume",
     subcategory: "all",
@@ -1771,7 +1771,7 @@ LOOKS.push(
   },
   {
     id: 145,
-    slug: "all-perfume-find-023",
+    slug: "all-perfume-find-023-sephora-us",
     title: "Elegant Bottle Perfume",
     category: "perfume",
     subcategory: "all",
@@ -1781,7 +1781,7 @@ LOOKS.push(
   },
   {
     id: 146,
-    slug: "all-perfume-find-024",
+    slug: "all-perfume-find-024-sephora-us",
     title: "Black Bottle Perfume",
     category: "perfume",
     subcategory: "all",
@@ -1791,7 +1791,7 @@ LOOKS.push(
   },
   {
     id: 147,
-    slug: "all-perfume-find-025",
+    slug: "all-perfume-find-025-sephora-us",
     title: "Luxury Lifestyle Perfume",
     category: "perfume",
     subcategory: "all",
@@ -1801,7 +1801,7 @@ LOOKS.push(
   },
   {
     id: 148,
-    slug: "all-perfume-find-026",
+    slug: "all-perfume-find-026-sephora-us",
     title: "Amber Perfume Inspiration",
     category: "perfume",
     subcategory: "all",
@@ -1811,7 +1811,7 @@ LOOKS.push(
   },
   {
     id: 149,
-    slug: "all-perfume-find-027",
+    slug: "all-perfume-find-027-sephora-us",
     title: "Warm Luxury Fragrance",
     category: "perfume",
     subcategory: "all",
@@ -1821,7 +1821,7 @@ LOOKS.push(
   },
   {
     id: 150,
-    slug: "all-perfume-find-028",
+    slug: "all-perfume-find-028-sephora-us",
     title: "Pink Luxury Perfume",
     category: "perfume",
     subcategory: "all",
@@ -1831,7 +1831,7 @@ LOOKS.push(
   },
   {
     id: 151,
-    slug: "all-perfume-find-029",
+    slug: "all-perfume-find-029-sephora-us",
     title: "Coffee Table Perfume",
     category: "perfume",
     subcategory: "all",
@@ -1841,7 +1841,7 @@ LOOKS.push(
   },
   {
     id: 152,
-    slug: "all-perfume-find-030",
+    slug: "all-perfume-find-030-sephora-us",
     title: "Soft Neutral Perfume",
     category: "perfume",
     subcategory: "all",
@@ -1851,7 +1851,7 @@ LOOKS.push(
   },
   {
     id: 153,
-    slug: "all-perfume-find-031",
+    slug: "all-perfume-find-031-sephora-us",
     title: "Bright Luxury Perfume",
     category: "perfume",
     subcategory: "all",
@@ -1861,7 +1861,7 @@ LOOKS.push(
   },
   {
     id: 154,
-    slug: "all-perfume-find-032",
+    slug: "all-perfume-find-032-sephora-us",
     title: "Handheld Luxury Perfume",
     category: "perfume",
     subcategory: "all",
@@ -1871,7 +1871,7 @@ LOOKS.push(
   },
   {
     id: 155,
-    slug: "all-perfume-find-033",
+    slug: "all-perfume-find-033-sephora-us",
     title: "Warm Date Night Perfume",
     category: "perfume",
     subcategory: "all",
@@ -1881,7 +1881,7 @@ LOOKS.push(
   },
   {
     id: 156,
-    slug: "all-perfume-find-034",
+    slug: "all-perfume-find-034-sephora-us",
     title: "Black And White Perfume",
     category: "perfume",
     subcategory: "all",
@@ -1891,7 +1891,7 @@ LOOKS.push(
   },
   {
     id: 157,
-    slug: "all-perfume-find-035",
+    slug: "all-perfume-find-035-sephora-us",
     title: "Soft Cream Perfume",
     category: "perfume",
     subcategory: "all",
@@ -1901,7 +1901,7 @@ LOOKS.push(
   },
   {
     id: 158,
-    slug: "all-perfume-find-036",
+    slug: "all-perfume-find-036-sephora-us",
     title: "Gold Perfume Bottle",
     category: "perfume",
     subcategory: "all",
@@ -1911,7 +1911,7 @@ LOOKS.push(
   },
   {
     id: 159,
-    slug: "all-perfume-find-037",
+    slug: "all-perfume-find-037-sephora-us",
     title: "Soft Beige Perfume",
     category: "perfume",
     subcategory: "all",
@@ -1921,7 +1921,7 @@ LOOKS.push(
   },
   {
     id: 160,
-    slug: "all-perfume-find-038",
+    slug: "all-perfume-find-038-sephora-us",
     title: "Fresh Summer Perfume",
     category: "perfume",
     subcategory: "all",
@@ -1931,7 +1931,7 @@ LOOKS.push(
   },
   {
     id: 161,
-    slug: "all-perfume-find-039",
+    slug: "all-perfume-find-039-sephora-us",
     title: "Orange Perfume Inspiration",
     category: "perfume",
     subcategory: "all",
@@ -1941,7 +1941,7 @@ LOOKS.push(
   },
   {
     id: 162,
-    slug: "all-perfume-find-040",
+    slug: "all-perfume-find-040-sephora-us",
     title: "Pink Feminine Perfume",
     category: "perfume",
     subcategory: "all",
