@@ -676,7 +676,9 @@ ${state.category === "perfume" ? `
     `).join("")}
   </div>
 ` : ""}
-            <h1 class="title">Makeup Inspiration</h1>
+            <h1 class="title">
+  ${state.category === "perfume" ? "Perfume Inspiration" : "Makeup Inspiration"}
+</h1>
           </section>
 
             <section class="grid">
@@ -758,6 +760,11 @@ ${state.category === "perfume" ? `
         const slug = getSlugFromHash();
         const look = LOOKS.find(item => item.slug === slug);
         const app = document.getElementById("app");
+          if (slug === "perfumes") {
+  state.category = "perfume";
+  app.innerHTML = renderHome();
+  return;
+          }
       
         if (slug === "" || slug === "/" || slug === "home") {
           app.innerHTML = renderHome();
