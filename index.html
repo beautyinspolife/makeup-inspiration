@@ -837,27 +837,35 @@ ${state.category === "perfume" ? `
 }
 function renderPerfume(look) {
   return `
-    <div class="perfume-page">
-      <main class="perfume-wrap">
+    <div style="min-height:100vh; background:#e4e2dd; padding:18px 0 70px;">
+      <main style="width:min(980px, calc(100% - 28px)); margin:0 auto;">
 
-        <div class="perfume-top-btn-wrap">
-          <a class="perfume-top-btn" href="#/all-perfumes-sephora-us">
-  See More Perfume Inspiration
-</a>
+        <div style="display:flex; justify-content:center; margin:18px 0 28px;">
+          <a 
+            href="#/all-perfumes-sephora-us"
+            style="display:inline-flex; align-items:center; justify-content:center; background:#ffffff; color:#1f1a17; padding:16px 28px; border-radius:999px; font-family:Arial, Helvetica, sans-serif; font-size:18px; font-weight:700; letter-spacing:0.03em; box-shadow:0 12px 28px rgba(0,0,0,0.10); text-align:center;"
+          >
+            See More Perfume Inspiration
+          </a>
         </div>
 
-        <h1 class="perfume-title">Perfume Inspiration</h1>
+        <h1 style="text-align:center; font-size:clamp(2.2rem, 7vw, 4.8rem); font-weight:500; letter-spacing:-0.03em; margin:22px 0 32px; color:#1f1a17;">
+          Perfume Inspiration
+        </h1>
 
-        <div class="perfume-image-card">
+        <div style="background:#f7f4ef; border-radius:34px; padding:18px; box-shadow:0 18px 45px rgba(0,0,0,0.10); width:min(720px, 100%); margin:0 auto;">
           <img 
-            class="perfume-main-image" 
             src="${look.heroImage || look.homeImage}" 
             alt="Perfume Inspiration"
+            style="width:100%; max-height:78vh; object-fit:cover; border-radius:26px; background:#f7f4ef;"
           >
         </div>
 
-        <div class="perfume-bottom-btn-wrap">
-          <a class="perfume-bottom-btn" href="#/all-perfumes-sephora-us">
+        <div style="display:flex; justify-content:center; margin:44px 0 20px;">
+          <a 
+            href="#/all-perfumes-sephora-us"
+            style="display:inline-flex; align-items:center; justify-content:center; background:#ffffff; color:#1f1a17; padding:16px 28px; border-radius:999px; font-family:Arial, Helvetica, sans-serif; font-size:18px; font-weight:700; letter-spacing:0.03em; box-shadow:0 12px 28px rgba(0,0,0,0.10); text-align:center;"
+          >
             See More Perfume Inspiration
           </a>
         </div>
