@@ -854,7 +854,7 @@ function renderPerfume(look) {
         </div>
 
         <div class="perfume-bottom-btn-wrap">
-          <a class="perfume-bottom-btn" href="#/perfumes">
+          <a class="perfume-bottom-btn" href="#/all-perfumes-sephora-us">
             See More Perfume Inspiration
           </a>
         </div>
@@ -884,10 +884,10 @@ function renderPerfume(look) {
     return;
   }
 
-  if (slug === "perfumes") {
-    state.category = "perfume";
-    app.innerHTML = renderHome();
-    return;
+  if (slug === "all-perfumes-sephora-us") {
+  state.category = "perfume";
+  app.innerHTML = renderHome();
+  return;
   }
 
   if (look) {
