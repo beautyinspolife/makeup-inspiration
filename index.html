@@ -555,7 +555,93 @@
     line-height: 1.35;
   }
 }
+/* PERFUME DETAIL PAGE */
+.perfume-page {
+  min-height: 100vh;
+  background: #e4e2dd;
+  padding: 18px 0 70px;
+}
 
+.perfume-wrap {
+  width: min(980px, calc(100% - 28px));
+  margin: 0 auto;
+}
+
+.perfume-top-btn-wrap {
+  display: flex;
+  justify-content: center;
+  margin: 18px 0 28px;
+}
+
+.perfume-top-btn,
+.perfume-bottom-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  color: #1f1a17;
+  padding: 16px 28px;
+  border-radius: 999px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: clamp(0.95rem, 2.8vw, 1.15rem);
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.10);
+  text-align: center;
+}
+
+.perfume-title {
+  text-align: center;
+  font-size: clamp(2.2rem, 7vw, 4.8rem);
+  font-weight: 500;
+  letter-spacing: -0.03em;
+  margin: 22px 0 32px;
+  color: #1f1a17;
+}
+
+.perfume-image-card {
+  background: #f7f4ef;
+  border-radius: 34px;
+  padding: 18px;
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.10);
+  width: min(720px, 100%);
+  margin: 0 auto;
+}
+
+.perfume-main-image {
+  width: 100%;
+  max-height: 78vh;
+  object-fit: cover;
+  border-radius: 26px;
+  background: #f7f4ef;
+}
+
+.perfume-bottom-btn-wrap {
+  display: flex;
+  justify-content: center;
+  margin: 44px 0 20px;
+}
+
+@media (max-width: 760px) {
+  .perfume-page {
+    padding-top: 10px;
+  }
+
+  .perfume-title {
+    margin: 18px 0 24px;
+  }
+
+  .perfume-image-card {
+    border-radius: 28px;
+    padding: 12px;
+  }
+
+  .perfume-main-image {
+    border-radius: 22px;
+    max-height: 72vh;
+  }
+}
+    
   </style>
 </head>
 <body>
@@ -677,7 +763,7 @@ ${state.category === "perfume" ? `
   </div>
 ` : ""}
             <h1 class="title">
-  ${state.category === "perfume" ? "Perfume Inspiration" : "Makeup Inspiration"}
+  ${state.category === "perfume" ? "All Perfumes" : "Makeup Inspiration"}
 </h1>
           </section>
 
@@ -746,6 +832,38 @@ ${state.category === "perfume" ? `
     </div>
   `;
 }
+function renderPerfume(look) {
+  return `
+    <div class="perfume-page">
+      <main class="perfume-wrap">
+
+        <div class="perfume-top-btn-wrap">
+          <a class="perfume-top-btn" href="#/perfumes">
+            See More Perfume Inspiration
+          </a>
+        </div>
+
+        <h1 class="perfume-title">Perfume Inspiration</h1>
+
+        <div class="perfume-image-card">
+          <img 
+            class="perfume-main-image" 
+            src="${look.heroImage || look.homeImage}" 
+            alt="Perfume Inspiration"
+          >
+        </div>
+
+        <div class="perfume-bottom-btn-wrap">
+          <a class="perfume-bottom-btn" href="#/perfumes">
+            See More Perfume Inspiration
+          </a>
+        </div>
+
+      </main>
+    </div>
+  `;
+    }
+    
     function openProductLink(url) {
   const cleaned = String(url || "").trim();
   if (!cleaned) return;
@@ -757,22 +875,30 @@ ${state.category === "perfume" ? `
   window.location.assign(finalUrl);
 }
         function render() {
-        const slug = getSlugFromHash();
-        const look = LOOKS.find(item => item.slug === slug);
-        const app = document.getElementById("app");
-          if (slug === "perfumes") {
-  state.category = "perfume";
+  const slug = getSlugFromHash();
+  const look = LOOKS.find(item => item.slug === slug);
+  const app = document.getElementById("app");
+
+  if (slug === "" || slug === "/" || slug === "home") {
+    app.innerHTML = renderHome();
+    return;
+  }
+
+  if (slug === "perfumes") {
+    state.category = "perfume";
+    app.innerHTML = renderHome();
+    return;
+  }
+
+  if (look) {
+    app.innerHTML = look.category === "perfume"
+      ? renderPerfume(look)
+      : renderLook(look);
+    return;
+  }
+
   app.innerHTML = renderHome();
-  return;
-          }
-      
-        if (slug === "" || slug === "/" || slug === "home") {
-          app.innerHTML = renderHome();
-          return;
-        }
-      
-        app.innerHTML = look ? renderLook(look) : renderHome();
-        }
+    }
       
       
     
