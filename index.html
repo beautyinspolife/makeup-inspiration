@@ -671,14 +671,14 @@ const categoryRoutes = {
   "skincare-before-makeup-sephora-us": "skincare",
   "all-perfumes-sephora-us": "perfume"
 };
-const PERFUME_SUBCATEGORIES = [
-  { id: "all", label: "All Perfumes", href: "#/all-perfumes-sephora-us" },
-  { id: "luxury", label: "Luxury", href: "#/luxury-perfumes-sephora-us" },
-  { id: "vanilla", label: "Vanilla", href: "#/best-vanilla-perfumes-sephora-us" },
-  { id: "fresh", label: "Fresh & Clean", href: "#/fresh-clean-perfumes-sephora-us" },
-  { id: "summer", label: "Summer", href: "#/summer-perfumes-sephora-us" },
-  { id: "compliments", label: "Compliment Scents", href: "#/compliment-perfumes-sephora-us" }
-];
+const perfumeSubcategoryRoutes = {
+  "all-perfumes-sephora-us": "all",
+  "luxury-perfumes-sephora-us": "luxury",
+  "best-vanilla-perfumes-sephora-us": "vanilla",
+  "fresh-clean-perfumes-sephora-us": "fresh",
+  "summer-perfumes-sephora-us": "summer",
+  "compliment-perfumes-sephora-us": "compliments"
+};
 
     function shuffleArray(array) {
       const cloned = [...array];
@@ -733,29 +733,29 @@ function setPerfumeSubcategory(subcategory) {
 
           <section class="section-line">
             <div class="tabs">
-  <a class="tab ${state.category === "natural" ? "active" : ""}" href="#/natural-makeup-inspo-sephora-us">
+  <button class="tab ${state.category === "natural" ? "active" : ""}" onclick="location.hash='#/natural-makeup-inspo-sephora-us'">
     Natural Makeup Inspo
-  </a>
+  </button>
 
-  <a class="tab ${state.category === "glam" ? "active" : ""}" href="#/glam-makeup-looks-sephora-us">
+  <button class="tab ${state.category === "glam" ? "active" : ""}" onclick="location.hash='#/glam-makeup-looks-sephora-us'">
     Glam Makeup Looks
-  </a>
+  </button>
 
-  <a class="tab ${state.category === "smokey" ? "active" : ""}" href="#/smokey-makeup-looks-sephora-us">
+  <button class="tab ${state.category === "smokey" ? "active" : ""}" onclick="location.hash='#/smokey-makeup-looks-sephora-us'">
     Smokey Makeup Looks
-  </a>
+  </button>
 
-  <a class="tab ${state.category === "clean girl" ? "active" : ""}" href="#/clean-girl-makeup-sephora-us">
+  <button class="tab ${state.category === "clean girl" ? "active" : ""}" onclick="location.hash='#/clean-girl-makeup-sephora-us'">
     Clean Girl Makeup
-  </a>
+  </button>
 
-  <a class="tab ${state.category === "skincare" ? "active" : ""}" href="#/skincare-before-makeup-sephora-us">
+  <button class="tab ${state.category === "skincare" ? "active" : ""}" onclick="location.hash='#/skincare-before-makeup-sephora-us'">
     Skincare
-  </a>
+  </button>
 
-  <a class="tab ${state.category === "perfume" ? "active" : ""}" href="#/all-perfumes-sephora-us">
+  <button class="tab ${state.category === "perfume" ? "active" : ""}" onclick="location.hash='#/all-perfumes-sephora-us'">
     Perfumes
-  </a>
+  </button>
 </div>
 
 ${state.category === "perfume" ? `
@@ -898,12 +898,22 @@ function renderPerfume(look) {
   const app = document.getElementById("app");
 
   if (slug === "" || slug === "/" || slug === "home") {
+    state.category = "natural";
+    state.perfumeSubcategory = "all";
     app.innerHTML = renderHome();
     return;
   }
 
-  if (slug === "all-perfumes-sephora-us" || slug === "perfumes") {
+  if (perfumeSubcategoryRoutes[slug]) {
     state.category = "perfume";
+    state.perfumeSubcategory = perfumeSubcategoryRoutes[slug];
+    app.innerHTML = renderHome();
+    return;
+  }
+
+  if (categoryRoutes[slug]) {
+    state.category = categoryRoutes[slug];
+    state.perfumeSubcategory = "all";
     app.innerHTML = renderHome();
     return;
   }
@@ -915,9 +925,10 @@ function renderPerfume(look) {
     return;
   }
 
+  state.category = "natural";
+  state.perfumeSubcategory = "all";
   app.innerHTML = renderHome();
     }
-      
     
     window.addEventListener("hashchange", render);
 
