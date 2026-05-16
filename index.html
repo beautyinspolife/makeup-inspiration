@@ -665,12 +665,12 @@ function getProductLink(product) {
 };
 
 const PERFUME_SUBCATEGORIES = [
-  { id: "all", label: "All Perfumes" },
-  { id: "luxury", label: "Luxury" },
-  { id: "vanilla", label: "Vanilla" },
-  { id: "fresh", label: "Fresh & Clean" },
-  { id: "summer", label: "Summer" },
-  { id: "compliments", label: "Compliment Scents" }
+  { id: "all", label: "All Perfumes", href: "#/all-perfumes-sephora-us" },
+  { id: "luxury", label: "Luxury", href: "#/luxury-perfumes-sephora-us" },
+  { id: "vanilla", label: "Vanilla", href: "#/best-vanilla-perfumes-sephora-us" },
+  { id: "fresh", label: "Fresh & Clean", href: "#/fresh-clean-perfumes-sephora-us" },
+  { id: "summer", label: "Summer", href: "#/summer-perfumes-sephora-us" },
+  { id: "compliments", label: "Compliment Scents", href: "#/compliment-perfumes-sephora-us" }
 ];
 
     function shuffleArray(array) {
@@ -753,17 +753,19 @@ function setPerfumeSubcategory(subcategory) {
 ${state.category === "perfume" ? `
   <div class="tabs">
     ${PERFUME_SUBCATEGORIES.map(item => `
-      <button 
+      <a 
         class="tab ${state.perfumeSubcategory === item.id ? "active" : ""}" 
-        onclick="setPerfumeSubcategory('${item.id}')"
+        href="${item.href}"
       >
         ${item.label}
-      </button>
+      </a>
     `).join("")}
   </div>
 ` : ""}
             <h1 class="title">
-  ${state.category === "perfume" ? "All Perfumes" : "Makeup Inspiration"}
+ ${state.category === "perfume"
+  ? (PERFUME_SUBCATEGORIES.find(item => item.id === state.perfumeSubcategory)?.label || "All Perfumes")
+  : "Makeup Inspiration"}
 </h1>
           </section>
 
@@ -838,9 +840,9 @@ function renderPerfume(look) {
       <main class="perfume-wrap">
 
         <div class="perfume-top-btn-wrap">
-          <a class="perfume-top-btn" href="#/perfumes">
-            See More Perfume Inspiration
-          </a>
+          <a class="perfume-top-btn" href="#/all-perfumes-sephora-us">
+  See More Perfume Inspiration
+</a>
         </div>
 
         <h1 class="perfume-title">Perfume Inspiration</h1>
@@ -884,11 +886,21 @@ function renderPerfume(look) {
     return;
   }
 
-  if (slug === "all-perfumes-sephora-us") {
+  const perfumeRoutes = {
+  "all-perfumes-sephora-us": "all",
+  "luxury-perfumes-sephora-us": "luxury",
+  "best-vanilla-perfumes-sephora-us": "vanilla",
+  "fresh-clean-perfumes-sephora-us": "fresh",
+  "summer-perfumes-sephora-us": "summer",
+  "compliment-perfumes-sephora-us": "compliments"
+};
+
+if (perfumeRoutes[slug]) {
   state.category = "perfume";
+  state.perfumeSubcategory = perfumeRoutes[slug];
   app.innerHTML = renderHome();
   return;
-  }
+}
 
   if (look) {
     app.innerHTML = look.category === "perfume"
