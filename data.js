@@ -474,26 +474,6 @@ const LOOKS = [
       { name: "KAYALI - VANILLA | 28 Eau de Parfum", image: "images/products/A feminine full face makeup look that feels so soft and chic/s2163970-main-zoom.webp", link: "https://www.sephora.com/product/kayali-vanilla-P439406" }
     ]
   },
-  {
-    id: 24,
-    slug: "natural-soft-glam-for-a-beautifully-defined-face",
-    title: "Natural Soft Glam for a Beautifully Defined Face",
-    category: "natural",
-    homeImage: "images/home/file_00000000211c720aaa39ea5ebc9f4aff~2.png",
-    heroImage: "images/home/file_00000000211c720aaa39ea5ebc9f4aff~2.png",
-    products: [
-      { name: "GLOSSIER - Futuredew Facial Oil-Serum Hybrid", image: "images/products/Natural Soft Glam for a Beautifully Defined Face/s2649507-main-zoom.webp", link: "https://www.sephora.com/product/glossier-futuredew-facial-oil-serum-hybrid-P504523" },
-      { name: "Saie - Slip Tint Lightweight Tinted Moisturizer with Mineral Zinc SPF 35 and Hyaluronic Acid", image: "images/products/Natural Soft Glam for a Beautifully Defined Face/s2499465-main-zoom.webp", link: "https://www.sephora.com/ca/fr/product/P478316" },
-      { name: "MERIT - Flush Balm Cream Blush", image: "images/products/Natural Soft Glam for a Beautifully Defined Face/s2842870-main-zoom.webp", link: "https://www.sephora.com/product/merit-flush-balm-cream-blush-P468693" },
-      { name: "Benefit Cosmetics - Hoola Wave Cream Bronzer Balm", image: "images/products/Natural Soft Glam for a Beautifully Defined Face/s2867885-main-zoom.webp", link: "https://www.sephora.com/product/hoola-wave-bronzing-balm-P515967" },
-      { name: "Westman Atelier - Lit Up Highlight Stick", image: "images/products/Natural Soft Glam for a Beautifully Defined Face/s2648038-main-zoom.webp", link: "https://www.sephora.com/product/westman-atelier-lit-up-highlight-stick-P468430" },
-      { name: "Kosas - Brow Pop Nano Ultra-Fine Detailing + Feathering Eyebrow Pencil", image: "images/products/Natural Soft Glam for a Beautifully Defined Face/330210-media_swatch.jpg", link: "https://www.sephora.com/product/brow-pop-nano-ultra-fine-detailing-feathering-eyebrow-pencil-P506794" },
-      { name: "MERIT - Clean Lash Lengthening Tubing Mascara", image: "images/products/Natural Soft Glam for a Beautifully Defined Face/s2426781-main-zoom~2.jpg", link: "https://www.sephora.com/product/merit-clean-lash-lengthening-mascara-P468692" },
-      { name: "HOURGLASS - Shape & Sculpt Lip Liner", image: "images/products/Natural Soft Glam for a Beautifully Defined Face/s2738896-main-zoom (1).webp", link: "https://www.sephora.com/product/hourglass-shape-sculpt-lip-liner-P509656" },
-      { name: "MERIT - Shade Slick Hydrating Tinted Lip Oil", image: "images/products/Natural Soft Glam for a Beautifully Defined Face/s2849925-main-zoom.webp", link: "https://www.sephora.com/product/merit-shade-slick-tinted-lip-oil-P468691" },
-      { name: "Maison Margiela - 'REPLICA' Beach Walk Eau de Toilette with Coconut Milk & Musk", image: "images/products/Natural Soft Glam for a Beautifully Defined Face/s1593144-main-zoom.webp", link: "https://www.sephora.com/product/replica-beach-walk-P385358" }
-    ]
-  },
 {
     id: 25,
     slug: "minimal-glam-makeup-with-maximum-pretty-effect",
@@ -1373,6 +1353,16 @@ const LOOKS = [
     homeImage: "images/home/file_000000008ac8720aa6a520245bac3d90.png",
     heroImage: "images/home/file_000000008ac8720aa6a520245bac3d90.png",
     products: [
+      { name: "GLOSSIER - Futuredew Facial Oil-Serum Hybrid", image: "images/products/Natural Soft Glam for a Beautifully Defined Face/s2649507-main-zoom.webp", link: "https://www.sephora.com/product/glossier-futuredew-facial-oil-serum-hybrid-P504523" },
+      { name: "Saie - Slip Tint Lightweight Tinted Moisturizer with Mineral Zinc SPF 35 and Hyaluronic Acid", image: "images/products/Natural Soft Glam for a Beautifully Defined Face/s2499465-main-zoom.webp", link: "https://www.sephora.com/ca/fr/product/P478316" },
+      { name: "MERIT - Flush Balm Cream Blush", image: "images/products/Natural Soft Glam for a Beautifully Defined Face/s2842870-main-zoom.webp", link: "https://www.sephora.com/product/merit-flush-balm-cream-blush-P468693" },
+      { name: "Benefit Cosmetics - Hoola Wave Cream Bronzer Balm", image: "images/products/Natural Soft Glam for a Beautifully Defined Face/s2867885-main-zoom.webp", link: "https://www.sephora.com/product/hoola-wave-bronzing-balm-P515967" },
+      { name: "Westman Atelier - Lit Up Highlight Stick", image: "images/products/Natural Soft Glam for a Beautifully Defined Face/s2648038-main-zoom.webp", link: "https://www.sephora.com/product/westman-atelier-lit-up-highlight-stick-P468430" },
+      { name: "Kosas - Brow Pop Nano Ultra-Fine Detailing + Feathering Eyebrow Pencil", image: "images/products/Natural Soft Glam for a Beautifully Defined Face/330210-media_swatch.jpg", link: "https://www.sephora.com/product/brow-pop-nano-ultra-fine-detailing-feathering-eyebrow-pencil-P506794" },
+      { name: "MERIT - Clean Lash Lengthening Tubing Mascara", image: "images/products/Natural Soft Glam for a Beautifully Defined Face/s2426781-main-zoom~2.jpg", link: "https://www.sephora.com/product/merit-clean-lash-lengthening-mascara-P468692" },
+      { name: "HOURGLASS - Shape & Sculpt Lip Liner", image: "images/products/Natural Soft Glam for a Beautifully Defined Face/s2738896-main-zoom (1).webp", link: "https://www.sephora.com/product/hourglass-shape-sculpt-lip-liner-P509656" },
+      { name: "MERIT - Shade Slick Hydrating Tinted Lip Oil", image: "images/products/Natural Soft Glam for a Beautifully Defined Face/s2849925-main-zoom.webp", link: "https://www.sephora.com/product/merit-shade-slick-tinted-lip-oil-P468691" },
+      { name: "Maison Margiela - 'REPLICA' Beach Walk Eau de Toilette with Coconut Milk & Musk", image: "images/products/Natural Soft Glam for a Beautifully Defined Face/s1593144-main-zoom.webp", link: "https://www.sephora.com/product/replica-beach-walk-P385358" }
     ]
   },
 
