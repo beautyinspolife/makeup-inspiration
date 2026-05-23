@@ -1876,4 +1876,4 @@ LOOKS.push(
     heroImage: "images/perfume/file_0000000052f071f48338777274cef90a.png",
     products: []
   }
-];
+);
