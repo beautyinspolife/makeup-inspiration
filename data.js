@@ -919,14 +919,6 @@ const LOOKS = [
     homeImage: "images/home/file_00000000aa3c724394c500e9d1916b4c~2.png",
     heroImage: "images/home/file_00000000aa3c724394c500e9d1916b4c~2.png"
   },
-  {
-    id: 56,
-    slug: "your-next-favorite-makeup-look-for-soft-glam-perfection",
-    title: "Your Next Favorite Makeup Look for Soft Glam Perfection",
-    category: "glam",
-    homeImage: "images/home/file_00000000aa3c724394c500e9d1916b4c~2.png",
-    heroImage: "images/home/file_00000000aa3c724394c500e9d1916b4c~2.png"
-  },
     {
     id: 57,
     slug: "neutral-tones-makeup-inspo",
@@ -2106,7 +2098,160 @@ const LOOKS = [
     "LIP_LINER_013",
     "LIP_GLOSS_020",
     "SETTING_SPRAY_POWDER_008"
-  ]}
+  ]}, 
+    {
+    id: 166,
+    slug: "sleek-bun-makeup-look-glowy-skin-soft-glam-eyes-pink-nude-lips",
+    title: "Sleek Bun Makeup Look — Glowy Skin, Soft Glam Eyes & Pink Nude Lips",
+    category: "glam",
+    homeImage: "images/home/file_00000000060471f495c90d7ededbbaa3.png",
+    heroImage: "images/home/file_00000000060471f495c90d7ededbbaa3.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 167,
+    slug: "brunette-glam-makeup-look-bronzed-skin-bold-lashes-nude-lips",
+    title: "Brunette Glam Makeup Look — Bronzed Skin, Bold Lashes & Nude Lips",
+    category: "glam",
+    homeImage: "images/home/file_0000000068c8720a8fda99ca14a8ce98.png",
+    heroImage: "images/home/file_0000000068c8720a8fda99ca14a8ce98.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 168,
+    slug: "soft-glam-makeup-look-blue-eyes-fluffy-brows-glossy-pink-nude-lips",
+    title: "Soft Glam Makeup Look — Blue Eyes, Fluffy Brows & Glossy Pink Nude Lips",
+    category: "glam",
+    homeImage: "images/home/file_000000004fcc71f48860c14a6eaf63fc.png",
+    heroImage: "images/home/file_000000004fcc71f48860c14a6eaf63fc.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 169,
+    slug: "soft-glam-makeup-products-and-pink-nude-nails",
+    title: "Soft Glam Makeup Products and Pink Nude Nails",
+    category: "glam",
+    homeImage: "images/home/file_00000000e31071f48405b4a46451d9f1.png",
+    heroImage: "images/home/file_00000000e31071f48405b4a46451d9f1.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 170,
+    slug: "chic-nude-lipstick-look-with-ysl-beauty",
+    title: "Chic Nude Lipstick Look with YSL Beauty",
+    category: "glam",
+    homeImage: "images/home/file_000000008d047243a9274654c60b6ee9.png",
+    heroImage: "images/home/file_000000008d047243a9274654c60b6ee9.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 171,
+    slug: "clean-girl-lip-combo-with-rhode-peptide-lip-tint",
+    title: "Clean Girl Lip Combo with Rhode Peptide Lip Tint",
+    category: "glam",
+    homeImage: "images/home/file_00000000d76872439d9d1c77a1ba5f25.png",
+    heroImage: "images/home/file_00000000d76872439d9d1c77a1ba5f25.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 172,
+    slug: "soft-everyday-glam-products-for-a-natural-glow",
+    title: "Soft Everyday Glam Products for a Natural Glow",
+    category: "glam",
+    homeImage: "images/home/file_0000000083fc7243a0eba7c0ca4d9d88.png",
+    heroImage: "images/home/file_0000000083fc7243a0eba7c0ca4d9d88.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 173,
+    slug: "glowy-skin-makeup-products-for-a-golden-hour-look",
+    title: "Glowy Skin Makeup Products for a Golden Hour Look",
+    category: "natural",
+    homeImage: "images/home/file_00000000d2b471f4a65db69a4999fe62.png",
+    heroImage: "images/home/file_00000000d2b471f4a65db69a4999fe62.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 174,
+    slug: "soft-glam-makeup-products-for-a-pretty-smile-look",
+    title: "Soft Glam Makeup Products for a Pretty Smile Look",
+    category: "glam",
+    homeImage: "images/home/file_00000000bd7871f4b09b590985433327.png",
+    heroImage: "images/home/file_00000000bd7871f4b09b590985433327.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 175,
+    slug: "bridal-soft-glam-makeup-products-for-a-radiant-glow",
+    title: "Bridal Soft Glam Makeup Products for a Radiant Glow",
+    category: "glam",
+    homeImage: "images/home/file_0000000050c471f4881e4941d2c3ee4a.png",
+    heroImage: "images/home/file_0000000050c471f4881e4941d2c3ee4a.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 176,
+    slug: "everyday-soft-glam-makeup-products-for-natural-beauty",
+    title: "Everyday Soft Glam Makeup Products for Natural Beauty",
+    category: "natural",
+    homeImage: "images/home/file_00000000fc007243a722ef3e0c7904ad.png",
+    heroImage: "images/home/file_00000000fc007243a722ef3e0c7904ad.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 177,
+    slug: "pretty-makeup-products-for-a-polished-everyday-look",
+    title: "Pretty Makeup Products for a Polished Everyday Look",
+    category: "glam",
+    homeImage: "images/home/file_000000004ee071f4938fa438022ae416.png",
+    heroImage: "images/home/file_000000004ee071f4938fa438022ae416.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 178,
+    slug: "clean-glam-makeup-products-for-a-polished-look",
+    title: "Clean Glam Makeup Products for a Polished Look",
+    category: "smokey",
+    homeImage: "images/home/file_000000000d74720a94826c6b031cd19c.png",
+    heroImage: "images/home/file_000000000d74720a94826c6b031cd19c.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 179,
+    slug: "full-face-soft-glam-products-for-a-luxury-glow",
+    title: "Full Face Soft Glam Products for a Luxury Glow",
+    category: "glam",
+    homeImage: "images/home/file_00000000cd44720a8a4b87c083806143~2.png",
+    heroImage: "images/home/file_00000000cd44720a8a4b87c083806143~2.png",
+    products: [
+    ]
+  }
 ];
 
 LOOKS.push(
