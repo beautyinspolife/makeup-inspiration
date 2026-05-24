@@ -2030,7 +2030,7 @@ const LOOKS = [
   ]
   },
     {
-    id: 123,
+    id: 163,
     slug: "Pretty-Natural-Makeup-Everyone-Clicks-on-for-a-Soft-Glam-Look",
     title: "Pretty Natural Makeup Everyone Clicks on for a Soft Glam Look",
     category: "glam",
@@ -2052,7 +2052,7 @@ const LOOKS = [
   ]
   },
   {
-    id: 124,
+    id: 164,
     slug: "clean-girl-makeup-routine-step-by-step",
     title: "Clean girl Makeup routine step by step",
     category: "natural",
@@ -2077,7 +2077,7 @@ const LOOKS = [
     "SETTING_SPRAY_POWDER_019"
   ]},
   {
-    id: 125,
+    id: 165,
     slug: "Pretty-Natural-Makeup-Everyone-Clicks-on-for-a-Soft-Glam-Look",
     title: "Pretty Natural Makeup Everyone Clicks on for a Soft Glam Look",
     category: "glam",
