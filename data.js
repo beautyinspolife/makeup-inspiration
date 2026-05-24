@@ -582,7 +582,7 @@ const LOOKS = [
     title: "Pretty Natural Makeup Ideas for Everyday Beauty",
     category: "natural",
     homeImage: "images/home/file_000000007104720a968f49ab2b5653a4~2.png",
-    heroImage: "images/home/file_000000007104720a968f49ab2b5653a4~2.png"
+    heroImage: "images/home/file_000000007104720a968f49ab2b5653a4~2.png",
   },
   {
     id: 33,
@@ -1058,16 +1058,6 @@ const LOOKS = [
     ]
   },
   {
-    id: 64,
-    slug: "everyday-makeup-with-a-soft-glossy-finish",
-    title: "Everyday Makeup With a Soft Glossy Finish",
-    category: "natural",
-    homeImage: "images/home/file_000000006f4472439b7fde27551a9da3~3.png",
-    heroImage: "images/home/file_000000006f4472439b7fde27551a9da3~3.png",
-    products: []
-  },
-
-  {
     id: 65,
     slug: "the-fresh-glam-makeup-look-everyone-will-want-to-copy",
     title: "The Fresh glam makeup look everyone will want to copy",
@@ -1139,12 +1129,29 @@ const LOOKS = [
 
   {
     id: 67,
-    slug: "soft-luxe-makeup-for-girls-who-love-a-polished-look",
-    title: "soft luxe makeup for girls who love a polished look",
+    slug: "expensive-looking-makeup-for-a-rich-girl-vibe",
+    title: "Expensive looking makeup for a rich girl vibe",
     category: "glam",
-    homeImage: "images/home/file_000000005d70720aa7eb0b265a09413f~2.png",
-    heroImage: "images/home/file_000000005d70720aa7eb0b265a09413f~2.png",
-    products: []
+    homeImage: "images/home/file_0000000011147243b3986303f7dfa6df~2.png",
+    heroImage: "images/home/file_0000000011147243b3986303f7dfa6df~2.png",
+    products: [
+    "FACE_PRIMER_026",
+    "FOUNDATION_011",
+    "CONCEALER_014",
+    "SETTING_SPRAY_POWDER_004",
+    "CONTOUR_016",
+    "BRONZER_006",
+    "BLUSH_033",
+    "HIGHLIGHTER_009",
+    "EYESHADOW_PALETTE_009",
+    "EYESHADOW_009",
+    "MASCARA_004",
+    "FALSE_LASHES_004",
+    "EYEBROW_014",
+    "LIP_LINER_013",
+    "LIP_GLOSS_020",
+    "SETTING_SPRAY_POWDER_008"
+  ]
   },
 
   {
