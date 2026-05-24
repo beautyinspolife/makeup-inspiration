@@ -2099,7 +2099,7 @@ const LOOKS = [
     "LIP_LINER_013",
     "LIP_GLOSS_020",
     "SETTING_SPRAY_POWDER_008"
-  ]
+  ]}
 ];
 
 LOOKS.push(
