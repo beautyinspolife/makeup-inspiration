@@ -1313,17 +1313,6 @@ const LOOKS = [
     heroImage: "images/home/file_0000000062107246a5d4edc5dde14e02~2.png",
     products: []
   },
-
-  {
-    id: 82,
-    slug: "expensive-looking-makeup-for-a-rich-girl-vibe-",
-    title: "Expensive looking makeup for a rich girl vibe",
-    category: "glam",
-    homeImage: "images/home/file_0000000062107246a5d4edc5dde14e02~2.png",
-    heroImage: "images/home/file_0000000011147243b3986303f7dfa6df~2.png",
-    products: []
-  },
-
   {
     id: 83,
     slug: "natural-makeup-that-looks-good-in-every-light-",
