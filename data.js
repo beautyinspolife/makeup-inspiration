@@ -533,7 +533,21 @@ const LOOKS = [
     category: "natural",
     homeImage: "images/home/file_00000000d0e07243a0fef5f654eb7d9b~2.png",
     heroImage: "images/home/file_00000000d0e07243a0fef5f654eb7d9b~2.png",
-    products: []
+    products: [
+    "TINTED_MOISTURIZER_007",
+    "CONCEALER_013",
+    "SETTING_SPRAY_POWDER_018",
+    "CONTOUR_012",
+    "BRONZER_020",
+    "BLUSH_005",
+    "HIGHLIGHTER_017",
+    "EYESHADOW_PALETTE_005",
+    "MASCARA_001",
+    "EYEBROW_005",
+    "LIP_LINER_001",
+    "LIP_OIL_015",
+    "SETTING_SPRAY_POWDER_016"
+  ]
   },
   {
     id: 29,
@@ -574,7 +588,23 @@ const LOOKS = [
     title: "Viral Makeup Look 2026 ",
     category: "natural",
     homeImage: "images/home/file_00000000259072468be1f4ed790c2868~2.png",
-    heroImage: "images/home/file_00000000259072468be1f4ed790c2868~2.png"
+    heroImage: "images/home/file_00000000259072468be1f4ed790c2868~2.png",
+    products: [
+    "FACE_PRIMER_012",
+    "FOUNDATION_145",
+    "CONCEALER_018",
+    "SETTING_SPRAY_POWDER_005",
+    "CONTOUR_004",
+    "BRONZER_004",
+    "BLUSH_005",
+    "HIGHLIGHTER_005",
+    "EYESHADOW_PALETTE_001",
+    "MASCARA_002",
+    "EYEBROW_011",
+    "LIP_LINER_007",
+    "LIP_OIL_005",
+    "SETTING_SPRAY_POWDER_008"
+  ]
   },
   {
     id: 32,
@@ -583,6 +613,23 @@ const LOOKS = [
     category: "natural",
     homeImage: "images/home/file_000000007104720a968f49ab2b5653a4~2.png",
     heroImage: "images/home/file_000000007104720a968f49ab2b5653a4~2.png",
+    products: [
+    "FACE_PRIMER_017",
+    "FOUNDATION_003",
+    "CONCEALER_014",
+    "SETTING_SPRAY_POWDER_014",
+    "CONTOUR_016",
+    "BRONZER_006",
+    "BLUSH_011",
+    "HIGHLIGHTER_006",
+    "EYESHADOW_PALETTE_009",
+    "MASCARA_004",
+    "FALSE_LASHES_001",
+    "EYEBROW_012",
+    "LIP_LINER_013",
+    "LIP_GLOSS_013",
+    "SETTING_SPRAY_POWDER_008"
+  ]
   },
   {
     id: 33,
@@ -739,7 +786,25 @@ const LOOKS = [
     title: "Night Out Makeup Look That Turns Heads Instantly",
     category: "glam",
     homeImage: "images/home/file_00000000190071f49e23fb8e6df2d3f0~2.png",
-    heroImage: "images/home/file_00000000190071f49e23fb8e6df2d3f0~2.png"
+    heroImage: "images/home/file_00000000190071f49e23fb8e6df2d3f0~2.png",
+    products: [
+    "FACE_PRIMER_030",
+    "FOUNDATION_017",
+    "CONCEALER_001",
+    "SETTING_SPRAY_POWDER_028",
+    "CONTOUR_011",
+    "BRONZER_018",
+    "BLUSH_091",
+    "HIGHLIGHTER_021",
+    "EYESHADOW_PALETTE_004",
+    "EYESHADOW_009",
+    "MASCARA_047",
+    "FALSE_LASHES_014",
+    "EYEBROW_012",
+    "LIP_LINER_015",
+    "LIP_GLOSS_020",
+    "SETTING_SPRAY_POWDER_019"
+  ]
   },
   {
     id: 42,
@@ -747,7 +812,25 @@ const LOOKS = [
     title: "Everyday Makeup Aesthetic That Makes You Look So Put Together",
     category: "glam",
     homeImage: "images/home/file_000000008f9471f4b49a2a625b6997df~2.png",
-    heroImage: "images/home/file_000000008f9471f4b49a2a625b6997df~2.png"
+    heroImage: "images/home/file_000000008f9471f4b49a2a625b6997df~2.png",
+    products: [
+    "FACE_PRIMER_026",
+    "FOUNDATION_011",
+    "CONCEALER_014",
+    "SETTING_SPRAY_POWDER_004",
+    "CONTOUR_016",
+    "BRONZER_006",
+    "BLUSH_033",
+    "HIGHLIGHTER_009",
+    "EYESHADOW_PALETTE_009",
+    "EYESHADOW_009",
+    "MASCARA_004",
+    "FALSE_LASHES_004",
+    "EYEBROW_014",
+    "LIP_LINER_013",
+    "LIP_GLOSS_020",
+    "SETTING_SPRAY_POWDER_008"
+  ]
   },
   {
     id: 43,
@@ -1311,7 +1394,23 @@ const LOOKS = [
     category: "glam",
     homeImage: "images/home/file_0000000062107246a5d4edc5dde14e02~2.png",
     heroImage: "images/home/file_0000000062107246a5d4edc5dde14e02~2.png",
-    products: []
+    products: [
+    "FACE_PRIMER_004",
+    "FOUNDATION_011",
+    "CONCEALER_001",
+    "SETTING_SPRAY_POWDER_001",
+    "CONTOUR_002",
+    "BRONZER_005",
+    "BLUSH_012",
+    "HIGHLIGHTER_003",
+    "EYESHADOW_PALETTE_012",
+    "MASCARA_004",
+    "FALSE_LASHES_004",
+    "EYEBROW_014",
+    "LIP_LINER_013",
+    "LIP_GLOSS_003",
+    "SETTING_SPRAY_POWDER_008"
+  ]
   },
   {
     id: 83,
@@ -1356,7 +1455,22 @@ const LOOKS = [
     category: "natural",
     homeImage: "images/home/file_0000000040fc720985f08f879a262607.png",
     heroImage: "images/home/file_0000000040fc720985f08f879a262607.png",
-    products: []
+    products: [
+    "FACE_PRIMER_012",
+    "TINTED_MOISTURIZER_004",
+    "CONCEALER_013",
+    "SETTING_SPRAY_POWDER_018",
+    "CONTOUR_044",
+    "BRONZER_020",
+    "BLUSH_014",
+    "HIGHLIGHTER_017",
+    "EYESHADOW_PALETTE_005",
+    "MASCARA_001",
+    "EYEBROW_005",
+    "LIP_LINER_001",
+    "LIP_OIL_015",
+    "SETTING_SPRAY_POWDER_016"
+  ]
   },
 
   {
@@ -1376,7 +1490,23 @@ const LOOKS = [
     category: "natural",
     homeImage: "images/home/file_000000000d8472468f61aa64f63ec39c~2.png",
     heroImage: "images/home/file_000000000d8472468f61aa64f63ec39c~2.png",
-    products: []
+    products: [
+    "FACE_PRIMER_017",
+    "FOUNDATION_003",
+    "CONCEALER_014",
+    "SETTING_SPRAY_POWDER_014",
+    "CONTOUR_016",
+    "BRONZER_006",
+    "BLUSH_011",
+    "HIGHLIGHTER_006",
+    "EYESHADOW_PALETTE_009",
+    "MASCARA_004",
+    "FALSE_LASHES_004",
+    "EYEBROW_012",
+    "LIP_LINER_013",
+    "LIP_GLOSS_013",
+    "SETTING_SPRAY_POWDER_008"
+  ]
   },
 
   {
@@ -1586,7 +1716,24 @@ const LOOKS = [
     category: "smokey",
     homeImage: "images/home/file_00000000a9ec722f9fb9e3d61ba65a89~2.png",
     heroImage: "images/home/file_00000000a9ec722f9fb9e3d61ba65a89~2.png",
-    products: []
+    products: [
+    "FACE_PRIMER_021",
+    "FOUNDATION_011",
+    "CONCEALER_001",
+    "SETTING_SPRAY_POWDER_001",
+    "CONTOUR_002",
+    "BRONZER_005",
+    "BLUSH_012",
+    "HIGHLIGHTER_003",
+    "EYESHADOW_PALETTE_012",
+    "EYESHADOW_009",
+    "MASCARA_004",
+    "FALSE_LASHES_004",
+    "EYEBROW_014",
+    "LIP_LINER_015",
+    "LIP_STAIN_014",
+    "SETTING_SPRAY_POWDER_008"
+  ]
   },
 
   {
@@ -1596,7 +1743,24 @@ const LOOKS = [
     category: "smokey",
     homeImage: "images/home/file_00000000b02471f4abf1d53289f3d0b1.png",
     heroImage: "images/home/file_00000000b02471f4abf1d53289f3d0b1.png",
-    products: []
+    products: [
+    "FACE_PRIMER_030",
+    "FOUNDATION_017",
+    "CONCEALER_001",
+    "SETTING_SPRAY_POWDER_028",
+    "CONTOUR_011",
+    "BRONZER_018",
+    "BLUSH_091",
+    "HIGHLIGHTER_021",
+    "EYESHADOW_PALETTE_004",
+    "EYESHADOW_009",
+    "MASCARA_047",
+    "FALSE_LASHES_014",
+    "EYEBROW_012",
+    "LIP_LINER_015",
+    "LIP_GLOSS_020",
+    "SETTING_SPRAY_POWDER_019"
+  ]
   },
 
   {
@@ -1652,7 +1816,20 @@ const LOOKS = [
     category: "natural",
     homeImage: "images/home/file_00000000055c7243994e7e7143093f7a.png",
     heroImage: "images/home/file_00000000055c7243994e7e7143093f7a.png",
-    products: []
+    products: [
+    "FACE_PRIMER_012",
+    "TINTED_MOISTURIZER_007",
+    "CONCEALER_013",
+    "CONTOUR_024",
+    "BRONZER_016",
+    "BLUSH_011",
+    "HIGHLIGHTER_017",
+    "EYESHADOW_PALETTE_013",
+    "MASCARA_020",
+    "EYEBROW_005",
+    "LIP_OIL_004",
+    "SETTING_SPRAY_POWDER_016"
+  ]
   },
 
   {
@@ -1683,7 +1860,23 @@ const LOOKS = [
     category: "glam",
     homeImage: "images/home/file_00000000bff0724695f265c24f418c08.png",
     heroImage: "images/home/file_00000000bff0724695f265c24f418c08.png",
-    products: []
+    products: [
+    "FACE_PRIMER_004",
+    "FOUNDATION_011",
+    "CONCEALER_014",
+    "SETTING_SPRAY_POWDER_004",
+    "CONTOUR_016",
+    "BRONZER_006",
+    "BLUSH_012",
+    "HIGHLIGHTER_003",
+    "EYESHADOW_PALETTE_009",
+    "MASCARA_004",
+    "FALSE_LASHES_004",
+    "EYEBROW_014",
+    "LIP_LINER_013",
+    "LIP_GLOSS_020",
+    "SETTING_SPRAY_POWDER_008"
+  ]
   },
 
   {
@@ -1693,7 +1886,23 @@ const LOOKS = [
     category: "natural",
     homeImage: "images/home/file_00000000bf0c7243bce500fb6553cb26.png",
     heroImage: "images/home/file_00000000bf0c7243bce500fb6553cb26.png",
-    products: []
+    products: [
+    "FACE_PRIMER_017",
+    "FOUNDATION_003",
+    "CONCEALER_014",
+    "SETTING_SPRAY_POWDER_014",
+    "CONTOUR_016",
+    "BRONZER_006",
+    "BLUSH_011",
+    "HIGHLIGHTER_006",
+    "EYESHADOW_PALETTE_009",
+    "MASCARA_004",
+    "FALSE_LASHES_004",
+    "EYEBROW_012",
+    "LIP_LINER_013",
+    "LIP_GLOSS_013",
+    "SETTING_SPRAY_POWDER_008"
+  ]
   },
 
   {
@@ -1703,7 +1912,22 @@ const LOOKS = [
     category: "natural",
     homeImage: "images/home/file_00000000fe38724696c9529ca99bbd08.png",
     heroImage: "images/home/file_00000000fe38724696c9529ca99bbd08.png",
-    products: []
+    products: [
+    "FACE_PRIMER_004",
+    "FOUNDATION_145",
+    "CONCEALER_018",
+    "SETTING_SPRAY_POWDER_005",
+    "CONTOUR_004",
+    "BRONZER_004",
+    "BLUSH_005",
+    "HIGHLIGHTER_005",
+    "EYESHADOW_PALETTE_001",
+    "MASCARA_002",
+    "EYEBROW_011",
+    "LIP_LINER_007",
+    "LIP_GLOSS_020",
+    "SETTING_SPRAY_POWDER_008"
+  ]
   },
 
   {
@@ -1738,7 +1962,23 @@ const LOOKS = [
     category: "glam",
     homeImage: "images/home/file_0000000051d071f48389314579b353c3.png",
     heroImage: "images/home/file_0000000051d071f48389314579b353c3.png",
-    products: []
+    products: [
+    "FACE_PRIMER_021",
+    "FOUNDATION_011",
+    "CONCEALER_014",
+    "SETTING_SPRAY_POWDER_001",
+    "CONTOUR_002",
+    "BRONZER_005",
+    "BLUSH_012",
+    "HIGHLIGHTER_003",
+    "EYESHADOW_PALETTE_012",
+    "MASCARA_004",
+    "FALSE_LASHES_004",
+    "EYEBROW_014",
+    "LIP_LINER_013",
+    "LIP_GLOSS_003",
+    "SETTING_SPRAY_POWDER_008"
+  ]
   },
 
   {
@@ -2240,7 +2480,33 @@ const LOOKS = [
     heroImage: "images/home/file_00000000cd44720a8a4b87c083806143~2.png",
     products: [
     ]
+  }, 
+  {
+    id: 180,
+    slug: "full-face-makeup-that-looks-smooth-and-expensive",
+    title: "Full Face Makeup That Looks Smooth and Expensive",
+    category: "glam",
+    homeImage: "images/home/file_000000006748720a84ff3ce74fb43956~2.png",
+    heroImage: "images/home/file_000000006748720a84ff3ce74fb43956~2.png",
+    products: [
+    "FACE_PRIMER_026",
+    "FOUNDATION_011",
+    "CONCEALER_014",
+    "SETTING_SPRAY_POWDER_004",
+    "CONTOUR_016",
+    "BRONZER_006",
+    "BLUSH_033",
+    "HIGHLIGHTER_009",
+    "EYESHADOW_PALETTE_009",
+    "EYESHADOW_009",
+    "MASCARA_004",
+    "FALSE_LASHES_004",
+    "EYEBROW_014",
+    "LIP_LINER_015",
+    "SETTING_SPRAY_POWDER_019"
+  ]
   }
+  
 ];
 
 LOOKS.push(
