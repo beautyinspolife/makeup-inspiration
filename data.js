@@ -524,7 +524,23 @@ const LOOKS = [
     category: "natural",
     homeImage: "images/home/file_00000000d58c720aad99eb01a1c58cb3~2.png",
     heroImage: "images/home/file_00000000d58c720aad99eb01a1c58cb3~2.png",
-    products: []
+    products: [
+    "FACE_PRIMER_017",
+    "FOUNDATION_003",
+    "CONCEALER_014",
+    "SETTING_SPRAY_POWDER_014",
+    "CONTOUR_016",
+    "BRONZER_006",
+    "BLUSH_011",
+    "HIGHLIGHTER_006",
+    "EYESHADOW_PALETTE_009",
+    "MASCARA_004",
+    "FALSE_LASHES_001",
+    "EYEBROW_012",
+    "LIP_LINER_013",
+    "LIP_GLOSS_013",
+    "SETTING_SPRAY_POWDER_008"
+  ]
   },
   {
     id: 28,
@@ -556,7 +572,22 @@ const LOOKS = [
     category: "natural",
     homeImage: "images/home/file_00000000f9cc7246aff5aee19941825b~2.png",
     heroImage: "images/home/file_00000000f9cc7246aff5aee19941825b~2.png",
-    products: []
+    products: [
+    "FACE_PRIMER_012",
+    "FOUNDATION_145",
+    "CONCEALER_018",
+    "SETTING_SPRAY_POWDER_005",
+    "CONTOUR_004",
+    "BRONZER_004",
+    "BLUSH_005",
+    "HIGHLIGHTER_005",
+    "EYESHADOW_PALETTE_001",
+    "MASCARA_002",
+    "EYEBROW_011",
+    "LIP_LINER_007",
+    "LIP_OIL_005",
+    "SETTING_SPRAY_POWDER_008"
+  ]
   },
   {
     id: 30,
@@ -770,7 +801,24 @@ const LOOKS = [
     title: "Effortless Beauty Makeup for a Naturally Perfect Look",
     category: "natural",
     homeImage: "images/home/file_00000000b6f0724391ac2f00ec0e9501~2.png",
-    heroImage: "images/home/file_00000000b6f0724391ac2f00ec0e9501~2.png"
+    heroImage: "images/home/file_00000000b6f0724391ac2f00ec0e9501~2.png",
+    products: [
+    "FACE_PRIMER_026",
+    "FOUNDATION_011",
+    "CONCEALER_014",
+    "SETTING_SPRAY_POWDER_004",
+    "CONTOUR_016",
+    "BRONZER_006",
+    "BLUSH_033",
+    "HIGHLIGHTER_009",
+    "EYESHADOW_PALETTE_009",
+    "MASCARA_004",
+    "FALSE_LASHES_004",
+    "EYEBROW_014",
+    "LIP_LINER_013",
+    "LIP_GLOSS_020",
+    "SETTING_SPRAY_POWDER_019"
+  ]
   },
   {
     id: 40,
@@ -778,7 +826,24 @@ const LOOKS = [
     title: "Natural Glowy Makeup Idea for a Pretty Feminine Look",
     category: "glam",
     homeImage: "images/home/file_00000000e6b87243b86f771d4b82ceb0~2.png",
-    heroImage: "images/home/file_00000000e6b87243b86f771d4b82ceb0~2.png"
+    heroImage: "images/home/file_00000000e6b87243b86f771d4b82ceb0~2.png",
+    products: [
+    "FACE_PRIMER_017",
+    "FOUNDATION_003",
+    "CONCEALER_014",
+    "SETTING_SPRAY_POWDER_014",
+    "CONTOUR_016",
+    "BRONZER_006",
+    "BLUSH_011",
+    "HIGHLIGHTER_006",
+    "EYESHADOW_PALETTE_009",
+    "MASCARA_004",
+    "FALSE_LASHES_001",
+    "EYEBROW_012",
+    "LIP_LINER_013",
+    "LIP_GLOSS_013",
+    "SETTING_SPRAY_POWDER_008"
+  ]
   },
   {
     id: 41,
@@ -863,7 +928,23 @@ const LOOKS = [
     title: "Subtle Glam Makeup That Looks Soft but So Stunning",
     category: "glam",
     homeImage: "images/home/file_00000000bc3471f4ae2b3996c949ba24~2.png",
-    heroImage: "images/home/file_00000000bc3471f4ae2b3996c949ba24~2.png"
+    heroImage: "images/home/file_00000000bc3471f4ae2b3996c949ba24~2.png",
+    products: [
+    "FACE_PRIMER_012",
+    "FOUNDATION_145",
+    "CONCEALER_018",
+    "SETTING_SPRAY_POWDER_005",
+    "CONTOUR_004",
+    "BRONZER_004",
+    "BLUSH_005",
+    "HIGHLIGHTER_005",
+    "EYESHADOW_PALETTE_001",
+    "MASCARA_002",
+    "EYEBROW_011",
+    "LIP_LINER_007",
+    "LIP_OIL_005",
+    "SETTING_SPRAY_POWDER_008"
+  ]
   },
   {
     id: 45,
@@ -871,7 +952,24 @@ const LOOKS = [
     title: "Luxury Soft Glam Look for Elegant Makeup Inspo",
     category: "glam",
     homeImage: "images/home/file_00000000046c720a9f5f638e99d9a83f~2.png",
-    heroImage: "images/home/file_00000000046c720a9f5f638e99d9a83f~2.png"
+    heroImage: "images/home/file_00000000046c720a9f5f638e99d9a83f~2.png",
+    products: [
+    "FACE_PRIMER_041",
+    "FOUNDATION_024",
+    "CONCEALER_021",
+    "SETTING_SPRAY_POWDER_031",
+    "CONTOUR_022",
+    "BRONZER_027",
+    "BLUSH_048",
+    "HIGHLIGHTER_027",
+    "EYESHADOW_PALETTE_015",
+    "MASCARA_007",
+    "FALSE_LASHES_009",
+    "EYEBROW_018",
+    "LIP_LINER_022",
+    "LIP_GLOSS_024",
+    "SETTING_SPRAY_POWDER_011"
+  ]
   },
   {
     id: 46,
@@ -952,7 +1050,24 @@ const LOOKS = [
     title: "Full Face Soft Glam Tutorial for a Radiant Finish",
     category: "glam",
     homeImage: "images/home/file_000000009bb47243ae8c6f0987549e20.png",
-    heroImage: "images/home/file_000000009bb47243ae8c6f0987549e20.png"
+    heroImage: "images/home/file_000000009bb47243ae8c6f0987549e20.png",
+    products: [
+    "FACE_PRIMER_017",
+    "FOUNDATION_003",
+    "CONCEALER_014",
+    "SETTING_SPRAY_POWDER_014",
+    "CONTOUR_016",
+    "BRONZER_006",
+    "BLUSH_011",
+    "HIGHLIGHTER_006",
+    "EYESHADOW_PALETTE_009",
+    "MASCARA_004",
+    "FALSE_LASHES_001",
+    "EYEBROW_012",
+    "LIP_LINER_013",
+    "LIP_GLOSS_013",
+    "SETTING_SPRAY_POWDER_008"
+  ]
   },
   {
     id: 50,
@@ -960,7 +1075,26 @@ const LOOKS = [
     title: "Bridal Soft Glam Makeup Inspiration with glowy skin",
     category: "glam",
     homeImage: "images/home/file_000000005d1c71fdb519d44993b87c96~2.png",
-    heroImage: "images/home/file_000000005d1c71fdb519d44993b87c96~2.png"
+    heroImage: "images/home/file_000000005d1c71fdb519d44993b87c96~2.png",
+    products: [
+    "FACE_PRIMER_004",
+    "FOUNDATION_071",
+    "CONCEALER_006",
+    "SETTING_SPRAY_POWDER_022",
+    "CONTOUR_031",
+    "BRONZER_012",
+    "BLUSH_021",
+    "HIGHLIGHTER_012",
+    "EYESHADOW_PALETTE_007",
+    "EYESHADOW_009",
+    "MASCARA_015",
+    "FALSE_LASHES_007",
+    "EYEBROW_021",
+    "LIP_LINER_011",
+    "LIP_GLOSS_005",
+    "SETTING_SPRAY_POWDER_034"
+  ]
+    
   },
   {
     id: 51,
@@ -968,7 +1102,26 @@ const LOOKS = [
     title: "Soft Glam Makeup Inspiration for Everyday Beauty",
     category: "glam",
     homeImage: "images/home/file_00000000b35471fdbfc54d2132b501f0.png",
-    heroImage: "images/home/file_00000000b35471fdbfc54d2132b501f0.png"
+    heroImage: "images/home/file_00000000b35471fdbfc54d2132b501f0.png",
+    products: [
+    "FACE_PRIMER_021",
+    "FOUNDATION_011",
+    "CONCEALER_001",
+    "SETTING_SPRAY_POWDER_001",
+    "CONTOUR_002",
+    "BRONZER_005",
+    "BLUSH_012",
+    "HIGHLIGHTER_003",
+    "EYESHADOW_PALETTE_012",
+    "EYESHADOW_009",
+    "MASCARA_004",
+    "FALSE_LASHES_004",
+    "EYEBROW_014",
+    "LIP_LINER_015",
+    "LIP_GLOSS_003",
+    "SETTING_SPRAY_POWDER_008"
+  ]
+    
   },
   {
     id: 52,
@@ -976,23 +1129,24 @@ const LOOKS = [
     title: "Dewy Makeup Inspiration for Glowing Healthy Skin",
     category: "glam",
     homeImage: "images/home/file_000000009bb47243ae8c6f0987549e20.png",
-    heroImage: "images/home/file_000000009bb47243ae8c6f0987549e20.png"
-  },
-  {
-    id: 53,
-    slug: "bronzed-makeup-look-that-gives-the-perfect-vacation-glow",
-    title: "Bronzed Makeup Look That Gives the Perfect Vacation Glow",
-    category: "glam",
-    homeImage: "images/home/file_000000003fec71f48dd4afef666f67fd~2.png",
-    heroImage: "images/home/file_000000003fec71f48dd4afef666f67fd~2.png"
-  },
-  {
-    id: 54,
-    slug: "a-feminine-makeup-look-that-feels-so-soft-and-chic",
-    title: "A Feminine Makeup Look That Feels So Soft and Chic",
-    category: "glam",
-    homeImage: "images/home/file_000000009aa87243bb8c4d09679aa187~2.png",
-    heroImage: "images/home/file_000000009aa87243bb8c4d09679aa187~2.png"
+    heroImage: "images/home/file_000000009bb47243ae8c6f0987549e20.png",
+    products: [
+    "FACE_PRIMER_033",
+    "FOUNDATION_052",
+    "CONCEALER_032",
+    "SETTING_SPRAY_POWDER_016",
+    "CONTOUR_011",
+    "BRONZER_033",
+    "BLUSH_067",
+    "HIGHLIGHTER_034",
+    "EYESHADOW_PALETTE_018",
+    "MASCARA_047",
+    "FALSE_LASHES_018",
+    "EYEBROW_012",
+    "LIP_LINER_019",
+    "LIP_OIL_009",
+    "SETTING_SPRAY_POWDER_004"
+  ]
   },
   {
     id: 55,
@@ -1000,7 +1154,24 @@ const LOOKS = [
     title: "Full Face Natural Soft Glam for a Beautifully Defined Face",
     category: "glam",
     homeImage: "images/home/file_00000000aa3c724394c500e9d1916b4c~2.png",
-    heroImage: "images/home/file_00000000aa3c724394c500e9d1916b4c~2.png"
+    heroImage: "images/home/file_00000000aa3c724394c500e9d1916b4c~2.png",
+    products: [
+    "FACE_PRIMER_021",
+    "FOUNDATION_089",
+    "CONCEALER_009",
+    "SETTING_SPRAY_POWDER_028",
+    "CONTOUR_044",
+    "BRONZER_020",
+    "BLUSH_091",
+    "HIGHLIGHTER_017",
+    "EYESHADOW_PALETTE_012",
+    "MASCARA_004",
+    "FALSE_LASHES_014",
+    "EYEBROW_014",
+    "LIP_LINER_015",
+    "LIP_GLOSS_020",
+    "SETTING_SPRAY_POWDER_019"
+  ]
   },
     {
     id: 57,
@@ -1058,7 +1229,25 @@ const LOOKS = [
     title: "Radiant Skin Makeup for a Soft Glam Beauty Vibe",
     category: "glam",
     homeImage: "images/home/file_0000000034ec71f49ab86a8930db65c5~2.png",
-    heroImage: "images/home/file_0000000034ec71f49ab86a8930db65c5~2.png"
+    heroImage: "images/home/file_0000000034ec71f49ab86a8930db65c5~2.png", 
+    products: [
+    "FACE_PRIMER_026",
+    "FOUNDATION_011",
+    "CONCEALER_014",
+    "SETTING_SPRAY_POWDER_004",
+    "CONTOUR_016",
+    "BRONZER_006",
+    "BLUSH_033",
+    "HIGHLIGHTER_009",
+    "EYESHADOW_PALETTE_009",
+    "EYESHADOW_009",
+    "MASCARA_004",
+    "FALSE_LASHES_004",
+    "EYEBROW_014",
+    "LIP_LINER_013",
+    "LIP_GLOSS_020",
+    "SETTING_SPRAY_POWDER_019"
+  ]
   },
   {
     id: 60,
@@ -1201,7 +1390,6 @@ const LOOKS = [
     "SETTING_SPRAY_POWDER_016"
   ]
   },
-
   {
     id: 67,
     slug: "expensive-looking-makeup-for-a-rich-girl-vibe",
@@ -1230,33 +1418,27 @@ const LOOKS = [
   },
 
   {
-    id: 68,
-    slug: "luminous-makeup-look-for-a-soft-expensive-finish",
-    title: "luminous makeup look for a Soft expensive finish",
-    category: "glam",
-    homeImage: "images/home/file_000000005978720a9a53a2c7223a79b4~2.png",
-    heroImage: "images/home/file_000000005978720a9a53a2c7223a79b4~2.png",
-    products: []
-  },
-
-  {
-    id: 69,
-    slug: "makeup-look-that-makes-the-face-look-so-fresh-and-lifted-",
-    title: "Makeup look that makes the face look so fresh and lifted",
-    category: "glam",
-    homeImage: "images/home/file_0000000040f8724388d3027182045f61~2.png",
-    heroImage: "images/home/file_0000000040f8724388d3027182045f61~2.png",
-    products: []
-  },
-
-  {
     id: 70,
     slug: "natural-bronzed-beauty-for-a-glowy-feminine-look-",
     title: "natural bronzed beauty for a glowy feminine look",
     category: "natural",
     homeImage: "images/home/file_00000000d638724381fb8a5b6c5b3a6f~2.png",
     heroImage: "images/home/file_00000000d638724381fb8a5b6c5b3a6f~2.png",
-    products: []
+    products: [
+    "TINTED_MOISTURIZER_004",
+    "CONCEALER_013",
+    "SETTING_SPRAY_POWDER_005",
+    "CONTOUR_004",
+    "BRONZER_004",
+    "BLUSH_014",
+    "HIGHLIGHTER_005",
+    "EYESHADOW_PALETTE_005",
+    "MASCARA_001",
+    "EYEBROW_005",
+    "LIP_LINER_007",
+    "LIP_GLOSS_002",
+    "SETTING_SPRAY_POWDER_008"
+  ]
   },
 
   {
@@ -1285,63 +1467,30 @@ const LOOKS = [
   },
 
   {
-    id: 72,
-    slug: "full-glam-face-makeup-with-a-flawless-finish-",
-    title: "Full glam face makeup with a flawless finish",
-    category: "glam",
-    homeImage: "images/home/file_000000004250720a8bcc25f778972b9d~2.png",
-    heroImage: "images/home/file_000000004250720a8bcc25f778972b9d~2.png",
-    products: []
-  },
-
-  {
-    id: 73,
-    slug: "fresh-glowy-makeup-for-a-healthy-skin-effect",
-    title: "fresh glowy makeup for a healthy skin effect",
-    category: "natural",
-    homeImage: "images/home/file_0000000028bc72469e4ae034f73a326a~2.png",
-    heroImage: "images/home/file_0000000028bc72469e4ae034f73a326a~2.png",
-    products: []
-  },
-
-  {
     id: 74,
     slug: "full-face-makeup-that-looks-smooth-and-expensive-",
     title: "Full face makeup that looks smooth and expensive",
     category: "glam",
     homeImage: "images/home/file_0000000028bc72469e4ae034f73a326a~2.png",
     heroImage: "images/home/file_0000000028bc72469e4ae034f73a326a~2.png",
-    products: []
-  },
-
-  {
-    id: 75,
-    slug: "clean-pretty-makeup-for-everyday-perfection",
-    title: "Clean pretty makeup for everyday perfection",
-    category: "clean girl",
-    homeImage: "images/home/file_0000000023bc7246b8b5dda3cb681c88~2.png",
-    heroImage: "images/home/file_0000000023bc7246b8b5dda3cb681c88~2.png",
-    products: []
-  },
-
-  {
-    id: 76,
-    slug: "warm-bronzed-beauty-with-a-soft-glam-finish-",
-    title: "Warm bronzed beauty with a soft glam finish",
-    category: "glam",
-    homeImage: "images/home/file_00000000987c7246bbb4cba0ad7c8b57~2.png",
-    heroImage: "images/home/file_00000000987c7246bbb4cba0ad7c8b57~2.png",
-    products: []
-  },
-
-  {
-    id: 77,
-    slug: "sun-kiss-makeup-that-makes-you-look-radiant-",
-    title: "Sun kiss makeup that makes you look radiant",
-    category: "glam",
-    homeImage: "images/home/file_00000000ab40720aa5744110979fa0c3~2.png",
-    heroImage: "images/home/file_00000000ab40720aa5744110979fa0c3~2.png",
-    products: []
+    products: [
+    "FACE_PRIMER_026",
+    "FOUNDATION_011",
+    "CONCEALER_014",
+    "SETTING_SPRAY_POWDER_004",
+    "CONTOUR_016",
+    "BRONZER_006",
+    "BLUSH_033",
+    "HIGHLIGHTER_009",
+    "EYESHADOW_PALETTE_009",
+    "EYESHADOW_009",
+    "MASCARA_004",
+    "FALSE_LASHES_004",
+    "EYEBROW_014",
+    "LIP_LINER_015",
+    "LIP_GLOSS_005",
+    "SETTING_SPRAY_POWDER_019"
+  ]
   },
 
   {
@@ -1365,26 +1514,6 @@ const LOOKS = [
     "LIP_OIL_015",
     "SETTING_SPRAY_POWDER_016"
   ]
-  },
-
-  {
-    id: 79,
-    slug: "luminous-makeup-for-a-natural-pretty-face-",
-    title: "Luminous makeup for a Natural pretty face",
-    category: "natural",
-    homeImage: "images/home/file_000000007918720abb53408fe5551ee7~2.png",
-    heroImage: "images/home/file_000000007918720abb53408fe5551ee7~2.png",
-    products: []
-  },
-
-  {
-    id: 80,
-    slug: "full-face-makeup-routine-for-a-perfect-glam-look",
-    title: "Full face makeup routine for a perfect glam look",
-    category: "glam",
-    homeImage: "images/home/file_000000002890720a90be095a63a7dec2~2.png",
-    heroImage: "images/home/file_000000002890720a90be095a63a7dec2~2.png",
-    products: []
   },
 
   {
@@ -1412,16 +1541,6 @@ const LOOKS = [
     "SETTING_SPRAY_POWDER_008"
   ]
   },
-  {
-    id: 83,
-    slug: "natural-makeup-that-looks-good-in-every-light-",
-    title: "Natural makeup that looks good in every light",
-    category: "clean girl",
-    homeImage: "images/home/file_000000006b34720981d70fb6980a4db1~2.png",
-    heroImage: "images/home/file_000000006b34720981d70fb6980a4db1~2.png",
-    products: []
-  },
-
   {
     id: 84,
     slug: "minimal-natural-makeup-that-enhances-everything-",
@@ -1480,7 +1599,21 @@ const LOOKS = [
     category: "natural",
     homeImage: "images/home/file_000000000270720a9f99235bb31497f1~2.png",
     heroImage: "images/home/file_000000000270720a9f99235bb31497f1~2.png",
-    products: []
+    products: [
+    "TINTED_MOISTURIZER_004",
+    "CONCEALER_013",
+    "SETTING_SPRAY_POWDER_005",
+    "CONTOUR_004",
+    "BRONZER_004",
+    "BLUSH_014",
+    "HIGHLIGHTER_005",
+    "EYESHADOW_PALETTE_005",
+    "MASCARA_001",
+    "EYEBROW_005",
+    "LIP_LINER_007",
+    "LIP_GLOSS_002",
+    "SETTING_SPRAY_POWDER_008"
+  ]
   },
 
   {
@@ -1510,43 +1643,29 @@ const LOOKS = [
   },
 
   {
-    id: 88,
-    slug: "full-face-beauty-look-that-turns-heads-",
-    title: "Full face beauty look that turns heads",
-    category: "glam",
-    homeImage: "images/home/file_0000000057c4720abbecc3a5828b0e09~2.png",
-    heroImage: "images/home/file_0000000057c4720abbecc3a5828b0e09~2.png",
-    products: []
-  },
-
-  {
-    id: 89,
-    slug: "soft-glam-look-with-the-perfect-balance-of-glow-",
-    title: "Soft Glam look with the perfect balance of glow",
-    category: "glam",
-    homeImage: "images/home/file_00000000d178720a94b57839fa5a76f2~2.png",
-    heroImage: "images/home/file_00000000d178720a94b57839fa5a76f2~2.png",
-    products: []
-  },
-
-  {
-    id: 90,
-    slug: "full-face-makeup-inspiration-for-a-face-card-look-",
-    title: "Full face makeup inspiration for a face card look",
-    category: "glam",
-    homeImage: "images/home/file_0000000084c07243b9fbbe536ddcc88f~2.png",
-    heroImage: "images/home/file_0000000084c07243b9fbbe536ddcc88f~2.png",
-    products: []
-  },
-
-  {
     id: 91,
     slug: "luxury-soft-glam-for-an-expensive-looking-finish",
     title: "luxury soft glam for an expensive looking finish",
     category: "glam",
     homeImage: "images/home/file_0000000084c07243b9fbbe536ddcc88f~2.png",
     heroImage: "images/home/file_0000000084c07243b9fbbe536ddcc88f~2.png",
-    products: []
+    products: [
+    "FACE_PRIMER_041",
+    "FOUNDATION_024",
+    "CONCEALER_021",
+    "SETTING_SPRAY_POWDER_031",
+    "CONTOUR_022",
+    "BRONZER_027",
+    "BLUSH_048",
+    "HIGHLIGHTER_027",
+    "EYESHADOW_PALETTE_015",
+    "MASCARA_007",
+    "FALSE_LASHES_009",
+    "EYEBROW_018",
+    "LIP_LINER_022",
+    "LIP_GLOSS_024",
+    "SETTING_SPRAY_POWDER_011"
+  ]
   },
 
   {
@@ -1633,7 +1752,23 @@ const LOOKS = [
     category: "glam",
     homeImage: "images/home/file_000000009f1c720a874e5400250cbe40.png",
     heroImage: "images/home/file_000000009f1c720a874e5400250cbe40.png",
-    products: []
+    products: [
+    "FACE_PRIMER_045",
+    "FOUNDATION_145",
+    "CONCEALER_018",
+    "SETTING_SPRAY_POWDER_011",
+    "CONTOUR_022",
+    "BRONZER_027",
+    "BLUSH_067",
+    "HIGHLIGHTER_027",
+    "EYESHADOW_PALETTE_018",
+    "MASCARA_015",
+    "FALSE_LASHES_018",
+    "EYEBROW_018",
+    "LIP_LINER_022",
+    "LIP_GLOSS_003",
+    "SETTING_SPRAY_POWDER_031"
+  ]
   },
   
   {
@@ -1696,17 +1831,23 @@ const LOOKS = [
     category: "smokey",
     homeImage: "images/home/file_000000003ef87246a388240431ad11f8.png",
     heroImage: "images/home/file_000000003ef87246a388240431ad11f8.png",
-    products: []
-  },
-
-  {
-    id: 99,
-    slug: "classic-smokey-eye-with-a-glamorous-touch",
-    title: "Classic Smokey Eye with a Glamorous Touch",
-    category: "smokey",
-    homeImage: "images/home/file_00000000e174720a9c3acaedafb379e4.png",
-    heroImage: "images/home/file_00000000e174720a9c3acaedafb379e4.png",
-    products: []
+    products: [
+    "FACE_PRIMER_026",
+    "FOUNDATION_017",
+    "CONCEALER_001",
+    "SETTING_SPRAY_POWDER_004",
+    "CONTOUR_011",
+    "BRONZER_005",
+    "BLUSH_012",
+    "HIGHLIGHTER_003",
+    "EYESHADOW_PALETTE_001",
+    "MASCARA_007",
+    "FALSE_LASHES_007",
+    "EYEBROW_021",
+    "LIP_LINER_019",
+    "LIP_GLOSS_024",
+    "SETTING_SPRAY_POWDER_016"
+  ]
   },
 
   {
@@ -1770,7 +1911,23 @@ const LOOKS = [
     category: "smokey",
     homeImage: "images/home/file_00000000da80724683e280c39ae2da65.png",
     heroImage: "images/home/file_00000000da80724683e280c39ae2da65.png",
-    products: []
+    products: [
+    "FACE_PRIMER_012",
+    "FOUNDATION_011",
+    "CONCEALER_032",
+    "SETTING_SPRAY_POWDER_019",
+    "CONTOUR_031",
+    "BRONZER_012",
+    "BLUSH_005",
+    "HIGHLIGHTER_009",
+    "EYESHADOW_PALETTE_007",
+    "MASCARA_047",
+    "FALSE_LASHES_009",
+    "EYEBROW_012",
+    "LIP_LINER_011",
+    "LIP_GLOSS_005",
+    "SETTING_SPRAY_POWDER_028"
+  ]
   },
 
   {
@@ -2336,7 +2493,22 @@ const LOOKS = [
     homeImage: "images/home/file_00000000060471f495c90d7ededbbaa3.png",
     heroImage: "images/home/file_00000000060471f495c90d7ededbbaa3.png",
     products: [
-    ]
+    "FACE_PRIMER_026",
+    "FOUNDATION_017",
+    "CONCEALER_014",
+    "SETTING_SPRAY_POWDER_011",
+    "CONTOUR_016",
+    "BRONZER_006",
+    "BLUSH_033",
+    "HIGHLIGHTER_009",
+    "EYESHADOW_PALETTE_009",
+    "MASCARA_004",
+    "FALSE_LASHES_001",
+    "EYEBROW_014",
+    "LIP_LINER_013",
+    "LIP_GLOSS_020",
+    "SETTING_SPRAY_POWDER_005"
+  ]
   },
 
   {
@@ -2347,7 +2519,22 @@ const LOOKS = [
     homeImage: "images/home/file_0000000068c8720a8fda99ca14a8ce98.png",
     heroImage: "images/home/file_0000000068c8720a8fda99ca14a8ce98.png",
     products: [
-    ]
+    "FACE_PRIMER_033",
+    "FOUNDATION_052",
+    "CONCEALER_021",
+    "SETTING_SPRAY_POWDER_022",
+    "CONTOUR_022",
+    "BRONZER_027",
+    "BLUSH_048",
+    "HIGHLIGHTER_027",
+    "EYESHADOW_PALETTE_015",
+    "MASCARA_007",
+    "FALSE_LASHES_009",
+    "EYEBROW_018",
+    "LIP_LINER_022",
+    "LIP_GLOSS_024",
+    "SETTING_SPRAY_POWDER_031"
+  ]
   },
 
   {
@@ -2358,7 +2545,22 @@ const LOOKS = [
     homeImage: "images/home/file_000000004fcc71f48860c14a6eaf63fc.png",
     heroImage: "images/home/file_000000004fcc71f48860c14a6eaf63fc.png",
     products: [
-    ]
+    "FACE_PRIMER_004",
+    "FOUNDATION_071",
+    "CONCEALER_006",
+    "SETTING_SPRAY_POWDER_034",
+    "CONTOUR_031",
+    "BRONZER_012",
+    "BLUSH_021",
+    "HIGHLIGHTER_012",
+    "EYESHADOW_PALETTE_007",
+    "MASCARA_015",
+    "FALSE_LASHES_007",
+    "EYEBROW_021",
+    "LIP_LINER_011",
+    "LIP_GLOSS_005",
+    "SETTING_SPRAY_POWDER_016"
+  ]
   },
 
   {
@@ -2369,7 +2571,22 @@ const LOOKS = [
     homeImage: "images/home/file_00000000e31071f48405b4a46451d9f1.png",
     heroImage: "images/home/file_00000000e31071f48405b4a46451d9f1.png",
     products: [
-    ]
+    "FACE_PRIMER_030",
+    "FOUNDATION_017",
+    "CONCEALER_001",
+    "SETTING_SPRAY_POWDER_028",
+    "CONTOUR_011",
+    "BRONZER_018",
+    "BLUSH_091",
+    "HIGHLIGHTER_021",
+    "EYESHADOW_PALETTE_004",
+    "MASCARA_047",
+    "FALSE_LASHES_014",
+    "EYEBROW_012",
+    "LIP_LINER_015",
+    "LIP_GLOSS_020",
+    "SETTING_SPRAY_POWDER_019"
+  ]
   },
 
   {
@@ -2380,14 +2597,29 @@ const LOOKS = [
     homeImage: "images/home/file_000000008d047243a9274654c60b6ee9.png",
     heroImage: "images/home/file_000000008d047243a9274654c60b6ee9.png",
     products: [
-    ]
+    "FACE_PRIMER_006",
+    "FOUNDATION_118",
+    "CONCEALER_041",
+    "SETTING_SPRAY_POWDER_037",
+    "CONTOUR_008",
+    "BRONZER_041",
+    "BLUSH_074",
+    "HIGHLIGHTER_039",
+    "EYESHADOW_PALETTE_022",
+    "MASCARA_033",
+    "FALSE_LASHES_021",
+    "EYEBROW_027",
+    "LIP_LINER_031",
+    "LIPSTICK_018",
+    "LIP_GLOSS_041"
+  ]
   },
 
   {
     id: 171,
     slug: "clean-girl-lip-combo-with-rhode-peptide-lip-tint",
     title: "Clean Girl Lip Combo with Rhode Peptide Lip Tint",
-    category: "glam",
+    category: "clean girl",
     homeImage: "images/home/file_00000000d76872439d9d1c77a1ba5f25.png",
     heroImage: "images/home/file_00000000d76872439d9d1c77a1ba5f25.png",
     products: [
@@ -2402,7 +2634,22 @@ const LOOKS = [
     homeImage: "images/home/file_0000000083fc7243a0eba7c0ca4d9d88.png",
     heroImage: "images/home/file_0000000083fc7243a0eba7c0ca4d9d88.png",
     products: [
-    ]
+    "FACE_PRIMER_023",
+    "FOUNDATION_121",
+    "CONCEALER_011",
+    "SETTING_SPRAY_POWDER_032",
+    "CONTOUR_029",
+    "BRONZER_017",
+    "BLUSH_058",
+    "HIGHLIGHTER_020",
+    "EYESHADOW_PALETTE_024",
+    "MASCARA_012",
+    "FALSE_LASHES_005",
+    "EYEBROW_002",
+    "LIP_LINER_033",
+    "LIPSTICK_019",
+    "LIP_OIL_017"
+  ]
   },
 
   {
@@ -2413,7 +2660,22 @@ const LOOKS = [
     homeImage: "images/home/file_00000000d2b471f4a65db69a4999fe62.png",
     heroImage: "images/home/file_00000000d2b471f4a65db69a4999fe62.png",
     products: [
-    ]
+    "FACE_PRIMER_002",
+    "FOUNDATION_075",
+    "CONCEALER_017",
+    "SETTING_SPRAY_POWDER_039",
+    "CONTOUR_025",
+    "BRONZER_046",
+    "BLUSH_026",
+    "HIGHLIGHTER_014",
+    "EYESHADOW_PALETTE_034",
+    "MASCARA_009",
+    "FALSE_LASHES_003",
+    "EYEBROW_025",
+    "LIP_LINER_024",
+    "LIPSTICK_011",
+    "LIP_OIL_021"
+  ]
   },
 
   {
@@ -2424,7 +2686,22 @@ const LOOKS = [
     homeImage: "images/home/file_00000000bd7871f4b09b590985433327.png",
     heroImage: "images/home/file_00000000bd7871f4b09b590985433327.png",
     products: [
-    ]
+    "FACE_PRIMER_044",
+    "FOUNDATION_132",
+    "CONCEALER_029",
+    "SETTING_SPRAY_POWDER_012",
+    "CONTOUR_042",
+    "BRONZER_035",
+    "BLUSH_063",
+    "HIGHLIGHTER_026",
+    "EYESHADOW_PALETTE_019",
+    "MASCARA_026",
+    "FALSE_LASHES_022",
+    "EYEBROW_004",
+    "LIP_LINER_035",
+    "LIPSTICK_022",
+    "LIP_GLOSS_011"
+  ]
   },
 
   {
@@ -2435,18 +2712,44 @@ const LOOKS = [
     homeImage: "images/home/file_0000000050c471f4881e4941d2c3ee4a.png",
     heroImage: "images/home/file_0000000050c471f4881e4941d2c3ee4a.png",
     products: [
-    ]
+    "FACE_PRIMER_028",
+    "FOUNDATION_063",
+    "CONCEALER_037",
+    "SETTING_SPRAY_POWDER_025",
+    "CONTOUR_019",
+    "BRONZER_014",
+    "BLUSH_087",
+    "HIGHLIGHTER_041",
+    "EYESHADOW_PALETTE_026",
+    "MASCARA_044",
+    "FALSE_LASHES_017",
+    "EYEBROW_032",
+    "LIP_LINER_018",
+    "LIPSTICK_014",
+    "LIP_GLOSS_028"
+  ]
   },
 
   {
     id: 176,
     slug: "everyday-soft-glam-makeup-products-for-natural-beauty",
     title: "Everyday Soft Glam Makeup Products for Natural Beauty",
-    category: "natural",
+    category: "clean girl",
     homeImage: "images/home/file_00000000fc007243a722ef3e0c7904ad.png",
     heroImage: "images/home/file_00000000fc007243a722ef3e0c7904ad.png",
     products: [
-    ]
+    "TINTED_MOISTURIZER_004",
+    "CONCEALER_013",
+    "CONTOUR_044",
+    "BRONZER_020",
+    "BLUSH_014",
+    "HIGHLIGHTER_017",
+    "EYESHADOW_PALETTE_005",
+    "MASCARA_001",
+    "EYEBROW_005",
+    "LIP_GLOSS_002",
+    "SETTING_SPRAY_POWDER_016"
+  ]
   },
 
   {
@@ -2457,7 +2760,22 @@ const LOOKS = [
     homeImage: "images/home/file_000000004ee071f4938fa438022ae416.png",
     heroImage: "images/home/file_000000004ee071f4938fa438022ae416.png",
     products: [
-    ]
+    "FACE_PRIMER_040",
+    "FOUNDATION_054",
+    "CONCEALER_026",
+    "SETTING_SPRAY_POWDER_018",
+    "CONTOUR_034",
+    "BRONZER_043",
+    "BLUSH_082",
+    "HIGHLIGHTER_011",
+    "EYESHADOW_PALETTE_016",
+    "MASCARA_035",
+    "FALSE_LASHES_020",
+    "EYEBROW_019",
+    "LIP_LINER_016",
+    "LIPSTICK_009",
+    "LIP_GLOSS_027"
+  ]
   },
 
   {
@@ -2479,7 +2797,22 @@ const LOOKS = [
     homeImage: "images/home/file_00000000cd44720a8a4b87c083806143~2.png",
     heroImage: "images/home/file_00000000cd44720a8a4b87c083806143~2.png",
     products: [
-    ]
+    "FACE_PRIMER_041",
+    "FOUNDATION_024",
+    "CONCEALER_032",
+    "SETTING_SPRAY_POWDER_004",
+    "CONTOUR_011",
+    "BRONZER_033",
+    "BLUSH_067",
+    "HIGHLIGHTER_034",
+    "EYESHADOW_PALETTE_018",
+    "MASCARA_047",
+    "FALSE_LASHES_018",
+    "EYEBROW_012",
+    "LIP_LINER_019",
+    "LIP_OIL_009",
+    "SETTING_SPRAY_POWDER_028"
+  ]
   }, 
   {
     id: 180,
