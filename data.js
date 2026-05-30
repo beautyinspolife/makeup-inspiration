@@ -2440,9 +2440,9 @@ const LOOKS = [
     id: 164,
     slug: "clean-girl-makeup-routine-step-by-step",
     title: "Clean girl Makeup routine step by step",
-    category: "natural",
-    homeImage: "images/home/file_00000000601071f4815038d840ad9fc1~2.png",
-    heroImage: "images/home/file_00000000601071f4815038d840ad9fc1~2.png", 
+    category: "Natural",
+    homeImage: "images/home/4c55aa7c9fd8da55bd071fa5523decc5.jpg",
+    heroImage: "images/home/4c55aa7c9fd8da55bd071fa5523decc5.jpg", 
     products: [
     "FACE_PRIMER_021",
     "FOUNDATION_017",
@@ -2838,8 +2838,545 @@ const LOOKS = [
     "LIP_LINER_015",
     "SETTING_SPRAY_POWDER_019"
   ]
+  },
+    {
+    id: 72,
+    slug: "makeup-products-for-a-full-face-routine",
+    title: "Makeup Products for a Full Face Routine",
+    category: "glam",
+    homeImage: "images/home/file_00000000601071f4815038d840ad9fc1~2.png",
+    heroImage: "images/home/file_00000000601071f4815038d840ad9fc1~2.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 73,
+    slug: "bridal-makeup-look-with-soft-glam-finish",
+    title: "Bridal Makeup Look with Soft Glam Finish",
+    category: "glam",
+    homeImage: "images/home/file_00000000b88072438214349929049501.png",
+    heroImage: "images/home/file_00000000b88072438214349929049501.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 75,
+    slug: "concealer-routine-for-bright-under-eyes",
+    title: "Concealer Routine for Bright Under Eyes",
+    category: "glam",
+    homeImage: "images/home/file_000000009e0c71f4a0589517b2463a2a.png",
+    heroImage: "images/home/file_000000009e0c71f4a0589517b2463a2a.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 76,
+    slug: "natural-makeup-look-for-everyday-wear",
+    title: "Natural Makeup Look for Everyday Wear",
+    category: "glam",
+    homeImage: "images/home/file_000000007b9471f4815ce647029c48f9.png",
+    heroImage: "images/home/file_000000007b9471f4815ce647029c48f9.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 77,
+    slug: "beach-makeup-look-with-natural-bronzed-skin",
+    title: "Beach Makeup Look with Natural Bronzed Skin",
+    category: "natural",
+    homeImage: "images/home/file_000000002c20724687e835d0f01793b5.png",
+    heroImage: "images/home/file_000000002c20724687e835d0f01793b5.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 68,
+    slug: "makeup-products-you-need-for-soft-glam",
+    title: "Makeup Products You Need for Soft Glam",
+    category: "glam",
+    homeImage: "images/home/file_000000004b8072439519f0ba36c3bbe0.png",
+    heroImage: "images/home/file_000000004b8072439519f0ba36c3bbe0.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 69,
+    slug: "best-makeup-products-for-a-natural-full-face",
+    title: "Best Makeup Products for a Natural Full Face",
+    category: "natural",
+    homeImage: "images/home/file_00000000891c71f48e00f681da1a9dc9.png",
+    heroImage: "images/home/file_00000000891c71f48e00f681da1a9dc9.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 53,
+    slug: "affordable-makeup-products-for-beginners",
+    title: "Affordable Makeup Products for Beginners",
+    category: "natural",
+    homeImage: "images/home/file_00000000fcd87243bbc28cb2dda04c01.png",
+    heroImage: "images/home/file_00000000fcd87243bbc28cb2dda04c01.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 54,
+    slug: "full-face-makeup-shopping-list-for-beginners",
+    title: "Full Face Makeup Shopping List for Beginners",
+    category: "glam",
+    homeImage: "images/home/file_000000009ff871f4a05c6477a4d68f44.png",
+    heroImage: "images/home/file_000000009ff871f4a05c6477a4d68f44.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 181,
+    slug: "dinner-makeup-look-with-elegant-soft-glam",
+    title: "Dinner Makeup Look with Elegant Soft Glam",
+    category: "smokey",
+    homeImage: "images/home/file_00000000b62c7246952c8261cf7cf916.png",
+    heroImage: "images/home/file_00000000b62c7246952c8261cf7cf916.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 182,
+    slug: "graduation-makeup-look-that-lasts-all-day",
+    title: "Graduation Makeup Look That Lasts All Day",
+    category: "clean girl",
+    homeImage: "images/home/file_00000000fdd871f4a5a42da7ea914a07.png",
+    heroImage: "images/home/file_00000000fdd871f4a5a42da7ea914a07.png",
+    products: [
+    ]
+  },
+    {
+    id: 202,
+    slug: "petal-pink-makeup-look-with-soft-blush",
+    title: "Petal Pink Makeup Look with Soft Blush",
+    category: "clean girl",
+    homeImage: "images/home/file_00000000d19871f48d7436dccca18c1d.png",
+    heroImage: "images/home/file_00000000d19871f48d7436dccca18c1d.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 183,
+    slug: "light-makeup-look-that-still-looks-polished",
+    title: "Light Makeup Look That Still Looks Polished",
+    category: "natural",
+    homeImage: "images/home/file_00000000a15071f4b2ae57304ececc4a.png",
+    heroImage: "images/home/file_00000000a15071f4b2ae57304ececc4a.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 184,
+    slug: "vacation-makeup-look-with-bronzer-and-gloss",
+    title: "Vacation Makeup Look with Bronzer and Gloss",
+    category: "glam",
+    homeImage: "images/home/file_000000002bfc720abc2076c4836b5930.png",
+    heroImage: "images/home/file_000000002bfc720abc2076c4836b5930.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 185,
+    slug: "glowy-base-makeup-routine-for-natural-skin",
+    title: "Glowy Base Makeup Routine for Natural Skin",
+    category: "natural",
+    homeImage: "images/home/file_00000000fdc871f4934df387aaace3e0.png",
+    heroImage: "images/home/file_00000000fdc871f4934df387aaace3e0.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 186,
+    slug: "bronze-eyeshadow-makeup-look-for-warm-skin",
+    title: "Bronze Eyeshadow Makeup Look for Warm Skin",
+    category: "glam",
+    homeImage: "images/home/file_0000000072dc71f4ae79551a4cd51261~2.png",
+    heroImage: "images/home/file_0000000072dc71f4ae79551a4cd51261~2.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 187,
+    slug: "soft-eye-makeup-look-with-long-lashes",
+    title: "Soft Eye Makeup Look with Long Lashes",
+    category: "glam",
+    homeImage: "images/home/file_00000000eafc7243bdd6bc50c0da9716.png",
+    heroImage: "images/home/file_00000000eafc7243bdd6bc50c0da9716.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 188,
+    slug: "easy-eyeshadow-look-for-beginners",
+    title: "Easy Eyeshadow Look for Beginners",
+    category: "natural",
+    homeImage: "images/home/file_000000007c04720abee42faf459a9b95.png",
+    heroImage: "images/home/file_000000007c04720abee42faf459a9b95.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 189,
+    slug: "sweat-proof-makeup-routine-for-summer",
+    title: "Sweat Proof Makeup Routine for Summer",
+    category: "clean girl",
+    homeImage: "images/home/file_00000000c304720a92d91b215192e26a.png",
+    heroImage: "images/home/file_00000000c304720a92d91b215192e26a.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 190,
+    slug: "quick-10-minute-makeup-look-for-beginners",
+    title: "Quick 10 Minute Makeup Look for Beginners",
+    category: "clean girl",
+    homeImage: "images/home/file_000000009080720aa7aac004d9098083~2.png",
+    heroImage: "images/home/file_000000009080720aa7aac004d9098083~2.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 191,
+    slug: "soft-glam-makeup-look-for-any-occasion",
+    title: "Soft Glam Makeup Look for Any Occasion",
+    category: "glam",
+    homeImage: "images/home/file_000000003ff471f49f933d91d01f961b.png",
+    heroImage: "images/home/file_000000003ff471f49f933d91d01f961b.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 192,
+    slug: "birthday-makeup-look-with-glowy-skin",
+    title: "Birthday Makeup Look with Glowy Skin",
+    category: "glam",
+    homeImage: "images/home/file_0000000055547243aac8f9cfb9a39eca.png",
+    heroImage: "images/home/file_0000000055547243aac8f9cfb9a39eca.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 193,
+    slug: "holiday-glam-makeup-with-gold-eyeshadow",
+    title: "Holiday Glam Makeup with Gold Eyeshadow",
+    category: "glam",
+    homeImage: "images/home/67de641b53cd3bd55224e43f3039f64a.jpg",
+    heroImage: "images/home/67de641b53cd3bd55224e43f3039f64a.jpg",
+    products: [
+    ]
+  },
+
+  {
+    id: 194,
+    slug: "soft-glam-full-face-makeup-with-nude-lips",
+    title: "Soft Glam Full Face Makeup with Nude Lips",
+    category: "glam",
+    homeImage: "images/home/file_00000000979871f4b6436a972996dd98.png",
+    heroImage: "images/home/file_00000000979871f4b6436a972996dd98.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 195,
+    slug: "easy-fresh-face-makeup-for-busy-mornings",
+    title: "Easy Fresh Face Makeup for Busy Mornings",
+    category: "natural",
+    homeImage: "images/home/file_00000000b09871f4bed7f7a3989a02b5~2.png",
+    heroImage: "images/home/file_00000000b09871f4bed7f7a3989a02b5~2.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 196,
+    slug: "wedding-guest-makeup-with-soft-glam-eyes",
+    title: "Wedding Guest Makeup with Soft Glam Eyes",
+    category: "glam",
+    homeImage: "images/home/file_00000000efdc71f4bc48c83392b3c53f.png",
+    heroImage: "images/home/file_00000000efdc71f4bc48c83392b3c53f.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 197,
+    slug: "golden-hour-makeup-look-for-photos",
+    title: "Golden Hour Makeup Look for Photos",
+    category: "glam",
+    homeImage: "images/home/file_00000000d03471f4b4de640a3742213e.png",
+    heroImage: "images/home/file_00000000d03471f4b4de640a3742213e.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 198,
+    slug: "sephora-products-for-a-natural-glow",
+    title: "Sephora Products for a Natural Glow",
+    category: "natural",
+    homeImage: "images/home/file_000000000f6072439e9e62f5e5029e6c.png",
+    heroImage: "images/home/file_000000000f6072439e9e62f5e5029e6c.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 199,
+    slug: "expensive-looking-makeup-products-for-a-rich-girl-glow",
+    title: "Expensive Looking Makeup Products for a Rich Girl Glow",
+    category: "natural",
+    homeImage: "images/home/file_00000000562c71f4a0efe8dee25145d9~2.png",
+    heroImage: "images/home/file_00000000562c71f4a0efe8dee25145d9~2.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 200,
+    slug: "golden-hour-makeup-products-for-bronzed-glowy-skin",
+    title: "Golden Hour Makeup Products for Bronzed Glowy Skin",
+    category: "natural",
+    homeImage: "images/home/file_00000000c88871f4af8eab6fc01544d6~2.png",
+    heroImage: "images/home/file_00000000c88871f4af8eab6fc01544d6~2.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 201,
+    slug: "elegant-soft-glam-makeup-products-for-glowy-skin",
+    title: "Elegant Soft Glam Makeup Products for Glowy Skin",
+    category: "glam",
+    homeImage: "images/home/file_00000000236c71f484ad71bef2486fa7.png",
+    heroImage: "images/home/file_00000000236c71f484ad71bef2486fa7.png",
+    products: [
+    ]
+  },
+  {
+    id: 203,
+    slug: "full-glam-makeup-products-with-nude-nail-inspo",
+    title: "Full Glam Makeup Products with Nude Nail Inspo",
+    category: "glam",
+    homeImage: "images/home/file_000000002eb4724386f3bb2a6df0f3d6.png",
+    heroImage: "images/home/file_000000002eb4724386f3bb2a6df0f3d6.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 204,
+    slug: "sephora-products-for-a-clean-glam-look",
+    title: "Sephora Products for a Clean Glam Look",
+    category: "glam",
+    homeImage: "images/home/file_00000000da4471f4b3d3deadbce5f327.png",
+    heroImage: "images/home/file_00000000da4471f4b3d3deadbce5f327.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 205,
+    slug: "pretty-natural-makeup-products-for-a-soft-fresh-glow",
+    title: "Pretty Natural Makeup Products for a Soft Fresh Glow",
+    category: "glam",
+    homeImage: "images/home/file_0000000090c471f4ae9092ccbb65d6d0.png",
+    heroImage: "images/home/file_0000000090c471f4ae9092ccbb65d6d0.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 206,
+    slug: "glossy-soft-glam-makeup-products-for-a-flawless-glow",
+    title: "Glossy Soft Glam Makeup Products for a Flawless Glow",
+    category: "glam",
+    homeImage: "images/home/file_00000000346c71f490d9d1dc4221ce82.png",
+    heroImage: "images/home/file_00000000346c71f490d9d1dc4221ce82.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 207,
+    slug: "clean-girl-nude-nails-and-glowy-makeup-look",
+    title: "Clean Girl Nude Nails and Glowy Makeup Look",
+    category: "clean girl",
+    homeImage: "images/home/file_000000003b3472438a3c9639bff75cd9.png",
+    heroImage: "images/home/file_000000003b3472438a3c9639bff75cd9.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 208,
+    slug: "soft-glam-makeup-products-and-pink-nude-nails",
+    title: "Soft Glam Makeup Products and Pink Nude Nails",
+    category: "glam",
+    homeImage: "images/home/file_00000000e31071f48405b4a46451d9f1.png",
+    heroImage: "images/home/file_00000000e31071f48405b4a46451d9f1.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 209,
+    slug: "full-glam-makeup-look-bronzed-skin-smokey-eyes-glossy-nude-lips",
+    title: "Full Glam Makeup Look — Bronzed Skin, Smokey Eyes & Glossy Nude Lips",
+    category: "glam",
+    homeImage: "images/home/file_00000000964471f4a4e28b2c24968cdc.png",
+    heroImage: "images/home/file_00000000964471f4a4e28b2c24968cdc.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 210,
+    slug: "soft-glam-makeup-look-glowy-skin-nude-lips-brown-eyes-inspiration",
+    title: "Soft Glam Makeup Look – Glowy Skin, Nude Lips & Brown Eyes Inspiration",
+    category: "natural",
+    homeImage: "images/home/file_0000000002a471f4bcdd909111e20bbd.png",
+    heroImage: "images/home/file_0000000002a471f4bcdd909111e20bbd.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 211,
+    slug: "brown-eyes-makeup-look-bronzed-glam-with-long-lashes-nude-lips",
+    title: "Brown Eyes Makeup Look — Bronzed Glam with Long Lashes & Nude Lips",
+    category: "glam",
+    homeImage: "images/home/file_0000000011c071f48e75c2ec81b3404a.png",
+    heroImage: "images/home/file_0000000011c071f48e75c2ec81b3404a.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 212,
+    slug: "natural-glam-makeup-fresh-skin-freckles-nude-lip-look",
+    title: "Natural Glam Makeup – Fresh Skin, Freckles & Nude Lip Look",
+    category: "natural",
+    homeImage: "images/home/file_000000009e5471f49dfce1f1f155dacc.png",
+    heroImage: "images/home/file_000000009e5471f49dfce1f1f155dacc.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 213,
+    slug: "soft-glam-makeup-for-blue-eyes-neutral-eyeshadow-glossy-nude-lips",
+    title: "Soft Glam Makeup for Blue Eyes – Neutral Eyeshadow & Glossy Nude Lips",
+    category: "glam",
+    homeImage: "images/home/file_00000000b66071f492340fae5c2838a1~2.png",
+    heroImage: "images/home/file_00000000b66071f492340fae5c2838a1~2.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 214,
+    slug: "glowy-soft-glam-makeup-neutral-beauty-look-with-nude-lips",
+    title: "Glowy Soft Glam Makeup – Neutral Beauty Look with Nude Lips",
+    category: "glam",
+    homeImage: "images/home/file_000000000a2871f4a00f1d5642236a9b.png",
+    heroImage: "images/home/file_000000000a2871f4a00f1d5642236a9b.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 215,
+    slug: "evening-glam-makeup-look-smokey-eyes-bronzed-glow-nude-gloss",
+    title: "Evening Glam Makeup Look — Smokey Eyes, Bronzed Glow & Nude Gloss",
+    category: "smokey",
+    homeImage: "images/home/file_000000002888720a8af2a7d592455b48.png",
+    heroImage: "images/home/file_000000002888720a8af2a7d592455b48.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 216,
+    slug: "neutral-bridal-makeup-glowy-skin-soft-brown-eyes-nude-lip",
+    title: "Neutral Bridal Makeup – Glowy Skin, Soft Brown Eyes & Nude Lip",
+    category: "glam",
+    homeImage: "images/home/file_000000004a4871f49502b950e8a2e51b.png",
+    heroImage: "images/home/file_000000004a4871f49502b950e8a2e51b.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 217,
+    slug: "bronzed-glam-makeup-voluminous-blowout-glowy-skin-nude-lip-combo",
+    title: "Bronzed Glam Makeup – Voluminous Blowout, Glowy Skin & Nude Lip Combo",
+    category: "natural",
+    homeImage: "images/home/file_000000005ac471f4803ca4bfdff86d78.png",
+    heroImage: "images/home/file_000000005ac471f4803ca4bfdff86d78.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 218,
+    slug: "old-money-makeup-look-elegant-soft-glam-nude-glossy-lips",
+    title: "Old Money Makeup Look – Elegant Soft Glam & Nude Glossy Lips",
+    category: "glam",
+    homeImage: "images/home/file_00000000600871f49fa332527c886a04.png",
+    heroImage: "images/home/file_00000000600871f49fa332527c886a04.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 219,
+    slug: "clean-glam-makeup-look-sleek-hair-glowy-skin-soft-brown-eyes",
+    title: "Clean Glam Makeup Look — Sleek Hair, Glowy Skin & Soft Brown Eyes",
+    category: "clean girl",
+    homeImage: "images/home/file_00000000f45c7243a9526b300974994d.png",
+    heroImage: "images/home/file_00000000f45c7243a9526b300974994d.png",
+    products: [
+    ]
+  },
+
+  {
+    id: 220,
+    slug: "soft-glam-makeup-inspo-glossy-nude-lips-glowy-skin-defined-eyes",
+    title: "Soft Glam Makeup Inspo — Glossy Nude Lips, Glowy Skin & Defined Eyes",
+    category: "glam",
+    homeImage: "images/home/file_0000000087f071f48783db8e610f9d57.png",
+    heroImage: "images/home/file_0000000087f071f48783db8e610f9d57.png",
+    products: [
+    ]
   }
   
+    
 ];
 
 LOOKS.push(
