@@ -1,3 +1,2 @@
 # makeup-inspiration
-Site vitrine d'inspirations maquillage avec liens vers les produits officiels.
-Retourner sur la page du profil : https://fr.pinterest.com/trendybeautyinspo/
+Showcase site for makeup inspiration with links to official products. Return to the profile page: https://pinterest.com/trendybeautyinspo/
