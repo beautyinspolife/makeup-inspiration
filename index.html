@@ -73,21 +73,21 @@
   
     
     .logo-wrap {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-top: 100px;
-      background: transparent;
-      padding: 0;
-    }
-   
-    .logo {
-      max-width: 760px;
-      width: 100%;
-      height: auto;
-     object-fit: contain;
-      background: #dcd8d2;
-    }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  background: transparent;
+  padding: 0;
+}
+
+.hero-logo {
+  max-width: 760px;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  background: transparent;
+}
     
 
 
@@ -170,39 +170,7 @@
       margin-top: 34px;
       padding-top: 20px;
     }
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 22px 48px;
-  background: #f8f1ea;
-  border-bottom: 1px solid #e2d8cf;
-}
 
-.logo a {
-  font-family: Georgia, serif;
-  font-size: 30px;
-  font-weight: bold;
-  color: #2b211b;
-  text-decoration: none;
-}
-
-.menu-links {
-  display: flex;
-  gap: 28px;
-  align-items: center;
-}
-
-.menu-links a {
-  color: #2b211b;
-  text-decoration: none;
-  font-size: 18px;
-  margin-left: 0;
-}
-
-.menu-links a:hover {
-  color: #8a5a44;
-      }
     
     /* LOOK PAGE */
     .products-wrap {
@@ -537,7 +505,7 @@ header {
       .grid { column-count: 3; column-gap: 18px; }
       .home-card { margin-bottom: 18px; }
       .products-grid { grid-template-columns: repeat(3, 1fr); gap: 18px; }
-      .logo { max-width: 420px; }
+      .hero-logo { max-width: 420px; }
       .products-wrap { width: min(1180px, calc(100% - 56px)); }
     }
     
@@ -717,52 +685,122 @@ header {
   text-decoration: none;
   font-size: 16px;
   }
-    header {
-  display: flex !important;
-  justify-content: space-between !important;
-  align-items: center !important;
-  padding: 22px 48px !important;
-  background: #f8f1ea !important;
-  border-bottom: 1px solid #e2d8cf !important;
-}
-
-.logo {
-  background: transparent !important;
+    /* HAMBURGER MENU MINIMAL */
+.hamburger-header {
+  position: fixed !important;
+  top: 20px !important;
+  left: 20px !important;
+  z-index: 9999 !important;
   padding: 0 !important;
-}
-
-.logo a {
+  margin: 0 !important;
+  width: auto !important;
+  height: auto !important;
   background: transparent !important;
-  font-size: 30px !important;
-  text-decoration: none !important;
+  border: none !important;
+  display: block !important;
 }
 
-.menu-links {
-  display: flex !important;
-  gap: 28px !important;
-  flex-wrap: nowrap !important;
+.hamburger-menu {
+  position: relative;
 }
 
-.menu-links a {
-  margin-left: 0 !important;
-  white-space: nowrap !important;
-  font-size: 18px !important;
-    }
+.hamburger-button {
+  list-style: none;
+  width: 34px;
+  height: 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 6px;
+  cursor: pointer;
+  background: transparent;
+}
+
+.hamburger-button::-webkit-details-marker {
+  display: none;
+}
+
+.hamburger-button span {
+  display: block;
+  width: 28px;
+  height: 2px;
+  background: #111;
+  border-radius: 999px;
+  transition: 0.25s ease;
+}
+
+.hamburger-menu[open] .hamburger-button span:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger-menu[open] .hamburger-button span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger-menu[open] .hamburger-button span:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 42px;
+  left: 0;
+  width: 230px;
+  padding: 18px 20px;
+  background: rgba(248, 241, 234, 0.96);
+  backdrop-filter: blur(14px);
+  border-radius: 22px;
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.12);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  animation: menuFade 0.22s ease;
+}
+
+.dropdown-menu a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #1f1a17;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+}
+
+.dropdown-menu a:hover {
+  opacity: 0.55;
+}
+
+@keyframes menuFade {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  }
   </style>
 </head>
 <body>
-  <header>
-  <div class="logo">
-    <a href="index.html">Beauty Inspo</a>
-  </div>
+ <header class="hamburger-header">
+  <details class="hamburger-menu">
+    <summary class="hamburger-button" aria-label="Open menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </summary>
 
-  <nav class="menu-links">
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
-    <a href="privacy-policy.html">Privacy Policy</a>
-    <a href="affiliate-disclosure.html">Affiliate Disclosure</a>
-  </nav>
-  </header>
+    <nav class="dropdown-menu">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="privacy-policy.html">Privacy Policy</a>
+      <a href="affiliate-disclosure.html">Affiliate Disclosure</a>
+      <a href="blog.html">Blog</a>
+    </nav>
+  </details>
+ </header>
   <div id="app"></div>
   <script src="productCatalog.js"></script>
   <script src="data.js"></script>  
@@ -847,7 +885,7 @@ function setPerfumeSubcategory(subcategory) {
         <div class="page">
         <div class="top-bar">
   <div class="logo-wrap">
-    <img class="logo" src="images/beauty-inspo-logo.png" alt="Beauty Inspo logo">
+    <img class="hero-logo" src="images/beauty-inspo-logo.png" alt="Beauty Inspo logo">
   </div>
 
   <a class="pinterest-link" href="https://fr.pinterest.com/trendybeautyinspo/" target="_blank" rel="noopener noreferrer">
