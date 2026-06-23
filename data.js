@@ -2331,29 +2331,6 @@ const LOOKS = [
   ]
   },
   
-  {
-    id: 119,
-    slug: "makeup-routine-for-acne-prone-skin",
-    title: "Makeup Routine for Acne-Prone Skin",
-    category: "glam",
-    homeImage: "images/home/file_000000009c90724693ac58ef3e16b6d1.png",
-    heroImage: "images/home/file_000000009c90724693ac58ef3e16b6d1.png",
-    products: [
-    "TINTED_MOISTURIZER_004",
-    "CONCEALER_013",
-    "SETTING_SPRAY_POWDER_018",
-    "CONTOUR_044",
-    "BRONZER_020",
-    "BLUSH_014",
-    "HIGHLIGHTER_017",
-    "EYESHADOW_PALETTE_005",
-    "MASCARA_001",
-    "FALSE_LASHES_001",
-    "EYEBROW_005",
-    "LIP_GLOSS_002",
-    "SETTING_SPRAY_POWDER_016"
-  ]
-  },
    {
     id: 120,
     slug: "bronzed-makeup-look-for-summer-",
