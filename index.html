@@ -170,7 +170,32 @@
       margin-top: 34px;
       padding-top: 20px;
     }
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 40px;
+  background: #f6efe7;
+}
 
+.logo a {
+  font-family: Georgia, serif;
+  font-size: 26px;
+  font-weight: bold;
+  color: #2f241d;
+  text-decoration: none;
+}
+
+.menu-links a {
+  margin-left: 20px;
+  color: #2f241d;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.menu-links a:hover {
+  text-decoration: underline;
+}
     /* LOOK PAGE */
     .products-wrap {
       width: min(1120px, calc(100% - 28px));
@@ -674,6 +699,18 @@
   </style>
 </head>
 <body>
+  <header>
+  <div class="logo">
+    <a href="/index.html">Beauty Inspo</a>
+  </div>
+
+  <nav class="menu-links">
+    <a href="/about.html">About</a>
+    <a href="/contact.html">Contact</a>
+    <a href="/privacy-policy.html">Privacy Policy</a>
+    <a href="/affiliate-disclosure.html">Affiliate Disclosure</a>
+  </nav>
+  </header>
   <div id="app"></div>
   <script src="productCatalog.js"></script>
   <script src="data.js"></script>  
