@@ -780,6 +780,91 @@
     transform: translateY(0);
   }
   }
+
+    .cookie-banner {
+  position: fixed;
+  bottom: 24px;
+  left: 24px;
+  right: 24px;
+  z-index: 9999;
+
+  display: none;
+
+  background: #ffffff;
+  border: 1px solid #e8e8e8;
+  border-radius: 18px;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.cookie-content {
+  padding: 22px;
+}
+
+.cookie-content p {
+  margin: 0;
+  color: #333;
+  font-size: 14px;
+  line-height: 1.6;
+  font-family: Arial, sans-serif;
+}
+
+.cookie-buttons {
+  margin-top: 18px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.cookie-btn {
+  border: none;
+  border-radius: 999px;
+  padding: 10px 20px;
+
+  cursor: pointer;
+
+  font-size: 14px;
+  font-weight: 600;
+
+  transition: all 0.2s ease;
+}
+
+.cookie-btn.primary {
+  background: #111111;
+  color: white;
+}
+
+.cookie-btn.primary:hover {
+  transform: translateY(-1px);
+}
+
+.cookie-btn.secondary {
+  background: #f5f5f5;
+  color: #333;
+}
+
+.cookie-btn.secondary:hover {
+  background: #ececec;
+}
+
+@media (max-width: 768px) {
+  .cookie-banner {
+    left: 12px;
+    right: 12px;
+    bottom: 12px;
+  }
+
+  .cookie-buttons {
+    flex-direction: column;
+  }
+
+  .cookie-btn {
+    width: 100%;
+  }
+  }
   </style>
 </head>
 <body>
@@ -1102,5 +1187,59 @@ render();
   <a href="privacy-policy.html">Privacy Policy</a>
   <a href="affiliate-disclosure.html">Affiliate Disclosure</a>
   </footer>
+
+  <div id="cookie-banner" class="cookie-banner">
+  <div class="cookie-content">
+ <p>
+  We use cookies and similar technologies to improve your experience,
+  analyze traffic, and support affiliate partnerships.
+  Read our <a href="privacy-policy.html">Privacy Policy</a>.
+ </p>
+
+    <div class="cookie-buttons">
+      <button id="cookie-accept" class="cookie-btn primary">
+        Accept
+      </button>
+
+      <button id="cookie-decline" class="cookie-btn secondary">
+        Decline
+      </button>
+    </div>
+  </div>
+  </div>
+
+  <script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  const banner = document.getElementById("cookie-banner");
+  const acceptBtn = document.getElementById("cookie-accept");
+  const declineBtn = document.getElementById("cookie-decline");
+
+  const consent = localStorage.getItem("beautyinspo_cookie_consent");
+
+  if (!consent) {
+    banner.style.display = "block";
+  }
+
+  acceptBtn.addEventListener("click", function () {
+    localStorage.setItem(
+      "beautyinspo_cookie_consent",
+      "accepted"
+    );
+
+    banner.style.display = "none";
+  });
+
+  declineBtn.addEventListener("click", function () {
+    localStorage.setItem(
+      "beautyinspo_cookie_consent",
+      "declined"
+    );
+
+    banner.style.display = "none";
+  });
+
+});
+  </script>
 </body>
 </html>
