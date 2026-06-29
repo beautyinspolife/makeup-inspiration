@@ -1205,8 +1205,9 @@ function renderPerfume(look) {
 
   if (slug === "" || slug === "/" || slug === "home") {
     state.category = "natural";
-state.perfumeSubcategory = "all";
-state.glamSubcategory = "all";
+    state.perfumeSubcategory = "all";
+    state.glamSubcategory = "all";
+    app.innerHTML = renderHome();
     return;
   }
 
