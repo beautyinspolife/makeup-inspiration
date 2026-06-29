@@ -2330,7 +2330,29 @@ const LOOKS = [
     "SETTING_SPRAY_POWDER_008"
   ]
   },
-  
+    {
+    id: 119,
+    slug: "soft-glam-makeup-look-glowy-skin-selfie-inspo",
+    title: "Soft Glam Makeup Look — Glowy Skin Selfie Inspo",
+    category: "glam",
+    subcategory: "Glowy",
+    homeImage: "images/home/file_0000000020e071f48a69737c0fc4a517.png",
+    heroImage: "images/home/file_0000000020e071f48a69737c0fc4a517.png",
+    products: [
+  "FACE_PRIMER_017",
+  "FOUNDATION_073",
+  "CONCEALER_018",
+  "BLUSH_011",
+  "BRONZER_004",
+  "HIGHLIGHTER_005",
+  "EYEBROW_031",
+  "EYEBROW_005",
+  "MASCARA_047",
+  "LIP_LINER_015",
+  "LIP_GLOSS_026",
+  "SETTING_SPRAY_POWDER_057"
+]
+  },
    {
     id: 120,
     slug: "bronzed-makeup-look-for-summer-",
@@ -4092,9 +4114,128 @@ const LOOKS = [
     "LIPSTICK_030",
     "LIP_OIL_022"
   ]
-  }
+  },
+    {
+    id: 221,
+    slug: "glowy-soft-glam-makeup-car-selfie-beauty-inspo",
+    title: "Glowy Soft Glam Makeup Car Selfie Beauty Inspo",
+    category: "glam",
+    subcategory: "Glowy",
+    homeImage: "images/home/file_00000000ef9471f48443b5562f24e376.png",
+    heroImage: "images/home/file_00000000ef9471f48443b5562f24e376.png",
+    products: [  "FACE_PRIMER_196",
+      "FOUNDATION_310",
+      "CONCEALER_210",
+      "PEACH_CORRECTOR_040",
+      "BRONZER_BALM_204",
+      "BLUSH_245",
+      "HIGHLIGHTER_192",
+      "BROW_PENCIL_171",
+      "BROW_GEL_146",
+      "EYESHADOW_PALETTE_156",
+      "EYE_PENCIL_089",
+      "MASCARA_176",
+      "LIP_LINER_183",
+      "LIP_GLOSS_133",
+      "SETTING_SPRAY_201"
+    ]
+  },
+    {
+    id: 222,
+    slug: "everyday-glam-makeup-with-glossy-nude-lip-look",
+    title: "Everyday Glam Makeup with Glossy Nude Lip Look",
+    category: "natural",
+    homeImage: "images/home/file_00000000b0d472439ca03227f019f9be.png",
+    heroImage: "images/home/file_00000000b0d472439ca03227f019f9be.png",
+    products: ["FACE_PRIMER_206",
+      "FOUNDATION_322",
+      "CONCEALER_220",
+      "COLOR_CORRECTOR_044",
+      "CREAM_CONTOUR_214",
+      "BLUSH_255",
+      "HIGHLIGHTER_202",
+      "BROW_PENCIL_181",
+      "BROW_GEL_156",
+      "EYESHADOW_PALETTE_166",
+      "EYELINER_092",
+      "MASCARA_186",
+      "SETTING_POWDER_163",
+      "LIP_LINER_193",
+      "LIP_GLOSS_143",
+      "SETTING_SPRAY_211"
+    ]
+  },
+    {
+    id: 223,
+    slug: "natural-everyday-makeup-with-glossy-lip-combo-inspo",
+    title: "Natural Everyday Makeup With Glossy Lip Combo Inspo",
+    category: "natural",
+    homeImage: "images/home/file_00000000ebac724684c1f2e5f705789a~2.jpg",
+    heroImage: "images/home/file_00000000ebac724684c1f2e5f705789a~2.jpg",
+    products: [ "FACE_PRIMER_191",
+      "SKIN_TINT_059",
+      "CONCEALER_205",
+      "CREAM_BRONZER_199",
+      "BLUSH_240",
+      "HIGHLIGHTER_187",
+      "BROW_PENCIL_166",
+      "BROW_GEL_141",
+      "EYESHADOW_PALETTE_151",
+      "MASCARA_171",
+      "SETTING_POWDER_158",
+      "LIP_LINER_178",
+      "LIP_GLOSS_128",
+      "SETTING_SPRAY_196"
+    ]
+    ]
+  },
+    {
+    id: 224,
+    slug: "short-hair-clean-girl-makeup-with-glossy-lips-and-natural-glam",
+    title: "Short Hair Clean Girl Makeup with Glossy Lips and Natural Glam",
+    category: "glam",
+    subcategory: "Flawless Full Face",
+    homeImage: "images/home/file_00000000c94871f4a5b7432c9f03c649.png",
+    heroImage: "images/home/file_00000000c94871f4a5b7432c9f03c649.png",
+    products: ["FACE_PRIMER_181",
+      "FOUNDATION_298",
+      "CONCEALER_195",
+      "CONTOUR_STICK_189",
+      "BLUSH_230",
+      "HIGHLIGHTER_177",
+      "BROW_PENCIL_156",
+      "BROW_GEL_131",
+      "EYESHADOW_PALETTE_141",
+      "MASCARA_161",
+      "SETTING_POWDER_148",
+      "LIP_LINER_168",
+      "LIP_GLOSS_118",
+      "SETTING_SPRAY_186"
+    ]
+  },
+      {
+    id: 225,
+    slug: "shop-this-natural-glam-makeup-with-straight-dark-hair-and-nude-glossy-lips-face-card",
+    title: "Shop this Natural Glam Makeup with Straight Dark Hair and Nude Glossy Lips Face Card",
+    category: "glam",
+    subcategory: "Flawless Full Face",
+    homeImage: "images/home/file_0000000001dc7243ac4e0c3a4b1e2022.png",
+    heroImage: "images/home/file_0000000001dc7243ac4e0c3a4b1e2022.png",
+    products: ["FACE_PRIMER_017",
+  "FOUNDATION_073",
+  "CONCEALER_001",
+  "BRONZER_004",
+  "BLUSH_011",
+  "HIGHLIGHTER_005",
+  "EYEBROW_008",
+  "EYEBROW_005",
+  "MASCARA_008",
+  "LIP_LINER_005",
+  "LIP_GLOSS_003",
+  "SETTING_SPRAY_POWDER_057"
+    ]
+  },
   
-    
 ];
 
 LOOKS.push(
