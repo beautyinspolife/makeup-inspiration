@@ -4187,7 +4187,6 @@ const LOOKS = [
       "LIP_GLOSS_128",
       "SETTING_SPRAY_196"
     ]
-    ]
   },
     {
     id: 224,
