@@ -903,7 +903,8 @@ function getProductLink(product) {
     
     const state = {
   category: "natural",
-  perfumeSubcategory: "all"
+  perfumeSubcategory: "all",
+  glamSubcategory: "all"
 };
 const categoryRoutes = {
   "natural-makeup-inspo-sephora-us": "natural",
@@ -911,7 +912,10 @@ const categoryRoutes = {
   "smokey-makeup-looks-sephora-us": "smokey",
   "clean-girl-makeup-sephora-us": "clean girl",
   "skincare-before-makeup-sephora-us": "skincare",
-  "all-perfumes-sephora-us": "perfume"
+  "all-perfumes-sephora-us": "perfume",
+  "toasty-makeup-looks-sephora-us": "toasty",
+  "wedding-makeup-looks-sephora-us": "wedding",
+  "lip-combos-sephora-us": "lip combo"
 };
 const perfumeSubcategoryRoutes = {
   "all-perfumes-sephora-us": "all",
@@ -928,6 +932,21 @@ const PERFUME_SUBCATEGORIES = [
   { id: "fresh", label: "Fresh & Clean", href: "#/fresh-clean-perfumes-sephora-us" },
   { id: "summer", label: "Summer", href: "#/summer-perfumes-sephora-us" },
   { id: "compliments", label: "Compliment Scents", href: "#/compliment-perfumes-sephora-us" }
+];
+    const glamSubcategoryRoutes = {
+  "glam-makeup-looks-sephora-us": "all",
+  "flawless-full-face-makeup-sephora-us": "flawless full face",
+  "pink-makeup-sephora-us": "pink makeup",
+  "classy-makeup-sephora-us": "classy makeup",
+  "glowy-makeup-sephora-us": "glowy makeup"
+};
+
+const GLAM_SUBCATEGORIES = [
+  { id: "all", label: "All Soft Glam", href: "#/glam-makeup-looks-sephora-us" },
+  { id: "flawless full face", label: "Flawless Full Face", href: "#/flawless-full-face-makeup-sephora-us" },
+  { id: "pink makeup", label: "Pink Makeup", href: "#/pink-makeup-sephora-us" },
+  { id: "classy makeup", label: "Classy Makeup", href: "#/classy-makeup-sephora-us" },
+  { id: "glowy makeup", label: "Glowy Makeup", href: "#/glowy-makeup-sephora-us" }
 ];
     function shuffleArray(array) {
       const cloned = [...array];
@@ -958,11 +977,16 @@ function setPerfumeSubcategory(subcategory) {
     const sameCategory = look.category === state.category;
 
     const samePerfumeSubcategory =
-      state.category !== "perfume" ||
-      state.perfumeSubcategory === "all" ||
-      look.subcategory === state.perfumeSubcategory;
+  state.category !== "perfume" ||
+  state.perfumeSubcategory === "all" ||
+  look.subcategory === state.perfumeSubcategory;
 
-    return sameCategory && samePerfumeSubcategory;
+const sameGlamSubcategory =
+  state.category !== "glam" ||
+  state.glamSubcategory === "all" ||
+  look.subcategory === state.glamSubcategory;
+
+return sameCategory && samePerfumeSubcategory && sameGlamSubcategory;
   });
 
   const randomOrder = shuffleArray(filtered);
@@ -987,7 +1011,7 @@ function setPerfumeSubcategory(subcategory) {
   </button>
 
   <button class="tab ${state.category === "glam" ? "active" : ""}" onclick="location.hash='#/glam-makeup-looks-sephora-us'">
-    Glam Makeup Looks
+    Soft Glam Makeup
   </button>
 
   <button class="tab ${state.category === "smokey" ? "active" : ""}" onclick="location.hash='#/smokey-makeup-looks-sephora-us'">
@@ -998,6 +1022,18 @@ function setPerfumeSubcategory(subcategory) {
     Clean Girl Makeup
   </button>
 
+  <button class="tab ${state.category === "toasty" ? "active" : ""}" onclick="location.hash='#/toasty-makeup-looks-sephora-us'">
+    Toasty Makeup
+  </button>
+
+  <button class="tab ${state.category === "wedding" ? "active" : ""}" onclick="location.hash='#/wedding-makeup-looks-sephora-us'">
+    Wedding Makeup
+  </button>
+
+  <button class="tab ${state.category === "lip combo" ? "active" : ""}" onclick="location.hash='#/lip-combos-sephora-us'">
+    Lip Combo
+  </button>
+
   <button class="tab ${state.category === "skincare" ? "active" : ""}" onclick="location.hash='#/skincare-before-makeup-sephora-us'">
     Skincare
   </button>
@@ -1006,6 +1042,19 @@ function setPerfumeSubcategory(subcategory) {
     Perfumes
   </button>
 </div>
+
+${state.category === "glam" ? `
+  <div class="tabs">
+    ${GLAM_SUBCATEGORIES.map(item => `
+      <a 
+        class="tab ${state.glamSubcategory === item.id ? "active" : ""}" 
+        href="${item.href}"
+      >
+        ${item.label}
+      </a>
+    `).join("")}
+  </div>
+` : ""}
 
 ${state.category === "perfume" ? `
   <div class="tabs">
@@ -1022,6 +1071,14 @@ ${state.category === "perfume" ? `
             <h1 class="title">
  ${state.category === "perfume"
   ? (PERFUME_SUBCATEGORIES.find(item => item.id === state.perfumeSubcategory)?.label || "All Perfumes")
+  : state.category === "glam"
+  ? (GLAM_SUBCATEGORIES.find(item => item.id === state.glamSubcategory)?.label || "Soft Glam Makeup")
+  : state.category === "toasty"
+  ? "Toasty Makeup"
+  : state.category === "wedding"
+  ? "Wedding Makeup"
+  : state.category === "lip combo"
+  ? "Lip Combo"
   : "Makeup Inspiration"}
 </h1>
           </section>
@@ -1148,8 +1205,8 @@ function renderPerfume(look) {
 
   if (slug === "" || slug === "/" || slug === "home") {
     state.category = "natural";
-    state.perfumeSubcategory = "all";
-    app.innerHTML = renderHome();
+state.perfumeSubcategory = "all";
+state.glamSubcategory = "all";
     return;
   }
 
@@ -1159,7 +1216,15 @@ function renderPerfume(look) {
     app.innerHTML = renderHome();
     return;
   }
-
+          
+  if (glamSubcategoryRoutes[slug]) {
+  state.category = "glam";
+  state.glamSubcategory = glamSubcategoryRoutes[slug];
+  state.perfumeSubcategory = "all";
+  app.innerHTML = renderHome();
+  return;
+  }
+          
   if (categoryRoutes[slug]) {
     state.category = categoryRoutes[slug];
     state.perfumeSubcategory = "all";
