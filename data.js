@@ -4400,7 +4400,7 @@ const LOOKS = [
     ]
   },
     {
-    id: 232,
+    id: 233,
     slug: "soft-natural-glam-brunette-makeup-inspo",
     title: "Soft Natural Glam Brunette Makeup Inspo",
     category: "natural",
@@ -4422,7 +4422,7 @@ const LOOKS = [
     ]
   },
     {
-    id: 233,
+    id: 234,
     slug: "clean-girl-makeup-products-for-a-fresh-glowy-look",
     title: "Clean Girl Makeup Products for a Fresh Glowy Look",
     category: "clean girl",
@@ -4443,7 +4443,7 @@ const LOOKS = [
     ]
   },
     {
-    id: 234,
+    id: 235,
     slug: "natural-glam-makeup-nude-lip-combo-selfie-inspo",
     title: "Natural Glam Makeup + Nude Lip Combo Selfie Inspo",
     category: "natural",
@@ -4465,7 +4465,7 @@ const LOOKS = [
     ]
   },
     {
-    id: 235,
+    id: 236,
     slug: "cute-pink-lip-tint-makeup-look-with-rhode",
     title: "Cute Pink Lip Tint Makeup Look with Rhode",
     category: "clean girl",
