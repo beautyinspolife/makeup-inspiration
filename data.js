@@ -5017,6 +5017,280 @@ const LOOKS = [
       "LIP_GLOSS_151",
       "SETTING_SPRAY_POWDER_143"
     ]
+  },
+  {
+    id: 261,
+    slug: "stop-scrolling-this-beach-sunset-toasty-glow-is-everything",
+    title: "Stop Scrolling — This Beach Sunset Toasty Glow Is Everything",
+    category: "toasty",
+    homeImage: "images/home/file_00000000025a871f5ac8cc30ada688f2e~2.jpg",
+    heroImage: "images/home/file_00000000025a871f5ac8cc30ada688f2e~2.jpg",
+    products: [
+      "FACE_PRIMER_053","FOUNDATION_061","CONCEALER_056","BRONZER_003",
+      "BLUSH_109","HIGHLIGHTER_063","EYE_PRIMER_012","MASCARA_108",
+      "FALSE_LASHES_003","EYEBROW_115","LIP_LINER_005","LIP_GLOSS_132",
+      "SETTING_SPRAY_POWDER_144"
+    ]
+  },
+  {
+    id: 262,
+    slug: "shop-this-no-makeup-makeup-look-from-a-boat-in-the-south-of-france",
+    title: "Shop This No-Makeup Makeup Look From a Boat in the South of France",
+    category: "summer",
+    homeImage: "images/home/file_000000009f5071f7a60972d21d076d2e.png",
+    heroImage: "images/home/file_000000009f5071f7a60972d21d076d2e.png",
+    products: [
+      "FACE_PRIMER_061","TINTED_MOISTURIZER_043","UNDER_EYE_CONCEALER_011",
+      "BRONZER_039","EYE_PRIMER_016","MASCARA_092","EYEBROW_085",
+      "LIP_GLOSS_085","SETTING_SPRAY_POWDER_062"
+    ]
+  },
+  {
+    id: 263,
+    slug: "discover-this-effortless-summer-terrace-glow-look",
+    title: "Discover This Effortless Summer Terrace Glow Look",
+    category: "summer",
+    homeImage: "images/home/file_00000000f2c471fb8a350a1bddba3e8d~2.jpg",
+    heroImage: "images/home/file_00000000f2c471fb8a350a1bddba3e8d~2.jpg",
+    products: [
+      "FACE_PRIMER_033","TINTED_MOISTURIZER_024","CONCEALER_058","BRONZER_065",
+      "BLUSH_029","EYE_PRIMER_015","MASCARA_127","EYEBROW_067",
+      "LIP_BALM_043","SETTING_SPRAY_POWDER_123"
+    ]
+  },
+  {
+    id: 264,
+    slug: "get-this-dreamy-summer-bridal-glow-look-exact-sephora-products",
+    title: "Get This Dreamy Summer Bridal Glow Look — Exact Sephora Products",
+    category: "summer",
+    homeImage: "images/home/file_000000097c071fb9226edffc70a21a7.png",
+    heroImage: "images/home/file_000000097c071fb9226edffc70a21a7.png",
+    products: [
+      "FACE_PRIMER_055","FOUNDATION_074","CONCEALER_039","BRONZER_052",
+      "CONTOUR_004","HIGHLIGHTER_024","EYE_PRIMER_006","MASCARA_036",
+      "FALSE_LASHES_015","EYEBROW_060","LIP_GLOSS_024","SETTING_SPRAY_POWDER_104"
+    ]
+  },
+  {
+    id: 265,
+    slug: "exact-products-for-this-clean-smokey-eye-slick-bun-look",
+    title: "Exact Products for This Clean Smokey Eye Slick Bun Look",
+    category: "smokey",
+    homeImage: "images/home/file_000000009a947246b9fbbefcb35f05eb.png",
+    heroImage: "images/home/file_000000009a947246b9fbbefcb35f05eb.png",
+    products: [
+      "FACE_PRIMER_063","FOUNDATION_123","CONCEALER_049","CONTOUR_005",
+      "HIGHLIGHTER_090","EYESHADOW_073","EYE_PRIMER_018","MASCARA_062",
+      "FALSE_LASHES_031","EYEBROW_043","LIP_LINER_037","LIPSTICK_104",
+      "SETTING_SPRAY_POWDER_051"
+    ]
+  },
+  {
+    id: 266,
+    slug: "must-have-summer-night-out-glam-look-sephora-finds",
+    title: "Must Have Summer Night Out Glam Look — Sephora Finds",
+    category: "summer",
+    homeImage: "images/home/file_000000075b47243b0163cbcf4958098.png",
+    heroImage: "images/home/file_000000075b47243b0163cbcf4958098.png",
+    products: [
+      "FACE_PRIMER_108","FOUNDATION_021","CONCEALER_027","BRONZER_041",
+      "CONTOUR_035","HIGHLIGHTER_084","EYE_PRIMER_011","MASCARA_161",
+      "FALSE_LASHES_013","EYEBROW_111","LIP_LINER_006","LIP_GLOSS_145",
+      "SETTING_SPRAY_POWDER_032"
+    ]
+  },
+  {
+    id: 267,
+    slug: "dont-miss-this-london-tube-smokey-glam-look",
+    title: "Don't Miss This London Tube Smokey Glam Look",
+    category: "smokey",
+    homeImage: "images/home/file_00000000c85c71f480ad30a44fa34588~2.jpg",
+    heroImage: "images/home/file_00000000c85c71f480ad30a44fa34588~2.jpg",
+    products: [
+      "FACE_PRIMER_002","FOUNDATION_053","CONCEALER_026","CONTOUR_006",
+      "BRONZER_038","EYESHADOW_085","EYE_PRIMER_001","MASCARA_138",
+      "FALSE_LASHES_020","EYEBROW_069","LIP_LINER_002","LIPSTICK_017",
+      "SETTING_SPRAY_POWDER_021"
+    ]
+  },
+  {
+    id: 268,
+    slug: "shop-this-boat-day-bronzed-glam-look-summer-sephora-picks",
+    title: "Shop This Boat Day Bronzed Glam Look — Summer Sephora Picks",
+    category: "summer",
+    homeImage: "images/home/file_00000000d26c71f496b571a00478aa12.png",
+    heroImage: "images/home/file_00000000d26c71f496b571a00478aa12.png",
+    products: [
+      "FACE_PRIMER_032","FOUNDATION_004","CONCEALER_069","BRONZER_028",
+      "HIGHLIGHTER_071","EYESHADOW_025","EYE_PRIMER_017","MASCARA_057",
+      "FALSE_LASHES_028","EYEBROW_097","LIP_GLOSS_144","SETTING_SPRAY_POWDER_076"
+    ]
+  },
+  {
+    id: 269,
+    slug: "save-this-mykonos-beach-club-bronzed-glow-makeup-look",
+    title: "Save This Mykonos Beach Club Bronzed Glow Makeup Look",
+    category: "summer",
+    homeImage: "images/home/file_000000061cc71f488bef5db55fb44c5~2.jpg",
+    heroImage: "images/home/file_000000061cc71f488bef5db55fb44c5~2.jpg",
+    products: [
+      "FACE_PRIMER_103","TINTED_MOISTURIZER_057","CONCEALER_035","BRONZER_029",
+      "BLUSH_010","HIGHLIGHTER_086","EYE_PRIMER_007","MASCARA_121",
+      "FALSE_LASHES_027","EYEBROW_023","LIP_GLOSS_140","SETTING_SPRAY_POWDER_016"
+    ]
+  },
+  {
+    id: 270,
+    slug: "exact-products-for-this-flawless-full-face-car-selfie-glam-look",
+    title: "Exact Products for This Flawless Full Face Car Selfie Glam Look",
+    category: "glam",
+    subcategory: "flawless full face",
+    homeImage: "images/home/Screenshot_20260613-190507.png",
+    heroImage: "images/home/Screenshot_20260613-190507.png",
+    products: [
+      "FACE_PRIMER_081","FOUNDATION_140","CONCEALER_053","BRONZER_013",
+      "CONTOUR_036","HIGHLIGHTER_081","EYESHADOW_045","EYE_PRIMER_005",
+      "MASCARA_143","FALSE_LASHES_005","EYEBROW_090","LIP_LINER_021",
+      "LIP_GLOSS_044","SETTING_SPRAY_POWDER_004"
+    ]
+  },
+  {
+    id: 271,
+    slug: "everyones-asking-about-this-nyc-rooftop-smokey-glam-look",
+    title: "Everyone's Asking About This NYC Rooftop Smokey Glam Look",
+    category: "smokey",
+    homeImage: "images/home/file_000000007ea0724692a1e5396e67d899.png",
+    heroImage: "images/home/file_000000007ea0724692a1e5396e67d899.png",
+    products: [
+      "FACE_PRIMER_125","FOUNDATION_066","CONCEALER_063","BRONZER_007",
+      "CONTOUR_030","HIGHLIGHTER_058","EYESHADOW_061","EYE_PRIMER_008",
+      "MASCARA_052","FALSE_LASHES_032","EYEBROW_016","LIP_LINER_033",
+      "LIP_GLOSS_100","SETTING_SPRAY_POWDER_046"
+    ]
+  },
+  {
+    id: 272,
+    slug: "you-need-this-coffee-shop-flawless-glam-look-in-your-routine",
+    title: "You Need This Coffee Shop Flawless Glam Look in Your Routine",
+    category: "glam",
+    subcategory: "flawless full face",
+    homeImage: "images/home/file_00000000ae4c72468e3a6279791aca2d~2.jpg",
+    heroImage: "images/home/file_00000000ae4c72468e3a6279791aca2d~2.jpg",
+    products: [
+      "FACE_PRIMER_075","FOUNDATION_080","CONCEALER_037","BRONZER_019",
+      "CONTOUR_032","HIGHLIGHTER_061","EYESHADOW_076","EYE_PRIMER_010",
+      "MASCARA_007","FALSE_LASHES_023","EYEBROW_095","LIP_LINER_018",
+      "LIP_GLOSS_149","SETTING_SPRAY_POWDER_098"
+    ]
+  },
+  {
+    id: 273,
+    slug: "the-secret-to-this-glam-bedroom-smokey-eye-look",
+    title: "The Secret to This Glam Bedroom Smokey Eye Look",
+    category: "smokey",
+    homeImage: "images/home/file_000000002d871f4bafe680a28b75c4b.png",
+    heroImage: "images/home/file_000000002d871f4bafe680a28b75c4b.png",
+    products: [
+      "FACE_PRIMER_040","FOUNDATION_106","CONCEALER_009","BRONZER_051",
+      "CONTOUR_041","BLUSH_048","HIGHLIGHTER_110","EYESHADOW_004",
+      "EYE_PRIMER_013","MASCARA_042","FALSE_LASHES_006","EYEBROW_053",
+      "LIP_LINER_026","LIP_GLOSS_019","SETTING_SPRAY_POWDER_126"
+    ]
+  },
+  {
+    id: 274,
+    slug: "stop-scrolling-this-clean-girl-london-window-look-is-stunning",
+    title: "Stop Scrolling — This Clean Girl London Window Look Is Stunning",
+    category: "clean girl",
+    homeImage: "images/home/file_000000007dc87243a3d06b2978c895c2.png",
+    heroImage: "images/home/file_000000007dc87243a3d06b2978c895c2.png",
+    products: [
+      "FACE_PRIMER_130","TINTED_MOISTURIZER_021","UNDER_EYE_CONCEALER_047",
+      "BLUSH_008","EYE_PRIMER_004","MASCARA_066","EYEBROW_079",
+      "LIP_BALM_133","SETTING_SPRAY_POWDER_117"
+    ]
+  },
+  {
+    id: 275,
+    slug: "shop-this-airport-flawless-full-face-glam-look",
+    title: "Shop This Airport Flawless Full Face Glam Look",
+    category: "glam",
+    subcategory: "flawless full face",
+    homeImage: "images/home/file_00000000f8dc71f785756d48cf9317c7.png",
+    heroImage: "images/home/file_00000000f8dc71f785756d48cf9317c7.png",
+    products: [
+      "FACE_PRIMER_029","FOUNDATION_121","CONCEALER_004","BRONZER_050",
+      "CONTOUR_018","HIGHLIGHTER_014","EYESHADOW_102","EYE_PRIMER_003",
+      "MASCARA_148","FALSE_LASHES_001","EYEBROW_007","LIP_LINER_031",
+      "LIP_GLOSS_151","SETTING_SPRAY_POWDER_081"
+    ]
+  },
+  {
+    id: 276,
+    slug: "discover-this-outdoor-summer-bronzed-glam-look",
+    title: "Discover This Outdoor Summer Bronzed Glam Look",
+    category: "summer",
+    homeImage: "images/home/file_000000000229471f5a0c322aacc9a69aa.png",
+    heroImage: "images/home/file_000000000229471f5a0c322aacc9a69aa.png",
+    products: [
+      "FACE_PRIMER_134","FOUNDATION_134","CONCEALER_005","BRONZER_048",
+      "CONTOUR_010","HIGHLIGHTER_083","EYE_PRIMER_019","MASCARA_129",
+      "FALSE_LASHES_024","EYEBROW_113","LIP_GLOSS_136","SETTING_SPRAY_POWDER_115"
+    ]
+  },
+  {
+    id: 277,
+    slug: "must-have-summer-bali-inspired-glowy-makeup-look",
+    title: "Must Have Summer Bali-Inspired Glowy Makeup Look",
+    category: "summer",
+    homeImage: "images/home/file_000000000238071f58475475d5d2fcc03.png",
+    heroImage: "images/home/file_000000000238071f58475475d5d2fcc03.png",
+    products: [
+      "FACE_PRIMER_014","TINTED_MOISTURIZER_054","CONCEALER_046","BLUSH_069",
+      "HIGHLIGHTER_033","EYE_PRIMER_002","MASCARA_091","EYEBROW_046",
+      "LIP_GLOSS_047","SETTING_SPRAY_POWDER_134"
+    ]
+  },
+  {
+    id: 278,
+    slug: "get-this-flawless-full-face-nyc-park-glam-look-now",
+    title: "Get This Flawless Full Face NYC Park Glam Look Now",
+    category: "glam",
+    subcategory: "flawless full face",
+    homeImage: "images/home/file_00000000dbf071fbbdcfd8d440dd0f47.png",
+    heroImage: "images/home/file_00000000dbf071fbbdcfd8d440dd0f47.png",
+    products: [
+      "FACE_PRIMER_096","FOUNDATION_034","CONCEALER_010","BRONZER_027",
+      "CONTOUR_027","HIGHLIGHTER_036","EYE_PRIMER_009","MASCARA_145",
+      "FALSE_LASHES_019","EYEBROW_100","LIP_LINER_023","LIP_GLOSS_141",
+      "SETTING_SPRAY_POWDER_053"
+    ]
+  },
+  {
+    id: 279,
+    slug: "save-this-natural-seville-courtyard-soft-glam-look",
+    title: "Save This Natural Seville Courtyard Soft Glam Look",
+    category: "natural",
+    homeImage: "images/home/file_00000000f69871fdb0e22364dbf82cf9.png",
+    heroImage: "images/home/file_00000000f69871fdb0e22364dbf82cf9.png",
+    products: [
+      "FACE_PRIMER_106","TINTED_MOISTURIZER_044","CONCEALER_018","BRONZER_010",
+      "BLUSH_076","EYE_PRIMER_014","MASCARA_067","EYEBROW_039",
+      "LIP_BALM_004","SETTING_SPRAY_POWDER_089"
+    ]
+  },
+  {
+    id: 280,
+    slug: "exact-products-for-this-cozy-bookstore-natural-glam-look",
+    title: "Exact Products for This Cozy Bookstore Natural Glam Look",
+    category: "natural",
+    homeImage: "images/home/file_000000000413c720ab33cf1b522007042.png",
+    heroImage: "images/home/file_000000000413c720ab33cf1b522007042.png",
+    products: [
+      "FACE_PRIMER_080","TINTED_MOISTURIZER_033","UNDER_EYE_CONCEALER_021",
+      "BLUSH_016","HIGHLIGHTER_055","EYESHADOW_109","EYE_PRIMER_012",
+      "MASCARA_093","EYEBROW_103","LIP_GLOSS_066","SETTING_SPRAY_POWDER_085"
+    ]
   }
   
 ];
