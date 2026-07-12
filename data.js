@@ -4884,8 +4884,8 @@ const LOOKS = [
     slug: "discover-this-classy-smokey-updo-glam-look",
     title: "Discover This Classy Smokey Updo Glam Look",
     category: "smokey",
-    homeImage: "images/home/file_00000000144c71fb8db8055bbc530ce9.png",
-    heroImage: "images/home/file_00000000144c71fb8db8055bbc530ce9.png",
+    homeImage: "images/home/file_00000000f2c471fb8a350a1bddba3e8d~2.jpg",
+    heroImage: "images/home/file_00000000f2c471fb8a350a1bddba3e8d~2.jpg",
     products: [
       "FACE_PRIMER_104",
       "FOUNDATION_127",
@@ -5023,8 +5023,8 @@ const LOOKS = [
     slug: "stop-scrolling-this-beach-sunset-toasty-glow-is-everything",
     title: "Stop Scrolling — This Beach Sunset Toasty Glow Is Everything",
     category: "toasty",
-    homeImage: "images/home/file_00000000025a871f5ac8cc30ada688f2e~2.jpg",
-    heroImage: "images/home/file_00000000025a871f5ac8cc30ada688f2e~2.jpg",
+    homeImage: "images/home/file_000000007dc87243a3d06b2978c895c2.png",
+    heroImage: "images/home/file_000000007dc87243a3d06b2978c895c2.png",
     products: [
       "FACE_PRIMER_053","FOUNDATION_061","CONCEALER_056","BRONZER_003",
       "BLUSH_109","HIGHLIGHTER_063","EYE_PRIMER_012","MASCARA_108",
@@ -5188,8 +5188,8 @@ const LOOKS = [
     slug: "the-secret-to-this-glam-bedroom-smokey-eye-look",
     title: "The Secret to This Glam Bedroom Smokey Eye Look",
     category: "smokey",
-    homeImage: "images/home/file_000000002d871f4bafe680a28b75c4b.png",
-    heroImage: "images/home/file_000000002d871f4bafe680a28b75c4b.png",
+    homeImage: "images/home/file_00000000f2c471fb8a350a1bddba3e8d~2.jpg",
+    heroImage: "images/home/file_00000000f2c471fb8a350a1bddba3e8d~2.jpg",
     products: [
       "FACE_PRIMER_040","FOUNDATION_106","CONCEALER_009","BRONZER_051",
       "CONTOUR_041","BLUSH_048","HIGHLIGHTER_110","EYESHADOW_004",
@@ -5284,8 +5284,8 @@ const LOOKS = [
     slug: "exact-products-for-this-cozy-bookstore-natural-glam-look",
     title: "Exact Products for This Cozy Bookstore Natural Glam Look",
     category: "natural",
-    homeImage: "images/home/file_000000000413c720ab33cf1b522007042.png",
-    heroImage: "images/home/file_000000000413c720ab33cf1b522007042.png",
+    homeImage: "images/home/file_0000000025a871f5ac8cc30ada688f2e~2.jpg",
+    heroImage: "images/home/file_0000000025a871f5ac8cc30ada688f2e~2.jpg",
     products: [
       "FACE_PRIMER_080","TINTED_MOISTURIZER_033","UNDER_EYE_CONCEALER_021",
       "BLUSH_016","HIGHLIGHTER_055","EYESHADOW_109","EYE_PRIMER_012",
