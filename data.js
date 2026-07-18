@@ -4884,8 +4884,8 @@ const LOOKS = [
     slug: "discover-this-classy-smokey-updo-glam-look",
     title: "Discover This Classy Smokey Updo Glam Look",
     category: "smokey",
-    homeImage: "images/home/file_00000000f2c471fb8a350a1bddba3e8d~2.jpg",
-    heroImage: "images/home/file_00000000f2c471fb8a350a1bddba3e8d~2.jpg",
+    homeImage: "images/home/file_00000000144c71fb8db8055bbc530ce9.png",
+    heroImage: "images/home/file_00000000144c71fb8db8055bbc530ce9.png",
     products: [
       "FACE_PRIMER_104",
       "FOUNDATION_127",
@@ -5076,8 +5076,8 @@ const LOOKS = [
     slug: "exact-products-for-this-clean-smokey-eye-slick-bun-look",
     title: "Exact Products for This Clean Smokey Eye Slick Bun Look",
     category: "smokey",
-    homeImage: "images/home/file_000000009a947246b9fbbefcb35f05eb.png",
-    heroImage: "images/home/file_000000009a947246b9fbbefcb35f05eb.png",
+    homeImage: "images/home/file_0000000002d871f4bafe680a28b75c4b.png",
+    heroImage: "images/home/file_0000000002d871f4bafe680a28b75c4b.png",
     products: [
       "FACE_PRIMER_063","FOUNDATION_123","CONCEALER_049","CONTOUR_005",
       "HIGHLIGHTER_090","EYESHADOW_073","EYE_PRIMER_018","MASCARA_062",
