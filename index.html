@@ -1,0 +1,2053 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RFZ2FSMFQZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-RFZ2FSMFQZ');
+</script>
+  <meta charset="UTF-8" />
+  <meta name="p:domain_verify" content="abf4dcecbbcad0b4ae59a6c333bc5d8e"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://www.sephora.com" crossorigin>
+  <link rel="dns-prefetch" href="https://www.sephora.com">
+  <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+  <!-- SEO de base -->
+<title>Beauty Inspo – Makeup Looks & Sephora Finds</title>
+<meta name="description" content="Discover makeup inspiration by category: Natural, Glam, Smokey, Clean Girl, Skincare and Perfume. Shop the exact Sephora products used in each look.">
+<meta name="keywords" content="makeup inspo, beauty inspiration, sephora makeup, glam makeup looks, natural makeup, clean girl aesthetic, smokey eye, perfume recommendations">
+<link rel="canonical" href="https://beautyinspo.netlify.app/">
+
+<!-- Open Graph (pour que le lien soit joli sur Instagram, Pinterest, etc.) -->
+<meta property="og:title" content="Beauty Inspo – Makeup Looks & Sephora Finds">
+<meta property="og:description" content="Browse makeup inspiration by category and shop the exact products on Sephora.">
+<meta property="og:url" content="https://beautyinspo.netlify.app/">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://beautyinspo.netlify.app/images/beauty-inspo-logo.png">
+
+<!-- Schema.org (pour les rich results Google) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Beauty Inspo",
+  "url": "https://beautyinspo.netlify.app",
+  "description": "Makeup inspiration by category — Natural, Glam, Smokey, Clean Girl, Skincare, Perfume — with Sephora product links.",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://beautyinspo.netlify.app/#{search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+  <title>Beauty Inspo</title>
+  <style>
+    :root {
+      --bg: #e4e2dd;
+      --bg-soft: #faf8f5;
+      --card: #ffffff;
+      --text: #1f1a17;
+      --muted: #6f655d;
+      --line: rgba(31, 26, 23, 0.12);
+      --shadow: 0 12px 30px rgba(0, 0, 0, 0.06);
+      --radius-xl: 30px;
+      --radius-lg: 22px;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    img { display: block; width: 100%; }
+    a { color: inherit; text-decoration: none; }
+    button { font: inherit; }
+
+    .page {
+      min-height: 100vh;
+      width: 100%;
+    }
+
+    .container {
+      width: min(1120px, calc(100% - 28px));
+      margin: 0 auto;
+      padding: 22px 0 40px;
+    }
+  
+    
+    .logo-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  background: transparent;
+  padding: 0;
+}
+
+.hero-logo {
+  max-width: 760px;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  background: transparent;
+}
+    
+
+
+    .section-line {
+      border-top: 1.5px solid var(--line);
+      margin-top: 28px;
+      padding-top: 26px;
+    }
+    
+    
+    .title {
+      text-align: center;
+      font-size: clamp(2rem, 6vw, 4rem);
+      font-weight: 500;
+      letter-spacing: -0.03em;
+      margin: 30px 0 0;
+    }
+    
+
+    .tabs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .tab {
+      border: 0;
+      background: rgba(31, 26, 23, 0.08);
+      color: var(--text);
+      border-radius: 999px;
+      padding: 11px 18px;
+      font-size: 0.95rem;
+      cursor: pointer;
+      transition: 0.2s ease;
+    }
+
+    .tab.active {
+      background: var(--text);
+      color: white;
+    }
+
+    /* HOME */
+    .grid {
+      column-count: 2;
+      column-gap: 14px;
+      margin-top: 28px;
+    }
+
+    .home-card {
+      display: inline-block;
+      width: 100%;
+      margin: 0 0 14px;
+      break-inside: avoid;
+      transition: transform 0.22s ease;
+    }
+
+    .home-card:hover { transform: translateY(-4px); }
+
+    .home-card img {
+      width: 100%;
+      object-fit: cover;
+      border-radius: var(--radius-xl);
+      box-shadow: var(--shadow);
+      background: #ddd3c7;
+    }
+
+    .home-card:nth-child(3n) { transform: translateY(8px); }
+    .home-card:nth-child(4n) { transform: translateY(-6px); }
+    .home-card:nth-child(5n) { transform: translateY(4px); }
+
+    .footer-note {
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 0.24em;
+      font-size: 0.72rem;
+      color: var(--muted);
+      border-top: 1px solid var(--line);
+      margin-top: 34px;
+      padding-top: 20px;
+    }
+
+    
+    /* LOOK PAGE */
+    .products-wrap {
+      width: min(1120px, calc(100% - 28px));
+      margin: 0 auto;
+    }
+
+    .back-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.75);
+      backdrop-filter: blur(8px);
+      padding: 10px 15px;
+      font-size: clamp(18px,4vw,32px)
+      line-height: 1.2;
+      margin: 16px 0 0;
+      position: relative;
+      z-index: 5;
+      box-shadow: 0 8px 18px rgba(0,0,0,0.04);
+    }
+    
+    
+    .hero-card {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 115vh;
+  min-height: 115vh;
+  background: #d4cec2;
+}
+    
+      
+    .hero-card img {
+      width: 100%;
+      height: 100vh;
+      object-fit: cover;
+      object-position: center top;
+      display: block;
+    }
+    
+    .hero-overlay {
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(
+          180deg,
+          rgba(212, 206, 194, 0) 0%,
+          rgba(212, 206, 194, 0.08) 18%,
+          rgba(212, 206, 194, 0.18) 30%,
+          rgba(212, 206, 194, 0.35) 42%,
+          rgba(212, 206, 194, 0.58) 54%,
+          rgba(212, 206, 194, 0.8) 66%,
+          rgba(212, 206, 194, 0.94) 78%,
+          rgba(212, 206, 194, 1) 88%,
+          rgba(212, 206, 194, 1) 100%
+        );
+      z-index: 1;
+      pointer-events: none;
+    }
+    
+    .hero-title-box {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      padding: 30px 22px 34px;
+      text-align: center;
+      z-index: 10;
+    }
+    
+.hero-title {
+  margin: 0 auto;
+  max-width: 960px;
+  font-size: clamp(38px, 8vw, 72px);
+  line-height: 1.1;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.hero-intro {
+  position: absolute;
+  left: 50%;
+  bottom: 6%;
+  transform: translateX(-50%);
+  width: min(90%, 1000px);
+  text-align: center;
+  color: #ffffff;
+  z-index: 10;
+}
+
+
+    .hero-kicker,
+    .hero-divider,
+    .hero-subtitle,
+    .hero-caption {
+      position: relative;
+      z-index: 11;
+    }
+    
+    .top-bar {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pinterest-link {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #111;
+  background: #f3f0eb;
+  padding: 8px 14px;
+  border-radius: 999px;
+  border: 1px solid #ddd;
+}
+
+    .products-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 14px;
+      margin-top: -40px;
+      position: relative;
+      z-index: 3;
+    }
+
+    .product-card {
+      background: #ffffff;
+      border-radius: 28px;
+      padding: 14px;
+      box-shadow: 0 10px 26px rgba(0, 0, 0, 0.05);
+      transition: transform 0.22s ease;
+      height: 100%;
+      border: none;
+    }
+
+    .product-card:hover { transform: translateY(-4px); }
+    .product-card-link {
+  cursor: pointer;
+}
+
+    .product-image-box {
+      background: #ffffff;
+      border-radius: 22px;
+      min-height: 190px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 12px;
+      overflow: hidden;
+      border: none;
+    }
+
+    .product-image-box img {
+      max-height: 210px;
+      width: auto;
+      max-width: 100%;
+      object-fit: contain;
+    }
+
+    .product-name {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 0.92rem;
+      line-height: 1.45;
+      text-align: center;
+      margin: 14px 4px 4px;
+      color: #2e2925;
+    }
+
+    .empty-box {
+      background: #ffffff;
+      border-radius: 28px;
+      padding: 28px 20px;
+      text-align: center;
+      box-shadow: 0 10px 26px rgba(0, 0, 0, 0.05);
+      margin-top: 28px;
+    }
+
+    .empty-box p:first-child {
+      font-size: 1.5rem;
+      margin: 0 0 10px;
+    }
+
+    .empty-box p:last-child {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .products-used-title {
+      text-align: center;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(1.4rem, 3.2vw, 2rem);
+      font-weight: 500;
+      letter-spacing: -0.01em;
+      margin: 8px 0 22px;
+      position: relative;
+      z-index: 3;
+      color: var(--text);
+    }
+
+    .shop-now-btn {
+      display: block;
+      width: 100%;
+      min-height: 44px;
+      margin: 12px 0 2px;
+      background: var(--text);
+      color: #ffffff;
+      border: none;
+      border-radius: 999px;
+      padding: 12px 14px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 0.82rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: 0.2s ease;
+    }
+
+    .shop-now-btn:hover {
+      background: #3a322c;
+      transform: translateY(-1px);
+    }
+
+    .similar-looks-title {
+      text-align: center;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(1.5rem, 3.4vw, 2.2rem);
+      font-weight: 500;
+      letter-spacing: -0.01em;
+      margin: 54px 0 22px;
+      color: var(--text);
+    }
+
+    .similar-looks-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 14px;
+    }
+
+    .similar-look-card {
+      display: block;
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      background: var(--card);
+      box-shadow: var(--shadow);
+      transition: transform 0.22s ease;
+    }
+
+    .similar-look-card:hover { transform: translateY(-4px); }
+
+    .similar-look-card img {
+      width: 100%;
+      aspect-ratio: 3 / 4;
+      object-fit: cover;
+      background: #ddd3c7;
+    }
+
+    .similar-look-name {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 0.85rem;
+      line-height: 1.4;
+      text-align: center;
+      margin: 0;
+      padding: 12px 10px;
+      color: #2e2925;
+    }
+
+    @media (min-width: 760px) {
+      .similar-looks-grid { grid-template-columns: repeat(3, 1fr); gap: 18px; }
+    }
+
+    .blog-grid {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 16px;
+      margin-top: 28px;
+    }
+
+    .blog-card {
+      display: block;
+      background: var(--card);
+      border-radius: var(--radius-lg);
+      padding: 22px 24px;
+      box-shadow: var(--shadow);
+      transition: transform 0.22s ease;
+    }
+
+    .blog-card:hover { transform: translateY(-3px); }
+
+    .blog-card-title {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 1.25rem;
+      font-weight: 500;
+      margin: 0 0 8px;
+      color: var(--text);
+    }
+
+    .blog-card-excerpt {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 0.9rem;
+      line-height: 1.5;
+      color: var(--muted);
+      margin: 0;
+    }
+
+    .blog-intro {
+      max-width: 720px;
+      margin: 18px auto 30px;
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1rem;
+      line-height: 1.6;
+      color: var(--muted);
+    }
+
+    .blog-conclusion {
+      max-width: 720px;
+      margin: 34px auto 10px;
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 0.95rem;
+      line-height: 1.6;
+      color: var(--muted);
+      font-style: italic;
+    }
+
+    .blog-products-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 14px;
+    }
+
+    .blog-product-blurb {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 0.78rem;
+      line-height: 1.4;
+      text-align: center;
+      color: var(--muted);
+      margin: 4px 4px 0;
+    }
+
+    .combo-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 22px;
+      margin-top: 10px;
+    }
+
+    .combo-card {
+      background: var(--card);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow);
+      padding: 20px;
+    }
+
+    .combo-number {
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 0.78rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin: 0 0 14px;
+    }
+
+    .combo-item { margin-bottom: 14px; }
+    .combo-item:last-child { margin-bottom: 0; }
+
+    .combo-item-label {
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 0.72rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin: 8px 0 2px;
+    }
+
+    @media (min-width: 760px) {
+      .blog-grid { grid-template-columns: repeat(2, 1fr); }
+      .blog-products-grid { grid-template-columns: repeat(3, 1fr); gap: 18px; }
+      .combo-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+
+    @media (min-width: 1024px) {
+      .combo-grid { grid-template-columns: repeat(3, 1fr); }
+    }
+    
+    .hero-kicker {
+      margin: 0;
+      font-size: clamp(2rem, 5vw, 4.1rem);
+      letter-spacing: 0.08em;
+      font-weight: 500;
+      text-transform: uppercase;
+    }
+    
+    .hero-divider {
+      width: 100%;
+      height: 1.5px;
+      background: rgba(255, 255, 255, 0.88);
+      margin: 14px 0;
+    }
+    
+    .hero-subtitle {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: clamp(1rem, 2.7vw, 1.5rem);
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: none;
+    }
+    
+    .hero-caption {
+      margin: 14px 0 0;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: clamp(0.68rem, 1.9vw, 0.9rem);
+      letter-spacing: 0.18em;
+      line-height: 1.6;
+      color: rgba(255, 255, 255, 0.92);
+    }
+    
+    .hero-title-box {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      padding: 30px 22px 34px;
+      text-align: center;
+      z-index: 5;
+    }
+    
+    .hero-title {
+      margin: 0 auto;
+      max-width: 760px;
+      font-size: clamp(24px, 6vw, 48px);
+      line-height: 1.1;
+      font-weight: 500;
+      color: #171311;
+    }
+    
+    .bottom-home-btn-wrap {
+      display: flex;
+      justify-content: center;
+      margin: 56px 0 80px;
+    }
+    
+    .bottom-home-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background: #ffffff;
+      color: #1f1a17;
+      padding: 18px 34px;
+      border-radius: 999px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1.18rem;
+      font-weight: 700;
+      letter-spacing: 0.03em;
+      box-shadow: 0 14px 32px rgba(0, 0, 0, 0.12);
+      width: 100%;
+      min-width: 320px;
+    }
+    
+    .top-home-banner-wrap {
+      width: min(1120px, calc(100% - 28px));
+      margin: 18px auto 18px;
+      position: relative;
+      z-index: 20;
+    }
+    
+    .top-home-banner {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      min-height: 62px;
+      background: #ffffff;
+      color: #1f1a17;
+      border-radius: 999px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1.12rem;
+      font-weight: 700;
+      letter-spacing: 0.03em;
+      padding: 16px 24px;
+      box-shadow: 0 14px 32px rgba(0, 0, 0, 0.10);
+    }
+    
+    .see-more-container {
+      display: flex; 
+      justify-content: center;
+      align-items: center;
+    }
+    .see-more-btn{
+      text-align: center;
+      margin: 0 auto;
+    }
+  
+
+    }
+    @media (max-width: 760px) {
+      .hero-title {
+        font-size: 28px;
+        line-height: 1.1;
+        padding : 0 10px;
+      }
+    
+      .hero-kicker {
+        font-size: clamp(1.6rem, 7vw, 3rem);
+        letter-spacing: 0.04em;
+        line-height: 1.05;
+      }
+    
+      .hero-subtitle {
+        font-size: clamp(1rem, 4.8vw, 1.35rem);
+        letter-spacing: 0.08em;
+      }
+    
+      .hero-caption {
+        font-size: clamp(0.72rem, 2.8vw, 0.9rem);
+        letter-spacing: 0.1em;
+      }
+    }
+    
+    @media (min-width: 760px) {
+      .container { width: min(1180px, calc(100% - 56px)); }
+      .grid { column-count: 3; column-gap: 18px; }
+      .home-card { margin-bottom: 18px; }
+      .products-grid { grid-template-columns: repeat(3, 1fr); gap: 18px; }
+      .hero-logo { max-width: 420px; }
+      .products-wrap { width: min(1180px, calc(100% - 56px)); }
+    }
+    
+@media (max-width: 759px) {
+  .hero-card,
+  .hero-card img {
+    min-height: 82vh;
+    height: 82vh;
+  }
+}
+
+    }
+    /* téléphone */
+@media (max-width: 768px) {
+  .hero-intro {
+    bottom: -4%;
+    width: 92%;
+  }
+
+  .hero-title {
+    font-size: clamp(30px, 10vw, 52px);
+    line-height: 1.08;
+  }
+
+  .hero-subtitle {
+    font-size: clamp(16px, 5vw, 24px);
+    line-height: 1.2;
+  }
+
+  .hero-caption {
+    font-size: clamp(12px, 3.6vw, 15px);
+    line-height: 1.3;
+  }
+}
+
+/* tablette */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .hero-intro {
+    bottom: 8%;
+    width: 88%;
+  }
+
+  .hero-title {
+    font-size: clamp(42px, 6vw, 64px);
+    line-height: 1.1;
+  }
+
+  .hero-subtitle {
+    font-size: clamp(20px, 3vw, 30px);
+    line-height: 1.2;
+  }
+
+  .hero-caption {
+    font-size: clamp(13px, 1.8vw, 18px);
+    line-height: 1.3;
+  }
+}
+
+/* ordinateur */
+@media (min-width: 1025px) {
+  .hero-intro {
+    bottom: 6%;
+    width: min(80%, 1000px);
+  }
+
+  .hero-title {
+    font-size: clamp(48px, 4vw, 76px);
+    line-height: 1.1;
+  }
+
+  .hero-subtitle {
+    font-size: clamp(22px, 1.8vw, 32px);
+  }
+
+  .hero-caption {
+    font-size: clamp(14px, 1vw, 18px);
+    line-height: 1.35;
+  }
+}
+/* PERFUME DETAIL PAGE */
+.perfume-page {
+  min-height: 100vh;
+  background: #e4e2dd;
+  padding: 18px 0 70px;
+}
+
+.perfume-wrap {
+  width: min(980px, calc(100% - 28px));
+  margin: 0 auto;
+}
+
+.perfume-top-btn-wrap {
+  display: flex;
+  justify-content: center;
+  margin: 18px 0 28px;
+}
+
+.perfume-top-btn,
+.perfume-bottom-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  color: #1f1a17;
+  padding: 16px 28px;
+  border-radius: 999px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: clamp(0.95rem, 2.8vw, 1.15rem);
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.10);
+  text-align: center;
+}
+
+.perfume-title {
+  text-align: center;
+  font-size: clamp(2.2rem, 7vw, 4.8rem);
+  font-weight: 500;
+  letter-spacing: -0.03em;
+  margin: 22px 0 32px;
+  color: #1f1a17;
+}
+
+.perfume-image-card {
+  background: #f7f4ef;
+  border-radius: 34px;
+  padding: 18px;
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.10);
+  width: min(720px, 100%);
+  margin: 0 auto;
+}
+
+.perfume-main-image {
+  width: 100%;
+  max-height: 78vh;
+  object-fit: cover;
+  border-radius: 26px;
+  background: #f7f4ef;
+}
+
+.perfume-bottom-btn-wrap {
+  display: flex;
+  justify-content: center;
+  margin: 44px 0 20px;
+}
+
+@media (max-width: 760px) {
+  .perfume-page {
+    padding-top: 10px;
+  }
+
+  .perfume-title {
+    margin: 18px 0 24px;
+  }
+
+  .perfume-image-card {
+    border-radius: 28px;
+    padding: 12px;
+  }
+
+  .perfume-main-image {
+    border-radius: 22px;
+    max-height: 72vh;
+  }
+}
+
+    .site-footer {
+  text-align: center;
+  padding: 30px 20px;
+  border-top: 1px solid #d8d0c8;
+  margin-top: 60px;
+}
+
+.site-footer a {
+  margin: 0 10px;
+  color: #2f241d;
+  text-decoration: none;
+  font-size: 16px;
+  }
+    /* HAMBURGER MENU MINIMAL */
+.hamburger-header {
+  position: fixed !important;
+  top: 20px !important;
+  left: 20px !important;
+  z-index: 9999 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  width: auto !important;
+  height: auto !important;
+  background: transparent !important;
+  border: none !important;
+  display: block !important;
+}
+
+.hamburger-menu {
+  position: relative;
+}
+
+.hamburger-button {
+  list-style: none;
+  width: 34px;
+  height: 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 6px;
+  cursor: pointer;
+  background: transparent;
+}
+
+.hamburger-button::-webkit-details-marker {
+  display: none;
+}
+
+.hamburger-button span {
+  display: block;
+  width: 28px;
+  height: 2px;
+  background: #111;
+  border-radius: 999px;
+  transition: 0.25s ease;
+}
+
+.hamburger-menu[open] .hamburger-button span:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger-menu[open] .hamburger-button span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger-menu[open] .hamburger-button span:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 42px;
+  left: 0;
+  width: 230px;
+  padding: 18px 20px;
+  background: rgba(248, 241, 234, 0.96);
+  backdrop-filter: blur(14px);
+  border-radius: 22px;
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.12);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  animation: menuFade 0.22s ease;
+}
+
+.dropdown-menu a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #1f1a17;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+}
+
+.dropdown-menu a:hover {
+  opacity: 0.55;
+}
+
+@keyframes menuFade {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  }
+
+    .cookie-banner {
+  position: fixed;
+  bottom: 24px;
+  left: 24px;
+  right: 24px;
+  z-index: 9999;
+
+  display: none;
+
+  background: #ffffff;
+  border: 1px solid #e8e8e8;
+  border-radius: 18px;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.cookie-content {
+  padding: 22px;
+}
+
+.cookie-content p {
+  margin: 0;
+  color: #333;
+  font-size: 14px;
+  line-height: 1.6;
+  font-family: Arial, sans-serif;
+}
+
+.cookie-buttons {
+  margin-top: 18px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.cookie-btn {
+  border: none;
+  border-radius: 999px;
+  padding: 10px 20px;
+
+  cursor: pointer;
+
+  font-size: 14px;
+  font-weight: 600;
+
+  transition: all 0.2s ease;
+}
+
+.cookie-btn.primary {
+  background: #111111;
+  color: white;
+}
+
+.cookie-btn.primary:hover {
+  transform: translateY(-1px);
+}
+
+.cookie-btn.secondary {
+  background: #f5f5f5;
+  color: #333;
+}
+
+.cookie-btn.secondary:hover {
+  background: #ececec;
+}
+
+@media (max-width: 768px) {
+  .cookie-banner {
+    left: 12px;
+    right: 12px;
+    bottom: 12px;
+  }
+
+  .cookie-buttons {
+    flex-direction: column;
+  }
+
+  .cookie-btn {
+    width: 100%;
+  }
+  }
+    
+  </style>
+</head>
+<body>
+ <header class="hamburger-header">
+  <details class="hamburger-menu">
+    <summary class="hamburger-button" aria-label="Open menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </summary>
+
+    <nav class="dropdown-menu">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="privacy-policy.html">Privacy Policy</a>
+      <a href="affiliate-disclosure.html">Affiliate Disclosure</a>
+      <a href="#/blog">Blog</a>
+    </nav>
+  </details>
+ </header>
+  <div id="app"></div>
+  <script src="productCatalog.js"></script>
+  <script src="data.js"></script>  
+  <script>
+    let USER_MARKET = "US";
+
+    // ===================== BLOG ENGINE =====================
+    // Builds product picks from REAL catalog data and REAL usage across your
+    // curated looks — never invents products, shades, or facts.
+
+    const productsByCode = {};
+    (typeof products !== "undefined" ? products : []).forEach((p) => {
+      if (p && p.code) productsByCode[p.code] = p;
+    });
+
+    // Counts how often each product code appears across looks matching `filterLook`.
+    function tallyUsage(filterLook) {
+      const counts = {};
+      LOOKS.forEach((look) => {
+        if (!filterLook(look)) return;
+        (look.productCodes || []).forEach((code) => {
+          counts[code] = (counts[code] || 0) + 1;
+        });
+      });
+      return counts;
+    }
+
+    // Top N real products used across matching looks, topped up from the
+    // catalog (by category/brand) if the look pool doesn't yield enough.
+    function pickProductsByUsage(filterLook, count, fallbackFilter) {
+      const counts = tallyUsage(filterLook);
+      const ranked = Object.keys(counts)
+        .sort((a, b) => counts[b] - counts[a])
+        .map((code) => productsByCode[code])
+        .filter(Boolean);
+
+      const seen = new Set(ranked.map((p) => p.code));
+      const picks = ranked.slice(0, count);
+
+      if (picks.length < count && fallbackFilter) {
+        const extra = (typeof products !== "undefined" ? products : [])
+          .filter((p) => fallbackFilter(p) && !seen.has(p.code));
+        for (const p of extra) {
+          if (picks.length >= count) break;
+          picks.push(p);
+          seen.add(p.code);
+        }
+      }
+      return picks.slice(0, count);
+    }
+
+    // Top N real catalog products for a category/brand, prioritizing ones
+    // actually used in at least one look (proven, non-random relevance).
+    function pickProductsByCatalog(catalogFilter, count) {
+      const usageCounts = tallyUsage(() => true);
+      const matches = (typeof products !== "undefined" ? products : []).filter(catalogFilter);
+      const ranked = [...matches].sort((a, b) => (usageCounts[b.code] || 0) - (usageCounts[a.code] || 0));
+      return ranked.slice(0, count);
+    }
+
+    // Short, professional, non-childish blurbs generated from real product
+    // fields (brand/name/type) — templated for consistency, not fabricated claims.
+    const TYPE_BLURBS = {
+      "Blush": [
+        "A natural-looking flush that blends seamlessly for a lit-from-within glow.",
+        "Buildable color that melts into skin without looking overdone.",
+        "A soft wash of color designed to mimic a natural flush."
+      ],
+      "Bronzer": [
+        "A warm, sun-kissed finish that sculpts without looking muddy.",
+        "Adds dimension and warmth for a naturally bronzed look.",
+        "Buildable warmth that blends effortlessly along the high points of the face."
+      ],
+      "Highlighter": [
+        "A luminous finish that catches the light without glitter fallout.",
+        "Delivers a lit-from-within glow on the high points of the face.",
+        "A subtle sheen that reads as skin, not sparkle."
+      ],
+      "Lip Gloss": [
+        "A glassy, non-sticky finish that plumps and shines.",
+        "High-shine color payoff without the tacky feel.",
+        "A comfortable, mirror-like shine that layers well over lip color."
+      ],
+      "Lip Oil": [
+        "A nourishing, glossy tint that conditions while it colors.",
+        "Lightweight and hydrating, with a sheer wash of color.",
+        "A comfortable everyday shine that treats the lips as it wears."
+      ],
+      "Lip Liner": [
+        "Defines and fills for longer-wearing lip color.",
+        "A creamy, blendable liner that keeps color from feathering.",
+        "Sharpens the lip shape and extends the wear of any lip product."
+      ],
+      "Lipstick": [
+        "Rich, comfortable color that wears evenly from morning to night.",
+        "A true-to-tube payoff with a comfortable, non-drying formula.",
+        "Full coverage color that still feels weightless on the lips."
+      ],
+      "Liquid Lipstick": [
+        "Long-wearing, full-coverage color in a lightweight liquid formula.",
+        "A matte-to-comfort finish that doesn't feel drying.",
+        "Bold, transfer-resistant color built to last through the day."
+      ],
+      "Foundation": [
+        "Buildable coverage that lets skin texture show through naturally.",
+        "An even, skin-like finish that never looks like a mask.",
+        "Long-wearing coverage designed to look like skin, not makeup."
+      ],
+      "Face Primer": [
+        "Preps skin for a smoother, longer-lasting makeup application.",
+        "Creates the perfect canvas for foundation to grip and glide.",
+        "Blurs texture and extends wear from the very first step."
+      ]
+    };
+    const DEFAULT_BLURBS = [
+      "A cult-favorite pick that shows up again and again in our looks.",
+      "A reliable staple that pulls its weight in every routine.",
+      "One of the most-repeated products across our favorite looks."
+    ];
+
+    function hashCode(str) {
+      let hash = 0;
+      for (let i = 0; i < str.length; i++) {
+        hash = (hash * 31 + str.charCodeAt(i)) >>> 0;
+      }
+      return hash;
+    }
+
+    function getBlurb(product) {
+      const bank = TYPE_BLURBS[product.type] || DEFAULT_BLURBS;
+      const idx = hashCode(product.code || product.name || "") % bank.length;
+      return bank[idx];
+    }
+
+    function catCat(category) {
+      return (p) => p.category === category;
+    }
+    function catBrand(brand) {
+      return (p) => (p.brand || "").toLowerCase() === brand.toLowerCase();
+    }
+    function looksCat(category, subcategory) {
+      return (look) => look.category === category && (!subcategory || look.subcategory === subcategory);
+    }
+    function looksTitle(regex) {
+      return (look) => regex.test(look.title);
+    }
+
+    const BLOG_POSTS = [
+      {
+        slug: "best-blushes",
+        navTitle: "Best Blushes",
+        seoTitle: "Top 10 Best Sephora Blushes",
+        intro: "The blushes that show up again and again across our favorite looks — picked for the way they blend and the flush they leave behind.",
+        conclusion: "Any one of these blends beautifully into a natural-makeup routine or a full glam look — start with the shade closest to your natural flush and build from there.",
+        getProducts: () => pickProductsByUsage(() => true, 10, catCat("Makeup > Face > Blush"))
+      },
+      {
+        slug: "best-nude-lip-combos",
+        navTitle: "Lip Combos",
+        seoTitle: "10 Best Nude Lip Combos",
+        intro: "Lip liner, lipstick or gloss — paired the way we'd actually wear them. Each combo below is built from real products in our looks.",
+        conclusion: "Line first, fill with color, then finish with gloss for the most natural-looking depth.",
+        isCombo: true
+      },
+      {
+        slug: "summer-makeup-looks",
+        navTitle: "Summer Makeup",
+        seoTitle: "10 Summer Makeup Looks",
+        intro: "Warm-weather makeup, built around the products that keep showing up in our sun-kissed, beach-ready looks.",
+        conclusion: "Keep it light — a tinted base, a cream bronzer, and a glossy lip go a long way in summer heat.",
+        getProducts: () => pickProductsByUsage(looksCat("summer"), 10, null)
+      },
+      {
+        slug: "best-natural-makeup-products",
+        navTitle: "Natural Makeup",
+        seoTitle: "10 Best Natural Makeup Products",
+        intro: "Skin-first products that let your features lead — the most-used picks across our Natural Makeup looks.",
+        conclusion: "Natural makeup is about balance: sheer coverage, a soft flush, and definition that still looks like you.",
+        getProducts: () => pickProductsByUsage(looksCat("natural"), 10, null)
+      },
+      {
+        slug: "best-clean-girl-makeup-products",
+        navTitle: "Clean Girl Makeup",
+        seoTitle: "10 Best Clean Girl Makeup Products",
+        intro: "Dewy skin, groomed brows, a soft flush — the exact products behind our Clean Girl looks.",
+        conclusion: "The clean-girl finish comes down to skin prep and restraint — sheer layers beat heavy ones every time.",
+        getProducts: () => pickProductsByUsage(looksCat("clean girl"), 10, null)
+      },
+      {
+        slug: "best-pink-makeup-products",
+        navTitle: "Pink Makeup",
+        seoTitle: "10 Best Pink Makeup Products",
+        intro: "Every shade of pink we reach for, from blush to gloss, pulled from our Pink Makeup looks.",
+        conclusion: "Stick to one pink family — blush, lip, and lid in the same undertone — for a look that feels intentional.",
+        getProducts: () => {
+          const tagged = pickProductsByUsage(looksCat("glam", "pink makeup"), 10, null);
+          if (tagged.length >= 6) return tagged;
+          return pickProductsByCatalog((p) =>
+            /pink/i.test(p.name) &&
+            ["Makeup > Face > Blush", "Makeup > Lip > Lipstick", "Makeup > Lip > Lip Gloss", "Makeup > Lip > Liquid Lipstick", "Makeup > Lip > Lip Oil", "Makeup > Lip > Lip Stain", "Makeup > Eye > Eyeshadow", "Makeup > Eye > Eyeshadow Palettes"].includes(p.category),
+          10);
+        }
+      },
+      {
+        slug: "best-dewy-makeup-products",
+        navTitle: "Dewy Makeup",
+        seoTitle: "10 Best Dewy Makeup Products",
+        intro: "Glass-skin, glow-first products pulled from our dewiest looks.",
+        conclusion: "Layer hydrating, cream formulas rather than powder for the most convincing dewy finish.",
+        getProducts: () => pickProductsByUsage(looksTitle(/dewy|glow/i), 10, catCat("Makeup > Face > Highlighter"))
+      },
+      {
+        slug: "best-glowy-makeup-products",
+        navTitle: "Glowy Makeup",
+        seoTitle: "10 Best Glowy Makeup Products",
+        intro: "The illuminating, skin-loving products behind our Glowy Makeup looks.",
+        conclusion: "A cream highlighter on the high points and a dewy base finish is really all glowy makeup needs.",
+        getProducts: () => pickProductsByUsage(looksCat("glam", "glowy makeup"), 10, catCat("Makeup > Face > Highlighter"))
+      },
+      {
+        slug: "best-soft-glam-products",
+        navTitle: "Soft Glam",
+        seoTitle: "10 Best Soft Glam Products",
+        intro: "Polished but wearable — the products our Soft Glam looks reach for most.",
+        conclusion: "Soft glam is about definition without hard edges — blend everything twice.",
+        getProducts: () => pickProductsByUsage(looksCat("glam"), 10, null)
+      },
+      {
+        slug: "best-rhode-products",
+        navTitle: "Rhode",
+        seoTitle: "Best Rhode Products at Sephora",
+        intro: "Our Rhode edit at Sephora — a short list for now, growing as the line expands in store.",
+        conclusion: "New Rhode launches land at Sephora regularly — check back as we keep this list updated.",
+        getProducts: () => pickProductsByCatalog(catBrand("rhode"), 10)
+      },
+      {
+        slug: "best-rare-beauty-products",
+        navTitle: "Rare Beauty",
+        seoTitle: "Best Rare Beauty Products",
+        intro: "The Rare Beauty staples that show up in look after look — blushes, blurs, and long-wear bases.",
+        conclusion: "Rare Beauty's liquid formulas are built to blend with fingertips — no brush required for a natural finish.",
+        getProducts: () => pickProductsByUsage(() => true, 10, catBrand("Rare Beauty by Selena Gomez"))
+      },
+      {
+        slug: "best-lip-oils",
+        navTitle: "Lip Oils",
+        seoTitle: "10 Best Lip Oils at Sephora",
+        intro: "Glossy, nourishing, barely-there color — our favorite lip oils at Sephora.",
+        conclusion: "Lip oils layer beautifully over liner for a fuller look without the commitment of a full lipstick.",
+        getProducts: () => pickProductsByCatalog(catCat("Makeup > Lip > Lip Oil"), 10)
+      },
+      {
+        slug: "best-lip-glosses",
+        navTitle: "Lip Gloss",
+        seoTitle: "10 Best Lip Glosses",
+        intro: "From subtle sheens to full-on shine — the lip glosses we reach for most.",
+        conclusion: "Pair a clear gloss over any lip color to instantly make it look fresher and more polished.",
+        getProducts: () => pickProductsByCatalog(catCat("Makeup > Lip > Lip Gloss"), 10)
+      },
+      {
+        slug: "best-cream-blushes",
+        navTitle: "Cream Blush",
+        seoTitle: "10 Best Cream Blushes",
+        intro: "Our pick of cream and liquid blush formulas for the most natural, skin-like flush.",
+        conclusion: "Apply cream blush with fingertips before powder for the most seamless, natural-looking result.",
+        getProducts: () => {
+          const creamNamed = pickProductsByCatalog((p) => p.category === "Makeup > Face > Blush" && /cream|liquid/i.test(p.name), 10);
+          return creamNamed.length >= 6 ? creamNamed : pickProductsByCatalog(catCat("Makeup > Face > Blush"), 10);
+        }
+      },
+      {
+        slug: "best-highlighters",
+        navTitle: "Highlighters",
+        seoTitle: "10 Best Highlighters at Sephora",
+        intro: "The highlighters that give the most natural, skin-like glow across our looks.",
+        conclusion: "A little goes a long way — build highlighter in thin layers on the high points of the face.",
+        getProducts: () => pickProductsByCatalog(catCat("Makeup > Face > Highlighter"), 10)
+      },
+      {
+        slug: "best-bronzers",
+        navTitle: "Bronzers",
+        seoTitle: "10 Best Bronzers at Sephora",
+        intro: "Warmth and dimension, without the mud — our favorite bronzers at Sephora.",
+        conclusion: "Apply bronzer where the sun would naturally hit your face for the most believable warmth.",
+        getProducts: () => pickProductsByCatalog(catCat("Makeup > Face > Bronzer"), 10)
+      },
+      {
+        slug: "best-summer-beauty-essentials",
+        navTitle: "Summer Essentials",
+        seoTitle: "Best Summer Beauty Essentials",
+        intro: "The prep and finishing products behind our sun-ready summer looks — bases, sprays, and glow.",
+        conclusion: "A lightweight base and a good setting spray matter more than any single color product in summer heat.",
+        getProducts: () => pickProductsByUsage(looksCat("summer"), 10, catCat("Makeup > Face > Setting Sprays & Powder"))
+      },
+      {
+        slug: "best-everyday-makeup-products",
+        navTitle: "Everyday Makeup",
+        seoTitle: "Best Everyday Makeup Products",
+        intro: "The no-fuss, wear-it-daily products pulled straight from our Everyday Makeup looks.",
+        conclusion: "Everyday makeup should take minutes, not steps — build a five-product routine and stop there.",
+        getProducts: () => {
+          const everyday = pickProductsByUsage(looksTitle(/everyday/i), 10, null);
+          return everyday.length >= 6 ? everyday : pickProductsByUsage(() => true, 10, null);
+        }
+      }
+    ];
+
+    function buildLipCombos(count) {
+      const liners = pickProductsByCatalog(catCat("Makeup > Lip > Lip Liner"), 20);
+      const colors = pickProductsByCatalog((p) => p.category === "Makeup > Lip > Lipstick" || p.category === "Makeup > Lip > Liquid Lipstick", 20);
+      const glosses = pickProductsByCatalog((p) => p.category === "Makeup > Lip > Lip Gloss" || p.category === "Makeup > Lip > Lip Oil", 20);
+      const combos = [];
+      const max = Math.min(count, liners.length, colors.length, glosses.length);
+      for (let i = 0; i < max; i++) {
+        combos.push({
+          liner: liners[i],
+          color: colors[i],
+          gloss: glosses[i]
+        });
+      }
+      return combos;
+    }
+
+
+function getProductLink(product) {
+  return (
+    product?.link ||
+    product?.links?.US ||
+    "#"
+  );
+    }
+    
+    const state = {
+  category: "natural",
+  perfumeSubcategory: "all",
+  glamSubcategory: "all"
+};
+const categoryRoutes = {
+  "natural-makeup-inspo-sephora-us": "natural",
+  "glam-makeup-looks-sephora-us": "glam",
+  "smokey-makeup-looks-sephora-us": "smokey",
+  "clean-girl-makeup-sephora-us": "clean girl",
+  "skincare-before-makeup-sephora-us": "skincare",
+  "all-perfumes-sephora-us": "perfume",
+  "toasty-makeup-looks-sephora-us": "toasty",
+  "wedding-makeup-looks-sephora-us": "wedding",
+  "lip-combos-sephora-us": "lip combo",
+  "colourful-makeup-looks-sephora-us": "colourful",
+  "summer-makeup-looks-sephora-us": "summer"
+};
+const perfumeSubcategoryRoutes = {
+  "all-perfumes-sephora-us": "all",
+  "luxury-perfumes-sephora-us": "luxury",
+  "best-vanilla-perfumes-sephora-us": "vanilla",
+  "fresh-clean-perfumes-sephora-us": "fresh",
+  "summer-perfumes-sephora-us": "summer",
+  "compliment-perfumes-sephora-us": "compliments"
+};
+const PERFUME_SUBCATEGORIES = [
+  { id: "all", label: "All Perfumes", href: "#/all-perfumes-sephora-us" },
+  { id: "luxury", label: "Luxury", href: "#/luxury-perfumes-sephora-us" },
+  { id: "vanilla", label: "Vanilla", href: "#/best-vanilla-perfumes-sephora-us" },
+  { id: "fresh", label: "Fresh & Clean", href: "#/fresh-clean-perfumes-sephora-us" },
+  { id: "summer", label: "Summer", href: "#/summer-perfumes-sephora-us" },
+  { id: "compliments", label: "Compliment Scents", href: "#/compliment-perfumes-sephora-us" }
+];
+    const glamSubcategoryRoutes = {
+  "glam-makeup-looks-sephora-us": "all",
+  "flawless-full-face-makeup-sephora-us": "flawless full face",
+  "pink-makeup-sephora-us": "pink makeup",
+  "classy-makeup-sephora-us": "classy makeup",
+  "glowy-makeup-sephora-us": "glowy makeup"
+};
+
+const GLAM_SUBCATEGORIES = [
+  { id: "all", label: "All Soft Glam", href: "#/glam-makeup-looks-sephora-us" },
+  { id: "flawless full face", label: "Flawless Full Face", href: "#/flawless-full-face-makeup-sephora-us" },
+  { id: "pink makeup", label: "Pink Makeup", href: "#/pink-makeup-sephora-us" },
+  { id: "classy makeup", label: "Classy Makeup", href: "#/classy-makeup-sephora-us" },
+  { id: "glowy makeup", label: "Glowy Makeup", href: "#/glowy-makeup-sephora-us" }
+];
+    // Reverse lookups so a look page can link back to its OWN category/subcategory
+    // instead of always going back to Natural Makeup.
+    const routeByCategory = {};
+    Object.keys(categoryRoutes).forEach((route) => {
+      routeByCategory[categoryRoutes[route]] = route;
+    });
+    const routeByPerfumeSubcategory = {};
+    Object.keys(perfumeSubcategoryRoutes).forEach((route) => {
+      routeByPerfumeSubcategory[perfumeSubcategoryRoutes[route]] = route;
+    });
+    const routeByGlamSubcategory = {};
+    Object.keys(glamSubcategoryRoutes).forEach((route) => {
+      routeByGlamSubcategory[glamSubcategoryRoutes[route]] = route;
+    });
+
+    function getBackRoute(look) {
+      if (!look) return "#/natural-makeup-inspo-sephora-us";
+
+      if (look.category === "perfume") {
+        const route = routeByPerfumeSubcategory[look.subcategory] || "all-perfumes-sephora-us";
+        return `#/${route}`;
+      }
+
+      if (look.category === "glam") {
+        const route = routeByGlamSubcategory[look.subcategory] || "glam-makeup-looks-sephora-us";
+        return `#/${route}`;
+      }
+
+      const route = routeByCategory[look.category] || "natural-makeup-inspo-sephora-us";
+      return `#/${route}`;
+    }
+
+    function shuffleArray(array) {
+      const cloned = [...array];
+      for (let i = cloned.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [cloned[i], cloned[j]] = [cloned[j], cloned[i]];
+      }
+      return cloned;
+    }
+
+    function getSlugFromHash() {
+      return location.hash.replace(/^#\/?/, "").trim();
+    }
+
+    function setCategory(category) {
+  state.category = category;
+  state.perfumeSubcategory = "all";
+  render();
+}
+
+function setPerfumeSubcategory(subcategory) {
+  state.perfumeSubcategory = subcategory;
+  render();
+        }
+
+    function renderHome() {
+  const filtered = LOOKS.filter((look) => {
+    const sameCategory = look.category === state.category;
+
+    const samePerfumeSubcategory =
+  state.category !== "perfume" ||
+  state.perfumeSubcategory === "all" ||
+  look.subcategory === state.perfumeSubcategory;
+
+const sameGlamSubcategory =
+  state.category !== "glam" ||
+  state.glamSubcategory === "all" ||
+  look.subcategory === state.glamSubcategory;
+
+return sameCategory && samePerfumeSubcategory && sameGlamSubcategory;
+  });
+
+  const randomOrder = shuffleArray(filtered);
+
+      return `
+        <div class="page">
+        <div class="top-bar">
+  <div class="logo-wrap">
+    <img class="hero-logo" src="images/beauty-inspo-logo.png" alt="Beauty Inspo logo">
+  </div>
+
+  <a class="pinterest-link" href="https://fr.pinterest.com/trendybeautyinspo/" target="_blank" rel="noopener noreferrer">
+    Pinterest
+  </a>
+</div>
+          <main class="container">
+
+          <section class="section-line">
+            <div class="tabs">
+  <button class="tab ${state.category === "natural" ? "active" : ""}" onclick="location.hash='#/natural-makeup-inspo-sephora-us'">
+    Natural Makeup Inspo
+  </button>
+
+  <button class="tab ${state.category === "glam" ? "active" : ""}" onclick="location.hash='#/glam-makeup-looks-sephora-us'">
+    Soft Glam Makeup
+  </button>
+
+  <button class="tab ${state.category === "smokey" ? "active" : ""}" onclick="location.hash='#/smokey-makeup-looks-sephora-us'">
+    Smokey Makeup Looks
+  </button>
+
+  <button class="tab ${state.category === "clean girl" ? "active" : ""}" onclick="location.hash='#/clean-girl-makeup-sephora-us'">
+    Clean Girl Makeup
+  </button>
+
+  <button class="tab ${state.category === "toasty" ? "active" : ""}" onclick="location.hash='#/toasty-makeup-looks-sephora-us'">
+    Toasty Makeup
+  </button>
+
+  <button class="tab ${state.category === "wedding" ? "active" : ""}" onclick="location.hash='#/wedding-makeup-looks-sephora-us'">
+    Wedding Makeup
+  </button>
+
+  <button class="tab ${state.category === "lip combo" ? "active" : ""}" onclick="location.hash='#/lip-combos-sephora-us'">
+    Lip Combo
+  </button>
+
+  <button class="tab ${state.category === "colourful" ? "active" : ""}" onclick="location.hash='#/colourful-makeup-looks-sephora-us'">
+    Colourful Makeup
+  </button>
+
+  <button class="tab ${state.category === "summer" ? "active" : ""}" onclick="location.hash='#/summer-makeup-looks-sephora-us'">
+    Summer Makeup
+  </button>
+
+  <button class="tab ${state.category === "skincare" ? "active" : ""}" onclick="location.hash='#/skincare-before-makeup-sephora-us'">
+    Skincare
+  </button>
+
+  <button class="tab ${state.category === "perfume" ? "active" : ""}" onclick="location.hash='#/all-perfumes-sephora-us'">
+    Perfumes
+  </button>
+</div>
+
+${state.category === "glam" ? `
+  <div class="tabs">
+    ${GLAM_SUBCATEGORIES.map(item => `
+      <a 
+        class="tab ${state.glamSubcategory === item.id ? "active" : ""}" 
+        href="${item.href}"
+      >
+        ${item.label}
+      </a>
+    `).join("")}
+  </div>
+` : ""}
+
+${state.category === "perfume" ? `
+  <div class="tabs">
+    ${PERFUME_SUBCATEGORIES.map(item => `
+      <a 
+        class="tab ${state.perfumeSubcategory === item.id ? "active" : ""}" 
+        href="${item.href}"
+      >
+        ${item.label}
+      </a>
+    `).join("")}
+  </div>
+` : ""}
+            <h1 class="title">
+ ${state.category === "perfume"
+  ? (PERFUME_SUBCATEGORIES.find(item => item.id === state.perfumeSubcategory)?.label || "All Perfumes")
+  : state.category === "glam"
+  ? (GLAM_SUBCATEGORIES.find(item => item.id === state.glamSubcategory)?.label || "Soft Glam Makeup")
+  : state.category === "toasty"
+  ? "Toasty Makeup"
+  : state.category === "wedding"
+  ? "Wedding Makeup"
+  : state.category === "lip combo"
+  ? "Lip Combo"
+  : state.category === "colourful"
+  ? "Colourful Makeup"
+  : state.category === "summer"
+  ? "Summer Makeup"
+  : "Makeup Inspiration"}
+</h1>
+          </section>
+
+            <section class="grid">
+              ${randomOrder.map((look) => `
+                <a class="home-card" href="#/${look.slug}" aria-label="${look.title}">
+                  <img src="${look.homeImage}" alt="${look.title}" loading="lazy" decoding="async">
+                </a>
+              `).join("")}
+            </section>
+
+            <div class="footer-note">Minimal beauty inspiration</div>
+          </main>
+        </div>
+      `;
+    }
+    // Picks 4-8 similar looks: same subcategory first, then same category,
+    // then fills any remaining slots from the rest so it never looks empty.
+    function getSimilarLooks(look, count) {
+      count = count || 6;
+      const pool = LOOKS.filter(item => item.id !== look.id && item.slug !== look.slug);
+
+      const sameSubcategory = look.subcategory
+        ? pool.filter(item => item.category === look.category && item.subcategory === look.subcategory)
+        : [];
+      const sameCategoryOnly = pool.filter(item =>
+        item.category === look.category &&
+        !sameSubcategory.some(s => s.id === item.id)
+      );
+      const rest = pool.filter(item =>
+        item.category !== look.category
+      );
+
+      const ordered = [
+        ...shuffleArray(sameSubcategory),
+        ...shuffleArray(sameCategoryOnly),
+        ...shuffleArray(rest)
+      ];
+
+      return ordered.slice(0, Math.max(4, Math.min(count, 8)));
+    }
+
+    function renderLook(look) {
+  const hasProducts = Array.isArray(look.products) && look.products.length > 0;
+  const backRoute = getBackRoute(look);
+  const similarLooks = getSimilarLooks(look, 6);
+
+  return `
+    <div class="page">
+      <section class="hero-card">
+        <div class="top-home-banner-wrap">
+          <a class="top-home-banner" href="${backRoute}">See More Inspiration</a>
+        </div>
+
+        <img src="${look.heroImage || look.homeImage}" alt="${look.title}" fetchpriority="high" decoding="async">
+        <div class="hero-overlay"></div>
+
+        <div class="hero-intro">
+          <p class="hero-kicker">${look.title}</p>
+          <div class="hero-divider"></div>
+          <p class="hero-subtitle">Shop My Beauty Finds</p>
+          <p class="hero-caption">Tap a product below to view it on the official website</p>
+          <div class="hero-divider"></div>
+        </div>
+      </section>
+
+      <main class="products-wrap">
+        ${hasProducts ? `
+          <h2 class="products-used-title">Products Used</h2>
+          <section class="products-grid">
+            ${look.products.map(product => `
+              <div class="product-card">
+                <div class="product-image-box">
+                  <img src="${product.image}" alt="${product.name}" loading="lazy" decoding="async">
+                </div>
+                <p class="product-name">${product.name}</p>
+                <button
+                  class="shop-now-btn"
+                  onclick="openProductLink('${String(getProductLink(product)).replace(/'/g, "\\'")}')">
+                  Shop Now
+                </button>
+              </div>
+            `).join("")}
+          </section>
+        ` : `
+          <div class="empty-box">
+            <p>Shop this look soon</p>
+            <p>The full beauty selection for this makeup inspiration is coming soon.</p>
+          </div>
+        `}
+
+        ${similarLooks.length ? `
+          <h2 class="similar-looks-title">Similar Looks</h2>
+          <section class="similar-looks-grid">
+            ${similarLooks.map(item => `
+              <a class="similar-look-card" href="#/${item.slug}" aria-label="${item.title}">
+                <img src="${item.homeImage}" alt="${item.title}" loading="lazy" decoding="async">
+                <p class="similar-look-name">${item.title}</p>
+              </a>
+            `).join("")}
+          </section>
+        ` : ""}
+
+        <div class="bottom-home-btn-wrap">
+          <a class="bottom-home-btn" href="${backRoute}">See More Inspiration</a>
+        </div>
+      </main>
+    </div>
+  `;
+}
+function renderPerfume(look) {
+  const backRoute = getBackRoute(look);
+  const similarLooks = getSimilarLooks(look, 6);
+  return `
+    <div style="min-height:100vh; background:#e4e2dd; padding:18px 0 70px;">
+      <main style="width:min(980px, calc(100% - 28px)); margin:0 auto;">
+
+        <div style="display:flex; justify-content:center; margin:18px 0 28px;">
+          <a 
+            href="${backRoute}"
+            style="display:inline-flex; align-items:center; justify-content:center; background:#ffffff; color:#1f1a17; padding:16px 28px; border-radius:999px; font-family:Arial, Helvetica, sans-serif; font-size:18px; font-weight:700; letter-spacing:0.03em; box-shadow:0 12px 28px rgba(0,0,0,0.10); text-align:center;"
+          >
+            See More Perfume Inspiration
+          </a>
+        </div>
+
+        <h1 style="text-align:center; font-size:clamp(2.2rem, 7vw, 4.8rem); font-weight:500; letter-spacing:-0.03em; margin:22px 0 32px; color:#1f1a17;">
+          Perfume Inspiration
+        </h1>
+
+        <div style="background:#f7f4ef; border-radius:34px; padding:18px; box-shadow:0 18px 45px rgba(0,0,0,0.10); width:min(720px, 100%); margin:0 auto;">
+          <img 
+            src="${look.heroImage || look.homeImage}" 
+            alt="Perfume Inspiration"
+            fetchpriority="high"
+            decoding="async"
+            style="width:100%; max-height:78vh; object-fit:cover; border-radius:26px; background:#f7f4ef;"
+          >
+        </div>
+
+        ${similarLooks.length ? `
+          <h2 class="similar-looks-title">Similar Looks</h2>
+          <section class="similar-looks-grid">
+            ${similarLooks.map(item => `
+              <a class="similar-look-card" href="#/${item.slug}" aria-label="${item.title}">
+                <img src="${item.homeImage}" alt="${item.title}" loading="lazy" decoding="async">
+                <p class="similar-look-name">${item.title}</p>
+              </a>
+            `).join("")}
+          </section>
+        ` : ""}
+
+        <div style="display:flex; justify-content:center; margin:44px 0 20px;">
+          <a 
+            href="${backRoute}"
+            style="display:inline-flex; align-items:center; justify-content:center; background:#ffffff; color:#1f1a17; padding:16px 28px; border-radius:999px; font-family:Arial, Helvetica, sans-serif; font-size:18px; font-weight:700; letter-spacing:0.03em; box-shadow:0 12px 28px rgba(0,0,0,0.10); text-align:center;"
+          >
+            See More Perfume Inspiration
+          </a>
+        </div>
+
+      </main>
+    </div>
+  `;
+    }
+    
+    function renderBlogList() {
+      return `
+        <div class="page">
+          <div class="top-bar">
+            <div class="logo-wrap">
+              <img class="hero-logo" src="images/beauty-inspo-logo.png" alt="Beauty Inspo logo">
+            </div>
+          </div>
+          <main class="container">
+            <h1 class="title">Blog</h1>
+            <section class="blog-grid">
+              ${BLOG_POSTS.map(post => `
+                <a class="blog-card" href="#/blog/${post.slug}">
+                  <p class="blog-card-title">${post.seoTitle}</p>
+                  <p class="blog-card-excerpt">${post.intro}</p>
+                </a>
+              `).join("")}
+            </section>
+            <div class="footer-note">Minimal beauty inspiration</div>
+          </main>
+        </div>
+      `;
+    }
+
+    function renderBlogPost(post) {
+      if (post.isCombo) {
+        const combos = buildLipCombos(10);
+        return `
+          <div class="page">
+            <main class="container">
+              <div class="top-home-banner-wrap">
+                <a class="top-home-banner" href="#/blog">See More Articles</a>
+              </div>
+              <h1 class="title">${post.seoTitle}</h1>
+              <p class="blog-intro">${post.intro}</p>
+              <section class="combo-grid">
+                ${combos.map((combo, i) => `
+                  <div class="combo-card">
+                    <p class="combo-number">Combo ${i + 1}</p>
+                    ${[["Lip Liner", combo.liner], ["Color", combo.color], ["Gloss", combo.gloss]].map(([label, product]) => `
+                      <div class="combo-item">
+                        <div class="product-image-box"><img src="${product.image}" alt="${product.name}" loading="lazy" decoding="async"></div>
+                        <p class="combo-item-label">${label}</p>
+                        <p class="product-name">${product.brand} ${product.name}</p>
+                        <button class="shop-now-btn" onclick="openProductLink('${String(getProductLink(product)).replace(/'/g, "\\'")}')">Shop Now</button>
+                      </div>
+                    `).join("")}
+                  </div>
+                `).join("")}
+              </section>
+              <p class="blog-conclusion">${post.conclusion}</p>
+              <div class="bottom-home-btn-wrap">
+                <a class="bottom-home-btn" href="#/blog">See More Articles</a>
+              </div>
+            </main>
+          </div>
+        `;
+      }
+
+      const items = post.getProducts();
+      return `
+        <div class="page">
+          <main class="container">
+            <div class="top-home-banner-wrap">
+              <a class="top-home-banner" href="#/blog">See More Articles</a>
+            </div>
+            <h1 class="title">${post.seoTitle}</h1>
+            <p class="blog-intro">${post.intro}</p>
+            ${items.length ? `
+              <section class="blog-products-grid">
+                ${items.map(product => `
+                  <div class="product-card">
+                    <div class="product-image-box"><img src="${product.image}" alt="${product.name}" loading="lazy" decoding="async"></div>
+                    <p class="product-name">${product.brand} ${product.name}</p>
+                    <p class="blog-product-blurb">${getBlurb(product)}</p>
+                    <button class="shop-now-btn" onclick="openProductLink('${String(getProductLink(product)).replace(/'/g, "\\'")}')">Shop Now</button>
+                  </div>
+                `).join("")}
+              </section>
+            ` : `
+              <div class="empty-box">
+                <p>Coming soon</p>
+                <p>We're still building out this list — check back soon.</p>
+              </div>
+            `}
+            <p class="blog-conclusion">${post.conclusion}</p>
+            <div class="bottom-home-btn-wrap">
+              <a class="bottom-home-btn" href="#/blog">See More Articles</a>
+            </div>
+          </main>
+        </div>
+      `;
+    }
+
+    function openProductLink(url) {
+  const cleaned = String(url || "").trim();
+  if (!cleaned) return;
+
+  const finalUrl = cleaned.startsWith("https://")
+    ? cleaned
+    : `https://${cleaned.replace(/^https?:\/\//, "")}`;
+
+  window.location.assign(finalUrl);
+}
+        function render() {
+  const slug = getSlugFromHash();
+  const look = LOOKS.find(item => item.slug === slug);
+  const app = document.getElementById("app");
+
+  if (slug === "" || slug === "/" || slug === "home") {
+    state.category = "natural";
+    state.perfumeSubcategory = "all";
+    state.glamSubcategory = "all";
+    app.innerHTML = renderHome();
+    return;
+  }
+
+  if (slug === "blog") {
+    app.innerHTML = renderBlogList();
+    return;
+  }
+
+  if (slug.indexOf("blog/") === 0) {
+    const postSlug = slug.slice("blog/".length);
+    const post = BLOG_POSTS.find(item => item.slug === postSlug);
+    app.innerHTML = post ? renderBlogPost(post) : renderBlogList();
+    return;
+  }
+
+  if (perfumeSubcategoryRoutes[slug]) {
+    state.category = "perfume";
+    state.perfumeSubcategory = perfumeSubcategoryRoutes[slug];
+    app.innerHTML = renderHome();
+    return;
+  }
+          
+  if (glamSubcategoryRoutes[slug]) {
+  state.category = "glam";
+  state.glamSubcategory = glamSubcategoryRoutes[slug];
+  state.perfumeSubcategory = "all";
+  app.innerHTML = renderHome();
+  return;
+  }
+          
+  if (categoryRoutes[slug]) {
+    state.category = categoryRoutes[slug];
+    state.perfumeSubcategory = "all";
+    app.innerHTML = renderHome();
+    return;
+  }
+
+  if (look) {
+    app.innerHTML = look.category === "perfume"
+      ? renderPerfume(look)
+      : renderLook(look);
+    return;
+  }
+
+  state.category = "natural";
+  state.perfumeSubcategory = "all";
+  app.innerHTML = renderHome();
+    }
+    window.addEventListener("hashchange", render);
+
+render();
+  </script>
+  <footer class="site-footer">
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+  <a href="privacy-policy.html">Privacy Policy</a>
+  <a href="affiliate-disclosure.html">Affiliate Disclosure</a>
+  </footer>
+
+  <div id="cookie-banner" class="cookie-banner">
+  <div class="cookie-content">
+ <p>
+  We use cookies and similar technologies to improve your experience,
+  analyze traffic, and support affiliate partnerships.
+  Read our <a href="privacy-policy.html">Privacy Policy</a>.
+ </p>
+
+    <div class="cookie-buttons">
+      <button id="cookie-accept" class="cookie-btn primary">
+        Accept
+      </button>
+
+      <button id="cookie-decline" class="cookie-btn secondary">
+        Decline
+      </button>
+    </div>
+  </div>
+  </div>
+
+  <script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  const banner = document.getElementById("cookie-banner");
+  const acceptBtn = document.getElementById("cookie-accept");
+  const declineBtn = document.getElementById("cookie-decline");
+
+  const consent = localStorage.getItem("beautyinspo_cookie_consent");
+
+  if (!consent) {
+    banner.style.display = "block";
+  }
+
+  acceptBtn.addEventListener("click", function () {
+    localStorage.setItem(
+      "beautyinspo_cookie_consent",
+      "accepted"
+    );
+
+    banner.style.display = "none";
+  });
+
+  declineBtn.addEventListener("click", function () {
+    localStorage.setItem(
+      "beautyinspo_cookie_consent",
+      "declined"
+    );
+
+    banner.style.display = "none";
+  });
+
+});
+  </script>
+</body>
+</html>
